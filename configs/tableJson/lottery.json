@@ -1,0 +1,50 @@
+[
+   {
+      "activityid": 50001,
+      "costtype": 1,
+      "dailyoncefree": 1,
+      "dailytenfree": 0,
+      "exteralgift": [],
+      "id": 1,
+      "keepcount": 10,
+      "limitcount": 0,
+      "onceprice": 1,
+      "poolid": 10010,
+      "poolidkeep": 10011,
+      "poolidlimit": 0,
+      "tentimesprice": 10,
+      "type": 1
+   },
+   {
+      "activityid": 50001,
+      "costtype": 1,
+      "dailyoncefree": 0,
+      "dailytenfree": 0,
+      "exteralgift": [],
+      "id": 2,
+      "keepcount": 60,
+      "limitcount": 300,
+      "onceprice": 1,
+      "poolid": 20021,
+      "poolidkeep": 0,
+      "poolidlimit": 20024,
+      "tentimesprice": 10,
+      "type": 2
+   },
+   {
+      "activityid": 50001,
+      "costtype": 1,
+      "dailyoncefree": 0,
+      "dailytenfree": 0,
+      "exteralgift": [],
+      "id": 3,
+      "keepcount": 0,
+      "limitcount": 0,
+      "onceprice": 1,
+      "poolid": 30010,
+      "poolidkeep": 0,
+      "poolidlimit": 0,
+      "tentimesprice": 10,
+      "type": 4
+   }
+]

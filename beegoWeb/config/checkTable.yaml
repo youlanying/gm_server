@@ -1,0 +1,322 @@
+- tableName: admin_action
+  mainkey: Id
+  mainkeytype: int
+  classname: Admin_action
+  xlsxname: AdminTooles管理权限表.xlsx
+  sheetname: 权限ID
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: name
+      columnType: string
+    - columnName: href
+      columnType: string
+    - columnName: icon
+      columnType: string
+- tableName: admin_action_ui
+  mainkey: Id
+  mainkeytype: int
+  classname: Admin_action_ui
+  xlsxname: AdminTooles管理权限表.xlsx
+  sheetname: 侧边栏UI
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: idlist
+      columnType: list_int
+    - columnName: isfold
+      columnType: string
+- tableName: consume_material
+  mainkey: Id
+  mainkeytype: int
+  classname: Consume_material
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄升级材料基础表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: rare_num
+      columnType: repeated_list_int
+- tableName: consume_material_ratio
+  mainkey: Id
+  mainkeytype: int
+  classname: Consume_material_ratio
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄升级材料表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: profession
+      columnType: list_int
+    - columnName: item_id
+      columnType: repeated_list_int
+    - columnName: item_radio
+      columnType: repeated_list_float
+    - columnName: cost_gold
+      columnType: repeated_list_int
+- tableName: hero_break
+  mainkey: Id
+  mainkeytype: int
+  classname: Hero_break
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄突破表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: break_list
+      columnType: repeated_list_int
+    - columnName: break_material_list
+      columnType: repeated_list_int
+    - columnName: cost_gold
+      columnType: repeated_list_int
+- tableName: hero_information
+  mainkey: Id
+  mainkeytype: int
+  classname: Hero_information
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 角色信息表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: name
+      columnType: string
+    - columnName: hero_class
+      columnType: int
+    - columnName: hero_element
+      columnType: int
+    - columnName: shardid
+      columnType: int
+    - columnName: shardnum
+      columnType: int
+    - columnName: star
+      columnType: int
+    - columnName: skill_ids
+      columnType: list_int
+    - columnName: advanced_type
+      columnType: int
+- tableName: hero_model
+  mainkey: Id
+  mainkeytype: int
+  classname: Hero_model
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄模型表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: name
+      columnType: string
+    - columnName: hero_class
+      columnType: int
+    - columnName: level
+      columnType: int
+    - columnName: skill_ids
+      columnType: list_int
+    - columnName: skill_far
+      columnType: list_int
+    - columnName: fight_btn_ids
+      columnType: list_int
+    - columnName: ideTime
+      columnType: float
+    - columnName: regular_atlas
+      columnType: string
+    - columnName: regular_icon
+      columnType: string
+    - columnName: regular_iconpath
+      columnType: string
+    - columnName: pos_rot
+      columnType: list_float
+    - columnName: pos4_3
+      columnType: list_float
+    - columnName: scale16_9
+      columnType: list_float
+    - columnName: scale4_3
+      columnType: list_float
+    - columnName: atlas
+      columnType: string
+    - columnName: icon
+      columnType: string
+    - columnName: story_id
+      columnType: int
+    - columnName: resident_effect
+      columnType: list_int
+    - columnName: hitSound
+      columnType: list_string
+    - columnName: hitSoundProbability
+      columnType: int
+    - columnName: deadSound
+      columnType: list_string
+    - columnName: deadSoundProbability
+      columnType: int
+    - columnName: special_skill_sound
+      columnType: list_string
+    - columnName: IsPictureRot
+      columnType: int
+    - columnName: timeequip
+      columnType: string
+    - columnName: timeequippvp
+      columnType: string
+    - columnName: conditions
+      columnType: list_int
+    - columnName: autoFightChase
+      columnType: float
+    - columnName: autoFightGuard
+      columnType: float
+    - columnName: autoFightMaxDistance
+      columnType: float
+    - columnName: order_id
+      columnType: int
+    - columnName: small_sprite
+      columnType: string
+    - columnName: big_sprite
+      columnType: string
+    - columnName: dead_sprite
+      columnType: string
+    - columnName: dead_effect
+      columnType: int
+    - columnName: property
+      columnType: int
+    - columnName: gift_item
+      columnType: repeated_list_int
+    - columnName: role_image
+      columnType: string
+    - columnName: role_name_image
+      columnType: string
+    - columnName: infodes
+      columnType: list_int
+    - columnName: roleimage_position
+      columnType: list_float
+    - columnName: formation_atlas
+      columnType: string
+    - columnName: formation_icon
+      columnType: string
+    - columnName: property_limte
+      columnType: list_int
+    - columnName: changeHeroIcon
+      columnType: list_string
+    - columnName: warnRange
+      columnType: float
+    - columnName: AniRoleName
+      columnType: string
+    - columnName: AniRoleSpeak
+      columnType: repeated_list_int
+    - columnName: runAudio
+      columnType: string
+    - columnName: hero_startaudio
+      columnType: int
+    - columnName: hero_selectaudio
+      columnType: int
+    - columnName: hero_loseaudio
+      columnType: int
+    - columnName: hero_winaudio
+      columnType: int
+    - columnName: professionId
+      columnType: int
+    - columnName: prioritylock
+      columnType: float
+    - columnName: FightSuccess_Icon
+      columnType: list_string
+    - columnName: over_closeup
+      columnType: list_string
+    - columnName: attackDistance
+      columnType: float
+    - columnName: shortname
+      columnType: string
+    - columnName: atlasintensify
+      columnType: string
+    - columnName: intensify_selected
+      columnType: string
+    - columnName: intensify_unselected
+      columnType: string
+    - columnName: star
+      columnType: int
+    - columnName: seat_property
+      columnType: int
+    - columnName: choosehero_atlas
+      columnType: string
+    - columnName: choosehero_icon
+      columnType: string
+    - columnName: playerGravityf
+      columnType: float
+    - columnName: hintAddHeight
+      columnType: float
+    - columnName: positionType
+      columnType: int
+    - columnName: positionType2
+      columnType: int
+    - columnName: positionParam
+      columnType: int
+    - columnName: camp
+      columnType: int
+    - columnName: becrush
+      columnType: int
+    - columnName: isDisableHero
+      columnType: int
+    - columnName: cameraR
+      columnType: float
+    - columnName: aimCameraPosition
+      columnType: list_float
+    - columnName: aimCameraRotation
+      columnType: list_float
+    - columnName: BTTemplates
+      columnType: list_string
+    - columnName: model_path
+      columnType: string
+    - columnName: modelfbx_name
+      columnType: string
+- tableName: hero_star
+  mainkey: Id
+  mainkeytype: int
+  classname: Hero_star
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄升星表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: proto_id
+      columnType: int
+    - columnName: level
+      columnType: int
+    - columnName: attr_init
+      columnType: repeated_list_int
+    - columnName: growth_attr
+      columnType: repeated_list_int
+    - columnName: talent_skillid
+      columnType: int
+- tableName: hero_team
+  mainkey: Id
+  mainkeytype: int
+  classname: Hero_team
+  xlsxname: 主人公—英雄角色.xlsx
+  sheetname: 英雄团体表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: team_name
+      columnType: string
+    - columnName: team_list
+      columnType: list_int
+- tableName: itemInfo
+  mainkey: Id
+  mainkeytype: int
+  classname: ItemInfo
+  xlsxname: 道具表.xlsx
+  sheetname: 道具表
+  allColumn:
+    - columnName: id
+      columnType: int
+    - columnName: name
+      columnType: string
+    - columnName: rare_level
+      columnType: int
+    - columnName: stacknum
+      columnType: int
+    - columnName: effectivetime
+      columnType: int
+    - columnName: type
+      columnType: int
+    - columnName: subtype
+      columnType: int
+    - columnName: useparam
+      columnType: int
+    - columnName: price
+      columnType: repeated_list_int

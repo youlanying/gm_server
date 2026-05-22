@@ -1,0 +1,302 @@
+[
+   {
+      "id": 1,
+      "is_loop": 1,
+      "sign_10_reward": [
+         105200,
+         20
+      ],
+      "sign_11_reward": [
+         105202,
+         20
+      ],
+      "sign_12_reward": [
+         400003,
+         20
+      ],
+      "sign_13_reward": [
+         500001,
+         5000
+      ],
+      "sign_14_reward": [
+         500002,
+         3000
+      ],
+      "sign_1_reward": [
+         500001,
+         1000
+      ],
+      "sign_2_reward": [
+         500002,
+         1000
+      ],
+      "sign_3_reward": [
+         500003,
+         1000
+      ],
+      "sign_4_reward": [
+         102001,
+         20
+      ],
+      "sign_5_reward": [
+         102002,
+         15
+      ],
+      "sign_6_reward": [
+         102003,
+         10
+      ],
+      "sign_7_reward": [
+         102004,
+         5
+      ],
+      "sign_8_reward": [
+         105100,
+         10
+      ],
+      "sign_9_reward": [
+         105102,
+         20
+      ]
+   },
+   {
+      "id": 2,
+      "is_loop": 0,
+      "sign_10_reward": [
+         105202,
+         20
+      ],
+      "sign_11_reward": [
+         400003,
+         20
+      ],
+      "sign_12_reward": [
+         500001,
+         5000
+      ],
+      "sign_13_reward": [
+         500002,
+         3000
+      ],
+      "sign_14_reward": [
+         500002,
+         3000
+      ],
+      "sign_1_reward": [
+         500002,
+         1000
+      ],
+      "sign_2_reward": [
+         500003,
+         1000
+      ],
+      "sign_3_reward": [
+         102001,
+         20
+      ],
+      "sign_4_reward": [
+         102002,
+         15
+      ],
+      "sign_5_reward": [
+         102003,
+         10
+      ],
+      "sign_6_reward": [
+         102004,
+         5
+      ],
+      "sign_7_reward": [
+         105100,
+         10
+      ],
+      "sign_8_reward": [
+         105102,
+         20
+      ],
+      "sign_9_reward": [
+         105200,
+         20
+      ]
+   },
+   {
+      "id": 3,
+      "is_loop": 1,
+      "sign_10_reward": [
+         400003,
+         20
+      ],
+      "sign_11_reward": [
+         500001,
+         5000
+      ],
+      "sign_12_reward": [
+         500002,
+         3000
+      ],
+      "sign_13_reward": [
+         500001,
+         5000
+      ],
+      "sign_14_reward": [
+         500002,
+         3000
+      ],
+      "sign_1_reward": [
+         500003,
+         1000
+      ],
+      "sign_2_reward": [
+         102001,
+         20
+      ],
+      "sign_3_reward": [
+         102002,
+         15
+      ],
+      "sign_4_reward": [
+         102003,
+         10
+      ],
+      "sign_5_reward": [
+         102004,
+         5
+      ],
+      "sign_6_reward": [
+         105100,
+         10
+      ],
+      "sign_7_reward": [
+         105102,
+         20
+      ],
+      "sign_8_reward": [
+         105200,
+         20
+      ],
+      "sign_9_reward": [
+         105202,
+         20
+      ]
+   },
+   {
+      "id": 4,
+      "is_loop": 0,
+      "sign_10_reward": [
+         500001,
+         5000
+      ],
+      "sign_11_reward": [
+         500002,
+         3000
+      ],
+      "sign_12_reward": [
+         400003,
+         20
+      ],
+      "sign_13_reward": [
+         500001,
+         5000
+      ],
+      "sign_14_reward": [
+         500002,
+         3000
+      ],
+      "sign_1_reward": [
+         102001,
+         20
+      ],
+      "sign_2_reward": [
+         102002,
+         15
+      ],
+      "sign_3_reward": [
+         102003,
+         10
+      ],
+      "sign_4_reward": [
+         102004,
+         5
+      ],
+      "sign_5_reward": [
+         105100,
+         10
+      ],
+      "sign_6_reward": [
+         105102,
+         20
+      ],
+      "sign_7_reward": [
+         105200,
+         20
+      ],
+      "sign_8_reward": [
+         105202,
+         20
+      ],
+      "sign_9_reward": [
+         400003,
+         20
+      ]
+   },
+   {
+      "id": 5,
+      "is_loop": 0,
+      "sign_10_reward": [
+         500002,
+         3000
+      ],
+      "sign_11_reward": [
+         105202,
+         20
+      ],
+      "sign_12_reward": [
+         400003,
+         20
+      ],
+      "sign_13_reward": [
+         500001,
+         5000
+      ],
+      "sign_14_reward": [
+         500002,
+         3000
+      ],
+      "sign_1_reward": [
+         102002,
+         15
+      ],
+      "sign_2_reward": [
+         102003,
+         10
+      ],
+      "sign_3_reward": [
+         102004,
+         5
+      ],
+      "sign_4_reward": [
+         105100,
+         10
+      ],
+      "sign_5_reward": [
+         105102,
+         20
+      ],
+      "sign_6_reward": [
+         105200,
+         20
+      ],
+      "sign_7_reward": [
+         105202,
+         20
+      ],
+      "sign_8_reward": [
+         400003,
+         20
+      ],
+      "sign_9_reward": [
+         500001,
+         5000
+      ]
+   }
+]

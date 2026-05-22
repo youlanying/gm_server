@@ -1,0 +1,2608 @@
+[
+   {
+      "id": 1,
+      "string_value": [],
+      "value": [
+         512012,
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 2,
+      "string_value": [],
+      "value": [
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 3,
+      "string_value": [],
+      "value": [
+         1500,
+         300,
+         100,
+         30,
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 4,
+      "string_value": [],
+      "value": [
+         90
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 5,
+      "string_value": [],
+      "value": [
+         6
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6,
+      "string_value": [],
+      "value": [
+         80
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 7,
+      "string_value": [],
+      "value": [
+         324011,
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 8,
+      "string_value": [],
+      "value": [
+         7,
+         1,
+         0
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9,
+      "string_value": [],
+      "value": [
+         40
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 10,
+      "string_value": [],
+      "value": [
+         6
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 11,
+      "string_value": [],
+      "value": [
+         15000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 12,
+      "string_value": [],
+      "value": [
+         19000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 13,
+      "string_value": [],
+      "value": [
+         310131,
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 14,
+      "string_value": [],
+      "value": [
+         510121,
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 15,
+      "string_value": [],
+      "value": [
+         510121,
+         1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 17,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 18,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 19,
+      "string_value": [],
+      "value": [
+         33
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 21,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 22,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 23,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 24,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 25,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 26,
+      "string_value": [],
+      "value": [
+         -1,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 27,
+      "string_value": [],
+      "value": [
+         -1,
+         7
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 28,
+      "string_value": [],
+      "value": [
+         -1,
+         7
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 30,
+      "string_value": [],
+      "value": [
+         -1,
+         7
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 31,
+      "string_value": [],
+      "value": [
+         -1,
+         7
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 32,
+      "string_value": [],
+      "value": [
+         100
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 33,
+      "string_value": [],
+      "value": [
+         3
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 34,
+      "string_value": [],
+      "value": [
+         600
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 35,
+      "string_value": [],
+      "value": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 36,
+      "string_value": [],
+      "value": [
+         200
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 41,
+      "string_value": [],
+      "value": [
+         30
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 42,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 43,
+      "string_value": [],
+      "value": [
+         15
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 44,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 101,
+      "string_value": [],
+      "value": [
+         500007
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 102,
+      "string_value": [],
+      "value": [
+         500001
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 103,
+      "string_value": [
+         [
+            "1",
+            "1",
+            "500004"
+         ],
+         [
+            "2",
+            "10",
+            "500004"
+         ],
+         [
+            "3",
+            "50",
+            "500004"
+         ]
+      ],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 901,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         3
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 902,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         7
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 903,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         5,
+         2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 904,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1000,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.01
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1001,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1002,
+      "string_value": [],
+      "value": [
+         300
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1003,
+      "string_value": [],
+      "value": [
+         20
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1004,
+      "string_value": [],
+      "value": [
+         40
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1005,
+      "string_value": [],
+      "value": [
+         15,
+         30,
+         50
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1100,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            6.87,
+            -46.683,
+            0.71
+         ],
+         [
+            0,
+            172,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 1101,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            5.683,
+            -46.598,
+            -0.092
+         ],
+         [
+            0,
+            55,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 1102,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            6.004,
+            -46.598,
+            1.838
+         ],
+         [
+            0,
+            148,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 1103,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            7.943,
+            -46.598,
+            -0.281
+         ],
+         [
+            0,
+            -50,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 1104,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            7.754,
+            -46.598,
+            1.843
+         ],
+         [
+            0,
+            -143,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 1105,
+      "string_value": [],
+      "value": [
+         10,
+         20
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1106,
+      "string_value": [],
+      "value": [
+         5000,
+         5000,
+         0
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1107,
+      "string_value": [],
+      "value": [
+         140,
+         140,
+         75,
+         75
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1108,
+      "string_value": [],
+      "value": [
+         5000,
+         20000,
+         10000,
+         10000,
+         20000,
+         5000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1201,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_LX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1202,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_ZX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1203,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_FX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1204,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_FH"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1205,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_LX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1206,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_ZX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1207,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_FX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1208,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_FH"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1209,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_LX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1210,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "monster_icon_ZX"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1301,
+      "string_value": [],
+      "value": [
+         100,
+         12,
+         9
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1303,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "fight_Label_DCJD",
+         "fight_Label_LXJD",
+         "fight_Label_WMJD",
+         "fight_Label_AYJD",
+         "fight_Label_BJJD",
+         "fight_Label_XLjisha",
+         "fight_Label_tzsb"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 1401,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0,
+         0,
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1402,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -5,
+         0,
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1403,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         5,
+         0,
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1404,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -10,
+         0,
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1405,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         10,
+         0,
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1406,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1,
+         0,
+         -2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1407,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -4,
+         0,
+         -2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1408,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         6,
+         0,
+         -2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1409,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -9,
+         0,
+         -2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1410,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         11,
+         0,
+         -2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1411,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         2,
+         0,
+         -5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1412,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -3,
+         0,
+         -5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1413,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         7,
+         0,
+         -5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1414,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -8,
+         0,
+         -5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1415,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         12,
+         0,
+         -5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1501,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         -5,
+         -1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1502,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         25,
+         6
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1503,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1504,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1505,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1506,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1507,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1508,
+      "string_value": [],
+      "value": [
+         10,
+         50,
+         100
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1511,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         4.5,
+         1,
+         0.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1512,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.1,
+         0.3,
+         0.01
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1513,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         2.5,
+         7,
+         0.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1514,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         4.5,
+         0.7,
+         0.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1515,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1.5,
+         0.2,
+         20
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1516,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1.5,
+         0.2,
+         10
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1517,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1,
+         0.2,
+         7.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 1518,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1,
+         0.2,
+         7.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 2001,
+      "string_value": [],
+      "value": [
+         200,
+         200,
+         75,
+         75,
+         200,
+         200,
+         75,
+         75,
+         99
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 3001,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "0.75"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 3002,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "0.75"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 3004,
+      "string_value": [],
+      "value": [
+         225,
+         150,
+         50
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 3005,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "0.1",
+         "0.8",
+         "3.1",
+         "0.5"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 3006,
+      "string_value": [],
+      "value": [
+         50,
+         0
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 3007,
+      "string_value": [],
+      "value": [
+         50,
+         25
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 3008,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.9,
+         1.1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 5001,
+      "string_value": [],
+      "value": [
+         696,
+         1133
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Role_Normal_Sevendays",
+         "Sign_BG_A01"
+      ],
+      "vector3_value": [
+         [
+            -504,
+            72,
+            0
+         ],
+         [
+            1.08,
+            1.08,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5002,
+      "string_value": [],
+      "value": [
+         748,
+         1117
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Role_Normal_A02_01_F",
+         "Role_Normal_A02_01_F"
+      ],
+      "vector3_value": [
+         [
+            316,
+            490,
+            0
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5003,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            504,
+            812,
+            0
+         ],
+         [
+            551,
+            839,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 5004,
+      "string_value": [],
+      "value": [
+         680,
+         964
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Role_Normal_A02_01_F",
+         "Role_Normal_A02_01_F"
+      ],
+      "vector3_value": [
+         [
+            -13,
+            13,
+            0
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5005,
+      "string_value": [],
+      "value": [
+         696,
+         113
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Sign_BG_MF01_01",
+         "Sign_BG_MF01_01"
+      ],
+      "vector3_value": [
+         [
+            -497,
+            72,
+            0
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5006,
+      "string_value": [],
+      "value": [
+         696,
+         113
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Sign_BG_MF01_01",
+         "Sign_BG_MF01_01"
+      ],
+      "vector3_value": [
+         [
+            -497,
+            72,
+            0
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5007,
+      "string_value": [],
+      "value": [
+         591,
+         699
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "Atlas_Role_Normal_ZT_08_F",
+         "Role_Normal_ZT_08"
+      ],
+      "vector3_value": [
+         [
+            -360,
+            504,
+            0
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 5008,
+      "string_value": [],
+      "value": [
+         2000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 5009,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "100"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 5010,
+      "string_value": [],
+      "value": [
+         999
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6001,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6002,
+      "string_value": [],
+      "value": [
+         1001,
+         1099
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6003,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "100",
+         "40",
+         "10",
+         "10000",
+         "10000"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6004,
+      "string_value": [],
+      "value": [
+         300
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6005,
+      "string_value": [],
+      "value": [
+         300
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6006,
+      "string_value": [],
+      "value": [
+         100,
+         500,
+         1000,
+         2000,
+         3000,
+         5000,
+         8000
+      ],
+      "valueFloat": [],
+      "valueString": [
+         "D",
+         "C",
+         "B",
+         "A",
+         "S",
+         "SS",
+         "SSS"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6007,
+      "string_value": [],
+      "value": [
+         600
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6008,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "AssetbundleExport/Audio/BackGroundSound/bgm_login_demo"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6009,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "zhujiemian-icon-zuanshi",
+         "zhujiemian-icon-jinbi",
+         "xuanguan-saodangquan",
+         "strengthen",
+         "test_icon_2",
+         "test_icon_3"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6010,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            2,
+            3,
+            4
+         ],
+         [
+            1,
+            1,
+            1
+         ]
+      ]
+   },
+   {
+      "id": 6011,
+      "string_value": [],
+      "value": [
+         2
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6012,
+      "string_value": [],
+      "value": [
+         1001,
+         1002,
+         1003
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6013,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "MainSceneMovie_001",
+         "MainSceneMovie_002",
+         "MainSceneMovie_003"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6014,
+      "string_value": [],
+      "value": [
+         2,
+         2
+      ],
+      "valueFloat": [
+         2.5,
+         2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6015,
+      "string_value": [],
+      "value": [
+         10009
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6016,
+      "string_value": [],
+      "value": [
+         0
+      ],
+      "valueFloat": [
+         1.5,
+         10
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6017,
+      "string_value": [],
+      "value": [
+         0
+      ],
+      "valueFloat": [
+         0.8,
+         1,
+         0.05
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6018,
+      "string_value": [],
+      "value": [
+         15
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6019,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "panelformation",
+         "panelrole",
+         "panelsummon"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6020,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "panelfriends"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6021,
+      "string_value": [],
+      "value": [
+         4
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6022,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         3,
+         0.3
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6023,
+      "string_value": [],
+      "value": [
+         1001,
+         1002,
+         1003,
+         1004,
+         1005,
+         1006,
+         1007
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6024,
+      "string_value": [],
+      "value": [
+         30
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6025,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "AssetbundleExport/Audio/BackGroundSound/bgm_stage_select_demo"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6026,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6027,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6028,
+      "string_value": [],
+      "value": [
+         30
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6029,
+      "string_value": [
+         [
+            "TerTex_grass01G_D"
+         ],
+         [
+            ""
+         ],
+         [
+            "TerTex_road02G_D",
+            "TerTex_road01G_D",
+            "TerTex_road03G_D"
+         ],
+         [
+            ""
+         ],
+         [
+            "TerTex_brick01_D"
+         ],
+         [
+            "obj_JZ_yjfence_B"
+         ]
+      ],
+      "value": [
+         131,
+         126,
+         132,
+         128,
+         132,
+         132
+      ],
+      "valueFloat": [
+         0.33,
+         0.33,
+         0.33,
+         0.33,
+         0.33
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6030,
+      "string_value": [
+         [
+            ""
+         ],
+         [
+            ""
+         ],
+         [
+            ""
+         ]
+      ],
+      "value": [
+         129,
+         130,
+         130
+      ],
+      "valueFloat": [
+         0.33,
+         0.33,
+         0.33
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6031,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1,
+         3,
+         10,
+         15,
+         30,
+         90
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6032,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "xuanren_bg_redbg",
+         "xuanren_bg_yellowbg",
+         "xuanren_bg_bulebg",
+         "xuanren_bg_greenbg"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6033,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "biandui_bg_redbg",
+         "biandui_bg_yellowbg",
+         "biandui_bg_bulebg",
+         "biandui_bg_greenbg"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6034,
+      "string_value": [],
+      "value": [
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6035,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6036,
+      "string_value": [],
+      "value": [
+         50,
+         100,
+         150
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6037,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         7,
+         2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6038,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.8
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6040,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6041,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6042,
+      "string_value": [],
+      "value": [
+         1,
+         100
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6043,
+      "string_value": [],
+      "value": [
+         10011,
+         10012
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6044,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6045,
+      "string_value": [],
+      "value": [
+         10015,
+         10016
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6046,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6047,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         6.6
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6048,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            0.01,
+            0.05
+         ],
+         [
+            0,
+            0.05
+         ],
+         [
+            0,
+            0.05
+         ]
+      ]
+   },
+   {
+      "id": 6049,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1.8,
+         5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6050,
+      "string_value": [],
+      "value": [
+         5000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6051,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.1,
+         1
+      ],
+      "valueString": [
+         "Texmap_0140_b",
+         "Effect_sence_suiping"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6052,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6053,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         4,
+         0.01,
+         30,
+         0.1
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6054,
+      "string_value": [],
+      "value": [
+         20
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6055,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6056,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         10,
+         50,
+         15
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6057,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene",
+         "MainScene"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6058,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "MB_HERO_UPDATE_ICON_01",
+         "MB_HERO_UPDATE_ICON_02",
+         "MB_HERO_UPDATE_ICON_05",
+         "MB_HERO_UPDATE_ICON_04",
+         "MB_HERO_UPDATE_ICON_04",
+         "MB_HERO_UPDATE_ICON_03",
+         "MB_HERO_UPDATE_ICON_04",
+         "MB_HERO_UPDATE_ICON_04",
+         "MB_HERO_UPDATE_ICON_04"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6059,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "AtlasRoleList",
+         "AtlasRoleList"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6060,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [
+         "element_icon_2",
+         "element_icon_3"
+      ],
+      "vector3_value": []
+   },
+   {
+      "id": 6061,
+      "string_value": [],
+      "value": [
+         7
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6062,
+      "string_value": [],
+      "value": [
+         5
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6064,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6065,
+      "string_value": [],
+      "value": [
+         11,
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6066,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6067,
+      "string_value": [],
+      "value": [
+         180,
+         15
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6068,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            2.27,
+            0,
+            -0.32
+         ],
+         [
+            -1.2,
+            0,
+            -1.15
+         ],
+         [
+            0.85,
+            0,
+            -1.05
+         ]
+      ]
+   },
+   {
+      "id": 6100,
+      "string_value": [],
+      "value": [
+         10101,
+         10102
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6101,
+      "string_value": [],
+      "value": [
+         10101
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6200,
+      "string_value": [],
+      "value": [
+         702101,
+         700002,
+         700004
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6210,
+      "string_value": [],
+      "value": [
+         5000
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6211,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 6300,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         6,
+         2.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 7001,
+      "string_value": [],
+      "value": [
+         1
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 8001,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            -250,
+            200,
+            0
+         ],
+         [
+            -650,
+            100,
+            0
+         ],
+         [
+            -570,
+            330,
+            0
+         ],
+         [
+            -400,
+            500,
+            0
+         ],
+         [
+            -150,
+            550,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 8002,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            -345,
+            265,
+            0
+         ],
+         [
+            -183,
+            118.5,
+            0
+         ],
+         [
+            -438,
+            374,
+            0
+         ],
+         [
+            -230,
+            430,
+            0
+         ]
+      ]
+   },
+   {
+      "id": 8003,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": [
+         [
+            0,
+            0.1,
+            0
+         ],
+         [
+            0.2
+         ],
+         [
+            1
+         ]
+      ]
+   },
+   {
+      "id": 9001,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         1,
+         1.25,
+         1.5,
+         1.75,
+         2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9002,
+      "string_value": [],
+      "value": [
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9003,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.5
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9004,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         0.7
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9005,
+      "string_value": [],
+      "value": [],
+      "valueFloat": [
+         2
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 9006,
+      "string_value": [],
+      "value": [
+         10,
+         35,
+         0,
+         10
+      ],
+      "valueFloat": [],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 10000,
+      "string_value": [
+         [
+            "TerTex_grass01G_D"
+         ],
+         [
+            ""
+         ],
+         [
+            "TerTex_road02G_D",
+            "TerTex_road01G_D",
+            "TerTex_road03G_D"
+         ],
+         [
+            ""
+         ],
+         [
+            "TerTex_brick01_D"
+         ],
+         [
+            "obj_JZ_yjfence_B"
+         ]
+      ],
+      "value": [
+         131,
+         126,
+         132,
+         128,
+         132,
+         132
+      ],
+      "valueFloat": [
+         0.76,
+         0.76,
+         0.76,
+         0.76
+      ],
+      "valueString": [],
+      "vector3_value": []
+   },
+   {
+      "id": 10001,
+      "string_value": [
+         [
+            ""
+         ],
+         [
+            ""
+         ],
+         [
+            ""
+         ]
+      ],
+      "value": [
+         129,
+         130,
+         130
+      ],
+      "valueFloat": [
+         0.76,
+         0.76,
+         0.76
+      ],
+      "valueString": [],
+      "vector3_value": []
+   }
+]

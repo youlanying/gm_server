@@ -1,0 +1,77 @@
+<script>
+    let strImgList = {{.jsonImgList}};
+    let JsonImgList = [];
+    let I = 0;
+    let ListLength = 0;
+    let RefreshTime = 0;
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+    function MyRefresh() {
+        if (ListLength > I) {
+            let n = getRandomInt(ListLength)
+            $("#test").text(n+"/"+ListLength)
+            let imgName = JsonImgList[n]
+            $("#index_img").attr("src", "/static/images/index/" + imgName);
+            I=I+1;
+        } else {
+            window.location.reload();
+        }
+    }
+    function RefreshProgressbar(time){
+        time=time-1
+        $(".mws-progressbar-val").progressbar( "value", time);
+        if (time==0){
+            MyRefresh()
+            $( ".mws-progressbar-val" ).progressbar("option", "max", RefreshTime);
+            $( ".mws-progressbar-val" ).progressbar("option", "value", RefreshTime);
+            setTimeout("RefreshProgressbar(" + RefreshTime + ")", 1000);
+        }else {
+            setTimeout("RefreshProgressbar(" + time + ")", 1000);
+        }
+    }
+
+    $(document).ready(function() {
+        $(".mws-ticks-slider").slider({
+            boolean:true,
+            range: "min",
+            min: 2,
+            max: 50,
+            value: 15,
+            ticks: [2, '|', '|','|',10, '|','|', '|','|',20, '|', '|','|', '|', 30, '|','|','|','|',40,'|','|','|','|', 50],
+            slide:function(event, ui) {
+                RefreshTime = ui.value
+            }
+        });
+
+        if( $.fn.progressbar ) {
+            $(".mws-progressbar-val").progressbar({
+                max: 15,value: 15,
+                showValue: true
+            });
+        }
+        if (strImgList != "[]") {
+            RefreshTime = $( ".mws-ticks-slider" ).slider( "option", "value" );
+            JsonImgList = JSON.parse(strImgList);
+            ListLength = JsonImgList.length;
+            MyRefresh();
+            setTimeout("RefreshProgressbar("+15+")", 1000);
+        }
+    });
+</script>
+<!-- Inner Container Start -->
+<div class="container">
+
+    <div id="mws-crop-parent" class="mws-form-item" align="center">
+        <img id="index_img" src="" class="mws-crop-target" alt="美图" >
+    </div>
+    <div class="mws-panel grid_3">
+        <label id="test" class="mws-form-label"></label>
+        <div class="mws-form-item">
+            <div class="mws-progressbar-val"></div>
+        </div>
+        <div class="mws-form-item">
+            <div class="mws-ticks-slider"></div>
+        </div>
+    </div>
+</div>

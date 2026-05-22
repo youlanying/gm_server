@@ -1,0 +1,2571 @@
+[
+   {
+      "effectivetime": -1,
+      "id": 100,
+      "name": "资源测试包",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 100
+   },
+   {
+      "effectivetime": -1,
+      "id": 101,
+      "name": "体力道具",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 101
+   },
+   {
+      "effectivetime": -1,
+      "id": 102,
+      "name": "经验药水",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 102
+   },
+   {
+      "effectivetime": -1,
+      "id": 103,
+      "name": "亲密度道具",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 103
+   },
+   {
+      "effectivetime": -1,
+      "id": 104,
+      "name": "强化石",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 104
+   },
+   {
+      "effectivetime": -1,
+      "id": 105,
+      "name": "进阶道具",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 105
+   },
+   {
+      "effectivetime": -1,
+      "id": 106,
+      "name": "天赋道具",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 106
+   },
+   {
+      "effectivetime": -1,
+      "id": 300,
+      "name": "装备测试包",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 300
+   },
+   {
+      "effectivetime": -1,
+      "id": 400,
+      "name": "碎片测试包",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 400
+   },
+   {
+      "effectivetime": -1,
+      "id": 500,
+      "name": "货币测试包",
+      "price": [],
+      "rare_level": 5,
+      "stacknum": 1,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 500
+   },
+   {
+      "effectivetime": 14,
+      "id": 101001,
+      "name": "次级体力药水",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 101,
+      "type": 1,
+      "useparam": 50
+   },
+   {
+      "effectivetime": 14,
+      "id": 101002,
+      "name": "体力药水",
+      "price": [
+         [
+            500001,
+            20
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 101,
+      "type": 1,
+      "useparam": 100
+   },
+   {
+      "effectivetime": 20200430,
+      "id": 101003,
+      "name": "次级体力药水",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 101,
+      "type": 1,
+      "useparam": 50
+   },
+   {
+      "effectivetime": 20200430,
+      "id": 101004,
+      "name": "体力药水",
+      "price": [
+         [
+            500001,
+            20
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 101,
+      "type": 1,
+      "useparam": 100
+   },
+   {
+      "effectivetime": -1,
+      "id": 102001,
+      "name": "经验药水（小）",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 102,
+      "type": 1,
+      "useparam": 200
+   },
+   {
+      "effectivetime": -1,
+      "id": 102002,
+      "name": "经验药水（中）",
+      "price": [
+         [
+            500001,
+            20
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 102,
+      "type": 1,
+      "useparam": 500
+   },
+   {
+      "effectivetime": -1,
+      "id": 102003,
+      "name": "经验药水（大）",
+      "price": [
+         [
+            500001,
+            50
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 102,
+      "type": 1,
+      "useparam": 1000
+   },
+   {
+      "effectivetime": -1,
+      "id": 102004,
+      "name": "经验药水（特大）",
+      "price": [
+         [
+            500001,
+            100
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 102,
+      "type": 1,
+      "useparam": 2000
+   },
+   {
+      "effectivetime": -1,
+      "id": 103001,
+      "name": "礼物（小）",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 103,
+      "type": 1,
+      "useparam": 100
+   },
+   {
+      "effectivetime": -1,
+      "id": 103002,
+      "name": "礼物（中）",
+      "price": [
+         [
+            500001,
+            20
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 103,
+      "type": 1,
+      "useparam": 500
+   },
+   {
+      "effectivetime": -1,
+      "id": 103003,
+      "name": "礼物（大）",
+      "price": [
+         [
+            500001,
+            50
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 103,
+      "type": 1,
+      "useparam": 2000
+   },
+   {
+      "effectivetime": -1,
+      "id": 104001,
+      "name": "装备强化石",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 9999,
+      "subtype": 104,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105100,
+      "name": "1级通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105101,
+      "name": "1级火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105102,
+      "name": "1级水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105103,
+      "name": "1级风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105104,
+      "name": "1级光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105105,
+      "name": "1级暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 1,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105200,
+      "name": "2级通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105201,
+      "name": "2级火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105202,
+      "name": "2级水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105203,
+      "name": "2级风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105204,
+      "name": "2级光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105205,
+      "name": "2级暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 2,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105300,
+      "name": "3级通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105301,
+      "name": "3级火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105302,
+      "name": "3级水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105303,
+      "name": "3级风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105304,
+      "name": "3级光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105305,
+      "name": "3级暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105400,
+      "name": "4-1通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105401,
+      "name": "4-1火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105402,
+      "name": "4-1水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105403,
+      "name": "4-1风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105404,
+      "name": "4-1光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105405,
+      "name": "4-1暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105406,
+      "name": "4-2通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105407,
+      "name": "4-2火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105408,
+      "name": "4-2水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105409,
+      "name": "4-2风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105410,
+      "name": "4-2光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105411,
+      "name": "4-2暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105500,
+      "name": "5-1通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105501,
+      "name": "5-1火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105502,
+      "name": "5-1水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105503,
+      "name": "5-1风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105504,
+      "name": "5-1光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105505,
+      "name": "5-1暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105506,
+      "name": "5-2通用进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105507,
+      "name": "5-2火属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105508,
+      "name": "5-2水属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105509,
+      "name": "5-2风属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105510,
+      "name": "5-2光属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 105511,
+      "name": "5-2暗属性进阶",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": 105,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 106001,
+      "name": "次级天赋道具",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": 106,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 106002,
+      "name": "天赋道具",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 106,
+      "type": 1,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 201001,
+      "name": "固定礼包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 201001
+   },
+   {
+      "effectivetime": -1,
+      "id": 201002,
+      "name": "强化石礼包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 201002
+   },
+   {
+      "effectivetime": -1,
+      "id": 201003,
+      "name": "天赋道具礼包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 201,
+      "type": 2,
+      "useparam": 201003
+   },
+   {
+      "effectivetime": -1,
+      "id": 202001,
+      "name": "随机礼物",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 202,
+      "type": 2,
+      "useparam": 202001
+   },
+   {
+      "effectivetime": -1,
+      "id": 202002,
+      "name": "随机进阶道具",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 202,
+      "type": 2,
+      "useparam": 202002
+   },
+   {
+      "effectivetime": -1,
+      "id": 202003,
+      "name": "随机装备",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 202,
+      "type": 2,
+      "useparam": 202003
+   },
+   {
+      "effectivetime": -1,
+      "id": 203001,
+      "name": "3星角色选择包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 203,
+      "type": 2,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 203002,
+      "name": "S级装备选择包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 203,
+      "type": 2,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 203003,
+      "name": "进阶道具选择包",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": 203,
+      "type": 2,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 331001,
+      "name": "B001-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 331002,
+      "name": "B002-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 341001,
+      "name": "A001-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 341002,
+      "name": "A002-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 341003,
+      "name": "A003-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 341004,
+      "name": "A004-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351001,
+      "name": "S001-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351002,
+      "name": "S002-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351003,
+      "name": "S003-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351004,
+      "name": "S004-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351005,
+      "name": "S005-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351006,
+      "name": "S006-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351007,
+      "name": "S007-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351008,
+      "name": "S008-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 351009,
+      "name": "S009-1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 332001,
+      "name": "B001-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 332002,
+      "name": "B002-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 342001,
+      "name": "A001-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 342002,
+      "name": "A002-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 342003,
+      "name": "A003-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 342004,
+      "name": "A004-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352001,
+      "name": "S001-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352002,
+      "name": "S002-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352003,
+      "name": "S003-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352004,
+      "name": "S004-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352005,
+      "name": "S005-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352006,
+      "name": "S006-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352007,
+      "name": "S007-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352008,
+      "name": "S008-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 352009,
+      "name": "S009-2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 333001,
+      "name": "B001-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 333002,
+      "name": "B002-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 343001,
+      "name": "A001-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 343002,
+      "name": "A002-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 343003,
+      "name": "A003-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 343004,
+      "name": "A004-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353001,
+      "name": "S001-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353002,
+      "name": "S002-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353003,
+      "name": "S003-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353004,
+      "name": "S004-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353005,
+      "name": "S005-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353006,
+      "name": "S006-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353007,
+      "name": "S007-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353008,
+      "name": "S008-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 353009,
+      "name": "S009-3",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 3,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400001,
+      "name": "1号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400002,
+      "name": "2号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400003,
+      "name": "3号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400004,
+      "name": "4号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400005,
+      "name": "5号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400006,
+      "name": "6号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400007,
+      "name": "7号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400008,
+      "name": "8号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400009,
+      "name": "9号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400010,
+      "name": "10号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400011,
+      "name": "11号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400012,
+      "name": "12号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400013,
+      "name": "13号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400014,
+      "name": "14号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400015,
+      "name": "15号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400016,
+      "name": "16号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400017,
+      "name": "17号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400018,
+      "name": "18号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400019,
+      "name": "19号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400020,
+      "name": "20号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400021,
+      "name": "21号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400022,
+      "name": "22号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400023,
+      "name": "23号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400024,
+      "name": "24号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400025,
+      "name": "25号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400026,
+      "name": "26号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400027,
+      "name": "27号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400028,
+      "name": "28号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400029,
+      "name": "29号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 400030,
+      "name": "30号角色碎片",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": 999,
+      "subtype": -1,
+      "type": 4,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500000,
+      "name": "免费钻石",
+      "price": [],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500001,
+      "name": "金币",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500002,
+      "name": "体力",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 3,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500003,
+      "name": "钻石",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500004,
+      "name": "碎片秘石",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500005,
+      "name": "魂晶周常代币",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500006,
+      "name": "装备周常代币",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500007,
+      "name": "常驻单抽卷",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500008,
+      "name": "常驻10连卷",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500009,
+      "name": "装备单抽卷",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500010,
+      "name": "装备10连卷",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 5,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500101,
+      "name": "一期月度活代币1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500102,
+      "name": "一期月度活代币2",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   },
+   {
+      "effectivetime": -1,
+      "id": 500201,
+      "name": "二期月度活代币1",
+      "price": [
+         [
+            500001,
+            10
+         ]
+      ],
+      "rare_level": 4,
+      "stacknum": -1,
+      "subtype": -1,
+      "type": 5,
+      "useparam": -1
+   }
+]

@@ -1,0 +1,1003 @@
+[
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1001,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 10,
+      "id": 90101,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 10
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020101,
+         101020102
+      ],
+      "TransferBox": [],
+      "area_id": 1011901,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 10,
+      "id": 1010201,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 10
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020201,
+         101020202,
+         101020203,
+         101020204
+      ],
+      "TransferBox": [],
+      "area_id": 1011902,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010202,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020301,
+         101020302,
+         101020303,
+         101020304
+      ],
+      "TransferBox": [],
+      "area_id": 1010101,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010203,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020401,
+         101020402,
+         101020403,
+         101020404
+      ],
+      "TransferBox": [],
+      "area_id": 9983,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010204,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020501,
+         101020502,
+         101020503,
+         101020504
+      ],
+      "TransferBox": [],
+      "area_id": 9980,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010205,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020601,
+         101020602,
+         101020603,
+         101020604
+      ],
+      "TransferBox": [],
+      "area_id": 9985,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010206,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020701,
+         101020702,
+         101020703,
+         101020704,
+         101020705,
+         101020706,
+         101020707,
+         101020708
+      ],
+      "TransferBox": [],
+      "area_id": 1010401,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010207,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020801,
+         101020802,
+         101020803,
+         101020804
+      ],
+      "TransferBox": [],
+      "area_id": 9983,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010208,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101020901,
+         101020902
+      ],
+      "TransferBox": [],
+      "area_id": 9981,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010209,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021001,
+         101021002,
+         101021003,
+         101021004
+      ],
+      "TransferBox": [],
+      "area_id": 9985,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010210,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021101,
+         101021102,
+         101021103,
+         101021104
+      ],
+      "TransferBox": [],
+      "area_id": 9998,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010211,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021201,
+         101021202,
+         101021203,
+         101021204
+      ],
+      "TransferBox": [],
+      "area_id": 9985,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010212,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021301,
+         101021302,
+         101021303,
+         101021304
+      ],
+      "TransferBox": [
+         101021301
+      ],
+      "area_id": 1010801002,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010213,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021401,
+         101021402,
+         101021403,
+         101021404
+      ],
+      "TransferBox": [],
+      "area_id": 9983,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010214,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021501,
+         101021502,
+         101021503,
+         101021504
+      ],
+      "TransferBox": [],
+      "area_id": 1011101,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010215,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021601,
+         101021602,
+         101021603,
+         101021604
+      ],
+      "TransferBox": [],
+      "area_id": 9985,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010216,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021701,
+         101021702,
+         101021703,
+         101021704,
+         101021705,
+         101021706
+      ],
+      "TransferBox": [],
+      "area_id": 1010901,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010217,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021801,
+         101021802,
+         101021803,
+         101021804
+      ],
+      "TransferBox": [],
+      "area_id": 9983,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010218,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101021901,
+         101021902
+      ],
+      "TransferBox": [],
+      "area_id": 9979,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010219,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101022001,
+         101022002,
+         101022003,
+         101022004
+      ],
+      "TransferBox": [],
+      "area_id": 9983,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010220,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [
+         101022101,
+         101022102
+      ],
+      "TransferBox": [],
+      "area_id": 9982,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010221,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         101022201
+      ],
+      "area_id": 9986,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010222,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9988,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010223,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 10000,
+      "fail_condition": [],
+      "fightAreaId": [
+         10103011,
+         10103012
+      ],
+      "hero_exp": 0,
+      "id": 1010301,
+      "refreshBoxId": [
+         10103011
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010401,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010401,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010401001,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 1010501,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010101,
+         301010102
+      ],
+      "area_id": 1010101,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010101,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010201,
+         301010202
+      ],
+      "area_id": 1010201,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010102,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010301,
+         301010302
+      ],
+      "area_id": 9989,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010103,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010401,
+         301010402
+      ],
+      "area_id": 1010401,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010104,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010501,
+         301010502
+      ],
+      "area_id": 9998,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010105,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010601,
+         301010602
+      ],
+      "area_id": 1010801,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010106,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010701,
+         301010702
+      ],
+      "area_id": 9989,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010107,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010801,
+         301010802
+      ],
+      "area_id": 1010301,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010108,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301010901,
+         301010902
+      ],
+      "area_id": 1011101,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010109,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301011001,
+         301011002
+      ],
+      "area_id": 1010901,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010110,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301011101,
+         301011102
+      ],
+      "area_id": 9989,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010111,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301011201,
+         301011202
+      ],
+      "area_id": 1010701,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010112,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301011301,
+         301011302
+      ],
+      "area_id": 9988,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 0,
+      "id": 3010113,
+      "refreshBoxId": [
+         10101013
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301020101,
+         301020102
+      ],
+      "area_id": 1010401,
+      "fail_condition": [],
+      "fightAreaId": [
+         30102011
+      ],
+      "hero_exp": 0,
+      "id": 3010201,
+      "refreshBoxId": [
+         10101014
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [
+         301020201,
+         301020202
+      ],
+      "area_id": 1010901,
+      "fail_condition": [],
+      "fightAreaId": [
+         30102011
+      ],
+      "hero_exp": 0,
+      "id": 3010202,
+      "refreshBoxId": [
+         10101014
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9990,
+      "fail_condition": [],
+      "fightAreaId": [
+         30103011
+      ],
+      "hero_exp": 0,
+      "id": 3010301,
+      "refreshBoxId": [
+         10101015
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9986,
+      "fail_condition": [],
+      "fightAreaId": [
+         10101011
+      ],
+      "hero_exp": 10,
+      "id": 3010401,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 10
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 8009,
+      "fail_condition": [],
+      "fightAreaId": [
+         30105011
+      ],
+      "hero_exp": 0,
+      "id": 3010501,
+      "refreshBoxId": [
+         30105011
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9989001,
+      "fail_condition": [],
+      "fightAreaId": [
+         3010601
+      ],
+      "hero_exp": 0,
+      "id": 3010601,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9989,
+      "fail_condition": [],
+      "fightAreaId": [
+         30106011
+      ],
+      "hero_exp": 0,
+      "id": 3010602,
+      "refreshBoxId": [
+         30106011
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9988,
+      "fail_condition": [],
+      "fightAreaId": [
+         3010701
+      ],
+      "hero_exp": 0,
+      "id": 3010701,
+      "refreshBoxId": [
+         30107011
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010801003,
+      "fail_condition": [],
+      "fightAreaId": [
+         3010601
+      ],
+      "hero_exp": 0,
+      "id": 3010801,
+      "refreshBoxId": [
+         30108011
+      ],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "30*30",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 999,
+      "fail_condition": [],
+      "fightAreaId": [],
+      "hero_exp": 0,
+      "id": 3010901,
+      "refreshBoxId": [],
+      "success_condition": [],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9989,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightAreaId": [
+         9989
+      ],
+      "hero_exp": 0,
+      "id": 1001001,
+      "refreshBoxId": [
+         10010011
+      ],
+      "success_condition": [
+         999
+      ],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010801003,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightAreaId": [
+         1010801
+      ],
+      "hero_exp": 0,
+      "id": 1001002,
+      "refreshBoxId": [],
+      "success_condition": [
+         999
+      ],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010801003,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightAreaId": [
+         1010801
+      ],
+      "hero_exp": 0,
+      "id": 1002001,
+      "refreshBoxId": [
+         10020013
+      ],
+      "success_condition": [
+         999
+      ],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 1010801003,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightAreaId": [
+         1010801
+      ],
+      "hero_exp": 0,
+      "id": 1003001,
+      "refreshBoxId": [
+         10020014
+      ],
+      "success_condition": [
+         999
+      ],
+      "team_exp": 0
+   },
+   {
+      "AreaSize": "",
+      "AssociatedSceneBoxId": [],
+      "TransferBox": [],
+      "area_id": 9989001,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightAreaId": [
+         9989
+      ],
+      "hero_exp": 0,
+      "id": 1004001,
+      "refreshBoxId": [
+         10040001
+      ],
+      "success_condition": [
+         999
+      ],
+      "team_exp": 0
+   }
+]

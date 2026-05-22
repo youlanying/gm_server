@@ -1,0 +1,1028 @@
+[
+   {
+      "data_type": 4,
+      "id": 1,
+      "judge_type": 1,
+      "match_condition": [
+         30101009
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 2,
+      "judge_type": 1,
+      "match_condition": [
+         30
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 3,
+      "judge_type": 2,
+      "match_condition": [
+         120
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 4,
+      "judge_type": 3,
+      "match_condition": [
+         2
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 5,
+      "judge_type": 3,
+      "match_condition": [
+         5
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 6,
+      "judge_type": 2,
+      "match_condition": [
+         30
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 7,
+      "judge_type": 4,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 8,
+      "judge_type": 4,
+      "match_condition": [
+         2
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 9,
+      "judge_type": 5,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1010101,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 5,
+      "id": 1010102,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010103,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1010201,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1010202,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010203,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1010301,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 1010302,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010303,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1010401,
+      "judge_type": 3,
+      "match_condition": [
+         15
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1010402,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010403,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1010501,
+      "judge_type": 3,
+      "match_condition": [
+         15
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1010502,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010503,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010601,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1010602,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 1010603,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1010701,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 1010702,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010703,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1010801,
+      "judge_type": 3,
+      "match_condition": [
+         15
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1010802,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010803,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1010901,
+      "judge_type": 3,
+      "match_condition": [
+         10
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1010902,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1010903,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1011001,
+      "judge_type": 3,
+      "match_condition": [
+         14
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011002,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1011003,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011101,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1011102,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 3,
+      "id": 1011201,
+      "judge_type": 3,
+      "match_condition": [
+         15
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011202,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1011203,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1011301,
+      "judge_type": 3,
+      "match_condition": [
+         15
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011302,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1011303,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011401,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1011402,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 3,
+      "id": 1011501,
+      "judge_type": 3,
+      "match_condition": [
+         12
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011502,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1011503,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1011601,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1011602,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1011603,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020101,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020102,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020103,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020201,
+      "judge_type": 3,
+      "match_condition": [
+         10
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020202,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020203,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020301,
+      "judge_type": 3,
+      "match_condition": [
+         12
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020302,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020303,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1020401,
+      "judge_type": 3,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 1020402,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020403,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020501,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020502,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020503,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020601,
+      "judge_type": 3,
+      "match_condition": [
+         12
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020602,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020603,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020701,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020702,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020703,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020801,
+      "judge_type": 3,
+      "match_condition": [
+         17
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020802,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020803,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1020901,
+      "judge_type": 3,
+      "match_condition": [
+         17
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1020902,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1020903,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021001,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021002,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021003,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021101,
+      "judge_type": 3,
+      "match_condition": [
+         11
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021102,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021103,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 1021201,
+      "judge_type": 3,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 1021202,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021203,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021301,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021302,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021303,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021401,
+      "judge_type": 3,
+      "match_condition": [
+         12
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021402,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021403,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021501,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021502,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021503,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021701,
+      "judge_type": 3,
+      "match_condition": [
+         13
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021702,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021703,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021801,
+      "judge_type": 3,
+      "match_condition": [
+         17
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021802,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021803,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 1021901,
+      "judge_type": 3,
+      "match_condition": [
+         7
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 1021902,
+      "judge_type": 2,
+      "match_condition": [
+         300
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 1021903,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 3010901,
+      "judge_type": 1,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 3010902,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3010903,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 3011101,
+      "judge_type": 3,
+      "match_condition": [
+         11
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3011102,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 3011301,
+      "judge_type": 3,
+      "match_condition": [
+         11
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3011302,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 3020101,
+      "judge_type": 3,
+      "match_condition": [
+         5
+      ]
+   },
+   {
+      "data_type": 1,
+      "id": 3020102,
+      "judge_type": 2,
+      "match_condition": [
+         6000
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3020103,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 4,
+      "id": 3020201,
+      "judge_type": 3,
+      "match_condition": [
+         30202001
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3020202,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 4,
+      "id": 3020301,
+      "judge_type": 3,
+      "match_condition": [
+         30203001
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3020302,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 4,
+      "id": 3020401,
+      "judge_type": 3,
+      "match_condition": [
+         30204001
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 3020402,
+      "judge_type": 3,
+      "match_condition": [
+         4
+      ]
+   },
+   {
+      "data_type": 2,
+      "id": 3030801,
+      "judge_type": 3,
+      "match_condition": []
+   },
+   {
+      "data_type": 1,
+      "id": 3030311,
+      "judge_type": 2,
+      "match_condition": [
+         36000
+      ]
+   },
+   {
+      "data_type": 4,
+      "id": 3030314,
+      "judge_type": 1,
+      "match_condition": [
+         30314001
+      ]
+   },
+   {
+      "data_type": 3,
+      "id": 40000,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 5,
+      "id": 40001,
+      "judge_type": 3,
+      "match_condition": [
+         1
+      ]
+   },
+   {
+      "data_type": 7,
+      "id": 999,
+      "judge_type": 1,
+      "match_condition": []
+   }
+]

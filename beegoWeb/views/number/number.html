@@ -1,0 +1,176 @@
+<script>
+
+
+function fakeClick(obj) {
+  var ev = document.createEvent("MouseEvents");
+  ev.initMouseEvent("click", true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+  obj.dispatchEvent(ev);
+}
+
+function exportRaw(name, data) {
+  var urlObject = window.URL || window.webkitURL || window;
+  var export_blob = new Blob([data]);
+  var save_link = document.createElementNS("http://www.w3.org/1999/xhtml", "a")
+  save_link.href = urlObject.createObjectURL(export_blob);
+  save_link.download = name;
+  fakeClick(save_link);
+} 
+
+$(document).ready(function(){
+
+	//$("#number").hide();
+	$("#btn_gift").hide();
+	
+	{{if .giftlist }}
+		alert({{.giftlist}});
+		exportRaw("code.text",{{.giftlist}})
+	{{end}}
+	
+	{{if .codelist }}
+		alert({{.codelist}});
+		exportRaw("code.text",{{.codelist}})
+	{{end}}
+	
+	var TmpChStr = $("#slt_chan").val();
+	var TmpGiftStr = $("#slt_gift").val();
+	$("#preview").val(TmpChStr+TmpGiftStr);
+	
+	$("#btn_number").click(function(){
+		$("#gift").hide(500);
+		$("#number").show(500);
+		$(this).hide();
+		$("#btn_gift").show();
+	});
+	$("#btn_gift").click(function(){
+		$("#number").hide(500);
+		$("#gift").show(500);
+		$(this).hide();
+		$("#btn_number").show();
+	});
+
+	
+	$("#btn_newnumber").click(function(){
+		if({{.candoact}}){
+			if($("#param_number").val().trim() == ""){
+				alert("激活码参数不能为空！");
+			}else if($("#num_number").val().trim() == ""){
+				alert("生成数量不能为空！");
+			}else{
+				$(this).attr("disabled", "disabled");
+				$("#form_newnumber").submit();
+			}
+		}else{
+			alert("您没有生成激活码的权限！！");
+		}
+	});
+	
+	$("#btn_newgift").click(function(){
+		if({{.candoact}}){
+			if($("#param_gift").val().trim() == ""){
+				alert("礼包码参数不能为空！");
+			}else if($("#num_gift").val().trim() == ""){
+				alert("生成数量不能为空！");
+			}else{
+				$(this).attr("disabled", "disabled");
+				$("#form_newgift").submit();
+			}
+		}else{
+			alert("您没有生成礼包码的权限！！");
+		}
+	});
+	
+	$("#slt_chan").change(function(){
+		var ChStr = $(this).val();
+		var GiftStr = $("#slt_gift").val();
+		$("#preview").val(ChStr+GiftStr);
+	});
+	$("#slt_gift").change(function(){
+		var GiftStr = $(this).val();
+		var ChStr = $("#slt_chan").val();
+		$("#preview").val(ChStr+GiftStr);
+	});
+	
+});
+</script>
+
+
+<!-- H3>切换到：</H3><input type="button" id="btn_number" value="激活码" class="btn btn-warning btn-large" /><input type="button" id="btn_gift" value="礼包码" class="btn btn-warning btn-large" /><br /><br / -->
+
+<div id="number">
+	<div class="mws-panel grid_8 mws-collapsible">
+		<div class="mws-panel-header">
+			<span><i class="icon-table"></i> 激活码生成</span>
+		</div>
+		<div class="mws-panel-body no-padding">
+			<form id="form_newnumber" method="post" action="/number/newnumber">
+			<table class="mws-table mws-datatable">
+				<thead>
+					<tr>
+						<th> 2位渠道id</th>
+						<th> 生成数量 </th>
+						<th> 有效期(单位秒) </th>
+						<th> 是否全服唯一 </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="text" name="param" id="param_number" maxLength="2" /></td>
+						<td><input type="text" name="num" id="num_number" /></td>
+						<td><input type="text" name="time" id="time_number" />秒</td>
+						<td><input type="radio" name="svrunique" value="1" checked />是&nbsp;<input type="radio" name="svrunique" value="0" />否</td>
+					</tr>
+				</tbody>
+			</table>
+			
+						<p>！！！注意：<br />
+						&nbsp;&nbsp;因1和I、0和O不易区分，激活码参数中不要出现！
+						<br />
+						激活码, 原则上来说可以随机生成，目前仅保留2位渠道id，且总长8位
+						</p>
+						<input type="hidden" name="platform" value="{{.selectpf}}">
+						<input type="button" id="btn_newnumber" value="提交" class="btn btn-danger" />
+			</form>
+		</div>
+	</div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div id="gift">
+	<div class="mws-panel grid_8 mws-collapsible">
+		<div class="mws-panel-header">
+			<span><i class="icon-table"></i> 礼包码生成</span>
+		</div>
+		<div class="mws-panel-body no-padding">
+			<form id="form_newgift" method="post" action="/number/newgift">
+			<table class="mws-table mws-datatable">
+				<thead>
+					<tr>
+						<th> 1-2位为渠道id，3-5位为礼包码id，6-7位为互斥组id </th>
+						<th> 生成数量 </th>
+						<th> 有效期(单位秒) </th>
+						<th> 是否全服唯一 </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="text" name="param" id="param_gift" maxLength="7" /></td>
+						<td><input type="text" name="num" id="num_gift" /></td>
+						<td><input type="text" name="time" id="time_gift" />秒</td>
+						<td><input type="radio" name="svrunique" value="1" checked />是&nbsp;<input type="radio" name="svrunique" value="0" />否</td>
+					</tr>
+				</tbody>
+			</table>
+						<p>！！！注意：<br />
+						&nbsp;&nbsp;礼包请填写“兑换码礼包表”中的礼包编码，互斥关系请填写“兑换码礼包表”中的互斥组。并注意对应关系！
+						<br/>
+						礼包码，1-2位为渠道id，3-5位为礼包码id，6-7位为互斥组id，8-12位为随机码
+						</p>
+						<input type="hidden" name="platform" value="{{.selectpf}}">
+						<input type="button" id="btn_newgift" value="提交" class="btn btn-danger" />
+			</form>
+		</div>
+	</div>
+</div>
+
+

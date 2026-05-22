@@ -1,0 +1,279 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+<script>
+$(document).ready(function(){
+
+     $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+        $("[name='cmdurl']").val($(this).val());        
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    function Get_the_data(){
+        var CmdUrl =  $("#cmdurl_sel").val().trim();    
+        var RoleId =  $("#roleid").val().trim();  
+        var FullUrl = CmdUrl + "zxlf_get?cmd=get_role_redis_data&roleid="+RoleId;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                //alert(ref);              
+                $("#div_roleinfo").attr("style",'display:');
+                $("#pre_roleinfo").html(ref.datas);                        
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    $("#btn_sel").click(function(){
+        if($("#roleid").val().trim() == ""){
+            alert("用户ID不能为空！");
+        }else if ($("#roleid").val().trim() == "例: 17659294908430") {
+            alert("用户ID不能为空！");
+        }else if ($("#cmdurl_sel").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl_sel").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else{
+            //$("#div2").attr("style",'display:none');
+            Get_the_data();
+        }
+    });
+
+
+        
+    {{ if .send }}
+        alert("{{.send}}");
+    {{end}}
+    
+    $('#btn_send').click(function(){
+        if($("#send_roleid").val().trim() == ""){
+            alert("壳用户ID不能为空！");
+        }else if ($("#send_roleid").val().trim() == "例: 17659294908430") {
+            alert("壳用户ID不能为空！");
+        }else if ($("#cmdurl").val().trim() == "") {
+            alert("发送到的服务器不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("发送到的服务器不能为空！");
+        }else if ($("#sendroledata").val().trim() == "") {
+            alert("角色信息不能为空！");    
+        }else{ 
+            var con = confirm("确认发送数据到 "+$("#cmdurl").val().trim()+" ID为 "+$("#send_roleid").val().trim()+" 的角色内？");
+            if (con==true) {
+                //alert("00-"+$("#mailtype").val());
+                $("#form_copyrole").submit();
+            };                      
+        }       
+    });
+    
+
+    
+        $("#cmdurl").setDefauleValue();
+        $("[name='cmdurl']").setDefauleValue();
+        $("[name='roleid']").setDefauleValue();
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}
+</script>
+
+<div id="div_create">
+    <div class="mws-panel grid_3">
+            <div class="mws-panel-header">
+                <span><i class="icon-calendar"></i>服务器地址选择</span>
+            </div>
+            <div class="mws-panel-body no-padding"> 
+             <form class="mws-form" action="">
+                <div class="mws-form-inline">          
+                    <div class="mws-form-row">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <!-- <input type="text" class="large" id="cmdurl" name="cmdurl" value="例: http://127.0.0.1:9010/" /> -->
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>  
+                </div> 
+            </form>          
+        </div>      
+    </div>
+     
+     <div class="mws-panel grid_5" name="sel_data">
+        <div class="mws-panel-header">
+            <span><i class="icon-search"></i>查询角色数据</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_selectrole" method="post">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input type="text" class="large" id="cmdurl_sel" name="cmdurl" value="例: http://127.0.0.1:9010/" />
+                        </div>                                        
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">被复制用户ID :</label>
+                        <div class="mws-form-item">                          
+                             <input type="text" class="large" name="roleid" id="roleid" value="例: 17659294908430" />                      
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_sel"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>
+
+<div class="mws-panel grid_8 mws-collapsible" id="div_roleinfo" style="display:none">
+    <div class="mws-panel-header">
+        <span><i class="icon-table"></i>角色信息->请复制</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <tbody>
+                <pre id="pre_roleinfo"></pre>          
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div class="mws-panel grid_8 mws-collapsible" name="send_data">
+        <div class="mws-panel-header">
+            <span><i class="icon-search"></i>角色数据发送</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_copyrole" method="post" action="/gmtools/copyrole">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">发送到:</label>
+                        <div class="mws-form-item">
+                           <input type="text" class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                        </div>                                        
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">壳用户ID:</label>
+                        <div class="mws-form-item">                          
+                             <input type="text" class="large" name="roleid" id="send_roleid" value="例: 17659294908430" />                      
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">角色信息(请粘贴):</label>
+                        <div class="mws-form-item">                          
+                             <textarea name="sendroledata" id="sendroledata" name="sendroledata" rows="" cols="" class="large" ></textarea>                     
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value="发送" class="btn btn-danger" id="btn_send"/>
+                </div>
+            </form>
+        </div>      
+</div>
+
+
+<div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vIndex,$cMem1 := .centerurl}}
+                                            <option value={{$vIndex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vvIndex,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vvIndex}} style="display:none">
+                                {{range $_,$cMemMem := $cMem2.ServerList}}
+                                <li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+</div>

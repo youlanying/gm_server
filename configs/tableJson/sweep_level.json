@@ -1,0 +1,1322 @@
+[
+   {
+      "asklevel": 1,
+      "droplist": [
+         10101
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10101,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 467,
+      "score_gears": [
+         0
+      ],
+      "score_max": 38600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10102
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10102,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 525,
+      "score_gears": [
+         0
+      ],
+      "score_max": 52200,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10103
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10103,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 583,
+      "score_gears": [
+         0
+      ],
+      "score_max": 47900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10104
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10104,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 642,
+      "score_gears": [
+         0
+      ],
+      "score_max": 76900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10105
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10105,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 700,
+      "score_gears": [
+         0
+      ],
+      "score_max": 75300,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10106
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10106,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 758,
+      "score_gears": [
+         0
+      ],
+      "score_max": 79800,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10107
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10107,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 817,
+      "score_gears": [
+         0
+      ],
+      "score_max": 76100,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10108
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10108,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 875,
+      "score_gears": [
+         0
+      ],
+      "score_max": 26600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10109
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10109,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 817,
+      "score_gears": [
+         0
+      ],
+      "score_max": 76100,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10110
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10110,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 875,
+      "score_gears": [
+         0
+      ],
+      "score_max": 26600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10201
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10201,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 933,
+      "score_gears": [
+         0
+      ],
+      "score_max": 83600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10202
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10202,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 992,
+      "score_gears": [
+         0
+      ],
+      "score_max": 76100,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10203
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10203,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1050,
+      "score_gears": [
+         0
+      ],
+      "score_max": 76100,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10204
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10204,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1108,
+      "score_gears": [
+         0
+      ],
+      "score_max": 154600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10205
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10205,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1167,
+      "score_gears": [
+         0
+      ],
+      "score_max": 75800,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10206
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10206,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1225,
+      "score_gears": [
+         0
+      ],
+      "score_max": 69000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10207
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10207,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1283,
+      "score_gears": [
+         0
+      ],
+      "score_max": 29600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10208
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10208,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1342,
+      "score_gears": [
+         0
+      ],
+      "score_max": 34300,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10209
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10209,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1283,
+      "score_gears": [
+         0
+      ],
+      "score_max": 29600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10210
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10210,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1342,
+      "score_gears": [
+         0
+      ],
+      "score_max": 34300,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10301
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10301,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1400,
+      "score_gears": [
+         0
+      ],
+      "score_max": 126800,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10302
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10302,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1458,
+      "score_gears": [
+         0
+      ],
+      "score_max": 94600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10303
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10303,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1517,
+      "score_gears": [
+         0
+      ],
+      "score_max": 27800,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10304
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10304,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1575,
+      "score_gears": [
+         0
+      ],
+      "score_max": 26400,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10305
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10305,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1633,
+      "score_gears": [
+         0
+      ],
+      "score_max": 40900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10306
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10306,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1692,
+      "score_gears": [
+         0
+      ],
+      "score_max": 44300,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10307
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10307,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1750,
+      "score_gears": [
+         0
+      ],
+      "score_max": 39200,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10308
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10308,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1808,
+      "score_gears": [
+         0
+      ],
+      "score_max": 33700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10309
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10309,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1750,
+      "score_gears": [
+         0
+      ],
+      "score_max": 39200,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10310
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10310,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1808,
+      "score_gears": [
+         0
+      ],
+      "score_max": 33700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10401
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10401,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1867,
+      "score_gears": [
+         0
+      ],
+      "score_max": 31900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10402
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10402,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1925,
+      "score_gears": [
+         0
+      ],
+      "score_max": 38000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10403
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10403,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 1983,
+      "score_gears": [
+         0
+      ],
+      "score_max": 38300,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10404
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10404,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2042,
+      "score_gears": [
+         0
+      ],
+      "score_max": 36800,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10405
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10405,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2100,
+      "score_gears": [
+         0
+      ],
+      "score_max": 31000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10406
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10406,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2158,
+      "score_gears": [
+         0
+      ],
+      "score_max": 31900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10407
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10407,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2217,
+      "score_gears": [
+         0
+      ],
+      "score_max": 22500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10408
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10408,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2275,
+      "score_gears": [
+         0
+      ],
+      "score_max": 44700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10409
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10409,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2217,
+      "score_gears": [
+         0
+      ],
+      "score_max": 22500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10410
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10410,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2275,
+      "score_gears": [
+         0
+      ],
+      "score_max": 44700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10501
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10501,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2333,
+      "score_gears": [
+         0
+      ],
+      "score_max": 25500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10502
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10502,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2392,
+      "score_gears": [
+         0
+      ],
+      "score_max": 64700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10503
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10503,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2450,
+      "score_gears": [
+         0
+      ],
+      "score_max": 55700,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10504
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10504,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2508,
+      "score_gears": [
+         0
+      ],
+      "score_max": 18500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10505
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10505,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2567,
+      "score_gears": [
+         0
+      ],
+      "score_max": 53000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10506
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10506,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2625,
+      "score_gears": [
+         0
+      ],
+      "score_max": 25100,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10507
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10507,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2683,
+      "score_gears": [
+         0
+      ],
+      "score_max": 52000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10508
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10508,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2742,
+      "score_gears": [
+         0
+      ],
+      "score_max": 45600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10509
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10509,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2683,
+      "score_gears": [
+         0
+      ],
+      "score_max": 52000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10510
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10510,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2742,
+      "score_gears": [
+         0
+      ],
+      "score_max": 45600,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10601
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10601,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2800,
+      "score_gears": [
+         0
+      ],
+      "score_max": 34000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10602
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10602,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2858,
+      "score_gears": [
+         0
+      ],
+      "score_max": 27500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10603
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10603,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2917,
+      "score_gears": [
+         0
+      ],
+      "score_max": 36000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10604
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10604,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 2975,
+      "score_gears": [
+         0
+      ],
+      "score_max": 48000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10605
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10605,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3033,
+      "score_gears": [
+         0
+      ],
+      "score_max": 55900,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10606
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10606,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3092,
+      "score_gears": [
+         0
+      ],
+      "score_max": 31400,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10607
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10607,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3150,
+      "score_gears": [
+         0
+      ],
+      "score_max": 32000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10608
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10608,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3208,
+      "score_gears": [
+         0
+      ],
+      "score_max": 36500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10609
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10609,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3150,
+      "score_gears": [
+         0
+      ],
+      "score_max": 32000,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   },
+   {
+      "asklevel": 1,
+      "droplist": [
+         10610
+      ],
+      "droplist2": [],
+      "eyedrop": [],
+      "id": 10610,
+      "ifeye": 0,
+      "ifsweep": 1,
+      "money_max": 3208,
+      "score_gears": [
+         0
+      ],
+      "score_max": 36500,
+      "score_on": 0,
+      "score_pro": [
+         1
+      ],
+      "useitemid": 13,
+      "usenum": 1
+   }
+]

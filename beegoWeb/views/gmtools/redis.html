@@ -1,0 +1,167 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+<script src="/static/js/demo/demo.widget.js"></script>
+<script>
+$(document).ready(function(){
+    
+    $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $(":radio").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    $("#btn_new").click(function(){
+        if($("#roleid").val().trim() == ""){
+            alert("用户ID不能为空！");
+         }else if ($("#roleid").val().trim() == "例: 17659294908430") {
+            alert("用户ID不能为空！");
+        }else if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");    
+        }else if ($("#redis").val().trim() == "") {
+            alert("redis不能为空！");
+        }else if ($("#redis").val().trim() == "例: tb_role_vip") {
+            alert("redis不能为空！");    
+        }else{
+            $("#form_new").submit();
+        }
+    });
+
+    $("#cmdurl").setDefauleValue();
+    $("#roleid").setDefauleValue();
+    $("#redis").setDefauleValue(); 
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>redis查询</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/gmtools/redis">
+                <fieldset class="mws-form-inline"> 
+               {{range $_,$pMem := .par}}                  
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                            {{if ne $pMem.CmdUrl "" }}            
+                            <input type="text"  class="large" name="cmdurl" id="cmdurl" value="{{$pMem.CmdUrl}}" />
+                            {{ else }}
+                             <input type="text" class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />            
+                            {{end}}
+                            <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">用户ID :</label>
+                        <div class="mws-form-item">
+                            {{if ne $pMem.Roleid "" }}            
+                            <input type="text" class="large" name="roleid" id="roleid" value="{{$pMem.Roleid}}" />
+                            {{ else }}
+                             <input type="text" class="large" name="roleid" id="roleid" value="例: 17659294908430" />
+                            {{end}}
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">redis :</label>
+                        <div class="mws-form-item">
+                            {{if ne $pMem.Result "" }}            
+                            <input type="text" class="large" name="redis" id="redis" value="{{$pMem.Result}}" />
+                            {{ else }}
+                            <input type="text" class="large" name="redis" id="redis" value="例: tb_role_vip" />
+                            {{end}}
+                            
+                        </div>
+                    </div>
+                    {{end}}
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_new"/>
+                </div>
+            </form>
+
+            <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vIndex,$cMem1 := .centerurl}}
+                                            <option value={{$vIndex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vvIndex,$cMem2 := .centerurl}}
+							   <ul class="mws-form-list inline" id={{$vvIndex}} style="display:none">
+									{{ range $_,$cMemMem := $cMem2.ServerList }}
+									<li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>
+									{{end}}
+								</ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+
+        </div>      
+    </div>
+</div>
+
+{{if .allredis}}                                   
+<div class="mws-panel grid_8 mws-collapsible">
+    <div class="mws-panel-header">
+        <span><i class="icon-table"></i> 结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <pre>{{.allredis}}</pre>
+    </div>
+</div>
+{{end}}

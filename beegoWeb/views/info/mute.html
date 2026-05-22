@@ -1,0 +1,55 @@
+{{template "tabar" .}}
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>禁言玩家名单</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 渠道 </th>
+                    <th> 渠道平台ID </th>
+                    <th> 服务器 </th>
+                    <th> 玩家ID </th>
+					<th> 玩家名 </th>
+					<th> 性别 </th>
+					<th> 等级 </th>
+					<th> 金币 </th>
+					<th> 钻石 </th>
+					<th> 体力值 </th>
+					<th> 英雄数量 </th>
+					<th> 注册时间 </th>
+					<th> 最后登录 </th>
+					<th> 详细 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .dbcont }}
+				<tr>
+				<td>{{$mem.Notice}}</td>
+				<td>{{$mem.NoticeTimeStr }}</td>
+				<td>{{$mem.EndTimeStr }}</td>
+				<td>
+					<form id="form_delete_" + {{$mem.NoticeId}} method="POST" action="/notice/del">
+						<input type="hidden" name="noticeid" id="id_notice_del" value="{{$mem.NoticeId}}" />
+						<input type="hidden" name="platform" id="id_platform_del" value="{{$.selectpf}}" />
+						<input type="button" id="{{$mem.NoticeId}}" name="btn_delete" value="修改" class="btn btn-danger" />
+						<input type="button" id="{{$mem.NoticeId}}" name="btn_delete" value="删除" class="btn btn-danger" />
+					</form>
+				</td>
+				</tr>
+            </tbody>
+			{{end}}
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div class="mws-button-row">
+	<input type="button" value="一键导出" class="btn btn-danger" id="btn_new" />
+</div>
+
+

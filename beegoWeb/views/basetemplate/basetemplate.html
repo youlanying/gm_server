@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="zh-CN"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="zh-CN"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="zh-CN"> <![endif]-->
+<!--[if gt IE 8]><!--><html lang="zh-CN"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <!-- Viewport Metatag -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Plugin Stylesheets first to ease overrides -->
+    <link rel="stylesheet" type="text/css" href="/static/plugins/colorpicker/colorpicker.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/custom-plugins/wizard/wizard.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/plugins/prettyphoto/css/prettyPhoto.css" media="screen">
+
+    <!-- Required Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/fonts/ptsans/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/fonts/icomoon/style.css" media="screen">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/mws-style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/icons/icol16.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/icons/icol32.css" media="screen">
+
+    <!-- JavaScript Plugins -->
+    <script src="/static/js/libs/jquery-1.8.3.min.js"></script>
+    <script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+    <script src="/static/js/libs/jquery.placeholder.min.js"></script>
+    <script src="/static/custom-plugins/fileinput.js"></script>
+
+    <script src="/static/js/jquery.cookie.min.js"></script>
+
+    <!-- jQuery-UI Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.all.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/jui/jquery-ui.custom.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+
+    <!-- Theme Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/static/css/mws-theme.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/themer.css" media="screen">
+
+    <!-- 新增的 自定义 CSS -->
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css" media="screen">
+
+    <script src="/static/js/jquery.cookie.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            const Userid = $.cookie('userid');
+            //alert("userid:" + Userid)
+            $("#suserid").html('Hello ' + Userid);
+
+            const Sidebar = $.cookie('sidebar');
+            //alert("====="+sidebar)
+            $("#sidebar").html(Sidebar);
+
+            const pfselectName = $.cookie('pfselectName');
+            //alert("====="+sidebar)
+            $("#pfselectid").html('当前平台：' + pfselectName);
+            //时间选择器
+            if( $.fn.timepicker ) {
+                $(".mws-dtpicker").datetimepicker({
+                    dateFormat: "yy-mm-dd",
+                    timeFormat:  "HH:mm"
+                });
+                $(".mws-tpicker").timepicker({});
+            }
+        });
+    </script>
+
+    <title>Avalon Studio GM Tools</title>
+</head>
+<body>
+<div id="mws-header" class="clearfix">
+
+    <!-- Logo Container -->
+    <div id="mws-logo-container">
+
+        <!-- Logo Wrapper, images put within this wrapper will always be vertically centered -->
+        <div class="mws-panel-header">
+            <span><h3>{{.pagetitle}}</h3></span>
+        </div>
+    </div>
+
+    <!-- User Tools (notifications, logout, profile, change password) -->
+    <div id="mws-user-tools" class="clearfix">
+        <div id="mws-user-notif" class="mws-dropdown-menu">
+            <a id="pfselectid" href="/SelectPlatform" class="mws-dropdown-trigger" title="点击进入平台选择页面">当前平台：</a>
+        </div>
+        <!-- User Information and functions section -->
+        <div id="mws-user-info" class="mws-inset">
+
+            <!-- User Photo -->
+            <div id="mws-user-photo">
+                <img src="/static/xiaodianshi.jpg" alt="User Photo">
+            </div>
+
+            <!-- Username and Functions -->
+            <div id="mws-user-functions">
+                <div id="mws-username">
+                    <label id="suserid">Hello</label>
+                </div>
+                <ul>
+                    <li><a href="/logout">登出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start Main Wrapper -->
+<div id="mws-wrapper">
+
+    <!-- Necessary markup, do not remove -->
+    <div id="mws-sidebar-stitch"></div>
+    <div id="mws-sidebar-bg"></div>
+
+    <!-- Sidebar Wrapper -->
+    <div id="mws-sidebar">
+        <!-- Main Navigation -->
+        <div id="mws-navigation">
+            <ul id="sidebar">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Container Start -->
+    <div id="mws-container" class="clearfix">
+
+        <!-- Inner Container Start -->
+        <div id="layout_content" class="container">
+            {{.LayoutContent}}
+        </div>
+        <!-- Inner Container End -->
+
+        <!-- Footer -->
+        <div id="mws-footer">
+            Copyright Your Website 2021-2024. All Rights Reserved. YLY
+        </div>
+
+    </div>
+    <!-- Main Container End -->
+
+</div>
+<!--顺序很重要-->
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+<!-- Plugin Scripts -->
+<script src="/static/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="/static/plugins/prettyphoto/js/jquery.prettyPhoto.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/js/core/mws.js"></script>
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<script src="/static/js/time.js"></script>
+<script src="/static/jui/js/i18n/jquery-ui-i18n.js"></script>
+</body>
+</html>

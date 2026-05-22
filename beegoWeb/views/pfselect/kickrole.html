@@ -1,0 +1,34 @@
+<script>
+$(document).ready(function(){
+	$("#lblName").show();
+	$("#lblId").hide();
+	$("#rdo1").click(function(){
+		$("#lblName").show();
+		$("#lblId").hide();
+	});
+	$("#rdo2").click(function(){
+		$("#lblName").hide();
+		$("#lblId").show();
+	});
+	$("#btn_kick").click(function(){
+		if($("#name").val().trim() == ""){
+			alert("踢出对象不能为空！");
+		}else{
+			$("#form_kick").submit();
+		}
+	});
+});
+</script>
+
+<H1 id="pf">{{.selectpf}}</H1> <H1> {{.pagetitle}}</H1>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+<form id="form_kick" method="post" action="dokick">
+	<table border="1" cellSpacing="0">
+		<tr><th>按类型: </th><td><input type="radio" name="type" id="rdo1" value="1" checked="checked" />玩家昵称， <input type="radio" name="type" id="rdo2" value="2" />RoleId</td></tr>
+		<tr><th><label id="lblName">昵称: </label><label id="lblId">RoleId: </label></th><td><input type="text" name="name" id="name" /></td></tr>
+	</table>
+	<input type="hidden" name="platform" value={{.selectpf}} />
+	<input type="button" id="btn_kick" value="踢出" />
+</form>
+

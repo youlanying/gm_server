@@ -1,0 +1,1346 @@
+[
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "30106001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 30101008,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "30106002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 30101008,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "30106003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 30101008,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -166.632,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "3010701101001",
+      "instance_level_id": 30107,
+      "isRefresh": 0,
+      "npcdataid": 30107001,
+      "pos": [
+         -19.73,
+         10.57,
+         52.75
+      ],
+      "protoid": 9054,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010101001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010101002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010101003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010106001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010106002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010106003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010107001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101007,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9007,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010107002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101007,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9007,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010107003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101007,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9007,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010108001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         46.77,
+         0.5,
+         40
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010108002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.66,
+         0.5,
+         36.38
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010108003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.65,
+         0.5,
+         43.47
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010109001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101009,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9009,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010109002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101009,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9009,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010109003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101009,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9009,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010112001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101012,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9012,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         180,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010112002",
+      "instance_level_id": 1010801003,
+      "isRefresh": 1,
+      "npcdataid": 10101012,
+      "pos": [
+         43.05,
+         7.6,
+         57.14
+      ],
+      "protoid": 9012,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010130001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101030,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9030,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010130002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101030,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9030,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010130003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101030,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9030,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010133001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         46.77,
+         0.5,
+         40
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010133002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.5,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010133003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.65,
+         0.5,
+         43.47
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         180,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101010154001",
+      "instance_level_id": 1010801003,
+      "isRefresh": 1,
+      "npcdataid": 10101054,
+      "pos": [
+         43.05,
+         7.6,
+         57.14
+      ],
+      "protoid": 9054,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         -0.0157,
+         0,
+         -0.9999
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "301080101101001",
+      "instance_level_id": 3010801,
+      "isRefresh": 1,
+      "npcdataid": 10101012,
+      "pos": [
+         43.31,
+         7.67,
+         54.58
+      ],
+      "protoid": 9012,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         0,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "1010213001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101012,
+      "pos": [
+         0,
+         0,
+         0
+      ],
+      "protoid": 9012,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101040101001",
+      "instance_level_id": 9989001,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101040101002",
+      "instance_level_id": 9989001,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101040101003",
+      "instance_level_id": 9989001,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060101001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060101002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060101003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060102001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060102002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060102003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060103001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060103002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060103003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060104001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060104002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060104003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060105001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060105002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060105003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060106001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060106002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060106003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060107001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060107002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060107003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060108001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         46.77,
+         0.6,
+         40
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060108002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101008,
+      "pos": [
+         47.66,
+         0.6,
+         36.38
+      ],
+      "protoid": 9008,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         -90,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101060108003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101001,
+      "pos": [
+         47.65,
+         0.6,
+         43.47
+      ],
+      "protoid": 9001,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311000",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         44.97,
+         0,
+         44.98
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311001",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         46.47,
+         0,
+         46.48
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311002",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101007,
+      "pos": [
+         46.47,
+         0,
+         43.48
+      ],
+      "protoid": 9007,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311003",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         44.97,
+         0,
+         37.48
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311004",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         44.97,
+         0,
+         44.98
+      ],
+      "protoid": 9006,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311005",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101033,
+      "pos": [
+         44.97,
+         0,
+         49.98
+      ],
+      "protoid": 9033,
+      "type": 1
+   },
+   {
+      "aniBornId": 0,
+      "forward": [
+         0,
+         270,
+         0
+      ],
+      "hideBtnParms": [],
+      "hideBtnType": 0,
+      "id": "101021311006",
+      "instance_level_id": 9989,
+      "isRefresh": 1,
+      "npcdataid": 10101006,
+      "pos": [
+         44.97,
+         0,
+         39.98
+      ],
+      "protoid": 9006,
+      "type": 1
+   }
+]

@@ -1,0 +1,331 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+<script>
+$(document).ready(function(){
+
+	 $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+        $("[name='cmdurl']").val($(this).val());        
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    var ListKey = $.cookie('listkey');
+    if(ListKey.indexOf("send_proto_data") == -1 ) {
+            $("[name='btn_send_data']").attr("style",'display:none');
+            $("[name='delete_proto_data']").attr("style",'display:none');
+            $("[name='del_data']").attr("style",'display:none');
+           };
+
+		
+    {{if .send }}
+        alert("{{.send}}");
+    {{end}}
+	
+	$("[name='btn_send_data']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var Cmdurl = "#cmdurl_"+UId;
+			if ($(Cmdurl).val().trim() == "") {
+			            alert("url不能为空！");
+			}else if ($(Cmdurl).val().trim() == "例: http://127.0.0.1:9010/") {
+			            alert("url不能为空！");
+			}else{ 
+                var con = confirm("确认向"+$(Cmdurl).val().trim()+" 发送ID为 "+UId+" 的数据？");
+                if (con==true) {
+                    //alert("00-"+$("#mailtype").val());
+                    var FormId = "#form_proto_data_" + UId;
+                    $(FormId).submit();
+                };     					
+			}		
+		}else{
+			alert("您没有修改信息的权限！！");
+		}
+	});
+	
+    $('#selectname').change(function(){
+       var objd = $(this).children('option:selected').val();
+        $("#tablename").val(objd);       
+        });
+
+    $("[name='setstate']").click(function(){
+        var QD = $(this).val();
+        if (QD == 'D') {
+            $("#mailtype").val("D");
+            $("#divroleid").attr("style",'display:');
+            $("#bkey").attr("style",'display:none');
+            $("#tablekey").attr("style",'display:none');
+        }else if (QD == 'K') {
+            $("#mailtype").val("K");
+            $("#divroleid").attr("style",'display:');
+            $("#bkey").attr("style",'display:');
+            $("#tablekey").attr("style",'display:');
+        }else{
+            $("#mailtype").val("Q");
+            $("#divroleid").attr("style",'display:none');
+        };        
+    });    
+
+    $("#btn_del").click(function(){
+        var QD = $('#delchecked input[name="setstate"]:checked').val();
+        if ($("#cmdurl_del").val().trim() == "") {
+            alert("区服url不能为空！");
+        }else if ($("#cmdurl_del").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("区服url不能为空！");
+        }else if (QD == "K") {
+            if ($("#tablekey").val().trim() == "") {
+                alert("Key值不能为空！");
+            }else if ($("#tablename").val().trim() == "") {    
+                alert("表名不能为空！");
+            }else{  
+                var con = confirm("确认删除"+$("#cmdurl_del").val().trim()+"表名为"+$("#tablename").val().trim()+"key为"+$("#tablekey").val().trim()+"的数据？");
+                if (con==true) {
+                    //alert("00"+$("#mailtype").val());
+                    $("#form_deletetable").submit();  
+                };
+            };                          
+        }else if (QD == "D") {
+            if ($("#tablename").val().trim() == "") {
+                alert("表名不能为空！");
+            }else{  
+                var con = confirm("确认删除"+$("#cmdurl_del").val().trim()+"表名为"+$("#tablename").val().trim()+"的全部数据？");
+                if (con==true) {
+                    //alert("00-"+$("#mailtype").val());
+                    $("#form_deletetable").submit();  
+                }; 
+            };                                    
+        }else{
+            var con = confirm("确认删除"+$("#cmdurl_del").val().trim()+"已接收的全部表数据？");
+                if (con==true) {
+                    //alert("01"+$("#mailtype").val());
+                    $("#form_deletetable").submit();  
+                };
+        }
+    });
+	
+    
+	    $("#cmdurl").setDefauleValue();
+	    $("[name='cmdurl']").setDefauleValue();
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_3">
+            <div class="mws-panel-header">
+                <span><i class="icon-calendar"></i>服务器地址选择</span>
+            </div>
+            <div class="mws-panel-body no-padding">	
+             <form class="mws-form" action="">
+                <div class="mws-form-inline">          
+                    <div class="mws-form-row">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <!-- <input type="text" class="large" id="cmdurl" name="cmdurl" value="例: http://127.0.0.1:9010/" /> -->
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>  
+                </div> 
+            </form>          
+        </div>      
+    </div>
+     
+     <div class="mws-panel grid_5" name="del_data">
+        <div class="mws-panel-header">
+            <span><i class="icon-search"></i>已发送表数据删除</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_deletetable" method="post" action="/operator/deletetable/">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input type="text" class="large" id="cmdurl_del" name="cmdurl" value="例: http://127.0.0.1:9010/" />
+                        </div>                                        
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">类别:</label>
+                        <div class="mws-form-item clearfix" id="delchecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="setstate" name="setstate" type="radio" value="Q" checked="checked"> <label style="color:red">全部</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="D"> <label style="color:red">单表</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="K"> <label style="color:red">表内ID</label></li>
+                            </ul> 
+                            <input style="display:none" id="mailtype" name="mailtype" value="Q">
+
+                        </div>
+                    </div>
+                     <div class="mws-form-row bordered" style="display:none" id="divroleid"><!-- style="display:none" -->
+                        <label class="mws-form-label"> 表信息:</label>
+                        <div class="mws-form-col-1-8">
+                            <select class="mws-select2 small" id="selectname" onchange="selectchange()">
+                                <option value="0">请选择</option>
+                                {{range $_,$mem := .tableinfo }}
+                                <option value={{$mem.tname}}>{{$mem.describe}}</option>   
+                                {{end}}                                            
+                            </select>
+                             <input type="text" class="large" name="tablename" id="tablename" /><label style="display:none" id="bkey">  Key: </label><input type="text" class="large" name="tablekey" id="tablekey" style="display:none"/>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value="删除" class="btn btn-danger" id="btn_del"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>
+
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i> 服务器列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                	<th> URL </th> 
+                	<th> ID </th>                	
+                    <th> 描述 </th>
+                    <th> 客户端 </th>
+                    <th> 服务器 </th>
+                    <th> 创建时间 </th>   
+                    <th> 最后发送时间 </th>
+                    <th> 发送ID </th>
+                    <th> 发送 </th>   
+                    <th> 删除 </th>              
+                </tr>
+            </thead>
+            <tbody>
+            	{{range $_,$tMem := .tabledata }}
+				<tr>
+					<form id="form_proto_data_{{$tMem.id}}" method="post" action="/operator/send_proto/">
+						<td><input style='width:100%' type="text" class="large" id="cmdurl_{{$tMem.id}}" name="cmdurl" value="例: http://127.0.0.1:9010/" /></td>
+						<td><label class="mws-form-label"> {{$tMem.id}} </label></td>
+						<td><label class="mws-form-label"> {{$tMem.describe}} </label></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="cdata" id="cdata_{{$tMem.id}}" rows="" cols="" class="large" disabled="disabled">{{$tMem.cdata}}</textarea></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="sdata" id="sdata_{{$tMem.id}}" rows="" cols="" class="large" disabled="disabled">{{$tMem.sdata}}</textarea></td>
+						<td><label class="mws-form-label"> {{$tMem.settime}} </label></td>	
+						<td><label class="mws-form-label"> {{$tMem.sendtime}} </label></td>
+						<td><label class="mws-form-label"> {{$tMem.sendid}} </label></td>										
+						<td>
+							<input type="hidden" name="id" id="viewid_{{$tMem.id}}" value="{{$tMem.id}}" />
+                            <!-- <button type="button" class="btn btn-success"><i class="icon-cyclop"></i>发送</button> -->
+							<input type="button" id="{{$tMem.id}}" name="btn_send_data" value="发 送" class="btn btn-success"/>
+						</td>
+					</form>
+					<td>
+						<span class="btn-group" name="delete_proto_data">				
+						<a class="btn btn-small" href="/operator/delete_proto_data?id={{$tMem.id}}">
+						<i class="icon-trash"></i>
+						</a>
+						</span>
+					</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+	<div id="mws-form-dialog">
+		<form id="mws-validate" class="mws-form" action="">
+			<div class="mws-form-row bordered">
+				<label class="mws-form-label">平台列表</label>
+				<div class="mws-form-item">
+					<select id="selectID" class="large">
+						<option value="">请选择</option>
+						{{range $vindex,$cMem1 := .centerurl}}
+						<option value={{$vindex}}>{{$cMem1.PlatformName}}</option>
+						{{end}}
+					</select>
+				</div>
+			</div>
+			<div class="mws-form-block">
+				<div class="mws-form-row">
+					<label class="mws-form-label"></label>
+					<div class="mws-form-item clearfix" id="divurl">
+						{{range $vindex2,$cMem2 := .centerurl}}
+						<ul class="mws-form-list inline" id={{$vindex2}} style="display:none">
+							{{ range $_,$cMemMem := $cMem2.ServerList }}
+							<li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+							{{end}}
+						</ul>
+						{{end}}
+					</div>                                 
+				</div>
+			</div>
+		</form>    
+	</div>
+</div>
+

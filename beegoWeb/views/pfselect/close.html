@@ -1,0 +1,115 @@
+<script>
+$(document).ready(function(){
+	
+	var time = 10000;
+	function Callback(data){
+		var obj = eval(data);
+		//console.log("CMD: "+ obj.cmd + "\nNUM: "+ obj.num);
+		//alert("CMD: "+ obj.cmd + "\nNUM: "+ obj.num);
+	};
+	function checkRoleNum(){
+		var CmdUrl = {{.cmdurl}};
+		var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_role_num&auth=301b35660e7ebded3078fd1db101e8fe&gm=gm001&time=1448023962";
+		$.ajax({
+			url:FullUrl,
+			type:'GET',
+			dataType:'JSONP',
+			jsonpCallback:'Callback',
+			cache:false,
+			success:function(obj){
+				if(obj.num > 0){
+					console.log("CMD: "+ obj.cmd + "\nNUM: "+ obj.num);
+					//alert("CMD: "+ obj.cmd + "\nNUM: "+ obj.num);
+					setTimeout(checkRoleNum, time);
+				}else{
+					alert("Kick Role Over!");
+				}
+			}
+		});
+	};
+	function CloseOver(){
+		alert("Close Server OK!");
+		window.location.href = "show/" + {{.platform}};
+	};
+	function CloseServer(){
+		var CmdUrl = {{.cmdurl}};
+		var FullUrl = CmdUrl + "zxlf_get?cmd=close_server_js&auth=301b35660e7ebded3078fd1db101e8fe&gm=gm001&time=1448023962";
+		$.ajax({
+			url:FullUrl,
+			type:'GET',
+			dataType:'JSONP',
+			cache:false
+		});
+		setTimeout(CloseOver, time);
+	};
+	
+	$("#btn_close").click(function(){
+		//alert("btn_click click!");
+		//$("#form_kick").submit();
+		CloseServer();
+	});
+	
+});
+</script>
+
+<div class="mws-panel grid_4">
+    <div class="mws-panel-header">
+        <span> 服务器关服 </span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        
+            <fieldset class="mws-form-inline">
+                <legend> 服务器信息: </legend>
+                <div class="mws-form-row bordered">
+                    <label class="mws-form-label"> ViewId </label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="viewid" id="viewid" readonly="readonly" value={{.viewid}} />
+                    </div>
+                </div>
+                <div class="mws-form-row bordered">
+                    <label class="mws-form-label"> ServerId </label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="serverid" id="serverid" readonly="readonly" value={{.serverid}} />
+                    </div>
+                </div>
+                <div class="mws-form-row bordered">
+                    <label class="mws-form-label"> ServerName </label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="serverid" id="serverid" readonly="readonly" value={{.servername}} />
+                    </div>
+                </div>
+                <div class="mws-form-row bordered">
+                    <label class="mws-form-label"> State </label>
+                    <div class="mws-form-item">
+                        {{range $_,$vmem :=.statelist}}
+							{{if eq $vmem.stateid .state }}
+								<input type="text" class="large" name="state" id="state" readonly="readonly" value={{$vmem.statestr}} />
+							{{end}}
+                        {{end}}
+                    </div>
+                </div>
+                <div class="mws-form-row bordered">
+                    <label class="mws-form-label"> 操作： </label>
+                    <div class="mws-form-message warning">
+                        {{.showmsg}}
+                    </div>
+                </div>
+            </fieldset>
+            <div class="mws-button-row">
+            	<form class="mws-form" id="form_kick" method="post" action="pfselect/doclose">
+            	<input type="hidden" name="platform" value={{.selectpf}} />
+            	<input type="hidden" name="serid" value={{.viewid}} />
+				<input type="hidden" name="acttype" value="1" />
+                <input type="button" value="确定" class="btn btn-danger" id="btn_close" />
+                </form>
+                <form class="mws-form" id="form_cancel" method="post" action="pfselect/doclose">
+            	<input type="hidden" name="platform" value={{.selectpf}} />
+            	<input type="hidden" name="serid" value={{.viewid}} />
+				<input type="hidden" name="acttype" value="0" />
+                <input type="submit" value="取消" class="btn "/>
+                 </form>
+            </div>
+       
+    </div>      
+</div>
+

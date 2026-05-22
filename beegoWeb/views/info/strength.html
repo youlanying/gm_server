@@ -1,0 +1,80 @@
+<script>
+function onTouchChange(itemdata){
+
+	var routerUrl = "/info/strengthupdate";
+
+	var recvdata = GetRequest();
+	
+	console.log("onTouchDelete",itemdata,recvdata)
+
+	$.ajax({
+		url: routerUrl,
+		type: 'POST',
+		dataType: 'text',
+		data: {itemid:itemdata.ID,serverid:recvdata.serverid,usrid:recvdata.usrid},
+		cache: false,
+		success: function (ref) {
+			console.log("onTouchDeleteResult :",ref);
+			
+			ref == "0" && alert(ref);
+			
+		}
+	});	
+}
+</script>
+
+
+{{template "tabar2" .}}
+
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>查询结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 英雄名 </th>
+                    <th> 英雄ID </th>
+                    <th> 等级 </th>
+                    <th> RANK </th>
+					<th> 星级 </th>
+					<th> 闪避 </th>
+					<th> 技能1 </th>
+					<th> 技能2 </th>
+					<!--th> 技能3 </th-->
+					<th> 奥义 </th>
+					<th> 秘宝等级 </th>
+					<th> 秘宝品质 </th>
+					<th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .herolist }}
+				<tr>
+				<td>{{$mem.HeroName}}</td>
+				<td>{{$mem.ProtoId }}</td>
+				<td>{{$mem.Level }}</td>
+				<td>{{$mem.Rank }}</td>
+				<td>{{$mem.Star }}</td>
+				<td>{{$mem.SkillP }}</td>
+				<td>{{$mem.Skill1 }}</td>
+				<td>{{$mem.Skill2 }}</td>
+				<td>{{$mem.SkillS }}</td>
+				<td>{{$mem.EquipLv }}</td>
+				<td>{{$mem.EquipQua }}</td>
+				<td>
+					<input type="button" id="{{$mem.HeroId}}" name="btn_change" onclick="onTouchChange({{$mem}})" value="立即修改" class="btn btn-danger" />
+				</td>
+				</tr>
+            </tbody>
+			{{end}}
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+

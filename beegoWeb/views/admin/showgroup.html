@@ -1,0 +1,182 @@
+<script type="text/javascript">
+    function newgroup(Form) {
+        let FullUrl = "/admin/newgroup";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'json',
+            data: Form,
+            contentType: false,
+            processData: false,
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    $("#btn_show").show();
+                    $("#btn_close").hide();
+                    $("#div_createnew").hide(1000);
+                    AddGrepTable(ref);
+                    alert("创建成功！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    function delete_group(id) {
+        let FullUrl = "/admin/deletegroup";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'json',
+            data: {gid:id},
+            cache: false,
+            success: function (ref) {
+                //alert("====="+ref)
+                if (ref == "error") {
+                    alert("删除失败，有用户属于此组~");
+                } else if(ref != null){
+                    AddGrepTable(ref);
+                    alert("删除成功！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    function AddGrepTable(grouplist) {
+        $("#span_output").html('群组列表');
+        $('#divtable').html("");
+        let addbody = "";
+        let Thead = "<thead><tr><th>群组ID</th><th>群组名称</th><th>群组功能列表</th><th>操作</th></tr></thead>";
+        for (let i = 0; i < grouplist.length; i += 1) {
+            let grep = grouplist[i];
+            let strdelete=""
+            if (grep.Gid!="1") {
+                strdelete ="<input type='button' id=\"delete_" + grep.Gid + "\" name=\"btn_delete\" value='删除' class='btn btn-danger' />"
+            };
+                addbody +=
+                    "<tr style='text-align:center'>" +
+                    "<td style='width:5%'><label class='mws-form-label' style='width:90%'>" + grep.Gid + "</label></td>" +
+                    "<td style='width:13%'><label class='mws-form-label' style='width:90%'>" + grep.Gname + "</label></td>" +
+                    "<td style='width:65%'><textarea style='width:100%' rows='3' cols='' class='large' >" + grep.Gactlist + "</textarea></td>" +
+                    "<td>" +
+                    "<input type='button' id=\"update_" + grep.Gid + "\" name=\"btn_edit\" value='编辑' class='btn btn-danger' />" +
+                    strdelete +
+                    "</td>" +
+                    "</tr>";
+
+        };
+        //表 赋值
+        $('#divtable').append("<table class='mws-datatable-fn mws-table dataTable'>" +Thead + "<tbody align='center'>" + addbody + "</tbody></table>");
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if ($.fn.dataTable) {
+            $(".mws-datatable-fn").dataTable({
+                aaSorting: [[0, "asc"]], //排序方式 从0开始
+                aoColumns:[{sType: "numeric"},null,null,null],//设定排序属性为数字 注意要保函所有列
+                bLengthChange: false,//去掉每页显示多少条数据方法
+                bFilter: false,//去掉搜索框
+                bInfo: false, //去除 Showing 1 of N Entries 文本行
+                bPaginate: false,//去除翻页
+            });
+        }
+    };
+$(document).ready(function(){
+	$("#btn_close").hide();
+	$("#div_createnew").hide();
+	let grouplist = {{.grouplist}}
+    let jsongrouplist = JSON.parse(grouplist);
+    AddGrepTable(jsongrouplist)
+
+	$("#btn_createnew").on('click',function(){
+	    if($("#new_name").val().trim() == ""){
+	        alert("群组名称不能为空！");
+	    }else{
+            const Form = new FormData(document.getElementById("form_group_new"));
+            newgroup(Form)
+	        //$("#form_new").submit();
+	    }
+	});
+
+	$(document).on('click',"[name='btn_edit']",function(){
+        let uId = $(this).attr("id");
+        let tempArr = uId.split("_");
+        let sId = tempArr[(tempArr.length - 1)];
+        $.post("/admin/editgroup", {gid:sId},function (result){
+            $("#layout_content").html(result)
+        },"html");
+	});
+
+    $(document).on('click',"[name='btn_delete']",function(){
+	    let uId = $(this).attr("id");
+        let tempArr = uId.split("_");
+        let sId = tempArr[(tempArr.length - 1)];
+        delete_group(sId);
+	});
+
+    $("#btn_show").click(function(){
+        if({{.candoact}}){
+            $("#btn_close").show();
+            $(this).hide();
+            $("#div_createnew").show(1000);
+        }else{
+            alert("您没有该操作权限！");
+        }
+    });
+
+    $("#btn_close").click(function(){
+        $("#btn_show").show();
+        $(this).hide();
+        $("#div_createnew").hide(1000);
+    });
+
+});
+</script>
+
+<div id="div_group">
+    <div class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output"></label> </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+
+        </div>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #AAAAAA;" />
+<input type="button" id="btn_show" class="btn " value="创建新群组" /><input type="button" id="btn_close" class="btn " value="收起" />
+<div id="div_createnew">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 新群组 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_group_new" enctype="multipart/form-data">
+                <fieldset class="mws-form-inline">
+                    <legend> 群组信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 群组名称 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="gname" id="new_name"/>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 功能列表 </label>
+                        <div class="mws-form-item clearfix">
+                            <ul name="gactlists" class="mws-form-list inline">
+                            	{{range $_, $mem := .actlist}}
+                            	<li><input type="checkbox" name="gactlist" value={{$mem.Id}}> <label>{{$mem.Name}}</label></li>
+                            	{{end}}
+        					</ul>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_createnew"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+{{define "tabar2"}}
+
+<script language="javascript" type="text/javascript">
+
+var urlcode = '';
+
+function GetRequest() {
+    var url = location.search ;
+    url = decodeURI(url);
+	urlcode = url;
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for(var i = 0; i < strs.length; i ++) {
+			theRequest[strs[i].split("=")[0].replace(/\s/g,"")]=unescape(strs[i].split("=")[1].replace(/\s/g,""));
+        }
+    }
+    return theRequest;
+}
+
+
+	$(document).ready(function(){
+		var recvdata = GetRequest();
+		
+		var arr = document.getElementsByTagName('a');
+		console.log(arr);
+		var arrlen = arr.length;
+		for (i = 1; i < arrlen; i ++){
+			a = arr[i];
+			var url = a.getAttribute('href');
+			url += urlcode;   // 传递一个变量name 值为 hello
+			a.setAttribute('href', url);   // 替换
+		}
+		
+		console.log("getUrlData:",recvdata);
+		
+		$("#cur_channelid").text(recvdata.serverid)
+		$("#cur_usrid").text(recvdata.usrid)
+		$("#cur_usrname").text(recvdata.username)
+	});
+</script>
+
+<div class="container">
+
+	<div class="mws-form-row bordered">
+		<label class="mws-form-label"> 渠道平台ID </label>
+		<label class="mws-form-label" id="cur_channelid"> -- </label>
+	</div>
+	<div class="mws-form-row bordered">
+		<label class="mws-form-label"> 玩家ID </label>
+		<label class="mws-form-label" id="cur_usrid"> -- </label>
+	</div>
+	<div class="mws-form-row bordered">
+		<label class="mws-form-label"> 玩家名 </label>
+		<label class="mws-form-label" id="cur_usrname"> -- </label>
+	</div>
+
+	<div class="mws-stat-container clearfix">
+    	<a class="mws-stat" href="./index">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">返回</span>
+            </span>
+        </a>
+    	<a class="mws-stat" href="./bag">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">背包</span>
+            </span>
+        </a>
+    	<a class="mws-stat" href="./friend">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">好友</span>
+            </span>
+        </a>
+    	<a class="mws-stat" href="./task">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">任务</span>
+            </span>
+        </a>
+        <a class="mws-stat" href="./mail">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">邮件</span>
+            </span>
+        </a>
+		<a class="mws-stat" href="./strength">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">强化</span>
+            </span>
+        </a>
+		<a class="mws-stat" href="./hero">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">英雄</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+{{end}}

@@ -1,0 +1,4817 @@
+[
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1,
+      "skill_name": "测试伊凡娜 普攻连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 2,
+      "skill_name": "测试伊凡娜 普攻连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [
+         [
+            10034001,
+            1
+         ]
+      ],
+      "effectresultid2": [
+         [
+            10034006,
+            1
+         ]
+      ],
+      "energy_capture": 0,
+      "id": 3,
+      "skill_name": "测试伊凡娜 普攻连招3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 4,
+      "skill_name": "测试伊凡娜 普攻连招4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [
+         [
+            2043,
+            1
+         ]
+      ],
+      "ProcessParams": [
+         10030021
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [
+         [
+            90019801,
+            1
+         ]
+      ],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 5,
+      "skill_name": "测试伊凡娜 长按重击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6,
+      "skill_name": "测试伊凡娜 普攻连招4第二段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7,
+      "skill_name": "测试伊凡娜 Q大招",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001010,
+      "skill_name": "亚莲娜 连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001020,
+      "skill_name": "亚莲娜 连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001030,
+      "skill_name": "亚莲娜 连招3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001040,
+      "skill_name": "亚莲娜 连招4第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001041,
+      "skill_name": "亚莲娜 连招4第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001043,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001001
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            2092
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001042,
+      "skill_name": "亚莲娜 连招4第三击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001100,
+      "skill_name": "亚莲娜规避",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005000,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005000,
+      "skill_name": "亚莲娜 普攻连招1（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001002,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005010,
+      "skill_name": "亚莲娜 普攻连招2（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001003,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005020,
+      "skill_name": "亚莲娜 普攻连招3（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001004,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005030,
+      "skill_name": "亚莲娜 普攻连招4第一击（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001004,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005031,
+      "skill_name": "亚莲娜 普攻连招4第二击（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1005032,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001004,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1005032,
+      "skill_name": "亚莲娜 普攻连招4第三击（AI）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": -1,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001110
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            10011100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001110,
+      "skill_name": "刺客-亚莲娜技能体发射地雷",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001110,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            10011201,
+            10011301
+         ],
+         [
+            10011202,
+            10011302
+         ],
+         [
+            10011203,
+            10011303
+         ],
+         [
+            10011204,
+            10011304
+         ],
+         [
+            10011205,
+            10011305
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001120,
+      "skill_name": "刺客-亚莲娜地雷爆炸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001200
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001200,
+      "skill_name": "亚莲娜 登场技 预警线（召技能体）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001201
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001200,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001201,
+      "skill_name": "亚莲娜 登场技 碰撞子弹技能体",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": -1,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [
+         [
+            20012031
+         ],
+         [
+            20012032
+         ],
+         [
+            20012033
+         ],
+         [
+            20012034
+         ],
+         [
+            20012035
+         ]
+      ],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001202,
+      "skill_name": "刺客-亚莲娜技能1加攻Buff",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": -1,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001002,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            2093
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001300,
+      "skill_name": "亚莲娜 连携登场技",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001310,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            10013001
+         ],
+         [
+            10013002
+         ],
+         [
+            10013003
+         ],
+         [
+            10013004
+         ],
+         [
+            10013005
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [
+         [
+            30013101
+         ],
+         [
+            30013102
+         ],
+         [
+            30013103
+         ],
+         [
+            30013104
+         ],
+         [
+            30013105
+         ]
+      ],
+      "energy_capture": 0,
+      "id": 1001310,
+      "skill_name": "刺客-亚莲娜技能2伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001410,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001400,
+      "skill_name": "亚莲娜 奥义子攻击伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001501,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001201
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001501,
+      "skill_name": "刺客-亚莲娜技能1蓄力",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1001511,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1001201
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            10015111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1001511,
+      "skill_name": "刺客-亚莲娜技能1蓄力二段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003000,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1003000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003000,
+      "skill_name": "伊凡娜 普攻连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003010,
+      "SlowId": 1003010,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003010,
+      "skill_name": "伊凡娜 普攻连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003020,
+      "SlowId": 1003020,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003020,
+      "skill_name": "伊凡娜 普攻连招3第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003021,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003021,
+      "SlowId": 1003021,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003021,
+      "skill_name": "伊凡娜 普攻连招3第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003030,
+      "SlowId": 1003030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003030,
+      "skill_name": "伊凡娜 普攻连招4第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003031,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003031,
+      "SlowId": 1003031,
+      "effectresultid": [
+         [
+            2092
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003031,
+      "skill_name": "伊凡娜 普攻连招4第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003100,
+      "skill_name": "伊凡娜 闪避",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003201,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003200,
+      "SlowId": 1003200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003201,
+      "skill_name": "伊凡娜 登场技第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003200,
+      "SlowId": 1003200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003200,
+      "skill_name": "伊凡娜 登场技第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003201,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003200,
+      "SlowId": 1003200,
+      "effectresultid": [
+         [
+            2093
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003301,
+      "skill_name": "伊凡娜 连携登场技第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003200,
+      "SlowId": 1003200,
+      "effectresultid": [
+         [
+            2093
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003300,
+      "skill_name": "伊凡娜 连携登场技第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003400,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003400,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003400,
+      "skill_name": "伊凡娜 奥义",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003500,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003001,
+      "SlowId": 1003000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003500,
+      "skill_name": "伊凡娜 普攻连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003510,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003010,
+      "SlowId": 1003010,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003510,
+      "skill_name": "伊凡娜 普攻连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003520,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003020,
+      "SlowId": 1003020,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003520,
+      "skill_name": "伊凡娜 普攻连招3第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003521,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003021,
+      "SlowId": 1003021,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003521,
+      "skill_name": "伊凡娜 普攻连招3第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003530,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003030,
+      "SlowId": 1003030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003530,
+      "skill_name": "伊凡娜 普攻连招4第一击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1003531,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1003031,
+      "SlowId": 1003031,
+      "effectresultid": [
+         [
+            2092
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1003531,
+      "skill_name": "伊凡娜 普攻连招4第二击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006000
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006000,
+      "skill_name": "莉莉娅连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006021
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006010,
+      "skill_name": "莉莉娅连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006031
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006020,
+      "skill_name": "莉莉娅连招3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006030,
+      "skill_name": "莉莉娅连招4-0",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006031,
+      "skill_name": "莉莉娅连招4-1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006040,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006032,
+      "skill_name": "莉莉娅连招4-2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006100,
+      "skill_name": "莉莉娅规避",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006200
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006200,
+      "skill_name": "莉莉娅小技能1-登场技 风刃1 ",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006210
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006210,
+      "skill_name": "莉莉娅小技能1-登场技 风刃2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006220
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006220,
+      "skill_name": "莉莉娅小技能1-登场技 风刃3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006230
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006230,
+      "skill_name": "莉莉娅小技能1-登场技 风刃4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006240
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006240,
+      "skill_name": "莉莉娅小技能1-登场技 风刃5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006200
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006200,
+      "SlowId": 1006200,
+      "effectresultid": [
+         [
+            2093
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006300,
+      "skill_name": "莉莉娅小技能1-连携登场技",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 2,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006207,
+      "skill_name": "测试 治疗技能1 全员加血",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [
+         [
+            2,
+            1
+         ]
+      ],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 2,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006208,
+      "skill_name": "测试 治疗技能1 全员加hot",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [
+         [
+            1,
+            1
+         ]
+      ],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 3,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006209,
+      "skill_name": "测试 治疗技能1 敌方全dot",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006500,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006500
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006500,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006500,
+      "skill_name": "莉莉娅新旋风_技能体召唤",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006610,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006000
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006600,
+      "skill_name": "莉莉娅连招1(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006610,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006021
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006610,
+      "skill_name": "莉莉娅连招2(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006620,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         1006031
+      ],
+      "ProcessType": 2,
+      "ScreenId": 1006000,
+      "SlowId": 1006000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006620,
+      "skill_name": "莉莉娅连招3(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006640,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006630,
+      "skill_name": "莉莉娅连招4-0(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006640,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006631,
+      "skill_name": "莉莉娅连招4-1(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1006640,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1006030,
+      "SlowId": 1006030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1006632,
+      "skill_name": "莉莉娅连招4-2(ai)",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008000,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008000,
+      "SlowId": 1008000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008000,
+      "skill_name": "卡琳普攻1连招",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008010,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008010,
+      "SlowId": 1008010,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008010,
+      "skill_name": "卡琳普攻2连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008011,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008011,
+      "SlowId": 1008011,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008011,
+      "skill_name": "卡琳普攻2连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008020,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008020,
+      "SlowId": 1008020,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008020,
+      "skill_name": "卡琳普攻3连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008021,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008021,
+      "SlowId": 1008021,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008021,
+      "skill_name": "卡琳普攻3连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008022,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008022,
+      "SlowId": 1008022,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008022,
+      "skill_name": "卡琳普攻3连招3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008030,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008030,
+      "SlowId": 1008030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008030,
+      "skill_name": "卡琳普攻4连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1,
+      "SlowId": 1,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008100,
+      "skill_name": "卡琳技能规避",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008101,
+      "skill_name": "卡琳技能规避落剑伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008200,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008200,
+      "SlowId": 1008200,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008200,
+      "skill_name": "卡琳登场技",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008400,
+      "skill_name": "卡琳奥义1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008401,
+      "skill_name": "卡琳奥义2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008402,
+      "skill_name": "卡琳奥义3段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008403,
+      "skill_name": "卡琳奥义爆炸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008500,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008000,
+      "SlowId": 1008000,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008500,
+      "skill_name": "卡琳普攻1连招",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008510,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008010,
+      "SlowId": 1008010,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008510,
+      "skill_name": "卡琳普攻2连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008511,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008011,
+      "SlowId": 1008011,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008511,
+      "skill_name": "卡琳普攻2连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008520,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008020,
+      "SlowId": 1008020,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008520,
+      "skill_name": "卡琳普攻3连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008521,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008021,
+      "SlowId": 1008021,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008521,
+      "skill_name": "卡琳普攻3连招2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008522,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008022,
+      "SlowId": 1008022,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008522,
+      "skill_name": "卡琳普攻3连招3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 1008530,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 1008030,
+      "SlowId": 1008030,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1008530,
+      "skill_name": "卡琳普攻4连招1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010010,
+      "skill_name": "娜塔莉连招1左刀",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010011,
+      "skill_name": "娜塔莉连招1右刀",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010020,
+      "skill_name": "娜塔莉连招2平砍",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010030,
+      "skill_name": "娜塔莉连招3右刀上挑",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010031,
+      "skill_name": "娜塔莉连招3左刀上挑",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010040,
+      "skill_name": "娜塔莉连招4斜下劈",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010050,
+      "skill_name": "娜塔莉连招5扫腿",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010051,
+      "skill_name": "娜塔莉连招5圆斩",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010052,
+      "skill_name": "娜塔莉连招503",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010053,
+      "skill_name": "娜塔莉连招504",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010100,
+      "skill_name": "娜塔莉规避",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010110,
+      "skill_name": "娜塔莉规避快斩伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010200,
+      "skill_name": "娜塔莉1技能幻影斩",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010210,
+      "skill_name": "娜塔莉1技能二段空中下劈伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010311,
+      "skill_name": "娜塔莉2技能后跳投弹",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010321,
+      "skill_name": "娜塔莉小技能2后跳投弹伤害1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010322,
+      "skill_name": "娜塔莉小技能2后跳投弹伤害2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010400,
+      "skill_name": "娜塔莉奥义1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010401,
+      "skill_name": "娜塔莉奥义2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010402,
+      "skill_name": "娜塔莉奥义3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010403,
+      "skill_name": "娜塔莉奥义4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010404,
+      "skill_name": "娜塔莉奥义5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010405,
+      "skill_name": "娜塔莉奥义5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010406,
+      "skill_name": "娜塔莉奥义7",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010407,
+      "skill_name": "娜塔莉奥义8",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010408,
+      "skill_name": "娜塔莉奥义9",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 1010409,
+      "skill_name": "娜塔莉奥义10",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000010,
+      "skill_name": "改变属性",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000200
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000020,
+      "skill_name": "召唤单位",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000300
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000030,
+      "skill_name": "无法攻击，无法移动",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000400
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000040,
+      "skill_name": "开启霸体",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000500
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000050,
+      "skill_name": "无法移动",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000600
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000060,
+      "skill_name": "无法移动",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000700
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000070,
+      "skill_name": "触发技能",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000800
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000080,
+      "skill_name": "触发用二段技能",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90000900
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000090,
+      "skill_name": "传送",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90001000
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000100,
+      "skill_name": "移除UFF",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90001100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9000110,
+      "skill_name": "驱散BUFF",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90011111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001111,
+      "skill_name": "冰霜史莱姆横扫",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9001121,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9001001,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90011211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001121,
+      "skill_name": "冰霜史莱姆跳砸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90011311
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001131,
+      "skill_name": "冰霜史莱姆喷射子弹",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90011411
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001141,
+      "skill_name": "冰霜史莱姆受身技",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90061100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9006110,
+      "skill_name": "斧头哥布林普攻1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90061200
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9006120,
+      "skill_name": "斧头哥布林冲锋",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9006130,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9006130,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9006130,
+      "skill_name": "斧头哥布林旋风斩1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9006131,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9006131,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9006131,
+      "skill_name": "斧头哥布林旋风斩2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90061600
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9006160,
+      "skill_name": "斧头哥布林受身技",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90071100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9007110,
+      "skill_name": "哥布林弓手射击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9007121
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90071200
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9007120,
+      "skill_name": "哥布林弓手翻滚射击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90081111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9008111,
+      "skill_name": "哥布林二连砍1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90081121
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9008112,
+      "skill_name": "哥布林二连砍2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9008121,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9008121,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90081211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9008121,
+      "skill_name": "哥布林跳劈",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90091111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9009111,
+      "skill_name": "哥布林法师飞弹",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9009140,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9009121
+      ],
+      "ProcessType": 2,
+      "ScreenId": 9009121,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9009121,
+      "skill_name": "哥布林法师法阵",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90091311
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9009131,
+      "skill_name": "哥布林法师加攻",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9010111,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9010111,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9010111,
+      "skill_name": "哥布林领军普攻1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9010112,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9010112,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9010112,
+      "skill_name": "哥布林领军普攻2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9010121,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9010121
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9010121,
+      "skill_name": "哥布林领军突刺",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9010131,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9010131,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9010131,
+      "skill_name": "哥布林领军横扫1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9010141,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9010141,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9010141,
+      "skill_name": "哥布林领军下劈",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012111,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012111,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012111,
+      "skill_name": "狂暴哥布林领军二连砍1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012112,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012112,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012112,
+      "skill_name": "狂暴哥布林领军二连砍2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012121,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012121,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012121,
+      "skill_name": "狂暴哥布林领军跳劈",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012131,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9012131
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012131,
+      "skill_name": "狂暴哥布林领军冲锋横斩",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012211,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012211,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012211,
+      "skill_name": "狂暴哥布林领军转阶段爆气",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012221,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012221,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012221,
+      "skill_name": "狂暴哥布林领军三连砍1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012222,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012222,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012222,
+      "skill_name": "狂暴哥布林领军三连砍2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012223,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012223,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012223,
+      "skill_name": "狂暴哥布林领军三连砍3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012231,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012231,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012231,
+      "skill_name": "狂暴哥布林领军冲锋连斩1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012232,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012232,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012232,
+      "skill_name": "狂暴哥布林领军冲锋连斩2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012233,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012233,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012233,
+      "skill_name": "狂暴哥布林领军冲锋连斩3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012241,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012241,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012241,
+      "skill_name": "狂暴哥布林领军横斩跳劈1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9012242,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9012242,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9012242,
+      "skill_name": "狂暴哥布林领军横斩跳劈2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9030111
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9030111,
+      "skill_name": "尖刺魔花吐刺",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90301211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9030121,
+      "skill_name": "尖刺魔花吐种子前",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90301211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9030122,
+      "skill_name": "尖刺魔花吐种子左",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90301211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9030123,
+      "skill_name": "尖刺魔花吐种子右",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90301311
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9030131,
+      "skill_name": "尖刺魔花种子陷阱攻击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90331111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033111,
+      "skill_name": "森林狼撕咬",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9033121,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9033121
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033121,
+      "skill_name": "森林狼飞扑",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033211,
+      "skill_name": "森林狼战吼1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033212,
+      "skill_name": "森林狼战吼2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033213,
+      "skill_name": "森林狼战吼3段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9033214,
+      "skill_name": "森林狼战吼BUFF",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90342111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9034211,
+      "skill_name": "薄荷鸟扇翅膀",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90342211
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9034221,
+      "skill_name": "薄荷鸟螺旋冲刺",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054110,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054110,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054110,
+      "skill_name": "魔化石巨人普攻",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054110,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054111,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054111,
+      "skill_name": "魔化石巨人普攻",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054210,
+      "skill_name": "魔化石巨人双手挥击砸1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542110
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054211,
+      "skill_name": "魔化石巨人双手挥击砸2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054212,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054212,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054212,
+      "skill_name": "魔化石巨人双手挥击砸3段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054220,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054220,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054220,
+      "skill_name": "魔化石巨人反手挥击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542300
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054230,
+      "skill_name": "魔化石巨人冲锋砸冲锋",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542310
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054231,
+      "skill_name": "魔化石巨人冲锋砸砸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054240,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054240,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054240,
+      "skill_name": "魔化石巨人跳砸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542411
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054250,
+      "skill_name": "魔化石巨人践踏1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542421
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054251,
+      "skill_name": "魔化石巨人践踏2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542431
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054252,
+      "skill_name": "魔化石巨人践踏3段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542611
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054270,
+      "skill_name": "魔化石巨人地刺1段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542621
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054272,
+      "skill_name": "魔化石巨人地刺2段",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542630
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054274,
+      "skill_name": "魔化石巨人地刺3段（锤地面）",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054280,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 9054280,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054280,
+      "skill_name": "魔化石巨人蓄力砸地",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 9054212,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [
+         9054300
+      ],
+      "ProcessType": 2,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054300,
+      "skill_name": "魔化石巨人远程攻击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542510
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054290,
+      "skill_name": "魔化石巨人结晶刺1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542510
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054291,
+      "skill_name": "魔化石巨人结晶刺2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542530
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054310,
+      "skill_name": "魔化石巨人结晶刺伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 1,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90542200
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9054311,
+      "skill_name": "魔化石巨人结晶刺近战伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019300
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001930,
+      "skill_name": "警戒眩晕buff",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019400
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001940,
+      "skill_name": "警戒传送1-14",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019500
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001950,
+      "skill_name": "警戒传送1-11",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019600
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001960,
+      "skill_name": "警戒传送1-11",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019700
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001970,
+      "skill_name": "警戒传送1-5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            90019800
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 9001980,
+      "skill_name": "警戒传送1-6",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009115
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800510,
+      "skill_name": "1-7炸药桶爆炸",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009110
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800910,
+      "skill_name": "蘑菇爆炸1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800911,
+      "skill_name": "蘑菇爆炸2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009112
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800912,
+      "skill_name": "蘑菇爆炸3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009113
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800913,
+      "skill_name": "蘑菇爆炸4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009114
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800914,
+      "skill_name": "蘑菇爆炸5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009115
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800915,
+      "skill_name": "蘑菇爆炸6",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801110,
+      "skill_name": "回血花1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011101
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801111,
+      "skill_name": "回血花2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011102
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801112,
+      "skill_name": "回血花3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011103
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801113,
+      "skill_name": "回血花4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011104
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801114,
+      "skill_name": "回血花5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68011105
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801115,
+      "skill_name": "回血花6",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801210,
+      "skill_name": "回蓝花1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012101
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801211,
+      "skill_name": "回蓝花2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012102
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801212,
+      "skill_name": "回蓝花3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012103
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801213,
+      "skill_name": "回蓝花4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012104
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801214,
+      "skill_name": "回蓝花5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012105
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801215,
+      "skill_name": "回蓝花6",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012100
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6801310,
+      "skill_name": "回能",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009110
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800510,
+      "skill_name": "炸药桶爆炸1",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009111
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800511,
+      "skill_name": "炸药桶爆炸2",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009112
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800512,
+      "skill_name": "炸药桶爆炸3",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009113
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800513,
+      "skill_name": "炸药桶爆炸4",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009114
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800514,
+      "skill_name": "炸药桶爆炸5",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68009115
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6800515,
+      "skill_name": "炸药桶爆炸6",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            70000001
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7000011,
+      "skill_name": "test火雨召唤技能体",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7000012,
+      "skill_name": "test火雨伤害",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7002110,
+      "skill_name": "全场魔女时间",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            70000003
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7000013,
+      "skill_name": "技能体召唤回血花",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            70000005
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7000014,
+      "skill_name": "召唤生物回血花的攻击",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            70777000
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 7000070,
+      "skill_name": "卡牌结束标记",
+      "spResValue": 0
+   },
+   {
+      "Branch1BuffID": [],
+      "Branch2BuffID": [],
+      "HitRecoverID": 0,
+      "ImmuneAbilityInvincible": 0,
+      "MainBuffID": [],
+      "ProcessParams": [],
+      "ProcessType": 0,
+      "ScreenId": 0,
+      "SlowId": 0,
+      "effectresultid": [
+         [
+            68012105
+         ]
+      ],
+      "effectresultid1": [],
+      "effectresultid2": [],
+      "energy_capture": 0,
+      "id": 6814001,
+      "skill_name": "缩小",
+      "spResValue": 0
+   }
+]

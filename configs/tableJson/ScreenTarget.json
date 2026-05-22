@@ -1,0 +1,965 @@
+[
+   {
+      "Id": 1003001,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2.5,
+         120,
+         1.5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003010,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003020,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003021,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003030,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003031,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003200,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2.5,
+         120,
+         1.5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1003400,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2.5,
+         120,
+         1.5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001001,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001002,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001003,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001004,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001210,
+      "RangeAngle": 0,
+      "RangeParams": [
+         10,
+         10,
+         10
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         2
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001220,
+      "RangeAngle": 0,
+      "RangeParams": [],
+      "RangePosOffset": [],
+      "RangeType": 0,
+      "TargetParams": [],
+      "TargetType": 7
+   },
+   {
+      "Id": 1006000,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1006030,
+      "RangeAngle": 0,
+      "RangeParams": [
+         17,
+         3,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1006200,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1.5,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1006300,
+      "RangeAngle": 0,
+      "RangeParams": [
+         1.5,
+         360,
+         3
+      ],
+      "RangePosOffset": [
+         0,
+         0,
+         0
+      ],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1006500,
+      "RangeAngle": 0,
+      "RangeParams": [
+         5,
+         360,
+         3
+      ],
+      "RangePosOffset": [
+         0,
+         0,
+         0
+      ],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008000,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         3,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008010,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         180,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008011,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         180,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008020,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         2,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008021,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2.5,
+         180,
+         2.5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008022,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         180,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008030,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         3,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1008200,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1,
+      "RangeAngle": 0,
+      "RangeParams": [
+         100,
+         360,
+         10
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1,
+         2,
+         1
+      ],
+      "TargetType": 5
+   },
+   {
+      "Id": 2,
+      "RangeAngle": 0,
+      "RangeParams": [],
+      "RangePosOffset": [],
+      "RangeType": 0,
+      "TargetParams": [],
+      "TargetType": 2
+   },
+   {
+      "Id": 3,
+      "RangeAngle": 0,
+      "RangeParams": [],
+      "RangePosOffset": [],
+      "RangeType": 0,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9001001,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9006130,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9006131,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9008121,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         360,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9009121,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9010111,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9010112,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4.5,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9010131,
+      "RangeAngle": 0,
+      "RangeParams": [
+         7,
+         270,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9010141,
+      "RangeAngle": 0,
+      "RangeParams": [
+         5,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9033111,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         60,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9033121,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         60,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9033211,
+      "RangeAngle": 0,
+      "RangeParams": [
+         50,
+         360,
+         5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9033212,
+      "RangeAngle": 0,
+      "RangeParams": [
+         50,
+         360,
+         5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9033213,
+      "RangeAngle": 0,
+      "RangeParams": [
+         50,
+         360,
+         5
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1006011,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012111,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         60,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012112,
+      "RangeAngle": 0,
+      "RangeParams": [
+         4,
+         60,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012121,
+      "RangeAngle": 0,
+      "RangeParams": [
+         5,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012211,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012221,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012222,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012223,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012231,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012232,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012233,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012241,
+      "RangeAngle": 0,
+      "RangeParams": [
+         12,
+         2,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 9012242,
+      "RangeAngle": 0,
+      "RangeParams": [
+         5,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001001,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1
+      ],
+      "TargetType": 3
+   },
+   {
+      "Id": 1001002,
+      "RangeAngle": 0,
+      "RangeParams": [
+         2,
+         360,
+         2
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [
+         1,
+         1,
+         1
+      ],
+      "TargetType": 5
+   },
+   {
+      "Id": 9054110,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [],
+      "TargetType": 0
+   },
+   {
+      "Id": 9054111,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         120,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [],
+      "TargetType": 0
+   },
+   {
+      "Id": 9054212,
+      "RangeAngle": 0,
+      "RangeParams": [
+         3,
+         6,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 2,
+      "TargetParams": [],
+      "TargetType": 0
+   },
+   {
+      "Id": 9054220,
+      "RangeAngle": 0,
+      "RangeParams": [
+         6,
+         180,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [],
+      "TargetType": 0
+   },
+   {
+      "Id": 9054240,
+      "RangeAngle": 0,
+      "RangeParams": [
+         5,
+         360,
+         3
+      ],
+      "RangePosOffset": [
+         0,
+         0,
+         3
+      ],
+      "RangeType": 1,
+      "TargetParams": [],
+      "TargetType": 0
+   },
+   {
+      "Id": 9054280,
+      "RangeAngle": 0,
+      "RangeParams": [
+         100,
+         180,
+         3
+      ],
+      "RangePosOffset": [],
+      "RangeType": 1,
+      "TargetParams": [],
+      "TargetType": 0
+   }
+]

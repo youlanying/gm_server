@@ -1,0 +1,81 @@
+<script>
+$(document).ready(function(){
+	$("#btn_new").click(function(){
+		if({{.candoact}}){
+			if($("#new_title").val().trim() == ""){
+				alert("公告标题不能为空！");
+			}else if($("#new_notice").val().trim() == ""){
+				alert("公告内容不能为空！");
+				$("#new_list").val("[]");
+			}else if($("#new_reward").val().trim() == ""){
+				alert("公告奖励不能为空！如没有奖励，请填“[]”");
+				$("#new_list").val("[]");
+			}else if($("#new_time").val().trim() == ""){
+				alert("过期时间不能为空！");
+				$("#new_list").val("[]");
+			}else{
+				$("#form_new").submit();
+			}
+		}else{
+			alert("您没有发布新公告的权限！！");
+		}
+	});
+	
+	$("[name='btn_delete']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_delete_" + UId;
+			$(FormId).submit();
+			console.log("提交del成功");
+		}else{
+			alert("您没有删除的权限！！");
+		}
+	});
+	
+});
+</script>
+
+
+{{template "tabar2" .}}
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>查询结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 好友ID </th>
+                    <th> 好友名字 </th>
+                    <th> 最后登陆时间 </th>
+                    <th> 详情 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .dbcont }}
+				<tr>
+				<td>{{$mem.Notice}}</td>
+				<td>{{$mem.NoticeTimeStr }}</td>
+				<td>{{$mem.EndTimeStr }}</td>
+				<td>
+					<form id="form_delete_" + {{$mem.NoticeId}} method="POST" action="/notice/del">
+						<input type="hidden" name="noticeid" id="id_notice_del" value="{{$mem.NoticeId}}" />
+						<input type="hidden" name="platform" id="id_platform_del" value="{{$.selectpf}}" />
+						<input type="button" id="{{$mem.NoticeId}}" name="btn_delete" value="删除" class="btn btn-danger" />
+					</form>
+				</td>
+				</tr>
+            </tbody>
+			{{end}}
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+
+

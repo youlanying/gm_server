@@ -1,0 +1,100 @@
+<script>
+
+function onTouchDelete(itemdata){
+
+	var routerUrl = "/info/bagdelete";
+
+	var recvdata = GetRequest();
+	
+	console.log("onTouchDelete",itemdata,recvdata)
+
+	$.ajax({
+		url: routerUrl,
+		type: 'POST',
+		dataType: 'text',
+		data: {itemid:itemdata.ID,serverid:recvdata.serverid,usrid:recvdata.usrid},
+		cache: false,
+		success: function (ref) {
+			console.log("onTouchDeleteResult :",ref);
+			
+			ref == "0" && alert(ref);
+			
+		}
+	});	
+}
+
+</script>
+
+
+{{template "tabar2" .}}
+
+<div class="container">
+	<div class="mws-stat-container clearfix">
+    	<a class="mws-stat" >
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">全部</span>
+            </span>
+        </a>
+		<a class="mws-stat" >
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">装备</span>
+            </span>
+        </a>
+		<a class="mws-stat">
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">道具</span>
+            </span>
+        </a>
+		<a class="mws-stat" >
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">其他</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>查询结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 名称 </th>
+                    <th> ID </th>
+                    <th> 数量 </th>
+                    <th> 有效期 </th>
+					<th> 品质 </th>
+					<th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .itemlist }}
+				<tr>
+				<td>{{$mem.ItemName}}</td>
+				<td>{{$mem.ProtoID }}</td>
+				<td>{{$mem.Num }}</td>
+				<td>{{$mem.TimeLimit }}</td>
+				<td>{{$mem.Qua }}</td>
+				<td>
+					<input type="button" id="{{$mem.ID}}" name="btn_delete" onclick="onTouchDelete({{$mem}})" value="删除" class="btn btn-danger" />
+				</td>
+				</tr>
+            </tbody>
+			{{end}}
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+
+

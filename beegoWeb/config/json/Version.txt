@@ -1,0 +1,22 @@
+2022-03-10 16:17:13
+AdminTooles管理权限表.xlsx-----权限ID
+admin_action.json
+AdminTooles管理权限表.xlsx-----侧边栏UI
+admin_action_ui.json
+主人公—英雄角色.xlsx-----英雄团体表
+hero_team.json
+主人公—英雄角色.xlsx-----角色信息表
+hero_information.json
+主人公—英雄角色.xlsx-----英雄模型表
+hero_model.json
+主人公—英雄角色.xlsx-----英雄升星表
+hero_star.json
+主人公—英雄角色.xlsx-----英雄突破表
+hero_break.json
+主人公—英雄角色.xlsx-----英雄升级材料表
+consume_material_ratio.json
+主人公—英雄角色.xlsx-----英雄升级材料基础表
+consume_material.json
+道具表.xlsx-----道具表
+itemInfo.json
+共计：10

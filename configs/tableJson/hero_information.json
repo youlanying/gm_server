@@ -1,0 +1,75 @@
+[
+   {
+      "advanced_type": 2,
+      "hero_class": 1,
+      "hero_element": 2,
+      "id": 1,
+      "name": "亚莲娜",
+      "shardid": 400001,
+      "shardnum": 10,
+      "skill_ids": [
+         10010,
+         10011,
+         10012,
+         10013,
+         10014,
+         10015
+      ],
+      "star": 1
+   },
+   {
+      "advanced_type": 1,
+      "hero_class": 0,
+      "hero_element": 1,
+      "id": 3,
+      "name": "伊凡娜",
+      "shardid": 400003,
+      "shardnum": 10,
+      "skill_ids": [
+         10030,
+         10031,
+         10032,
+         10033,
+         10034,
+         10035,
+         10036
+      ],
+      "star": 1
+   },
+   {
+      "advanced_type": 3,
+      "hero_class": 2,
+      "hero_element": 3,
+      "id": 6,
+      "name": "莉莉娅·埃迪拉",
+      "shardid": 400006,
+      "shardnum": 10,
+      "skill_ids": [
+         10060,
+         10061,
+         10062,
+         10063,
+         10064,
+         10066
+      ],
+      "star": 1
+   },
+   {
+      "advanced_type": 4,
+      "hero_class": 0,
+      "hero_element": 4,
+      "id": 8,
+      "name": "卡琳",
+      "shardid": 400008,
+      "shardnum": 10,
+      "skill_ids": [
+         10080,
+         10081,
+         10082,
+         10083,
+         10084,
+         10085
+      ],
+      "star": 1
+   }
+]

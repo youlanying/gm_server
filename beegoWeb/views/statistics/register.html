@@ -1,0 +1,259 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+
+<script>
+$(document).ready(function() {  
+
+     $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $(":radio").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+     function Getplot(sin){           
+            var plot = $.plot($("#mws-line-chart"), [{
+                data: sin,
+                //label: "0",
+                color: "#c5d52b"                
+            }], {
+                tooltip: true, 
+                series: {
+                    lines: {
+                        show: true
+                    },
+                    points: {
+                        show: true
+                    }
+                },
+                grid: {                    
+                    borderWidth: 0.1, 
+                    hoverable: true,
+                    clickable: true
+                },
+                xaxis: {              
+                    minTickSize:[1,"day"],        
+                    mode:"time",
+                    timeformat:"%y/%m/%d"               
+                }
+            });         
+        };  
+
+    function Get_the_data(newfromtimer,newtotimer){
+        $("#div1").attr("style",'display:none');
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_date_register&datefrom="+newfromtimer+"&dateto="+newtotimer;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                //alert(ref.dates);              
+                $("#div1").attr("style",'display:');
+                var sin = []; 
+                var refsp=ref.dates.split("|"); 
+                var allnum=ref.allnum;
+                //alert(refsp.length.toString());
+                for (var i =0 ; i < refsp.length; i+=1) {
+                    var team = refsp[i];
+                    var newteam = team.split("-");                     
+                    var timer = (new Date(newteam[0])).getTime()+8*60*60*1000;//new Date 转换后为UTC时间 所以需再加8小时                  
+                    sin.push([timer,Number(newteam[1])]);
+                }; 
+                Getplot(sin);   
+                $("#divall").attr("style",'display:');  
+                $("#allnum").html(allnum);
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    $("#btn_new").click(function(){
+        var Fromtimer =  $("#fromtimer").val();
+        var Totimer =  $("#totimer").val();  
+        var fromtimer=arr0[2]+arr0[0]+arr0[1];
+        var arr=Totimer.split("/");
+        var totimer=arr[2]+arr[0]+arr[1];
+        var newtotimer=arr[2]+"-"+arr[0]+"-"+arr[1];
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else if (Fromtimer.trim() == "") {
+            alert("起止时间不能为空！");
+        }else if (Totimer.trim() == "") {
+            alert("起止时间不能为空！");
+        }else if (fromtimer>totimer) {
+            alert("开始时间不能大于结束时间！");
+        }else{
+             // $("#form_new").submit();
+            Get_the_data(newfromtimer,newtotimer);
+        }
+    });
+
+    $("#cmdurl").setDefauleValue();
+
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}    
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>注册查询</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/gmtools/logincount/">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input type="text" class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>
+                    <div class="mws-form-row">
+                        <label class="mws-form-label">起止时间 :</label>
+                            <div class="mws-form-item">
+                                <div class="mws-form-cols">
+                                    <div class="mws-form-col-4-8">
+                                        <div class="mws-form-item">
+                                            <input id="fromtimer" name="fromtimer" type="text" class="mws-datepicker from" readonly="readonly">
+                                        </div>
+                                    </div>
+                                <div class="mws-form-col-4-8">
+                                    <div class="mws-form-item">
+                                        <input id="totimer" name="totimer" type="text" class="mws-datepicker to" readonly="readonly">                                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" style="display:none" id="divall">
+                        <label class="mws-form-label">总数 :</label>
+                        <div class="mws-form-item">
+                            <label id="allnum"></label>                           
+                        </div>                                        
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_new"/>
+                </div>
+            </form>
+
+            <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vindex,$cMem1 := .centerurl}}
+                                            <option value={{$vindex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vindex2,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vindex2}} style="display:none">
+                                {{ range $_,$cMemMem := $cMem2.ServerList }}
+                                <li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+
+        </div>      
+    </div>
+    <div id="div1" style="display:none" class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-graph"></i> Line Charts</span>
+        </div>
+        <div class="mws-panel-body">
+            <div class="mws-panel-content">
+                <div id="mws-line-chart" style="width:100%; height:300px; "></div>
+            </div>
+        </div>
+    </div>
+</div>

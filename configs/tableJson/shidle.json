@@ -1,0 +1,11358 @@
+[
+   {
+      "character": "毛泽东",
+      "id": 1
+   },
+   {
+      "character": "圣杯传说",
+      "id": 2
+   },
+   {
+      "character": "周恩来",
+      "id": 3
+   },
+   {
+      "character": "朱德",
+      "id": 4
+   },
+   {
+      "character": "彭德怀",
+      "id": 5
+   },
+   {
+      "character": "林彪",
+      "id": 6
+   },
+   {
+      "character": "刘伯承",
+      "id": 7
+   },
+   {
+      "character": "陈毅",
+      "id": 8
+   },
+   {
+      "character": "贺龙",
+      "id": 9
+   },
+   {
+      "character": "聂荣臻",
+      "id": 10
+   },
+   {
+      "character": "徐向前",
+      "id": 11
+   },
+   {
+      "character": "罗荣桓",
+      "id": 12
+   },
+   {
+      "character": "叶剑英",
+      "id": 13
+   },
+   {
+      "character": "李大钊",
+      "id": 14
+   },
+   {
+      "character": "陈独秀",
+      "id": 15
+   },
+   {
+      "character": "孙中山",
+      "id": 16
+   },
+   {
+      "character": "孙文",
+      "id": 17
+   },
+   {
+      "character": "陈云",
+      "id": 18
+   },
+   {
+      "character": "江泽民",
+      "id": 19
+   },
+   {
+      "character": "李鹏",
+      "id": 20
+   },
+   {
+      "character": "李瑞环",
+      "id": 21
+   },
+   {
+      "character": "尉健行",
+      "id": 22
+   },
+   {
+      "character": "李岚清",
+      "id": 23
+   },
+   {
+      "character": "胡锦涛",
+      "id": 24
+   },
+   {
+      "character": "罗干",
+      "id": 25
+   },
+   {
+      "character": "温家宝",
+      "id": 26
+   },
+   {
+      "character": "吴邦国",
+      "id": 27
+   },
+   {
+      "character": "贾庆林",
+      "id": 28
+   },
+   {
+      "character": "黄菊",
+      "id": 29
+   },
+   {
+      "character": "吴官正",
+      "id": 30
+   },
+   {
+      "character": "李长春",
+      "id": 31
+   },
+   {
+      "character": "回良玉",
+      "id": 32
+   },
+   {
+      "character": "曾培炎",
+      "id": 33
+   },
+   {
+      "character": "周永康",
+      "id": 34
+   },
+   {
+      "character": "曹刚川",
+      "id": 35
+   },
+   {
+      "character": "唐家璇",
+      "id": 36
+   },
+   {
+      "character": "华建敏",
+      "id": 37
+   },
+   {
+      "character": "陈至立",
+      "id": 38
+   },
+   {
+      "character": "陈良宇",
+      "id": 39
+   },
+   {
+      "character": "张德江",
+      "id": 40
+   },
+   {
+      "character": "张立昌",
+      "id": 41
+   },
+   {
+      "character": "俞正声",
+      "id": 42
+   },
+   {
+      "character": "王乐泉",
+      "id": 43
+   },
+   {
+      "character": "王刚",
+      "id": 44
+   },
+   {
+      "character": "王兆国",
+      "id": 45
+   },
+   {
+      "character": "刘淇",
+      "id": 46
+   },
+   {
+      "character": "贺国强",
+      "id": 47
+   },
+   {
+      "character": "郭伯雄",
+      "id": 48
+   },
+   {
+      "character": "胡耀邦",
+      "id": 49
+   },
+   {
+      "character": "李登辉",
+      "id": 50
+   },
+   {
+      "character": "连战",
+      "id": 51
+   },
+   {
+      "character": "宋楚瑜",
+      "id": 52
+   },
+   {
+      "character": "吕秀莲",
+      "id": 53
+   },
+   {
+      "character": "郁慕明",
+      "id": 54
+   },
+   {
+      "character": "蒋经国",
+      "id": 55
+   },
+   {
+      "character": "马英九",
+      "id": 56
+   },
+   {
+      "character": "习近平",
+      "id": 57
+   },
+   {
+      "character": "李克强",
+      "id": 58
+   },
+   {
+      "character": "吴帮国",
+      "id": 59
+   },
+   {
+      "character": "无帮国",
+      "id": 60
+   },
+   {
+      "character": "无邦国",
+      "id": 61
+   },
+   {
+      "character": "无帮过",
+      "id": 62
+   },
+   {
+      "character": "瘟家宝",
+      "id": 63
+   },
+   {
+      "character": "假庆林",
+      "id": 64
+   },
+   {
+      "character": "甲庆林",
+      "id": 65
+   },
+   {
+      "character": "假青林",
+      "id": 66
+   },
+   {
+      "character": "离长春",
+      "id": 67
+   },
+   {
+      "character": "习远平",
+      "id": 68
+   },
+   {
+      "character": "袭近平",
+      "id": 69
+   },
+   {
+      "character": "李磕墙",
+      "id": 70
+   },
+   {
+      "character": "贺过墙",
+      "id": 71
+   },
+   {
+      "character": "和锅枪",
+      "id": 72
+   },
+   {
+      "character": "粥永康",
+      "id": 73
+   },
+   {
+      "character": "轴永康",
+      "id": 74
+   },
+   {
+      "character": "肘永康",
+      "id": 75
+   },
+   {
+      "character": "周健康",
+      "id": 76
+   },
+   {
+      "character": "粥健康",
+      "id": 77
+   },
+   {
+      "character": "周小康",
+      "id": 78
+   },
+   {
+      "character": "布什",
+      "id": 79
+   },
+   {
+      "character": "小泉",
+      "id": 80
+   },
+   {
+      "character": "纯一郎",
+      "id": 81
+   },
+   {
+      "character": "萨马兰奇",
+      "id": 82
+   },
+   {
+      "character": "安南",
+      "id": 83
+   },
+   {
+      "character": "阿拉法特",
+      "id": 84
+   },
+   {
+      "character": "普京",
+      "id": 85
+   },
+   {
+      "character": "默克尔",
+      "id": 86
+   },
+   {
+      "character": "克林顿",
+      "id": 87
+   },
+   {
+      "character": "里根",
+      "id": 88
+   },
+   {
+      "character": "尼克松",
+      "id": 89
+   },
+   {
+      "character": "林肯",
+      "id": 90
+   },
+   {
+      "character": "杜鲁门",
+      "id": 91
+   },
+   {
+      "character": "赫鲁晓夫",
+      "id": 92
+   },
+   {
+      "character": "列宁",
+      "id": 93
+   },
+   {
+      "character": "斯大林",
+      "id": 94
+   },
+   {
+      "character": "马克思",
+      "id": 95
+   },
+   {
+      "character": "恩格斯",
+      "id": 96
+   },
+   {
+      "character": "金正日",
+      "id": 97
+   },
+   {
+      "character": "金日成",
+      "id": 98
+   },
+   {
+      "character": "萨达姆",
+      "id": 99
+   },
+   {
+      "character": "胡志明",
+      "id": 100
+   },
+   {
+      "character": "西哈努克",
+      "id": 101
+   },
+   {
+      "character": "希拉克",
+      "id": 102
+   },
+   {
+      "character": "撒切尔",
+      "id": 103
+   },
+   {
+      "character": "阿罗约",
+      "id": 104
+   },
+   {
+      "character": "曼德拉",
+      "id": 105
+   },
+   {
+      "character": "卡斯特罗",
+      "id": 106
+   },
+   {
+      "character": "富兰克林",
+      "id": 107
+   },
+   {
+      "character": "华盛顿",
+      "id": 108
+   },
+   {
+      "character": "艾森豪威尔",
+      "id": 109
+   },
+   {
+      "character": "拿破仑",
+      "id": 110
+   },
+   {
+      "character": "亚历山大",
+      "id": 111
+   },
+   {
+      "character": "路易",
+      "id": 112
+   },
+   {
+      "character": "拉姆斯菲尔德",
+      "id": 113
+   },
+   {
+      "character": "劳拉",
+      "id": 114
+   },
+   {
+      "character": "鲍威尔",
+      "id": 115
+   },
+   {
+      "character": "奥巴马",
+      "id": 116
+   },
+   {
+      "character": "本拉登",
+      "id": 117
+   },
+   {
+      "character": "奥马尔",
+      "id": 118
+   },
+   {
+      "character": "柴玲",
+      "id": 119
+   },
+   {
+      "character": "江青",
+      "id": 120
+   },
+   {
+      "character": "张春桥",
+      "id": 121
+   },
+   {
+      "character": "姚文元",
+      "id": 122
+   },
+   {
+      "character": "王洪文",
+      "id": 123
+   },
+   {
+      "character": "东条英机",
+      "id": 124
+   },
+   {
+      "character": "墨索里尼",
+      "id": 125
+   },
+   {
+      "character": "冈村秀树",
+      "id": 126
+   },
+   {
+      "character": "冈村宁次",
+      "id": 127
+   },
+   {
+      "character": "高丽朴",
+      "id": 128
+   },
+   {
+      "character": "赵紫阳",
+      "id": 129
+   },
+   {
+      "character": "王丹",
+      "id": 130
+   },
+   {
+      "character": "沃尔开西",
+      "id": 131
+   },
+   {
+      "character": "李洪志",
+      "id": 132
+   },
+   {
+      "character": "李大师",
+      "id": 133
+   },
+   {
+      "character": "赖昌星",
+      "id": 134
+   },
+   {
+      "character": "马加爵",
+      "id": 135
+   },
+   {
+      "character": "班禅",
+      "id": 136
+   },
+   {
+      "character": "额尔德尼",
+      "id": 137
+   },
+   {
+      "character": "山本五十六",
+      "id": 138
+   },
+   {
+      "character": "阿扁",
+      "id": 139
+   },
+   {
+      "character": "阿扁万岁",
+      "id": 140
+   },
+   {
+      "character": "热那亚",
+      "id": 141
+   },
+   {
+      "character": "热比娅",
+      "id": 142
+   },
+   {
+      "character": "六四",
+      "id": 143
+   },
+   {
+      "character": "六四运动",
+      "id": 144
+   },
+   {
+      "character": "美国之音",
+      "id": 145
+   },
+   {
+      "character": "密宗",
+      "id": 146
+   },
+   {
+      "character": "民国",
+      "id": 147
+   },
+   {
+      "character": "民进党",
+      "id": 148
+   },
+   {
+      "character": "民运",
+      "id": 149
+   },
+   {
+      "character": "民主",
+      "id": 150
+   },
+   {
+      "character": "民主潮",
+      "id": 151
+   },
+   {
+      "character": "摩门教",
+      "id": 152
+   },
+   {
+      "character": "纳粹",
+      "id": 153
+   },
+   {
+      "character": "南华早报",
+      "id": 154
+   },
+   {
+      "character": "南蛮",
+      "id": 155
+   },
+   {
+      "character": "起义",
+      "id": 156
+   },
+   {
+      "character": "亲民党",
+      "id": 157
+   },
+   {
+      "character": "瘸腿帮",
+      "id": 158
+   },
+   {
+      "character": "人民报",
+      "id": 159
+   },
+   {
+      "character": "法轮功",
+      "id": 160
+   },
+   {
+      "character": "法轮大法",
+      "id": 161
+   },
+   {
+      "character": "打倒共产党",
+      "id": 162
+   },
+   {
+      "character": "台独万岁",
+      "id": 163
+   },
+   {
+      "character": "圣战",
+      "id": 164
+   },
+   {
+      "character": "示威",
+      "id": 165
+   },
+   {
+      "character": "台独",
+      "id": 166
+   },
+   {
+      "character": "台联",
+      "id": 167
+   },
+   {
+      "character": "台湾民国",
+      "id": 168
+   },
+   {
+      "character": "台湾岛国",
+      "id": 169
+   },
+   {
+      "character": "台湾国",
+      "id": 170
+   },
+   {
+      "character": "台湾独立",
+      "id": 171
+   },
+   {
+      "character": "太子党",
+      "id": 172
+   },
+   {
+      "character": "天安门事件",
+      "id": 173
+   },
+   {
+      "character": "屠杀",
+      "id": 174
+   },
+   {
+      "character": "新党",
+      "id": 175
+   },
+   {
+      "character": "新疆独立",
+      "id": 176
+   },
+   {
+      "character": "新疆分裂",
+      "id": 177
+   },
+   {
+      "character": "新疆国",
+      "id": 178
+   },
+   {
+      "character": "疆独",
+      "id": 179
+   },
+   {
+      "character": "西藏独立",
+      "id": 180
+   },
+   {
+      "character": "西藏分裂",
+      "id": 181
+   },
+   {
+      "character": "西藏国",
+      "id": 182
+   },
+   {
+      "character": "藏独",
+      "id": 183
+   },
+   {
+      "character": "藏青会",
+      "id": 184
+   },
+   {
+      "character": "藏妇会",
+      "id": 185
+   },
+   {
+      "character": "学潮",
+      "id": 186
+   },
+   {
+      "character": "学运",
+      "id": 187
+   },
+   {
+      "character": "一党专政",
+      "id": 188
+   },
+   {
+      "character": "一中一台",
+      "id": 189
+   },
+   {
+      "character": "两个中国",
+      "id": 190
+   },
+   {
+      "character": "一贯道",
+      "id": 191
+   },
+   {
+      "character": "游行",
+      "id": 192
+   },
+   {
+      "character": "造反",
+      "id": 193
+   },
+   {
+      "character": "镇压",
+      "id": 194
+   },
+   {
+      "character": "政变",
+      "id": 195
+   },
+   {
+      "character": "政治",
+      "id": 196
+   },
+   {
+      "character": "政治反对派",
+      "id": 197
+   },
+   {
+      "character": "政治犯",
+      "id": 198
+   },
+   {
+      "character": "中共",
+      "id": 199
+   },
+   {
+      "character": "共产党",
+      "id": 200
+   },
+   {
+      "character": "反党",
+      "id": 201
+   },
+   {
+      "character": "反共",
+      "id": 202
+   },
+   {
+      "character": "政府",
+      "id": 203
+   },
+   {
+      "character": "民主党",
+      "id": 204
+   },
+   {
+      "character": "中国之春",
+      "id": 205
+   },
+   {
+      "character": "转法轮",
+      "id": 206
+   },
+   {
+      "character": "自焚",
+      "id": 207
+   },
+   {
+      "character": "共党",
+      "id": 208
+   },
+   {
+      "character": "共匪",
+      "id": 209
+   },
+   {
+      "character": "苏家屯",
+      "id": 210
+   },
+   {
+      "character": "基地组织",
+      "id": 211
+   },
+   {
+      "character": "塔利班",
+      "id": 212
+   },
+   {
+      "character": "东亚病夫",
+      "id": 213
+   },
+   {
+      "character": "支那",
+      "id": 214
+   },
+   {
+      "character": "高治联",
+      "id": 215
+   },
+   {
+      "character": "高自联",
+      "id": 216
+   },
+   {
+      "character": "专政",
+      "id": 217
+   },
+   {
+      "character": "专制",
+      "id": 218
+   },
+   {
+      "character": "世界维吾尔大会",
+      "id": 219
+   },
+   {
+      "character": "核工业基地",
+      "id": 220
+   },
+   {
+      "character": "核武器",
+      "id": 221
+   },
+   {
+      "character": "铀",
+      "id": 222
+   },
+   {
+      "character": "原子弹",
+      "id": 223
+   },
+   {
+      "character": "氢弹",
+      "id": 224
+   },
+   {
+      "character": "导弹",
+      "id": 225
+   },
+   {
+      "character": "核潜艇",
+      "id": 226
+   },
+   {
+      "character": "大参考",
+      "id": 227
+   },
+   {
+      "character": "小参考",
+      "id": 228
+   },
+   {
+      "character": "国内动态清样",
+      "id": 229
+   },
+   {
+      "character": "多维",
+      "id": 230
+   },
+   {
+      "character": "河殇",
+      "id": 231
+   },
+   {
+      "character": "穆罕默德",
+      "id": 232
+   },
+   {
+      "character": "耶和华",
+      "id": 233
+   },
+   {
+      "character": "耶稣",
+      "id": 234
+   },
+   {
+      "character": "伊斯兰",
+      "id": 235
+   },
+   {
+      "character": "真主安拉",
+      "id": 236
+   },
+   {
+      "character": "白莲教",
+      "id": 237
+   },
+   {
+      "character": "天主教",
+      "id": 238
+   },
+   {
+      "character": "基督教",
+      "id": 239
+   },
+   {
+      "character": "东正教",
+      "id": 240
+   },
+   {
+      "character": "大法",
+      "id": 241
+   },
+   {
+      "character": "法轮",
+      "id": 242
+   },
+   {
+      "character": "真理教",
+      "id": 243
+   },
+   {
+      "character": "真善忍",
+      "id": 244
+   },
+   {
+      "character": "走向圆满",
+      "id": 245
+   },
+   {
+      "character": "黄大仙",
+      "id": 246
+   },
+   {
+      "character": "跳大神",
+      "id": 247
+   },
+   {
+      "character": "神汉",
+      "id": 248
+   },
+   {
+      "character": "神婆",
+      "id": 249
+   },
+   {
+      "character": "大卫教",
+      "id": 250
+   },
+   {
+      "character": "阎王",
+      "id": 251
+   },
+   {
+      "character": "黑白无常",
+      "id": 252
+   },
+   {
+      "character": "牛头马面",
+      "id": 253
+   },
+   {
+      "character": "高丽棒子",
+      "id": 254
+   },
+   {
+      "character": "蒙古鞑子",
+      "id": 255
+   },
+   {
+      "character": "台独分子",
+      "id": 256
+   },
+   {
+      "character": "老毛子",
+      "id": 257
+   },
+   {
+      "character": "回民吃猪肉",
+      "id": 258
+   },
+   {
+      "character": "谋杀",
+      "id": 259
+   },
+   {
+      "character": "谋害",
+      "id": 260
+   },
+   {
+      "character": "吸毒",
+      "id": 261
+   },
+   {
+      "character": "贩毒",
+      "id": 262
+   },
+   {
+      "character": "赌博",
+      "id": 263
+   },
+   {
+      "character": "拐卖",
+      "id": 264
+   },
+   {
+      "character": "走私",
+      "id": 265
+   },
+   {
+      "character": "卖淫",
+      "id": 266
+   },
+   {
+      "character": "强奸",
+      "id": 267
+   },
+   {
+      "character": "轮奸",
+      "id": 268
+   },
+   {
+      "character": "抢劫",
+      "id": 269
+   },
+   {
+      "character": "先奸后杀",
+      "id": 270
+   },
+   {
+      "character": "下注",
+      "id": 271
+   },
+   {
+      "character": "抽头",
+      "id": 272
+   },
+   {
+      "character": "坐庄",
+      "id": 273
+   },
+   {
+      "character": "赌马",
+      "id": 274
+   },
+   {
+      "character": "赌球",
+      "id": 275
+   },
+   {
+      "character": "筹码",
+      "id": 276
+   },
+   {
+      "character": "老虎机",
+      "id": 277
+   },
+   {
+      "character": "轮盘赌",
+      "id": 278
+   },
+   {
+      "character": "安非他命",
+      "id": 279
+   },
+   {
+      "character": "大麻",
+      "id": 280
+   },
+   {
+      "character": "可卡因",
+      "id": 281
+   },
+   {
+      "character": "海洛因",
+      "id": 282
+   },
+   {
+      "character": "冰毒",
+      "id": 283
+   },
+   {
+      "character": "摇头丸",
+      "id": 284
+   },
+   {
+      "character": "杜冷丁",
+      "id": 285
+   },
+   {
+      "character": "鸦片",
+      "id": 286
+   },
+   {
+      "character": "罂粟",
+      "id": 287
+   },
+   {
+      "character": "迷幻药",
+      "id": 288
+   },
+   {
+      "character": "白粉",
+      "id": 289
+   },
+   {
+      "character": "嗑药",
+      "id": 290
+   },
+   {
+      "character": "AIDS",
+      "id": 291
+   },
+   {
+      "character": "aids",
+      "id": 292
+   },
+   {
+      "character": "Aids",
+      "id": 293
+   },
+   {
+      "character": "DICK",
+      "id": 294
+   },
+   {
+      "character": "dick",
+      "id": 295
+   },
+   {
+      "character": "Dick",
+      "id": 296
+   },
+   {
+      "character": "penis",
+      "id": 297
+   },
+   {
+      "character": "sex",
+      "id": 298
+   },
+   {
+      "character": "SM",
+      "id": 299
+   },
+   {
+      "character": "屙",
+      "id": 300
+   },
+   {
+      "character": "爱滋",
+      "id": 301
+   },
+   {
+      "character": "淋病",
+      "id": 302
+   },
+   {
+      "character": "梅毒",
+      "id": 303
+   },
+   {
+      "character": "爱液",
+      "id": 304
+   },
+   {
+      "character": "屄",
+      "id": 305
+   },
+   {
+      "character": "逼",
+      "id": 306
+   },
+   {
+      "character": "臭机八",
+      "id": 307
+   },
+   {
+      "character": "臭鸡巴",
+      "id": 308
+   },
+   {
+      "character": "吹喇叭",
+      "id": 309
+   },
+   {
+      "character": "吹箫",
+      "id": 310
+   },
+   {
+      "character": "催情药",
+      "id": 311
+   },
+   {
+      "character": "屌",
+      "id": 312
+   },
+   {
+      "character": "肛交",
+      "id": 313
+   },
+   {
+      "character": "龟头",
+      "id": 314
+   },
+   {
+      "character": "机八",
+      "id": 315
+   },
+   {
+      "character": "鸡八",
+      "id": 316
+   },
+   {
+      "character": "机掰",
+      "id": 317
+   },
+   {
+      "character": "鸡叭",
+      "id": 318
+   },
+   {
+      "character": "鸡鸡",
+      "id": 319
+   },
+   {
+      "character": "鸡掰",
+      "id": 320
+   },
+   {
+      "character": "鸡奸",
+      "id": 321
+   },
+   {
+      "character": "妓女",
+      "id": 322
+   },
+   {
+      "character": "奸",
+      "id": 323
+   },
+   {
+      "character": "茎",
+      "id": 324
+   },
+   {
+      "character": "精液",
+      "id": 325
+   },
+   {
+      "character": "精子",
+      "id": 326
+   },
+   {
+      "character": "尻",
+      "id": 327
+   },
+   {
+      "character": "口交",
+      "id": 328
+   },
+   {
+      "character": "滥交",
+      "id": 329
+   },
+   {
+      "character": "乱交",
+      "id": 330
+   },
+   {
+      "character": "屁眼",
+      "id": 331
+   },
+   {
+      "character": "嫖娼",
+      "id": 332
+   },
+   {
+      "character": "情色",
+      "id": 333
+   },
+   {
+      "character": "肉棒",
+      "id": 334
+   },
+   {
+      "character": "乳房",
+      "id": 335
+   },
+   {
+      "character": "乳峰",
+      "id": 336
+   },
+   {
+      "character": "乳交",
+      "id": 337
+   },
+   {
+      "character": "乳晕",
+      "id": 338
+   },
+   {
+      "character": "三陪",
+      "id": 339
+   },
+   {
+      "character": "色情",
+      "id": 340
+   },
+   {
+      "character": "手淫",
+      "id": 341
+   },
+   {
+      "character": "威而钢",
+      "id": 342
+   },
+   {
+      "character": "伟哥",
+      "id": 343
+   },
+   {
+      "character": "性高潮",
+      "id": 344
+   },
+   {
+      "character": "性交",
+      "id": 345
+   },
+   {
+      "character": "性虐",
+      "id": 346
+   },
+   {
+      "character": "性欲",
+      "id": 347
+   },
+   {
+      "character": "颜射",
+      "id": 348
+   },
+   {
+      "character": "阳物",
+      "id": 349
+   },
+   {
+      "character": "一夜情",
+      "id": 350
+   },
+   {
+      "character": "阴部",
+      "id": 351
+   },
+   {
+      "character": "阴道",
+      "id": 352
+   },
+   {
+      "character": "阴核",
+      "id": 353
+   },
+   {
+      "character": "阴茎",
+      "id": 354
+   },
+   {
+      "character": "阴门",
+      "id": 355
+   },
+   {
+      "character": "淫",
+      "id": 356
+   },
+   {
+      "character": "淫秽",
+      "id": 357
+   },
+   {
+      "character": "淫乱",
+      "id": 358
+   },
+   {
+      "character": "淫水",
+      "id": 359
+   },
+   {
+      "character": "淫液",
+      "id": 360
+   },
+   {
+      "character": "淫汁",
+      "id": 361
+   },
+   {
+      "character": "淫穴",
+      "id": 362
+   },
+   {
+      "character": "淫洞",
+      "id": 363
+   },
+   {
+      "character": "援交妹",
+      "id": 364
+   },
+   {
+      "character": "做爱",
+      "id": 365
+   },
+   {
+      "character": "梦遗",
+      "id": 366
+   },
+   {
+      "character": "阳痿",
+      "id": 367
+   },
+   {
+      "character": "早泄",
+      "id": 368
+   },
+   {
+      "character": "奸淫",
+      "id": 369
+   },
+   {
+      "character": "Bitch",
+      "id": 370
+   },
+   {
+      "character": "bt",
+      "id": 371
+   },
+   {
+      "character": "cao",
+      "id": 372
+   },
+   {
+      "character": "FUCK",
+      "id": 373
+   },
+   {
+      "character": "Fuck",
+      "id": 374
+   },
+   {
+      "character": "fuck",
+      "id": 375
+   },
+   {
+      "character": "kao",
+      "id": 376
+   },
+   {
+      "character": "NMD",
+      "id": 377
+   },
+   {
+      "character": "NND",
+      "id": 378
+   },
+   {
+      "character": "sb",
+      "id": 379
+   },
+   {
+      "character": "shit",
+      "id": 380
+   },
+   {
+      "character": "SHIT",
+      "id": 381
+   },
+   {
+      "character": "SUCK",
+      "id": 382
+   },
+   {
+      "character": "Suck",
+      "id": 383
+   },
+   {
+      "character": "tmd",
+      "id": 384
+   },
+   {
+      "character": "TMD",
+      "id": 385
+   },
+   {
+      "character": "tnnd",
+      "id": 386
+   },
+   {
+      "character": "K他命",
+      "id": 387
+   },
+   {
+      "character": "白痴",
+      "id": 388
+   },
+   {
+      "character": "笨蛋",
+      "id": 389
+   },
+   {
+      "character": "变态",
+      "id": 390
+   },
+   {
+      "character": "婊子",
+      "id": 391
+   },
+   {
+      "character": "操她妈",
+      "id": 392
+   },
+   {
+      "character": "操妳妈",
+      "id": 393
+   },
+   {
+      "character": "操你",
+      "id": 394
+   },
+   {
+      "character": "操你妈",
+      "id": 395
+   },
+   {
+      "character": "操他妈",
+      "id": 396
+   },
+   {
+      "character": "草你",
+      "id": 397
+   },
+   {
+      "character": "肏",
+      "id": 398
+   },
+   {
+      "character": "册那",
+      "id": 399
+   },
+   {
+      "character": "侧那",
+      "id": 400
+   },
+   {
+      "character": "测拿",
+      "id": 401
+   },
+   {
+      "character": "插",
+      "id": 402
+   },
+   {
+      "character": "蠢猪",
+      "id": 403
+   },
+   {
+      "character": "荡妇",
+      "id": 404
+   },
+   {
+      "character": "发骚",
+      "id": 405
+   },
+   {
+      "character": "废物",
+      "id": 406
+   },
+   {
+      "character": "干她妈",
+      "id": 407
+   },
+   {
+      "character": "干妳",
+      "id": 408
+   },
+   {
+      "character": "干妳娘",
+      "id": 409
+   },
+   {
+      "character": "干你",
+      "id": 410
+   },
+   {
+      "character": "干你妈B",
+      "id": 411
+   },
+   {
+      "character": "干你妈b",
+      "id": 412
+   },
+   {
+      "character": "干你娘",
+      "id": 413
+   },
+   {
+      "character": "干他妈",
+      "id": 414
+   },
+   {
+      "character": "狗娘养的",
+      "id": 415
+   },
+   {
+      "character": "滚",
+      "id": 416
+   },
+   {
+      "character": "贱货",
+      "id": 417
+   },
+   {
+      "character": "烂人",
+      "id": 418
+   },
+   {
+      "character": "老土",
+      "id": 419
+   },
+   {
+      "character": "妈的",
+      "id": 420
+   },
+   {
+      "character": "马的",
+      "id": 421
+   },
+   {
+      "character": "妳老母的",
+      "id": 422
+   },
+   {
+      "character": "妳娘的",
+      "id": 423
+   },
+   {
+      "character": "破鞋",
+      "id": 424
+   },
+   {
+      "character": "去她妈",
+      "id": 425
+   },
+   {
+      "character": "去妳的",
+      "id": 426
+   },
+   {
+      "character": "去妳妈",
+      "id": 427
+   },
+   {
+      "character": "去你的",
+      "id": 428
+   },
+   {
+      "character": "去你妈",
+      "id": 429
+   },
+   {
+      "character": "去死",
+      "id": 430
+   },
+   {
+      "character": "去他妈",
+      "id": 431
+   },
+   {
+      "character": "日你",
+      "id": 432
+   },
+   {
+      "character": "赛她娘",
+      "id": 433
+   },
+   {
+      "character": "赛妳娘",
+      "id": 434
+   },
+   {
+      "character": "赛你娘",
+      "id": 435
+   },
+   {
+      "character": "赛他娘",
+      "id": 436
+   },
+   {
+      "character": "骚货",
+      "id": 437
+   },
+   {
+      "character": "傻B",
+      "id": 438
+   },
+   {
+      "character": "傻比",
+      "id": 439
+   },
+   {
+      "character": "傻子",
+      "id": 440
+   },
+   {
+      "character": "上你",
+      "id": 441
+   },
+   {
+      "character": "神经病",
+      "id": 442
+   },
+   {
+      "character": "屎",
+      "id": 443
+   },
+   {
+      "character": "屎妳娘",
+      "id": 444
+   },
+   {
+      "character": "屎你娘",
+      "id": 445
+   },
+   {
+      "character": "王八蛋",
+      "id": 446
+   },
+   {
+      "character": "我操",
+      "id": 447
+   },
+   {
+      "character": "我日",
+      "id": 448
+   },
+   {
+      "character": "乡巴佬",
+      "id": 449
+   },
+   {
+      "character": "猪猡",
+      "id": 450
+   },
+   {
+      "character": "干",
+      "id": 451
+   },
+   {
+      "character": "尿",
+      "id": 452
+   },
+   {
+      "character": "掯",
+      "id": 453
+   },
+   {
+      "character": "操",
+      "id": 454
+   },
+   {
+      "character": "骑你",
+      "id": 455
+   },
+   {
+      "character": "湿了",
+      "id": 456
+   },
+   {
+      "character": "操他",
+      "id": 457
+   },
+   {
+      "character": "操她",
+      "id": 458
+   },
+   {
+      "character": "骑他",
+      "id": 459
+   },
+   {
+      "character": "骑她",
+      "id": 460
+   },
+   {
+      "character": "欠骑",
+      "id": 461
+   },
+   {
+      "character": "欠人骑",
+      "id": 462
+   },
+   {
+      "character": "来爽我",
+      "id": 463
+   },
+   {
+      "character": "来插我",
+      "id": 464
+   },
+   {
+      "character": "干他",
+      "id": 465
+   },
+   {
+      "character": "干她",
+      "id": 466
+   },
+   {
+      "character": "干死",
+      "id": 467
+   },
+   {
+      "character": "干爆",
+      "id": 468
+   },
+   {
+      "character": "干机",
+      "id": 469
+   },
+   {
+      "character": "机叭",
+      "id": 470
+   },
+   {
+      "character": "臭鸡",
+      "id": 471
+   },
+   {
+      "character": "臭机",
+      "id": 472
+   },
+   {
+      "character": "烂鸟",
+      "id": 473
+   },
+   {
+      "character": "览叫",
+      "id": 474
+   },
+   {
+      "character": "阳具",
+      "id": 475
+   },
+   {
+      "character": "肉壶",
+      "id": 476
+   },
+   {
+      "character": "奶子",
+      "id": 477
+   },
+   {
+      "character": "摸咪咪",
+      "id": 478
+   },
+   {
+      "character": "干鸡",
+      "id": 479
+   },
+   {
+      "character": "干入",
+      "id": 480
+   },
+   {
+      "character": "小穴",
+      "id": 481
+   },
+   {
+      "character": "爽你",
+      "id": 482
+   },
+   {
+      "character": "干干",
+      "id": 483
+   },
+   {
+      "character": "干X",
+      "id": 484
+   },
+   {
+      "character": "他干",
+      "id": 485
+   },
+   {
+      "character": "干它",
+      "id": 486
+   },
+   {
+      "character": "干牠",
+      "id": 487
+   },
+   {
+      "character": "干您",
+      "id": 488
+   },
+   {
+      "character": "干汝",
+      "id": 489
+   },
+   {
+      "character": "干林",
+      "id": 490
+   },
+   {
+      "character": "操林",
+      "id": 491
+   },
+   {
+      "character": "干尼",
+      "id": 492
+   },
+   {
+      "character": "操尼",
+      "id": 493
+   },
+   {
+      "character": "我咧干",
+      "id": 494
+   },
+   {
+      "character": "干勒",
+      "id": 495
+   },
+   {
+      "character": "干我",
+      "id": 496
+   },
+   {
+      "character": "干到",
+      "id": 497
+   },
+   {
+      "character": "干啦",
+      "id": 498
+   },
+   {
+      "character": "干爽",
+      "id": 499
+   },
+   {
+      "character": "欠干",
+      "id": 500
+   },
+   {
+      "character": "狗干",
+      "id": 501
+   },
+   {
+      "character": "我干",
+      "id": 502
+   },
+   {
+      "character": "来干",
+      "id": 503
+   },
+   {
+      "character": "轮干",
+      "id": 504
+   },
+   {
+      "character": "轮流干",
+      "id": 505
+   },
+   {
+      "character": "干一干",
+      "id": 506
+   },
+   {
+      "character": "援交",
+      "id": 507
+   },
+   {
+      "character": "奸暴",
+      "id": 508
+   },
+   {
+      "character": "再奸",
+      "id": 509
+   },
+   {
+      "character": "我奸",
+      "id": 510
+   },
+   {
+      "character": "奸他",
+      "id": 511
+   },
+   {
+      "character": "奸她",
+      "id": 512
+   },
+   {
+      "character": "奸一奸",
+      "id": 513
+   },
+   {
+      "character": "淫湿",
+      "id": 514
+   },
+   {
+      "character": "鸡歪",
+      "id": 515
+   },
+   {
+      "character": "臭西",
+      "id": 516
+   },
+   {
+      "character": "遗精",
+      "id": 517
+   },
+   {
+      "character": "烂逼",
+      "id": 518
+   },
+   {
+      "character": "大血比",
+      "id": 519
+   },
+   {
+      "character": "靠你妈",
+      "id": 520
+   },
+   {
+      "character": "戳你",
+      "id": 521
+   },
+   {
+      "character": "挨球",
+      "id": 522
+   },
+   {
+      "character": "草拟妈",
+      "id": 523
+   },
+   {
+      "character": "卖逼",
+      "id": 524
+   },
+   {
+      "character": "狗操卖逼",
+      "id": 525
+   },
+   {
+      "character": "日死",
+      "id": 526
+   },
+   {
+      "character": "奶娘",
+      "id": 527
+   },
+   {
+      "character": "他娘",
+      "id": 528
+   },
+   {
+      "character": "她娘",
+      "id": 529
+   },
+   {
+      "character": "你妈了妹",
+      "id": 530
+   },
+   {
+      "character": "逼毛",
+      "id": 531
+   },
+   {
+      "character": "插你妈",
+      "id": 532
+   },
+   {
+      "character": "叼你",
+      "id": 533
+   },
+   {
+      "character": "渣波波",
+      "id": 534
+   },
+   {
+      "character": "嫩b",
+      "id": 535
+   },
+   {
+      "character": "weelaa",
+      "id": 536
+   },
+   {
+      "character": "缔顺",
+      "id": 537
+   },
+   {
+      "character": "帝顺",
+      "id": 538
+   },
+   {
+      "character": "蒂顺",
+      "id": 539
+   },
+   {
+      "character": "系统消息",
+      "id": 540
+   },
+   {
+      "character": "午夜",
+      "id": 541
+   },
+   {
+      "character": "草泥马",
+      "id": 542
+   },
+   {
+      "character": "法克鱿",
+      "id": 543
+   },
+   {
+      "character": "雅蠛蝶",
+      "id": 544
+   },
+   {
+      "character": "潜烈蟹",
+      "id": 545
+   },
+   {
+      "character": "菊花蚕",
+      "id": 546
+   },
+   {
+      "character": "尾申鲸",
+      "id": 547
+   },
+   {
+      "character": "吉跋猫",
+      "id": 548
+   },
+   {
+      "character": "搞栗棒",
+      "id": 549
+   },
+   {
+      "character": "吟稻雁",
+      "id": 550
+   },
+   {
+      "character": "达菲鸡",
+      "id": 551
+   },
+   {
+      "character": "ML",
+      "id": 552
+   },
+   {
+      "character": "3P",
+      "id": 553
+   },
+   {
+      "character": "群P",
+      "id": 554
+   },
+   {
+      "character": "马勒戈壁",
+      "id": 555
+   },
+   {
+      "character": "双飞",
+      "id": 556
+   },
+   {
+      "character": "周恩來",
+      "id": 557
+   },
+   {
+      "character": "碡",
+      "id": 558
+   },
+   {
+      "character": "籀",
+      "id": 559
+   },
+   {
+      "character": "朱駿",
+      "id": 560
+   },
+   {
+      "character": "朱狨基",
+      "id": 561
+   },
+   {
+      "character": "朱容基",
+      "id": 562
+   },
+   {
+      "character": "朱溶剂",
+      "id": 563
+   },
+   {
+      "character": "朱熔基",
+      "id": 564
+   },
+   {
+      "character": "邾",
+      "id": 565
+   },
+   {
+      "character": "猪操",
+      "id": 566
+   },
+   {
+      "character": "猪聋畸",
+      "id": 567
+   },
+   {
+      "character": "猪毛",
+      "id": 568
+   },
+   {
+      "character": "猪毛1",
+      "id": 569
+   },
+   {
+      "character": "舳",
+      "id": 570
+   },
+   {
+      "character": "瘃",
+      "id": 571
+   },
+   {
+      "character": "躅",
+      "id": 572
+   },
+   {
+      "character": "翥",
+      "id": 573
+   },
+   {
+      "character": "專政",
+      "id": 574
+   },
+   {
+      "character": "颛",
+      "id": 575
+   },
+   {
+      "character": "丬",
+      "id": 576
+   },
+   {
+      "character": "隹",
+      "id": 577
+   },
+   {
+      "character": "窀",
+      "id": 578
+   },
+   {
+      "character": "卓伯源",
+      "id": 579
+   },
+   {
+      "character": "倬",
+      "id": 580
+   },
+   {
+      "character": "斫",
+      "id": 581
+   },
+   {
+      "character": "诼",
+      "id": 582
+   },
+   {
+      "character": "髭",
+      "id": 583
+   },
+   {
+      "character": "鲻",
+      "id": 584
+   },
+   {
+      "character": "子宫",
+      "id": 585
+   },
+   {
+      "character": "秭",
+      "id": 586
+   },
+   {
+      "character": "訾",
+      "id": 587
+   },
+   {
+      "character": "自民党",
+      "id": 588
+   },
+   {
+      "character": "自慰",
+      "id": 589
+   },
+   {
+      "character": "自已的故事",
+      "id": 590
+   },
+   {
+      "character": "自由民主论坛",
+      "id": 591
+   },
+   {
+      "character": "总理",
+      "id": 592
+   },
+   {
+      "character": "偬",
+      "id": 593
+   },
+   {
+      "character": "诹",
+      "id": 594
+   },
+   {
+      "character": "陬",
+      "id": 595
+   },
+   {
+      "character": "鄹",
+      "id": 596
+   },
+   {
+      "character": "鲰",
+      "id": 597
+   },
+   {
+      "character": "躜",
+      "id": 598
+   },
+   {
+      "character": "缵",
+      "id": 599
+   },
+   {
+      "character": "作爱",
+      "id": 600
+   },
+   {
+      "character": "作秀",
+      "id": 601
+   },
+   {
+      "character": "阼",
+      "id": 602
+   },
+   {
+      "character": "祚",
+      "id": 603
+   },
+   {
+      "character": "阿扁萬歲",
+      "id": 604
+   },
+   {
+      "character": "阿萊娜",
+      "id": 605
+   },
+   {
+      "character": "啊無卵",
+      "id": 606
+   },
+   {
+      "character": "埃裏克蘇特勤",
+      "id": 607
+   },
+   {
+      "character": "埃斯萬",
+      "id": 608
+   },
+   {
+      "character": "艾麗絲",
+      "id": 609
+   },
+   {
+      "character": "愛滋",
+      "id": 610
+   },
+   {
+      "character": "愛滋病",
+      "id": 611
+   },
+   {
+      "character": "垵",
+      "id": 612
+   },
+   {
+      "character": "暗黑法師",
+      "id": 613
+   },
+   {
+      "character": "嶴",
+      "id": 614
+   },
+   {
+      "character": "奧克拉",
+      "id": 615
+   },
+   {
+      "character": "奧拉德",
+      "id": 616
+   },
+   {
+      "character": "奧利弗",
+      "id": 617
+   },
+   {
+      "character": "奧魯奇",
+      "id": 618
+   },
+   {
+      "character": "奧倫",
+      "id": 619
+   },
+   {
+      "character": "奧特蘭",
+      "id": 620
+   },
+   {
+      "character": "㈧",
+      "id": 621
+   },
+   {
+      "character": "巴倫侍從",
+      "id": 622
+   },
+   {
+      "character": "巴倫坦",
+      "id": 623
+   },
+   {
+      "character": "白立樸",
+      "id": 624
+   },
+   {
+      "character": "白夢",
+      "id": 625
+   },
+   {
+      "character": "白皮書",
+      "id": 626
+   },
+   {
+      "character": "班禪",
+      "id": 627
+   },
+   {
+      "character": "寶石商人",
+      "id": 628
+   },
+   {
+      "character": "保釣",
+      "id": 629
+   },
+   {
+      "character": "鮑戈",
+      "id": 630
+   },
+   {
+      "character": "鮑彤",
+      "id": 631
+   },
+   {
+      "character": "鮑伊",
+      "id": 632
+   },
+   {
+      "character": "暴風亡靈",
+      "id": 633
+   },
+   {
+      "character": "暴亂",
+      "id": 634
+   },
+   {
+      "character": "暴熱的戰士",
+      "id": 635
+   },
+   {
+      "character": "暴躁的城塔野獸",
+      "id": 636
+   },
+   {
+      "character": "暴躁的警衛兵靈魂",
+      "id": 637
+   },
+   {
+      "character": "暴躁的馬杜克",
+      "id": 638
+   },
+   {
+      "character": "北大三角地論壇",
+      "id": 639
+   },
+   {
+      "character": "北韓",
+      "id": 640
+   },
+   {
+      "character": "北京當局",
+      "id": 641
+   },
+   {
+      "character": "北美自由論壇",
+      "id": 642
+   },
+   {
+      "character": "貝尤爾",
+      "id": 643
+   },
+   {
+      "character": "韝",
+      "id": 644
+   },
+   {
+      "character": "逼樣",
+      "id": 645
+   },
+   {
+      "character": "比樣",
+      "id": 646
+   },
+   {
+      "character": "蹕",
+      "id": 647
+   },
+   {
+      "character": "颮",
+      "id": 648
+   },
+   {
+      "character": "鑣",
+      "id": 649
+   },
+   {
+      "character": "婊子養的 ",
+      "id": 650
+   },
+   {
+      "character": "賓周",
+      "id": 651
+   },
+   {
+      "character": "冰後",
+      "id": 652
+   },
+   {
+      "character": "博訊",
+      "id": 653
+   },
+   {
+      "character": "不滅帝王",
+      "id": 654
+   },
+   {
+      "character": "不爽不要錢",
+      "id": 655
+   },
+   {
+      "character": "布萊爾",
+      "id": 656
+   },
+   {
+      "character": "布雷爾",
+      "id": 657
+   },
+   {
+      "character": "蔡崇國",
+      "id": 658
+   },
+   {
+      "character": "蔡啓芳",
+      "id": 659
+   },
+   {
+      "character": "黲",
+      "id": 660
+   },
+   {
+      "character": "操鶏",
+      "id": 661
+   },
+   {
+      "character": "操那嗎B",
+      "id": 662
+   },
+   {
+      "character": "操那嗎逼",
+      "id": 663
+   },
+   {
+      "character": "操那嗎比",
+      "id": 664
+   },
+   {
+      "character": "操你媽",
+      "id": 665
+   },
+   {
+      "character": "操你爺爺",
+      "id": 666
+   },
+   {
+      "character": "曹長青",
+      "id": 667
+   },
+   {
+      "character": "曹剛川",
+      "id": 668
+   },
+   {
+      "character": "草",
+      "id": 669
+   },
+   {
+      "character": "草你媽",
+      "id": 670
+   },
+   {
+      "character": "草擬媽",
+      "id": 671
+   },
+   {
+      "character": "册那娘餓比",
+      "id": 672
+   },
+   {
+      "character": "插那嗎B",
+      "id": 673
+   },
+   {
+      "character": "插那嗎逼",
+      "id": 674
+   },
+   {
+      "character": "插那嗎比",
+      "id": 675
+   },
+   {
+      "character": "插你媽",
+      "id": 676
+   },
+   {
+      "character": "插你爺爺",
+      "id": 677
+   },
+   {
+      "character": "覘",
+      "id": 678
+   },
+   {
+      "character": "蕆",
+      "id": 679
+   },
+   {
+      "character": "囅",
+      "id": 680
+   },
+   {
+      "character": "閶",
+      "id": 681
+   },
+   {
+      "character": "長官沙塔特",
+      "id": 682
+   },
+   {
+      "character": "常勁",
+      "id": 683
+   },
+   {
+      "character": "朝鮮",
+      "id": 684
+   },
+   {
+      "character": "車侖",
+      "id": 685
+   },
+   {
+      "character": "車侖女幹",
+      "id": 686
+   },
+   {
+      "character": "沉睡圖騰",
+      "id": 687
+   },
+   {
+      "character": "陳炳基",
+      "id": 688
+   },
+   {
+      "character": "陳博志",
+      "id": 689
+   },
+   {
+      "character": "陳定南",
+      "id": 690
+   },
+   {
+      "character": "陳建銘",
+      "id": 691
+   },
+   {
+      "character": "陳景俊",
+      "id": 692
+   },
+   {
+      "character": "陳菊",
+      "id": 693
+   },
+   {
+      "character": "陳軍",
+      "id": 694
+   },
+   {
+      "character": "陳良宇",
+      "id": 695
+   },
+   {
+      "character": "陳蒙",
+      "id": 696
+   },
+   {
+      "character": "陳破空",
+      "id": 697
+   },
+   {
+      "character": "陳水扁",
+      "id": 698
+   },
+   {
+      "character": "陳唐山",
+      "id": 699
+   },
+   {
+      "character": "陳希同",
+      "id": 700
+   },
+   {
+      "character": "陳小同",
+      "id": 701
+   },
+   {
+      "character": "陳宣良",
+      "id": 702
+   },
+   {
+      "character": "陳學聖",
+      "id": 703
+   },
+   {
+      "character": "陳一諮",
+      "id": 704
+   },
+   {
+      "character": "陳總統",
+      "id": 705
+   },
+   {
+      "character": "諶",
+      "id": 706
+   },
+   {
+      "character": "齔",
+      "id": 707
+   },
+   {
+      "character": "櫬",
+      "id": 708
+   },
+   {
+      "character": "讖",
+      "id": 709
+   },
+   {
+      "character": "程凱",
+      "id": 710
+   },
+   {
+      "character": "程鐵軍",
+      "id": 711
+   },
+   {
+      "character": "鴟",
+      "id": 712
+   },
+   {
+      "character": "痴鳩",
+      "id": 713
+   },
+   {
+      "character": "痴拈",
+      "id": 714
+   },
+   {
+      "character": "遲鈍的圖騰",
+      "id": 715
+   },
+   {
+      "character": "持不同政見",
+      "id": 716
+   },
+   {
+      "character": "赤色騎士",
+      "id": 717
+   },
+   {
+      "character": "赤色戰士",
+      "id": 718
+   },
+   {
+      "character": "處女膜",
+      "id": 719
+   },
+   {
+      "character": "傳染性病",
+      "id": 720
+   },
+   {
+      "character": "吹簫",
+      "id": 721
+   },
+   {
+      "character": "春夏自由論壇",
+      "id": 722
+   },
+   {
+      "character": "戳那嗎B",
+      "id": 723
+   },
+   {
+      "character": "戳那嗎逼",
+      "id": 724
+   },
+   {
+      "character": "戳那嗎比",
+      "id": 725
+   },
+   {
+      "character": "輳",
+      "id": 726
+   },
+   {
+      "character": "鹺",
+      "id": 727
+   },
+   {
+      "character": "錯B",
+      "id": 728
+   },
+   {
+      "character": "錯逼",
+      "id": 729
+   },
+   {
+      "character": "錯比",
+      "id": 730
+   },
+   {
+      "character": "錯那嗎B",
+      "id": 731
+   },
+   {
+      "character": "錯那嗎逼",
+      "id": 732
+   },
+   {
+      "character": "錯那嗎比",
+      "id": 733
+   },
+   {
+      "character": "達夫警衛兵",
+      "id": 734
+   },
+   {
+      "character": "達夫侍從",
+      "id": 735
+   },
+   {
+      "character": "達癩",
+      "id": 736
+   },
+   {
+      "character": "打飛機",
+      "id": 737
+   },
+   {
+      "character": "大參考",
+      "id": 738
+   },
+   {
+      "character": "大東亞",
+      "id": 739
+   },
+   {
+      "character": "大東亞共榮",
+      "id": 740
+   },
+   {
+      "character": "大鶏巴",
+      "id": 741
+   },
+   {
+      "character": "大紀元",
+      "id": 742
+   },
+   {
+      "character": "大紀元新聞網",
+      "id": 743
+   },
+   {
+      "character": "大紀園",
+      "id": 744
+   },
+   {
+      "character": "大家論壇",
+      "id": 745
+   },
+   {
+      "character": "大奶媽",
+      "id": 746
+   },
+   {
+      "character": "大史記",
+      "id": 747
+   },
+   {
+      "character": "大史紀",
+      "id": 748
+   },
+   {
+      "character": "大衛教",
+      "id": 749
+   },
+   {
+      "character": "大中國論壇",
+      "id": 750
+   },
+   {
+      "character": "大中華論壇",
+      "id": 751
+   },
+   {
+      "character": "大衆真人真事",
+      "id": 752
+   },
+   {
+      "character": "紿",
+      "id": 753
+   },
+   {
+      "character": "戴維教",
+      "id": 754
+   },
+   {
+      "character": "戴相龍",
+      "id": 755
+   },
+   {
+      "character": "彈劾",
+      "id": 756
+   },
+   {
+      "character": "氹",
+      "id": 757
+   },
+   {
+      "character": "蕩婦",
+      "id": 758
+   },
+   {
+      "character": "導師",
+      "id": 759
+   },
+   {
+      "character": "盜竊犯",
+      "id": 760
+   },
+   {
+      "character": "德維爾",
+      "id": 761
+   },
+   {
+      "character": "登輝",
+      "id": 762
+   },
+   {
+      "character": "鄧笑貧",
+      "id": 763
+   },
+   {
+      "character": "糴",
+      "id": 764
+   },
+   {
+      "character": "迪裏夏提",
+      "id": 765
+   },
+   {
+      "character": "覿",
+      "id": 766
+   },
+   {
+      "character": "地下教會",
+      "id": 767
+   },
+   {
+      "character": "帝國主義",
+      "id": 768
+   },
+   {
+      "character": "電視流氓",
+      "id": 769
+   },
+   {
+      "character": "叼你媽",
+      "id": 770
+   },
+   {
+      "character": "釣魚島",
+      "id": 771
+   },
+   {
+      "character": "丁關根",
+      "id": 772
+   },
+   {
+      "character": "東北獨立",
+      "id": 773
+   },
+   {
+      "character": "東部地下水路",
+      "id": 774
+   },
+   {
+      "character": "東方紅時空",
+      "id": 775
+   },
+   {
+      "character": "東方時空",
+      "id": 776
+   },
+   {
+      "character": "東南西北論談",
+      "id": 777
+   },
+   {
+      "character": "東社",
+      "id": 778
+   },
+   {
+      "character": "東升",
+      "id": 779
+   },
+   {
+      "character": "東條",
+      "id": 780
+   },
+   {
+      "character": "東條英機",
+      "id": 781
+   },
+   {
+      "character": "東突暴動",
+      "id": 782
+   },
+   {
+      "character": "東突獨立",
+      "id": 783
+   },
+   {
+      "character": "東土耳其斯坦",
+      "id": 784
+   },
+   {
+      "character": "東西南北論壇",
+      "id": 785
+   },
+   {
+      "character": "東亞",
+      "id": 786
+   },
+   {
+      "character": "東院看守",
+      "id": 787
+   },
+   {
+      "character": "動亂",
+      "id": 788
+   },
+   {
+      "character": "鬥士哈夫拉蘇",
+      "id": 789
+   },
+   {
+      "character": "鬥士霍克",
+      "id": 790
+   },
+   {
+      "character": "獨裁",
+      "id": 791
+   },
+   {
+      "character": "獨裁政治",
+      "id": 792
+   },
+   {
+      "character": "獨夫",
+      "id": 793
+   },
+   {
+      "character": "獨立臺灣會",
+      "id": 794
+   },
+   {
+      "character": "俄國",
+      "id": 795
+   },
+   {
+      "character": "鮞",
+      "id": 796
+   },
+   {
+      "character": "㈡",
+      "id": 797
+   },
+   {
+      "character": "發楞",
+      "id": 798
+   },
+   {
+      "character": "發掄",
+      "id": 799
+   },
+   {
+      "character": "發掄功",
+      "id": 800
+   },
+   {
+      "character": "發倫",
+      "id": 801
+   },
+   {
+      "character": "發倫功",
+      "id": 802
+   },
+   {
+      "character": "發輪",
+      "id": 803
+   },
+   {
+      "character": "發論",
+      "id": 804
+   },
+   {
+      "character": "發論公",
+      "id": 805
+   },
+   {
+      "character": "發論功",
+      "id": 806
+   },
+   {
+      "character": "發騷",
+      "id": 807
+   },
+   {
+      "character": "發正念",
+      "id": 808
+   },
+   {
+      "character": "法~倫",
+      "id": 809
+   },
+   {
+      "character": "法~淪",
+      "id": 810
+   },
+   {
+      "character": "法~綸",
+      "id": 811
+   },
+   {
+      "character": "法~輪",
+      "id": 812
+   },
+   {
+      "character": "法~論",
+      "id": 813
+   },
+   {
+      "character": "法爾卡",
+      "id": 814
+   },
+   {
+      "character": "法掄",
+      "id": 815
+   },
+   {
+      "character": "法掄功",
+      "id": 816
+   },
+   {
+      "character": "法侖",
+      "id": 817
+   },
+   {
+      "character": "法淪",
+      "id": 818
+   },
+   {
+      "character": "法綸",
+      "id": 819
+   },
+   {
+      "character": "法輪大法",
+      "id": 820
+   },
+   {
+      "character": "法輪功",
+      "id": 821
+   },
+   {
+      "character": "法十輪十功",
+      "id": 822
+   },
+   {
+      "character": "法謫",
+      "id": 823
+   },
+   {
+      "character": "法謫功",
+      "id": 824
+   },
+   {
+      "character": "反封鎖",
+      "id": 825
+   },
+   {
+      "character": "反封鎖技術",
+      "id": 826
+   },
+   {
+      "character": "反腐敗論壇",
+      "id": 827
+   },
+   {
+      "character": "反人類",
+      "id": 828
+   },
+   {
+      "character": "反社會",
+      "id": 829
+   },
+   {
+      "character": "方勵之",
+      "id": 830
+   },
+   {
+      "character": "防衛指揮官",
+      "id": 831
+   },
+   {
+      "character": "放蕩",
+      "id": 832
+   },
+   {
+      "character": "飛揚論壇",
+      "id": 833
+   },
+   {
+      "character": "廢墟守護者",
+      "id": 834
+   },
+   {
+      "character": "費鴻泰",
+      "id": 835
+   },
+   {
+      "character": "費良勇",
+      "id": 836
+   },
+   {
+      "character": "分隊長施蒂文",
+      "id": 837
+   },
+   {
+      "character": "粉飾太平",
+      "id": 838
+   },
+   {
+      "character": "糞便",
+      "id": 839
+   },
+   {
+      "character": "鱝",
+      "id": 840
+   },
+   {
+      "character": "豐饒的果實",
+      "id": 841
+   },
+   {
+      "character": "風雨神州",
+      "id": 842
+   },
+   {
+      "character": "風雨神州論壇",
+      "id": 843
+   },
+   {
+      "character": "封從德",
+      "id": 844
+   },
+   {
+      "character": "封殺",
+      "id": 845
+   },
+   {
+      "character": "封印的靈魂騎士",
+      "id": 846
+   },
+   {
+      "character": "馮東海",
+      "id": 847
+   },
+   {
+      "character": "馮素英",
+      "id": 848
+   },
+   {
+      "character": "紱",
+      "id": 849
+   },
+   {
+      "character": "襆",
+      "id": 850
+   },
+   {
+      "character": "嘸",
+      "id": 851
+   },
+   {
+      "character": "傅作義",
+      "id": 852
+   },
+   {
+      "character": "幹bi",
+      "id": 853
+   },
+   {
+      "character": "幹逼",
+      "id": 854
+   },
+   {
+      "character": "幹比",
+      "id": 855
+   },
+   {
+      "character": "幹的你",
+      "id": 856
+   },
+   {
+      "character": "幹幹幹",
+      "id": 857
+   },
+   {
+      "character": "幹她",
+      "id": 858
+   },
+   {
+      "character": "幹你",
+      "id": 859
+   },
+   {
+      "character": "幹你老比",
+      "id": 860
+   },
+   {
+      "character": "幹你老母",
+      "id": 861
+   },
+   {
+      "character": "幹你娘",
+      "id": 862
+   },
+   {
+      "character": "幹全家",
+      "id": 863
+   },
+   {
+      "character": "幹死",
+      "id": 864
+   },
+   {
+      "character": "幹死你",
+      "id": 865
+   },
+   {
+      "character": "幹他",
+      "id": 866
+   },
+   {
+      "character": "幹一家",
+      "id": 867
+   },
+   {
+      "character": "趕你娘",
+      "id": 868
+   },
+   {
+      "character": "岡巒",
+      "id": 869
+   },
+   {
+      "character": "剛比",
+      "id": 870
+   },
+   {
+      "character": "剛比樣子",
+      "id": 871
+   },
+   {
+      "character": "崗哨士兵",
+      "id": 872
+   },
+   {
+      "character": "肛門",
+      "id": 873
+   },
+   {
+      "character": "高麗棒子",
+      "id": 874
+   },
+   {
+      "character": "高文謙",
+      "id": 875
+   },
+   {
+      "character": "高薪養廉",
+      "id": 876
+   },
+   {
+      "character": "高自聯",
+      "id": 877
+   },
+   {
+      "character": "膏藥旗",
+      "id": 878
+   },
+   {
+      "character": "戈瑞爾德",
+      "id": 879
+   },
+   {
+      "character": "戈揚",
+      "id": 880
+   },
+   {
+      "character": "鴿派",
+      "id": 881
+   },
+   {
+      "character": "歌功頌德",
+      "id": 882
+   },
+   {
+      "character": "格雷(關卡排名管理者)",
+      "id": 883
+   },
+   {
+      "character": "格魯",
+      "id": 884
+   },
+   {
+      "character": "格魯(城鎮移動)",
+      "id": 885
+   },
+   {
+      "character": "鯁",
+      "id": 886
+   },
+   {
+      "character": "工自聯",
+      "id": 887
+   },
+   {
+      "character": "弓雖",
+      "id": 888
+   },
+   {
+      "character": "共産",
+      "id": 889
+   },
+   {
+      "character": "共産黨",
+      "id": 890
+   },
+   {
+      "character": "共産主義",
+      "id": 891
+   },
+   {
+      "character": "共黨",
+      "id": 892
+   },
+   {
+      "character": "共軍",
+      "id": 893
+   },
+   {
+      "character": "共榮圈",
+      "id": 894
+   },
+   {
+      "character": "緱",
+      "id": 895
+   },
+   {
+      "character": "狗誠",
+      "id": 896
+   },
+   {
+      "character": "狗狼養的",
+      "id": 897
+   },
+   {
+      "character": "狗娘養的",
+      "id": 898
+   },
+   {
+      "character": "狗養",
+      "id": 899
+   },
+   {
+      "character": "狗雜種",
+      "id": 900
+   },
+   {
+      "character": "覯",
+      "id": 901
+   },
+   {
+      "character": "轂",
+      "id": 902
+   },
+   {
+      "character": "古龍祭壇",
+      "id": 903
+   },
+   {
+      "character": "骨獅",
+      "id": 904
+   },
+   {
+      "character": "鯝",
+      "id": 905
+   },
+   {
+      "character": "鴰",
+      "id": 906
+   },
+   {
+      "character": "詿",
+      "id": 907
+   },
+   {
+      "character": "關卓中",
+      "id": 908
+   },
+   {
+      "character": "貫通兩極法",
+      "id": 909
+   },
+   {
+      "character": "廣聞",
+      "id": 910
+   },
+   {
+      "character": "嬀",
+      "id": 911
+   },
+   {
+      "character": "龜兒子",
+      "id": 912
+   },
+   {
+      "character": "龜公",
+      "id": 913
+   },
+   {
+      "character": "龜孫子",
+      "id": 914
+   },
+   {
+      "character": "龜頭",
+      "id": 915
+   },
+   {
+      "character": "龜投",
+      "id": 916
+   },
+   {
+      "character": "劌",
+      "id": 917
+   },
+   {
+      "character": "緄",
+      "id": 918
+   },
+   {
+      "character": "滾那嗎",
+      "id": 919
+   },
+   {
+      "character": "滾那嗎B",
+      "id": 920
+   },
+   {
+      "character": "滾那嗎錯比",
+      "id": 921
+   },
+   {
+      "character": "滾那嗎老比",
+      "id": 922
+   },
+   {
+      "character": "滾那嗎瘟比",
+      "id": 923
+   },
+   {
+      "character": "鯀",
+      "id": 924
+   },
+   {
+      "character": "咼",
+      "id": 925
+   },
+   {
+      "character": "郭俊銘",
+      "id": 926
+   },
+   {
+      "character": "郭羅基",
+      "id": 927
+   },
+   {
+      "character": "郭岩華",
+      "id": 928
+   },
+   {
+      "character": "國家安全",
+      "id": 929
+   },
+   {
+      "character": "國家機密",
+      "id": 930
+   },
+   {
+      "character": "國軍",
+      "id": 931
+   },
+   {
+      "character": "國賊",
+      "id": 932
+   },
+   {
+      "character": "哈爾羅尼",
+      "id": 933
+   },
+   {
+      "character": "頇",
+      "id": 934
+   },
+   {
+      "character": "韓東方",
+      "id": 935
+   },
+   {
+      "character": "韓聯潮",
+      "id": 936
+   },
+   {
+      "character": "韓正",
+      "id": 937
+   },
+   {
+      "character": "漢奸",
+      "id": 938
+   },
+   {
+      "character": "顥",
+      "id": 939
+   },
+   {
+      "character": "灝",
+      "id": 940
+   },
+   {
+      "character": "河殤",
+      "id": 941
+   },
+   {
+      "character": "賀國强",
+      "id": 942
+   },
+   {
+      "character": "賀龍",
+      "id": 943
+   },
+   {
+      "character": "黑社會",
+      "id": 944
+   },
+   {
+      "character": "黑手黨",
+      "id": 945
+   },
+   {
+      "character": "紅燈區",
+      "id": 946
+   },
+   {
+      "character": "紅色恐怖",
+      "id": 947
+   },
+   {
+      "character": "紅炎猛獸",
+      "id": 948
+   },
+   {
+      "character": "洪傳",
+      "id": 949
+   },
+   {
+      "character": "洪興",
+      "id": 950
+   },
+   {
+      "character": "洪哲勝",
+      "id": 951
+   },
+   {
+      "character": "黌",
+      "id": 952
+   },
+   {
+      "character": "鱟",
+      "id": 953
+   },
+   {
+      "character": "胡緊掏",
+      "id": 954
+   },
+   {
+      "character": "胡錦滔",
+      "id": 955
+   },
+   {
+      "character": "胡錦淘",
+      "id": 956
+   },
+   {
+      "character": "胡景濤",
+      "id": 957
+   },
+   {
+      "character": "胡喬木",
+      "id": 958
+   },
+   {
+      "character": "胡總書記",
+      "id": 959
+   },
+   {
+      "character": "湖岸護衛兵",
+      "id": 960
+   },
+   {
+      "character": "湖岸警衛兵",
+      "id": 961
+   },
+   {
+      "character": "湖岸哨兵隊長",
+      "id": 962
+   },
+   {
+      "character": "護法",
+      "id": 963
+   },
+   {
+      "character": "鸌",
+      "id": 964
+   },
+   {
+      "character": "華建敏",
+      "id": 965
+   },
+   {
+      "character": "華通時事論壇",
+      "id": 966
+   },
+   {
+      "character": "華夏文摘",
+      "id": 967
+   },
+   {
+      "character": "華語世界論壇",
+      "id": 968
+   },
+   {
+      "character": "華岳時事論壇",
+      "id": 969
+   },
+   {
+      "character": "懷特",
+      "id": 970
+   },
+   {
+      "character": "鍰",
+      "id": 971
+   },
+   {
+      "character": "皇軍",
+      "id": 972
+   },
+   {
+      "character": "黃伯源",
+      "id": 973
+   },
+   {
+      "character": "黃慈萍",
+      "id": 974
+   },
+   {
+      "character": "黃禍",
+      "id": 975
+   },
+   {
+      "character": "黃劍輝",
+      "id": 976
+   },
+   {
+      "character": "黃金幼龍",
+      "id": 977
+   },
+   {
+      "character": "黃菊",
+      "id": 978
+   },
+   {
+      "character": "黃片",
+      "id": 979
+   },
+   {
+      "character": "黃翔",
+      "id": 980
+   },
+   {
+      "character": "黃義交",
+      "id": 981
+   },
+   {
+      "character": "黃仲生",
+      "id": 982
+   },
+   {
+      "character": "回民暴動",
+      "id": 983
+   },
+   {
+      "character": "噦",
+      "id": 984
+   },
+   {
+      "character": "繢",
+      "id": 985
+   },
+   {
+      "character": "毀滅步兵",
+      "id": 986
+   },
+   {
+      "character": "毀滅騎士",
+      "id": 987
+   },
+   {
+      "character": "毀滅射手",
+      "id": 988
+   },
+   {
+      "character": "昏迷圖騰",
+      "id": 989
+   },
+   {
+      "character": "混亂的圖騰",
+      "id": 990
+   },
+   {
+      "character": "鍃",
+      "id": 991
+   },
+   {
+      "character": "活動",
+      "id": 992
+   },
+   {
+      "character": "擊倒圖騰",
+      "id": 993
+   },
+   {
+      "character": "擊傷的圖騰",
+      "id": 994
+   },
+   {
+      "character": "鶏8",
+      "id": 995
+   },
+   {
+      "character": "鶏八",
+      "id": 996
+   },
+   {
+      "character": "鶏巴",
+      "id": 997
+   },
+   {
+      "character": "鶏吧",
+      "id": 998
+   },
+   {
+      "character": "鶏鶏",
+      "id": 999
+   },
+   {
+      "character": "鶏奸",
+      "id": 1000
+   },
+   {
+      "character": "鶏毛信文匯",
+      "id": 1001
+   },
+   {
+      "character": "鶏女",
+      "id": 1002
+   },
+   {
+      "character": "鶏院",
+      "id": 1003
+   },
+   {
+      "character": "姬勝德",
+      "id": 1004
+   },
+   {
+      "character": "積克館",
+      "id": 1005
+   },
+   {
+      "character": "賫",
+      "id": 1006
+   },
+   {
+      "character": "鱭",
+      "id": 1007
+   },
+   {
+      "character": "賈廷安",
+      "id": 1008
+   },
+   {
+      "character": "賈育台",
+      "id": 1009
+   },
+   {
+      "character": "戔",
+      "id": 1010
+   },
+   {
+      "character": "監視塔",
+      "id": 1011
+   },
+   {
+      "character": "監視塔哨兵",
+      "id": 1012
+   },
+   {
+      "character": "監視塔哨兵隊長",
+      "id": 1013
+   },
+   {
+      "character": "鰹",
+      "id": 1014
+   },
+   {
+      "character": "韉",
+      "id": 1015
+   },
+   {
+      "character": "簡肇棟",
+      "id": 1016
+   },
+   {
+      "character": "建國黨",
+      "id": 1017
+   },
+   {
+      "character": "賤B",
+      "id": 1018
+   },
+   {
+      "character": "賤bi",
+      "id": 1019
+   },
+   {
+      "character": "賤逼",
+      "id": 1020
+   },
+   {
+      "character": "賤比",
+      "id": 1021
+   },
+   {
+      "character": "賤貨",
+      "id": 1022
+   },
+   {
+      "character": "賤人",
+      "id": 1023
+   },
+   {
+      "character": "賤種",
+      "id": 1024
+   },
+   {
+      "character": "江八點",
+      "id": 1025
+   },
+   {
+      "character": "江羅",
+      "id": 1026
+   },
+   {
+      "character": "江綿恒",
+      "id": 1027
+   },
+   {
+      "character": "江戲子",
+      "id": 1028
+   },
+   {
+      "character": "江則民",
+      "id": 1029
+   },
+   {
+      "character": "江澤慧",
+      "id": 1030
+   },
+   {
+      "character": "江賊",
+      "id": 1031
+   },
+   {
+      "character": "江賊民",
+      "id": 1032
+   },
+   {
+      "character": "薑春雲",
+      "id": 1033
+   },
+   {
+      "character": "將則民",
+      "id": 1034
+   },
+   {
+      "character": "僵賊",
+      "id": 1035
+   },
+   {
+      "character": "僵賊民",
+      "id": 1036
+   },
+   {
+      "character": "講法",
+      "id": 1037
+   },
+   {
+      "character": "蔣介石",
+      "id": 1038
+   },
+   {
+      "character": "蔣中正",
+      "id": 1039
+   },
+   {
+      "character": "降低命中的圖騰",
+      "id": 1040
+   },
+   {
+      "character": "醬猪媳",
+      "id": 1041
+   },
+   {
+      "character": "撟",
+      "id": 1042
+   },
+   {
+      "character": "狡猾的達夫",
+      "id": 1043
+   },
+   {
+      "character": "矯健的馬努爾",
+      "id": 1044
+   },
+   {
+      "character": "嶠",
+      "id": 1045
+   },
+   {
+      "character": "教養院",
+      "id": 1046
+   },
+   {
+      "character": "癤",
+      "id": 1047
+   },
+   {
+      "character": "揭批書",
+      "id": 1048
+   },
+   {
+      "character": "訐",
+      "id": 1049
+   },
+   {
+      "character": "她媽",
+      "id": 1050
+   },
+   {
+      "character": "届中央政治局委員",
+      "id": 1051
+   },
+   {
+      "character": "金槍不倒",
+      "id": 1052
+   },
+   {
+      "character": "金堯如",
+      "id": 1053
+   },
+   {
+      "character": "金澤辰",
+      "id": 1054
+   },
+   {
+      "character": "巹",
+      "id": 1055
+   },
+   {
+      "character": "錦濤",
+      "id": 1056
+   },
+   {
+      "character": "經文",
+      "id": 1057
+   },
+   {
+      "character": "經血",
+      "id": 1058
+   },
+   {
+      "character": "莖候佳陰",
+      "id": 1059
+   },
+   {
+      "character": "荊棘護衛兵",
+      "id": 1060
+   },
+   {
+      "character": "靖國神社",
+      "id": 1061
+   },
+   {
+      "character": "㈨",
+      "id": 1062
+   },
+   {
+      "character": "舊斗篷哨兵",
+      "id": 1063
+   },
+   {
+      "character": "齟",
+      "id": 1064
+   },
+   {
+      "character": "巨槌騎兵",
+      "id": 1065
+   },
+   {
+      "character": "巨鐵角哈克",
+      "id": 1066
+   },
+   {
+      "character": "鋸齒通道被遺弃的骷髏",
+      "id": 1067
+   },
+   {
+      "character": "鋸齒通道骷髏",
+      "id": 1068
+   },
+   {
+      "character": "屨",
+      "id": 1069
+   },
+   {
+      "character": "棬",
+      "id": 1070
+   },
+   {
+      "character": "絕望之地",
+      "id": 1071
+   },
+   {
+      "character": "譎",
+      "id": 1072
+   },
+   {
+      "character": "軍妓",
+      "id": 1073
+   },
+   {
+      "character": "開苞",
+      "id": 1074
+   },
+   {
+      "character": "開放雜志",
+      "id": 1075
+   },
+   {
+      "character": "凱奧勒尼什",
+      "id": 1076
+   },
+   {
+      "character": "凱爾本",
+      "id": 1077
+   },
+   {
+      "character": "凱爾雷斯",
+      "id": 1078
+   },
+   {
+      "character": "凱特切爾",
+      "id": 1079
+   },
+   {
+      "character": "砍翻一條街",
+      "id": 1080
+   },
+   {
+      "character": "看中國",
+      "id": 1081
+   },
+   {
+      "character": "闞",
+      "id": 1082
+   },
+   {
+      "character": "靠你媽",
+      "id": 1083
+   },
+   {
+      "character": "柯賜海",
+      "id": 1084
+   },
+   {
+      "character": "柯建銘",
+      "id": 1085
+   },
+   {
+      "character": "科萊爾",
+      "id": 1086
+   },
+   {
+      "character": "克萊恩",
+      "id": 1087
+   },
+   {
+      "character": "克萊特",
+      "id": 1088
+   },
+   {
+      "character": "克勞森",
+      "id": 1089
+   },
+   {
+      "character": "客戶服務",
+      "id": 1090
+   },
+   {
+      "character": "緙",
+      "id": 1091
+   },
+   {
+      "character": "空氣精靈",
+      "id": 1092
+   },
+   {
+      "character": "空虛的伊坤",
+      "id": 1093
+   },
+   {
+      "character": "空虛之地",
+      "id": 1094
+   },
+   {
+      "character": "恐怖主義",
+      "id": 1095
+   },
+   {
+      "character": "瞘",
+      "id": 1096
+   },
+   {
+      "character": "嚳",
+      "id": 1097
+   },
+   {
+      "character": "鄺錦文",
+      "id": 1098
+   },
+   {
+      "character": "貺",
+      "id": 1099
+   },
+   {
+      "character": "昆圖",
+      "id": 1100
+   },
+   {
+      "character": "拉姆斯菲爾德",
+      "id": 1101
+   },
+   {
+      "character": "拉皮條",
+      "id": 1102
+   },
+   {
+      "character": "萊特",
+      "id": 1103
+   },
+   {
+      "character": "賴士葆",
+      "id": 1104
+   },
+   {
+      "character": "蘭迪",
+      "id": 1105
+   },
+   {
+      "character": "爛B",
+      "id": 1106
+   },
+   {
+      "character": "爛逼",
+      "id": 1107
+   },
+   {
+      "character": "爛比",
+      "id": 1108
+   },
+   {
+      "character": "爛袋",
+      "id": 1109
+   },
+   {
+      "character": "爛貨",
+      "id": 1110
+   },
+   {
+      "character": "濫B",
+      "id": 1111
+   },
+   {
+      "character": "濫逼",
+      "id": 1112
+   },
+   {
+      "character": "濫比",
+      "id": 1113
+   },
+   {
+      "character": "濫貨",
+      "id": 1114
+   },
+   {
+      "character": "濫交",
+      "id": 1115
+   },
+   {
+      "character": "勞動教養所",
+      "id": 1116
+   },
+   {
+      "character": "勞改",
+      "id": 1117
+   },
+   {
+      "character": "勞教",
+      "id": 1118
+   },
+   {
+      "character": "鰳",
+      "id": 1119
+   },
+   {
+      "character": "雷尼亞",
+      "id": 1120
+   },
+   {
+      "character": "誄",
+      "id": 1121
+   },
+   {
+      "character": "李紅痔",
+      "id": 1122
+   },
+   {
+      "character": "李洪寬",
+      "id": 1123
+   },
+   {
+      "character": "李繼耐",
+      "id": 1124
+   },
+   {
+      "character": "李蘭菊",
+      "id": 1125
+   },
+   {
+      "character": "李老師",
+      "id": 1126
+   },
+   {
+      "character": "李錄",
+      "id": 1127
+   },
+   {
+      "character": "李祿",
+      "id": 1128
+   },
+   {
+      "character": "李慶安",
+      "id": 1129
+   },
+   {
+      "character": "李慶華",
+      "id": 1130
+   },
+   {
+      "character": "李淑嫻",
+      "id": 1131
+   },
+   {
+      "character": "李鐵映",
+      "id": 1132
+   },
+   {
+      "character": "李旺陽",
+      "id": 1133
+   },
+   {
+      "character": "李小鵬",
+      "id": 1134
+   },
+   {
+      "character": "李月月鳥",
+      "id": 1135
+   },
+   {
+      "character": "李志綏",
+      "id": 1136
+   },
+   {
+      "character": "李總理",
+      "id": 1137
+   },
+   {
+      "character": "李總統",
+      "id": 1138
+   },
+   {
+      "character": "裏菲斯",
+      "id": 1139
+   },
+   {
+      "character": "鱧",
+      "id": 1140
+   },
+   {
+      "character": "轢",
+      "id": 1141
+   },
+   {
+      "character": "躒",
+      "id": 1142
+   },
+   {
+      "character": "奩",
+      "id": 1143
+   },
+   {
+      "character": "連方瑀",
+      "id": 1144
+   },
+   {
+      "character": "連惠心",
+      "id": 1145
+   },
+   {
+      "character": "連勝德",
+      "id": 1146
+   },
+   {
+      "character": "連勝文",
+      "id": 1147
+   },
+   {
+      "character": "連戰",
+      "id": 1148
+   },
+   {
+      "character": "聯總",
+      "id": 1149
+   },
+   {
+      "character": "廉政大論壇",
+      "id": 1150
+   },
+   {
+      "character": "煉功",
+      "id": 1151
+   },
+   {
+      "character": "兩岸關係",
+      "id": 1152
+   },
+   {
+      "character": "兩岸三地論壇",
+      "id": 1153
+   },
+   {
+      "character": "兩個中國",
+      "id": 1154
+   },
+   {
+      "character": "兩會",
+      "id": 1155
+   },
+   {
+      "character": "兩會報道",
+      "id": 1156
+   },
+   {
+      "character": "兩會新聞",
+      "id": 1157
+   },
+   {
+      "character": "廖錫龍",
+      "id": 1158
+   },
+   {
+      "character": "林保華",
+      "id": 1159
+   },
+   {
+      "character": "林長盛",
+      "id": 1160
+   },
+   {
+      "character": "林佳龍",
+      "id": 1161
+   },
+   {
+      "character": "林信義",
+      "id": 1162
+   },
+   {
+      "character": "林正勝",
+      "id": 1163
+   },
+   {
+      "character": "林重謨",
+      "id": 1164
+   },
+   {
+      "character": "躪",
+      "id": 1165
+   },
+   {
+      "character": "淩鋒",
+      "id": 1166
+   },
+   {
+      "character": "劉賓深",
+      "id": 1167
+   },
+   {
+      "character": "劉賓雁",
+      "id": 1168
+   },
+   {
+      "character": "劉剛",
+      "id": 1169
+   },
+   {
+      "character": "劉國凱",
+      "id": 1170
+   },
+   {
+      "character": "劉華清",
+      "id": 1171
+   },
+   {
+      "character": "劉俊國",
+      "id": 1172
+   },
+   {
+      "character": "劉凱中",
+      "id": 1173
+   },
+   {
+      "character": "劉千石",
+      "id": 1174
+   },
+   {
+      "character": "劉青",
+      "id": 1175
+   },
+   {
+      "character": "劉山青",
+      "id": 1176
+   },
+   {
+      "character": "劉士賢",
+      "id": 1177
+   },
+   {
+      "character": "劉文勝",
+      "id": 1178
+   },
+   {
+      "character": "劉文雄",
+      "id": 1179
+   },
+   {
+      "character": "劉曉波",
+      "id": 1180
+   },
+   {
+      "character": "劉曉竹",
+      "id": 1181
+   },
+   {
+      "character": "劉永川",
+      "id": 1182
+   },
+   {
+      "character": "㈥",
+      "id": 1183
+   },
+   {
+      "character": "鷚",
+      "id": 1184
+   },
+   {
+      "character": "龍虎豹",
+      "id": 1185
+   },
+   {
+      "character": "龍火之心",
+      "id": 1186
+   },
+   {
+      "character": "盧卡",
+      "id": 1187
+   },
+   {
+      "character": "盧西德",
+      "id": 1188
+   },
+   {
+      "character": "陸委會",
+      "id": 1189
+   },
+   {
+      "character": "輅",
+      "id": 1190
+   },
+   {
+      "character": "呂京花",
+      "id": 1191
+   },
+   {
+      "character": "呂秀蓮",
+      "id": 1192
+   },
+   {
+      "character": "亂交",
+      "id": 1193
+   },
+   {
+      "character": "亂倫",
+      "id": 1194
+   },
+   {
+      "character": "亂輪",
+      "id": 1195
+   },
+   {
+      "character": "鋝",
+      "id": 1196
+   },
+   {
+      "character": "掄功",
+      "id": 1197
+   },
+   {
+      "character": "倫功",
+      "id": 1198
+   },
+   {
+      "character": "輪大",
+      "id": 1199
+   },
+   {
+      "character": "輪功",
+      "id": 1200
+   },
+   {
+      "character": "輪奸",
+      "id": 1201
+   },
+   {
+      "character": "論壇管理員",
+      "id": 1202
+   },
+   {
+      "character": "羅福助",
+      "id": 1203
+   },
+   {
+      "character": "羅幹",
+      "id": 1204
+   },
+   {
+      "character": "羅禮詩",
+      "id": 1205
+   },
+   {
+      "character": "羅文嘉",
+      "id": 1206
+   },
+   {
+      "character": "羅志明",
+      "id": 1207
+   },
+   {
+      "character": "腡",
+      "id": 1208
+   },
+   {
+      "character": "濼",
+      "id": 1209
+   },
+   {
+      "character": "洛克菲爾特",
+      "id": 1210
+   },
+   {
+      "character": "媽B",
+      "id": 1211
+   },
+   {
+      "character": "媽比",
+      "id": 1212
+   },
+   {
+      "character": "媽的",
+      "id": 1213
+   },
+   {
+      "character": "媽批",
+      "id": 1214
+   },
+   {
+      "character": "馬大維",
+      "id": 1215
+   },
+   {
+      "character": "馬克思",
+      "id": 1216
+   },
+   {
+      "character": "馬良駿",
+      "id": 1217
+   },
+   {
+      "character": "馬三家",
+      "id": 1218
+   },
+   {
+      "character": "馬時敏",
+      "id": 1219
+   },
+   {
+      "character": "馬特斯",
+      "id": 1220
+   },
+   {
+      "character": "馬英九",
+      "id": 1221
+   },
+   {
+      "character": "馬永成",
+      "id": 1222
+   },
+   {
+      "character": "瑪麗亞",
+      "id": 1223
+   },
+   {
+      "character": "瑪雅",
+      "id": 1224
+   },
+   {
+      "character": "嗎的",
+      "id": 1225
+   },
+   {
+      "character": "嗎啡",
+      "id": 1226
+   },
+   {
+      "character": "勱",
+      "id": 1227
+   },
+   {
+      "character": "麥克斯",
+      "id": 1228
+   },
+   {
+      "character": "賣逼",
+      "id": 1229
+   },
+   {
+      "character": "賣比",
+      "id": 1230
+   },
+   {
+      "character": "賣國",
+      "id": 1231
+   },
+   {
+      "character": "賣騷",
+      "id": 1232
+   },
+   {
+      "character": "賣淫",
+      "id": 1233
+   },
+   {
+      "character": "瞞報",
+      "id": 1234
+   },
+   {
+      "character": "毛厠洞",
+      "id": 1235
+   },
+   {
+      "character": "毛賊",
+      "id": 1236
+   },
+   {
+      "character": "毛賊東",
+      "id": 1237
+   },
+   {
+      "character": "美國",
+      "id": 1238
+   },
+   {
+      "character": "美國參考",
+      "id": 1239
+   },
+   {
+      "character": "美國佬",
+      "id": 1240
+   },
+   {
+      "character": "美國之音",
+      "id": 1241
+   },
+   {
+      "character": "蒙獨",
+      "id": 1242
+   },
+   {
+      "character": "蒙古達子",
+      "id": 1243
+   },
+   {
+      "character": "蒙古獨",
+      "id": 1244
+   },
+   {
+      "character": "蒙古獨立",
+      "id": 1245
+   },
+   {
+      "character": "禰",
+      "id": 1246
+   },
+   {
+      "character": "羋",
+      "id": 1247
+   },
+   {
+      "character": "綿恒",
+      "id": 1248
+   },
+   {
+      "character": "黽",
+      "id": 1249
+   },
+   {
+      "character": "民國",
+      "id": 1250
+   },
+   {
+      "character": "民進黨",
+      "id": 1251
+   },
+   {
+      "character": "民聯",
+      "id": 1252
+   },
+   {
+      "character": "民意論壇",
+      "id": 1253
+   },
+   {
+      "character": "民陣",
+      "id": 1254
+   },
+   {
+      "character": "民主墻",
+      "id": 1255
+   },
+   {
+      "character": "緡",
+      "id": 1256
+   },
+   {
+      "character": "湣",
+      "id": 1257
+   },
+   {
+      "character": "鰵",
+      "id": 1258
+   },
+   {
+      "character": "摸你鶏巴",
+      "id": 1259
+   },
+   {
+      "character": "莫偉强",
+      "id": 1260
+   },
+   {
+      "character": "木子論壇",
+      "id": 1261
+   },
+   {
+      "character": "內褲",
+      "id": 1262
+   },
+   {
+      "character": "內衣",
+      "id": 1263
+   },
+   {
+      "character": "那嗎B",
+      "id": 1264
+   },
+   {
+      "character": "那嗎逼",
+      "id": 1265
+   },
+   {
+      "character": "那嗎錯比",
+      "id": 1266
+   },
+   {
+      "character": "那嗎老比",
+      "id": 1267
+   },
+   {
+      "character": "那嗎瘟比",
+      "id": 1268
+   },
+   {
+      "character": "那娘錯比",
+      "id": 1269
+   },
+   {
+      "character": "納粹",
+      "id": 1270
+   },
+   {
+      "character": "奶頭",
+      "id": 1271
+   },
+   {
+      "character": "南大自由論壇",
+      "id": 1272
+   },
+   {
+      "character": "南蠻子",
+      "id": 1273
+   },
+   {
+      "character": "鬧事",
+      "id": 1274
+   },
+   {
+      "character": "能樣",
+      "id": 1275
+   },
+   {
+      "character": "尼奧夫",
+      "id": 1276
+   },
+   {
+      "character": "倪育賢",
+      "id": 1277
+   },
+   {
+      "character": "鯢",
+      "id": 1278
+   },
+   {
+      "character": "你媽",
+      "id": 1279
+   },
+   {
+      "character": "你媽逼",
+      "id": 1280
+   },
+   {
+      "character": "你媽比",
+      "id": 1281
+   },
+   {
+      "character": "你媽的",
+      "id": 1282
+   },
+   {
+      "character": "你媽了妹",
+      "id": 1283
+   },
+   {
+      "character": "你說我說論壇",
+      "id": 1284
+   },
+   {
+      "character": "你爺 ",
+      "id": 1285
+   },
+   {
+      "character": "娘餓比",
+      "id": 1286
+   },
+   {
+      "character": "捏你鶏巴",
+      "id": 1287
+   },
+   {
+      "character": "儂著岡巒",
+      "id": 1288
+   },
+   {
+      "character": "儂著卵拋",
+      "id": 1289
+   },
+   {
+      "character": "奴隸魔族士兵",
+      "id": 1290
+   },
+   {
+      "character": "女幹",
+      "id": 1291
+   },
+   {
+      "character": "女主人羅姬馬莉",
+      "id": 1292
+   },
+   {
+      "character": "儺",
+      "id": 1293
+   },
+   {
+      "character": "諾姆",
+      "id": 1294
+   },
+   {
+      "character": "潘國平",
+      "id": 1295
+   },
+   {
+      "character": "蹣 ",
+      "id": 1296
+   },
+   {
+      "character": "龐建國",
+      "id": 1297
+   },
+   {
+      "character": "泡沫經濟",
+      "id": 1298
+   },
+   {
+      "character": "轡",
+      "id": 1299
+   },
+   {
+      "character": "噴你",
+      "id": 1300
+   },
+   {
+      "character": "皮條客",
+      "id": 1301
+   },
+   {
+      "character": "羆",
+      "id": 1302
+   },
+   {
+      "character": "諞",
+      "id": 1303
+   },
+   {
+      "character": "潑婦",
+      "id": 1304
+   },
+   {
+      "character": "齊墨",
+      "id": 1305
+   },
+   {
+      "character": "齊諾",
+      "id": 1306
+   },
+   {
+      "character": "騎你",
+      "id": 1307
+   },
+   {
+      "character": "磧",
+      "id": 1308
+   },
+   {
+      "character": "僉",
+      "id": 1309
+   },
+   {
+      "character": "鈐",
+      "id": 1310
+   },
+   {
+      "character": "錢達",
+      "id": 1311
+   },
+   {
+      "character": "錢國梁",
+      "id": 1312
+   },
+   {
+      "character": "錢其琛",
+      "id": 1313
+   },
+   {
+      "character": "膁",
+      "id": 1314
+   },
+   {
+      "character": "槧",
+      "id": 1315
+   },
+   {
+      "character": "錆",
+      "id": 1316
+   },
+   {
+      "character": "繰",
+      "id": 1317
+   },
+   {
+      "character": "喬石",
+      "id": 1318
+   },
+   {
+      "character": "喬伊",
+      "id": 1319
+   },
+   {
+      "character": "橋侵襲兵",
+      "id": 1320
+   },
+   {
+      "character": "譙",
+      "id": 1321
+   },
+   {
+      "character": "鞽",
+      "id": 1322
+   },
+   {
+      "character": "篋",
+      "id": 1323
+   },
+   {
+      "character": "親美",
+      "id": 1324
+   },
+   {
+      "character": "親民黨",
+      "id": 1325
+   },
+   {
+      "character": "親日",
+      "id": 1326
+   },
+   {
+      "character": "欽本立",
+      "id": 1327
+   },
+   {
+      "character": "禽獸",
+      "id": 1328
+   },
+   {
+      "character": "唚",
+      "id": 1329
+   },
+   {
+      "character": "輕舟快訊",
+      "id": 1330
+   },
+   {
+      "character": "情婦",
+      "id": 1331
+   },
+   {
+      "character": "情獸",
+      "id": 1332
+   },
+   {
+      "character": "檾",
+      "id": 1333
+   },
+   {
+      "character": "慶紅",
+      "id": 1334
+   },
+   {
+      "character": "丘垂貞",
+      "id": 1335
+   },
+   {
+      "character": "詘",
+      "id": 1336
+   },
+   {
+      "character": "去你媽的",
+      "id": 1337
+   },
+   {
+      "character": "闃",
+      "id": 1338
+   },
+   {
+      "character": "全國兩會",
+      "id": 1339
+   },
+   {
+      "character": "全國人大",
+      "id": 1340
+   },
+   {
+      "character": "綣",
+      "id": 1341
+   },
+   {
+      "character": "瘸腿幫",
+      "id": 1342
+   },
+   {
+      "character": "愨",
+      "id": 1343
+   },
+   {
+      "character": "讓你操",
+      "id": 1344
+   },
+   {
+      "character": "熱比婭",
+      "id": 1345
+   },
+   {
+      "character": "熱站政論網",
+      "id": 1346
+   },
+   {
+      "character": "人民報",
+      "id": 1347
+   },
+   {
+      "character": "人民大會堂",
+      "id": 1348
+   },
+   {
+      "character": "人民內情真相",
+      "id": 1349
+   },
+   {
+      "character": "人民真實",
+      "id": 1350
+   },
+   {
+      "character": "人民之聲論壇",
+      "id": 1351
+   },
+   {
+      "character": "人權",
+      "id": 1352
+   },
+   {
+      "character": "日本帝國",
+      "id": 1353
+   },
+   {
+      "character": "日軍",
+      "id": 1354
+   },
+   {
+      "character": "日內瓦金融",
+      "id": 1355
+   },
+   {
+      "character": "日你媽",
+      "id": 1356
+   },
+   {
+      "character": "日你爺爺",
+      "id": 1357
+   },
+   {
+      "character": "日朱駿",
+      "id": 1358
+   },
+   {
+      "character": "顬",
+      "id": 1359
+   },
+   {
+      "character": "乳頭",
+      "id": 1360
+   },
+   {
+      "character": "乳暈",
+      "id": 1361
+   },
+   {
+      "character": "瑞士金融大學",
+      "id": 1362
+   },
+   {
+      "character": "薩達姆",
+      "id": 1363
+   },
+   {
+      "character": "三K黨",
+      "id": 1364
+   },
+   {
+      "character": "三個代表",
+      "id": 1365
+   },
+   {
+      "character": "三級片",
+      "id": 1366
+   },
+   {
+      "character": "三去車侖工力",
+      "id": 1367
+   },
+   {
+      "character": "㈢",
+      "id": 1368
+   },
+   {
+      "character": "毿",
+      "id": 1369
+   },
+   {
+      "character": "糝",
+      "id": 1370
+   },
+   {
+      "character": "騷B",
+      "id": 1371
+   },
+   {
+      "character": "騷棒",
+      "id": 1372
+   },
+   {
+      "character": "騷包",
+      "id": 1373
+   },
+   {
+      "character": "騷逼",
+      "id": 1374
+   },
+   {
+      "character": "騷棍",
+      "id": 1375
+   },
+   {
+      "character": "騷貨",
+      "id": 1376
+   },
+   {
+      "character": "騷鶏",
+      "id": 1377
+   },
+   {
+      "character": "騷卵",
+      "id": 1378
+   },
+   {
+      "character": "殺你全家",
+      "id": 1379
+   },
+   {
+      "character": "殺你一家",
+      "id": 1380
+   },
+   {
+      "character": "殺人犯",
+      "id": 1381
+   },
+   {
+      "character": "傻鳥",
+      "id": 1382
+   },
+   {
+      "character": "煞筆",
+      "id": 1383
+   },
+   {
+      "character": "山口組",
+      "id": 1384
+   },
+   {
+      "character": "善惡有報",
+      "id": 1385
+   },
+   {
+      "character": "上訪",
+      "id": 1386
+   },
+   {
+      "character": "上海幫",
+      "id": 1387
+   },
+   {
+      "character": "上海孤兒院",
+      "id": 1388
+   },
+   {
+      "character": "厙",
+      "id": 1389
+   },
+   {
+      "character": "社會主義",
+      "id": 1390
+   },
+   {
+      "character": "射了還說要",
+      "id": 1391
+   },
+   {
+      "character": "灄",
+      "id": 1392
+   },
+   {
+      "character": "詵",
+      "id": 1393
+   },
+   {
+      "character": "神經病",
+      "id": 1394
+   },
+   {
+      "character": "諗",
+      "id": 1395
+   },
+   {
+      "character": "生孩子沒屁眼",
+      "id": 1396
+   },
+   {
+      "character": "生命分流的圖騰",
+      "id": 1397
+   },
+   {
+      "character": "澠",
+      "id": 1398
+   },
+   {
+      "character": "聖射手",
+      "id": 1399
+   },
+   {
+      "character": "聖戰",
+      "id": 1400
+   },
+   {
+      "character": "盛華仁",
+      "id": 1401
+   },
+   {
+      "character": "濕了還說不要",
+      "id": 1402
+   },
+   {
+      "character": "濕了還說要",
+      "id": 1403
+   },
+   {
+      "character": "釃",
+      "id": 1404
+   },
+   {
+      "character": "鯴",
+      "id": 1405
+   },
+   {
+      "character": "㈩",
+      "id": 1406
+   },
+   {
+      "character": "石化圖騰",
+      "id": 1407
+   },
+   {
+      "character": "石拳戰鬥兵",
+      "id": 1408
+   },
+   {
+      "character": "時代論壇",
+      "id": 1409
+   },
+   {
+      "character": "時事論壇",
+      "id": 1410
+   },
+   {
+      "character": "鰣",
+      "id": 1411
+   },
+   {
+      "character": "史萊姆",
+      "id": 1412
+   },
+   {
+      "character": "史萊姆王",
+      "id": 1413
+   },
+   {
+      "character": "士兵管理員瓦爾臣",
+      "id": 1414
+   },
+   {
+      "character": "世界經濟導報",
+      "id": 1415
+   },
+   {
+      "character": "事實獨立",
+      "id": 1416
+   },
+   {
+      "character": "侍從貝赫爾特",
+      "id": 1417
+   },
+   {
+      "character": "侍從倫斯韋",
+      "id": 1418
+   },
+   {
+      "character": "貰",
+      "id": 1419
+   },
+   {
+      "character": "攄",
+      "id": 1420
+   },
+   {
+      "character": "數據中國",
+      "id": 1421
+   },
+   {
+      "character": "雙十節",
+      "id": 1422
+   },
+   {
+      "character": "氵去車侖工力",
+      "id": 1423
+   },
+   {
+      "character": "氵去車侖工力?",
+      "id": 1424
+   },
+   {
+      "character": "稅力",
+      "id": 1425
+   },
+   {
+      "character": "司馬晋",
+      "id": 1426
+   },
+   {
+      "character": "司馬璐",
+      "id": 1427
+   },
+   {
+      "character": "司徒華",
+      "id": 1428
+   },
+   {
+      "character": "私?服",
+      "id": 1429
+   },
+   {
+      "character": "私處",
+      "id": 1430
+   },
+   {
+      "character": "思科羅",
+      "id": 1431
+   },
+   {
+      "character": "斯諾",
+      "id": 1432
+   },
+   {
+      "character": "斯皮爾德",
+      "id": 1433
+   },
+   {
+      "character": "四川獨",
+      "id": 1434
+   },
+   {
+      "character": "四川獨立",
+      "id": 1435
+   },
+   {
+      "character": "四人幫",
+      "id": 1436
+   },
+   {
+      "character": "㈣",
+      "id": 1437
+   },
+   {
+      "character": "宋書元",
+      "id": 1438
+   },
+   {
+      "character": "藪",
+      "id": 1439
+   },
+   {
+      "character": "蘇菲爾",
+      "id": 1440
+   },
+   {
+      "character": "蘇拉",
+      "id": 1441
+   },
+   {
+      "character": "蘇南成",
+      "id": 1442
+   },
+   {
+      "character": "蘇紹智",
+      "id": 1443
+   },
+   {
+      "character": "蘇特勒守護兵",
+      "id": 1444
+   },
+   {
+      "character": "蘇特勤",
+      "id": 1445
+   },
+   {
+      "character": "蘇特勤護衛兵",
+      "id": 1446
+   },
+   {
+      "character": "蘇特勤魔法師",
+      "id": 1447
+   },
+   {
+      "character": "蘇曉康",
+      "id": 1448
+   },
+   {
+      "character": "蘇盈貴",
+      "id": 1449
+   },
+   {
+      "character": "蘇貞昌",
+      "id": 1450
+   },
+   {
+      "character": "誶",
+      "id": 1451
+   },
+   {
+      "character": "碎片製造商人馬克",
+      "id": 1452
+   },
+   {
+      "character": "碎片製造商人蘇克",
+      "id": 1453
+   },
+   {
+      "character": "孫大千",
+      "id": 1454
+   },
+   {
+      "character": "孫中山",
+      "id": 1455
+   },
+   {
+      "character": "他媽",
+      "id": 1456
+   },
+   {
+      "character": "他媽的",
+      "id": 1457
+   },
+   {
+      "character": "他嗎的",
+      "id": 1458
+   },
+   {
+      "character": "他母親",
+      "id": 1459
+   },
+   {
+      "character": "塔內",
+      "id": 1460
+   },
+   {
+      "character": "塔烏",
+      "id": 1461
+   },
+   {
+      "character": "鰨",
+      "id": 1462
+   },
+   {
+      "character": "闥",
+      "id": 1463
+   },
+   {
+      "character": "臺盟",
+      "id": 1464
+   },
+   {
+      "character": "臺灣帝國",
+      "id": 1465
+   },
+   {
+      "character": "臺灣獨立",
+      "id": 1466
+   },
+   {
+      "character": "臺灣獨",
+      "id": 1467
+   },
+   {
+      "character": "臺灣共産黨",
+      "id": 1468
+   },
+   {
+      "character": "臺灣狗",
+      "id": 1469
+   },
+   {
+      "character": "臺灣建國運動組織",
+      "id": 1470
+   },
+   {
+      "character": "臺灣民國",
+      "id": 1471
+   },
+   {
+      "character": "臺灣青年獨立聯盟",
+      "id": 1472
+   },
+   {
+      "character": "臺灣政論區",
+      "id": 1473
+   },
+   {
+      "character": "臺灣自由聯盟",
+      "id": 1474
+   },
+   {
+      "character": "鮐",
+      "id": 1475
+   },
+   {
+      "character": "太監",
+      "id": 1476
+   },
+   {
+      "character": "泰奴橋警衛兵",
+      "id": 1477
+   },
+   {
+      "character": "泰奴橋掠奪者",
+      "id": 1478
+   },
+   {
+      "character": "湯光中",
+      "id": 1479
+   },
+   {
+      "character": "唐柏橋",
+      "id": 1480
+   },
+   {
+      "character": "鞀",
+      "id": 1481
+   },
+   {
+      "character": "謄",
+      "id": 1482
+   },
+   {
+      "character": "天安門",
+      "id": 1483
+   },
+   {
+      "character": "天安門錄影帶",
+      "id": 1484
+   },
+   {
+      "character": "天安門事件",
+      "id": 1485
+   },
+   {
+      "character": "天安門屠殺",
+      "id": 1486
+   },
+   {
+      "character": "天安門一代",
+      "id": 1487
+   },
+   {
+      "character": "天閹",
+      "id": 1488
+   },
+   {
+      "character": "田紀雲",
+      "id": 1489
+   },
+   {
+      "character": "齠",
+      "id": 1490
+   },
+   {
+      "character": "鰷",
+      "id": 1491
+   },
+   {
+      "character": "銚",
+      "id": 1492
+   },
+   {
+      "character": "庭院警衛兵",
+      "id": 1493
+   },
+   {
+      "character": "統獨",
+      "id": 1494
+   },
+   {
+      "character": "統獨論壇",
+      "id": 1495
+   },
+   {
+      "character": "統戰",
+      "id": 1496
+   },
+   {
+      "character": "頭領奧馬",
+      "id": 1497
+   },
+   {
+      "character": "頭領墳墓管理員",
+      "id": 1498
+   },
+   {
+      "character": "圖書管理員卡特",
+      "id": 1499
+   },
+   {
+      "character": "屠殺",
+      "id": 1500
+   },
+   {
+      "character": "團長戈登",
+      "id": 1501
+   },
+   {
+      "character": "團員馬爾汀",
+      "id": 1502
+   },
+   {
+      "character": "摶",
+      "id": 1503
+   },
+   {
+      "character": "鼉",
+      "id": 1504
+   },
+   {
+      "character": "籜",
+      "id": 1505
+   },
+   {
+      "character": "膃",
+      "id": 1506
+   },
+   {
+      "character": "外交論壇",
+      "id": 1507
+   },
+   {
+      "character": "外交與方略",
+      "id": 1508
+   },
+   {
+      "character": "晚年周恩來",
+      "id": 1509
+   },
+   {
+      "character": "綰",
+      "id": 1510
+   },
+   {
+      "character": "萬里",
+      "id": 1511
+   },
+   {
+      "character": "萬潤南",
+      "id": 1512
+   },
+   {
+      "character": "萬維讀者論壇",
+      "id": 1513
+   },
+   {
+      "character": "萬曉東",
+      "id": 1514
+   },
+   {
+      "character": "王寶森",
+      "id": 1515
+   },
+   {
+      "character": "王超華",
+      "id": 1516
+   },
+   {
+      "character": "王輔臣",
+      "id": 1517
+   },
+   {
+      "character": "王剛",
+      "id": 1518
+   },
+   {
+      "character": "王涵萬",
+      "id": 1519
+   },
+   {
+      "character": "王滬寧",
+      "id": 1520
+   },
+   {
+      "character": "王軍濤",
+      "id": 1521
+   },
+   {
+      "character": "王樂泉",
+      "id": 1522
+   },
+   {
+      "character": "王潤生",
+      "id": 1523
+   },
+   {
+      "character": "王世堅",
+      "id": 1524
+   },
+   {
+      "character": "王世勛",
+      "id": 1525
+   },
+   {
+      "character": "王秀麗",
+      "id": 1526
+   },
+   {
+      "character": "王兆國",
+      "id": 1527
+   },
+   {
+      "character": "網禪",
+      "id": 1528
+   },
+   {
+      "character": "網特",
+      "id": 1529
+   },
+   {
+      "character": "猥褻",
+      "id": 1530
+   },
+   {
+      "character": "鮪",
+      "id": 1531
+   },
+   {
+      "character": "溫B",
+      "id": 1532
+   },
+   {
+      "character": "溫逼",
+      "id": 1533
+   },
+   {
+      "character": "溫比",
+      "id": 1534
+   },
+   {
+      "character": "溫家寶",
+      "id": 1535
+   },
+   {
+      "character": "溫元凱",
+      "id": 1536
+   },
+   {
+      "character": "閿",
+      "id": 1537
+   },
+   {
+      "character": "無界瀏覽器",
+      "id": 1538
+   },
+   {
+      "character": "吳百益",
+      "id": 1539
+   },
+   {
+      "character": "吳敦義",
+      "id": 1540
+   },
+   {
+      "character": "吳方城",
+      "id": 1541
+   },
+   {
+      "character": "吳弘達",
+      "id": 1542
+   },
+   {
+      "character": "吳宏達",
+      "id": 1543
+   },
+   {
+      "character": "吳仁華",
+      "id": 1544
+   },
+   {
+      "character": "吳淑珍",
+      "id": 1545
+   },
+   {
+      "character": "吳學燦",
+      "id": 1546
+   },
+   {
+      "character": "吳學璨",
+      "id": 1547
+   },
+   {
+      "character": "吳育升",
+      "id": 1548
+   },
+   {
+      "character": "吳志芳",
+      "id": 1549
+   },
+   {
+      "character": "西藏獨",
+      "id": 1550
+   },
+   {
+      "character": "吸收的圖騰",
+      "id": 1551
+   },
+   {
+      "character": "吸血獸",
+      "id": 1552
+   },
+   {
+      "character": "覡",
+      "id": 1553
+   },
+   {
+      "character": "洗腦",
+      "id": 1554
+   },
+   {
+      "character": "系統",
+      "id": 1555
+   },
+   {
+      "character": "系統公告",
+      "id": 1556
+   },
+   {
+      "character": "餼",
+      "id": 1557
+   },
+   {
+      "character": "郤",
+      "id": 1558
+   },
+   {
+      "character": "下賤",
+      "id": 1559
+   },
+   {
+      "character": "下體",
+      "id": 1560
+   },
+   {
+      "character": "薟",
+      "id": 1561
+   },
+   {
+      "character": "躚",
+      "id": 1562
+   },
+   {
+      "character": "鮮族",
+      "id": 1563
+   },
+   {
+      "character": "獫",
+      "id": 1564
+   },
+   {
+      "character": "蜆",
+      "id": 1565
+   },
+   {
+      "character": "峴",
+      "id": 1566
+   },
+   {
+      "character": "現金",
+      "id": 1567
+   },
+   {
+      "character": "現金交易",
+      "id": 1568
+   },
+   {
+      "character": "獻祭的圖騰",
+      "id": 1569
+   },
+   {
+      "character": "鯗",
+      "id": 1570
+   },
+   {
+      "character": "項懷誠",
+      "id": 1571
+   },
+   {
+      "character": "項小吉",
+      "id": 1572
+   },
+   {
+      "character": "嘵",
+      "id": 1573
+   },
+   {
+      "character": "小B樣",
+      "id": 1574
+   },
+   {
+      "character": "小比樣",
+      "id": 1575
+   },
+   {
+      "character": "小參考",
+      "id": 1576
+   },
+   {
+      "character": "小鶏鶏",
+      "id": 1577
+   },
+   {
+      "character": "小靈通",
+      "id": 1578
+   },
+   {
+      "character": "小泉純一郎",
+      "id": 1579
+   },
+   {
+      "character": "謝長廷",
+      "id": 1580
+   },
+   {
+      "character": "謝深山",
+      "id": 1581
+   },
+   {
+      "character": "謝選駿",
+      "id": 1582
+   },
+   {
+      "character": "謝中之",
+      "id": 1583
+   },
+   {
+      "character": "辛灝年",
+      "id": 1584
+   },
+   {
+      "character": "新觀察論壇",
+      "id": 1585
+   },
+   {
+      "character": "新華舉報",
+      "id": 1586
+   },
+   {
+      "character": "新華內情",
+      "id": 1587
+   },
+   {
+      "character": "新華通論壇",
+      "id": 1588
+   },
+   {
+      "character": "新疆獨",
+      "id": 1589
+   },
+   {
+      "character": "新生網",
+      "id": 1590
+   },
+   {
+      "character": "新手訓練營",
+      "id": 1591
+   },
+   {
+      "character": "新聞出版總署",
+      "id": 1592
+   },
+   {
+      "character": "新聞封鎖",
+      "id": 1593
+   },
+   {
+      "character": "新義安",
+      "id": 1594
+   },
+   {
+      "character": "新語絲",
+      "id": 1595
+   },
+   {
+      "character": "信用危機",
+      "id": 1596
+   },
+   {
+      "character": "邢錚",
+      "id": 1597
+   },
+   {
+      "character": "性愛",
+      "id": 1598
+   },
+   {
+      "character": "性無能",
+      "id": 1599
+   },
+   {
+      "character": "修煉",
+      "id": 1600
+   },
+   {
+      "character": "頊",
+      "id": 1601
+   },
+   {
+      "character": "虛弱圖騰",
+      "id": 1602
+   },
+   {
+      "character": "虛無的飽食者",
+      "id": 1603
+   },
+   {
+      "character": "徐國舅",
+      "id": 1604
+   },
+   {
+      "character": "許財利",
+      "id": 1605
+   },
+   {
+      "character": "許家屯",
+      "id": 1606
+   },
+   {
+      "character": "許信良",
+      "id": 1607
+   },
+   {
+      "character": "諼",
+      "id": 1608
+   },
+   {
+      "character": "薛偉",
+      "id": 1609
+   },
+   {
+      "character": "學潮",
+      "id": 1610
+   },
+   {
+      "character": "學聯",
+      "id": 1611
+   },
+   {
+      "character": "學運",
+      "id": 1612
+   },
+   {
+      "character": "學自聯",
+      "id": 1613
+   },
+   {
+      "character": "澩",
+      "id": 1614
+   },
+   {
+      "character": "閹狗",
+      "id": 1615
+   },
+   {
+      "character": "訁",
+      "id": 1616
+   },
+   {
+      "character": "嚴家其",
+      "id": 1617
+   },
+   {
+      "character": "嚴家祺",
+      "id": 1618
+   },
+   {
+      "character": "閻明複",
+      "id": 1619
+   },
+   {
+      "character": "顔清標",
+      "id": 1620
+   },
+   {
+      "character": "顔慶章",
+      "id": 1621
+   },
+   {
+      "character": "顔射",
+      "id": 1622
+   },
+   {
+      "character": "讞",
+      "id": 1623
+   },
+   {
+      "character": "央視內部晚會",
+      "id": 1624
+   },
+   {
+      "character": "陽具",
+      "id": 1625
+   },
+   {
+      "character": "陽痿",
+      "id": 1626
+   },
+   {
+      "character": "陽物",
+      "id": 1627
+   },
+   {
+      "character": "楊懷安",
+      "id": 1628
+   },
+   {
+      "character": "楊建利",
+      "id": 1629
+   },
+   {
+      "character": "楊巍",
+      "id": 1630
+   },
+   {
+      "character": "楊月清",
+      "id": 1631
+   },
+   {
+      "character": "楊周",
+      "id": 1632
+   },
+   {
+      "character": "姚羅",
+      "id": 1633
+   },
+   {
+      "character": "姚月謙",
+      "id": 1634
+   },
+   {
+      "character": "軺",
+      "id": 1635
+   },
+   {
+      "character": "搖頭丸",
+      "id": 1636
+   },
+   {
+      "character": "藥材商人蘇耐得",
+      "id": 1637
+   },
+   {
+      "character": "藥水",
+      "id": 1638
+   },
+   {
+      "character": "耶穌",
+      "id": 1639
+   },
+   {
+      "character": "野鶏",
+      "id": 1640
+   },
+   {
+      "character": "葉菊蘭",
+      "id": 1641
+   },
+   {
+      "character": "夜話紫禁城",
+      "id": 1642
+   },
+   {
+      "character": "一陀糞",
+      "id": 1643
+   },
+   {
+      "character": "㈠",
+      "id": 1644
+   },
+   {
+      "character": "伊莎貝爾",
+      "id": 1645
+   },
+   {
+      "character": "伊斯蘭",
+      "id": 1646
+   },
+   {
+      "character": "伊斯蘭亞格林尼斯",
+      "id": 1647
+   },
+   {
+      "character": "遺精",
+      "id": 1648
+   },
+   {
+      "character": "議長阿茵斯塔",
+      "id": 1649
+   },
+   {
+      "character": "議員斯格文德",
+      "id": 1650
+   },
+   {
+      "character": "异見人士",
+      "id": 1651
+   },
+   {
+      "character": "异型叛軍",
+      "id": 1652
+   },
+   {
+      "character": "异議人士",
+      "id": 1653
+   },
+   {
+      "character": "易丹軒",
+      "id": 1654
+   },
+   {
+      "character": "意志不堅的圖騰",
+      "id": 1655
+   },
+   {
+      "character": "瘞",
+      "id": 1656
+   },
+   {
+      "character": "陰部",
+      "id": 1657
+   },
+   {
+      "character": "陰唇",
+      "id": 1658
+   },
+   {
+      "character": "陰道",
+      "id": 1659
+   },
+   {
+      "character": "陰蒂",
+      "id": 1660
+   },
+   {
+      "character": "陰戶",
+      "id": 1661
+   },
+   {
+      "character": "陰莖",
+      "id": 1662
+   },
+   {
+      "character": "陰精",
+      "id": 1663
+   },
+   {
+      "character": "陰毛",
+      "id": 1664
+   },
+   {
+      "character": "陰門",
+      "id": 1665
+   },
+   {
+      "character": "陰囊",
+      "id": 1666
+   },
+   {
+      "character": "陰水",
+      "id": 1667
+   },
+   {
+      "character": "淫蕩",
+      "id": 1668
+   },
+   {
+      "character": "淫穢",
+      "id": 1669
+   },
+   {
+      "character": "淫貨",
+      "id": 1670
+   },
+   {
+      "character": "淫賤",
+      "id": 1671
+   },
+   {
+      "character": "尹慶民",
+      "id": 1672
+   },
+   {
+      "character": "引導",
+      "id": 1673
+   },
+   {
+      "character": "隱者之路",
+      "id": 1674
+   },
+   {
+      "character": "鷹眼派氏族",
+      "id": 1675
+   },
+   {
+      "character": "硬直圖騰",
+      "id": 1676
+   },
+   {
+      "character": "憂鬱的艾拉",
+      "id": 1677
+   },
+   {
+      "character": "尤比亞",
+      "id": 1678
+   },
+   {
+      "character": "由喜貴",
+      "id": 1679
+   },
+   {
+      "character": "游蕩的僵尸",
+      "id": 1680
+   },
+   {
+      "character": "游蕩的士兵",
+      "id": 1681
+   },
+   {
+      "character": "游蕩爪牙",
+      "id": 1682
+   },
+   {
+      "character": "游錫坤",
+      "id": 1683
+   },
+   {
+      "character": "游戲管理員",
+      "id": 1684
+   },
+   {
+      "character": "友好的魯德",
+      "id": 1685
+   },
+   {
+      "character": "幼齒",
+      "id": 1686
+   },
+   {
+      "character": "幼龍",
+      "id": 1687
+   },
+   {
+      "character": "于幼軍",
+      "id": 1688
+   },
+   {
+      "character": "余英時",
+      "id": 1689
+   },
+   {
+      "character": "漁夫菲斯曼",
+      "id": 1690
+   },
+   {
+      "character": "輿論",
+      "id": 1691
+   },
+   {
+      "character": "輿論反制",
+      "id": 1692
+   },
+   {
+      "character": "傴",
+      "id": 1693
+   },
+   {
+      "character": "宇明網",
+      "id": 1694
+   },
+   {
+      "character": "齬",
+      "id": 1695
+   },
+   {
+      "character": "飫",
+      "id": 1696
+   },
+   {
+      "character": "鵒",
+      "id": 1697
+   },
+   {
+      "character": "元老蘭提(沃德）",
+      "id": 1698
+   },
+   {
+      "character": "圓滿",
+      "id": 1699
+   },
+   {
+      "character": "緣圈圈",
+      "id": 1700
+   },
+   {
+      "character": "遠志明",
+      "id": 1701
+   },
+   {
+      "character": "月經",
+      "id": 1702
+   },
+   {
+      "character": "韞",
+      "id": 1703
+   },
+   {
+      "character": "雜種",
+      "id": 1704
+   },
+   {
+      "character": "鏨",
+      "id": 1705
+   },
+   {
+      "character": "造愛",
+      "id": 1706
+   },
+   {
+      "character": "則民",
+      "id": 1707
+   },
+   {
+      "character": "擇民",
+      "id": 1708
+   },
+   {
+      "character": "澤夫",
+      "id": 1709
+   },
+   {
+      "character": "澤民",
+      "id": 1710
+   },
+   {
+      "character": "賾",
+      "id": 1711
+   },
+   {
+      "character": "賊民",
+      "id": 1712
+   },
+   {
+      "character": "譖",
+      "id": 1713
+   },
+   {
+      "character": "扎卡維是英雄",
+      "id": 1714
+   },
+   {
+      "character": "驏",
+      "id": 1715
+   },
+   {
+      "character": "張伯笠",
+      "id": 1716
+   },
+   {
+      "character": "張博雅",
+      "id": 1717
+   },
+   {
+      "character": "張鋼",
+      "id": 1718
+   },
+   {
+      "character": "張健",
+      "id": 1719
+   },
+   {
+      "character": "張林",
+      "id": 1720
+   },
+   {
+      "character": "張清芳",
+      "id": 1721
+   },
+   {
+      "character": "張偉國",
+      "id": 1722
+   },
+   {
+      "character": "張溫鷹",
+      "id": 1723
+   },
+   {
+      "character": "張昭富",
+      "id": 1724
+   },
+   {
+      "character": "張志清",
+      "id": 1725
+   },
+   {
+      "character": "章孝嚴",
+      "id": 1726
+   },
+   {
+      "character": "帳號",
+      "id": 1727
+   },
+   {
+      "character": "賬號",
+      "id": 1728
+   },
+   {
+      "character": "招鶏",
+      "id": 1729
+   },
+   {
+      "character": "趙海青",
+      "id": 1730
+   },
+   {
+      "character": "趙建銘",
+      "id": 1731
+   },
+   {
+      "character": "趙南",
+      "id": 1732
+   },
+   {
+      "character": "趙品潞",
+      "id": 1733
+   },
+   {
+      "character": "趙曉微",
+      "id": 1734
+   },
+   {
+      "character": "趙紫陽",
+      "id": 1735
+   },
+   {
+      "character": "貞操",
+      "id": 1736
+   },
+   {
+      "character": "鎮壓",
+      "id": 1737
+   },
+   {
+      "character": "爭鳴論壇",
+      "id": 1738
+   },
+   {
+      "character": "正見網",
+      "id": 1739
+   },
+   {
+      "character": "正義黨論壇",
+      "id": 1740
+   },
+   {
+      "character": "㊣",
+      "id": 1741
+   },
+   {
+      "character": "鄭寶清",
+      "id": 1742
+   },
+   {
+      "character": "鄭麗文",
+      "id": 1743
+   },
+   {
+      "character": "鄭義",
+      "id": 1744
+   },
+   {
+      "character": "鄭餘鎮",
+      "id": 1745
+   },
+   {
+      "character": "鄭源",
+      "id": 1746
+   },
+   {
+      "character": "鄭運鵬",
+      "id": 1747
+   },
+   {
+      "character": "政權",
+      "id": 1748
+   },
+   {
+      "character": "政治反對派",
+      "id": 1749
+   },
+   {
+      "character": "縶",
+      "id": 1750
+   },
+   {
+      "character": "躑",
+      "id": 1751
+   },
+   {
+      "character": "指點江山論壇",
+      "id": 1752
+   },
+   {
+      "character": "騭",
+      "id": 1753
+   },
+   {
+      "character": "觶",
+      "id": 1754
+   },
+   {
+      "character": "躓",
+      "id": 1755
+   },
+   {
+      "character": "中毒的圖騰",
+      "id": 1756
+   },
+   {
+      "character": "中毒圖騰",
+      "id": 1757
+   },
+   {
+      "character": "中俄邊界",
+      "id": 1758
+   },
+   {
+      "character": "中國復興論壇",
+      "id": 1759
+   },
+   {
+      "character": "中國共産黨",
+      "id": 1760
+   },
+   {
+      "character": "中國孤兒院",
+      "id": 1761
+   },
+   {
+      "character": "中國和平",
+      "id": 1762
+   },
+   {
+      "character": "中國論壇",
+      "id": 1763
+   },
+   {
+      "character": "中國社會進步黨",
+      "id": 1764
+   },
+   {
+      "character": "中國社會論壇",
+      "id": 1765
+   },
+   {
+      "character": "中國威脅論",
+      "id": 1766
+   },
+   {
+      "character": "中國問題論壇",
+      "id": 1767
+   },
+   {
+      "character": "中國移動通信",
+      "id": 1768
+   },
+   {
+      "character": "中國真實內容",
+      "id": 1769
+   },
+   {
+      "character": "中國之春",
+      "id": 1770
+   },
+   {
+      "character": "中國猪",
+      "id": 1771
+   },
+   {
+      "character": "中華大地",
+      "id": 1772
+   },
+   {
+      "character": "中華大衆",
+      "id": 1773
+   },
+   {
+      "character": "中華講清",
+      "id": 1774
+   },
+   {
+      "character": "中華民國",
+      "id": 1775
+   },
+   {
+      "character": "中華人民實話實說",
+      "id": 1776
+   },
+   {
+      "character": "中華人民正邪",
+      "id": 1777
+   },
+   {
+      "character": "中華時事",
+      "id": 1778
+   },
+   {
+      "character": "中華養生益智功",
+      "id": 1779
+   },
+   {
+      "character": "中華真實報道",
+      "id": 1780
+   },
+   {
+      "character": "中央電視臺",
+      "id": 1781
+   },
+   {
+      "character": "鐘山風雨論壇",
+      "id": 1782
+   },
+   {
+      "character": "周鋒鎖",
+      "id": 1783
+   },
+   {
+      "character": "周守訓",
+      "id": 1784
+   },
+   {
+      "character": "朱鳳芝",
+      "id": 1785
+   },
+   {
+      "character": "朱立倫",
+      "id": 1786
+   },
+   {
+      "character": "朱溶劑",
+      "id": 1787
+   },
+   {
+      "character": "㈱",
+      "id": 1788
+   },
+   {
+      "character": "猪聾畸",
+      "id": 1789
+   },
+   {
+      "character": "主攻指揮官",
+      "id": 1790
+   },
+   {
+      "character": "主義",
+      "id": 1791
+   },
+   {
+      "character": "助手威爾特",
+      "id": 1792
+   },
+   {
+      "character": "專制",
+      "id": 1793
+   },
+   {
+      "character": "顓",
+      "id": 1794
+   },
+   {
+      "character": "轉化",
+      "id": 1795
+   },
+   {
+      "character": "諑",
+      "id": 1796
+   },
+   {
+      "character": "資本主義",
+      "id": 1797
+   },
+   {
+      "character": "鯔",
+      "id": 1798
+   },
+   {
+      "character": "子宮",
+      "id": 1799
+   },
+   {
+      "character": "自民黨",
+      "id": 1800
+   },
+   {
+      "character": "自由民主論壇",
+      "id": 1801
+   },
+   {
+      "character": "總理",
+      "id": 1802
+   },
+   {
+      "character": "諏",
+      "id": 1803
+   },
+   {
+      "character": "鯫 ",
+      "id": 1804
+   },
+   {
+      "character": "躦",
+      "id": 1805
+   },
+   {
+      "character": "纘",
+      "id": 1806
+   },
+   {
+      "character": "作愛",
+      "id": 1807
+   },
+   {
+      "character": "做愛",
+      "id": 1808
+   },
+   {
+      "character": "煞笔",
+      "id": 1809
+   },
+   {
+      "character": "urban-rivals",
+      "id": 1810
+   },
+   {
+      "character": "rivals",
+      "id": 1811
+   },
+   {
+      "character": "UR",
+      "id": 1812
+   },
+   {
+      "character": "ur",
+      "id": 1813
+   },
+   {
+      "character": "她妈",
+      "id": 1814
+   },
+   {
+      "character": "牛B",
+      "id": 1815
+   },
+   {
+      "character": "牛比",
+      "id": 1816
+   },
+   {
+      "character": "傻逼",
+      "id": 1817
+   },
+   {
+      "character": "装逼",
+      "id": 1818
+   },
+   {
+      "character": "装B",
+      "id": 1819
+   },
+   {
+      "character": "不玩了",
+      "id": 1820
+   },
+   {
+      "character": "删号",
+      "id": 1821
+   },
+   {
+      "character": "卖号",
+      "id": 1822
+   },
+   {
+      "character": "妈逼",
+      "id": 1823
+   },
+   {
+      "character": "T.M.D",
+      "id": 1824
+   },
+   {
+      "character": "JB",
+      "id": 1825
+   },
+   {
+      "character": "jb",
+      "id": 1826
+   },
+   {
+      "character": "出售账号",
+      "id": 1827
+   },
+   {
+      "character": "出售此号",
+      "id": 1828
+   },
+   {
+      "character": "U/R",
+      "id": 1829
+   },
+   {
+      "character": "U-R",
+      "id": 1830
+   },
+   {
+      "character": "吗的",
+      "id": 1831
+   },
+   {
+      "character": "8仙",
+      "id": 1832
+   },
+   {
+      "character": "狗日",
+      "id": 1833
+   },
+   {
+      "character": "出售神符",
+      "id": 1834
+   },
+   {
+      "character": "NPC",
+      "id": 1835
+   },
+   {
+      "character": "*法*轮*功*",
+      "id": 1836
+   },
+   {
+      "character": "*李*洪*志*阿扁",
+      "id": 1837
+   },
+   {
+      "character": "阿拉",
+      "id": 1838
+   },
+   {
+      "character": "安全局",
+      "id": 1839
+   },
+   {
+      "character": "澳洲光明网",
+      "id": 1840
+   },
+   {
+      "character": "八九",
+      "id": 1841
+   },
+   {
+      "character": "八九风波",
+      "id": 1842
+   },
+   {
+      "character": "办理文凭",
+      "id": 1843
+   },
+   {
+      "character": "办理证件",
+      "id": 1844
+   },
+   {
+      "character": "包皮",
+      "id": 1845
+   },
+   {
+      "character": "保钓",
+      "id": 1846
+   },
+   {
+      "character": "保监会",
+      "id": 1847
+   },
+   {
+      "character": "保密局",
+      "id": 1848
+   },
+   {
+      "character": "鸨",
+      "id": 1849
+   },
+   {
+      "character": "鲍岳桥",
+      "id": 1850
+   },
+   {
+      "character": "暴动",
+      "id": 1851
+   },
+   {
+      "character": "暴乱",
+      "id": 1852
+   },
+   {
+      "character": "暴徒",
+      "id": 1853
+   },
+   {
+      "character": "北京之春",
+      "id": 1854
+   },
+   {
+      "character": "贝肉",
+      "id": 1855
+   },
+   {
+      "character": "本?拉登",
+      "id": 1856
+   },
+   {
+      "character": "苯比",
+      "id": 1857
+   },
+   {
+      "character": "笨屄",
+      "id": 1858
+   },
+   {
+      "character": "笨逼",
+      "id": 1859
+   },
+   {
+      "character": "屄毛",
+      "id": 1860
+   },
+   {
+      "character": "逼你老母",
+      "id": 1861
+   },
+   {
+      "character": "逼样",
+      "id": 1862
+   },
+   {
+      "character": "比毛",
+      "id": 1863
+   },
+   {
+      "character": "婊",
+      "id": 1864
+   },
+   {
+      "character": "宾周",
+      "id": 1865
+   },
+   {
+      "character": "波霸",
+      "id": 1866
+   },
+   {
+      "character": "博讯",
+      "id": 1867
+   },
+   {
+      "character": "薄一波",
+      "id": 1868
+   },
+   {
+      "character": "布莱尔",
+      "id": 1869
+   },
+   {
+      "character": "布雷尔",
+      "id": 1870
+   },
+   {
+      "character": "财政部",
+      "id": 1871
+   },
+   {
+      "character": "参事室",
+      "id": 1872
+   },
+   {
+      "character": "操GM",
+      "id": 1873
+   },
+   {
+      "character": "操Gm",
+      "id": 1874
+   },
+   {
+      "character": "操gM",
+      "id": 1875
+   },
+   {
+      "character": "操gm",
+      "id": 1876
+   },
+   {
+      "character": "操XX",
+      "id": 1877
+   },
+   {
+      "character": "操逼",
+      "id": 1878
+   },
+   {
+      "character": "操比",
+      "id": 1879
+   },
+   {
+      "character": "操蛋",
+      "id": 1880
+   },
+   {
+      "character": "CAO",
+      "id": 1881
+   },
+   {
+      "character": "K粉",
+      "id": 1882
+   },
+   {
+      "character": "J8",
+      "id": 1883
+   },
+   {
+      "character": "小姐兼职",
+      "id": 1884
+   },
+   {
+      "character": "交媾",
+      "id": 1885
+   },
+   {
+      "character": "西藏314事件",
+      "id": 1886
+   },
+   {
+      "character": "新疆7.5事件乱伦",
+      "id": 1887
+   },
+   {
+      "character": "毛片",
+      "id": 1888
+   },
+   {
+      "character": "黄片",
+      "id": 1889
+   },
+   {
+      "character": "交配",
+      "id": 1890
+   },
+   {
+      "character": "群交",
+      "id": 1891
+   },
+   {
+      "character": "操你八辈祖宗",
+      "id": 1892
+   },
+   {
+      "character": "操你妈屄",
+      "id": 1893
+   },
+   {
+      "character": "草的你妈",
+      "id": 1894
+   },
+   {
+      "character": "草妈",
+      "id": 1895
+   },
+   {
+      "character": "测绘局",
+      "id": 1896
+   },
+   {
+      "character": "插GM",
+      "id": 1897
+   },
+   {
+      "character": "插Gm",
+      "id": 1898
+   },
+   {
+      "character": "插gM",
+      "id": 1899
+   },
+   {
+      "character": "插gm",
+      "id": 1900
+   },
+   {
+      "character": "插妳",
+      "id": 1901
+   },
+   {
+      "character": "插你",
+      "id": 1902
+   },
+   {
+      "character": "插深些",
+      "id": 1903
+   },
+   {
+      "character": "产权局",
+      "id": 1904
+   },
+   {
+      "character": "朝鲜",
+      "id": 1905
+   },
+   {
+      "character": "车臣",
+      "id": 1906
+   },
+   {
+      "character": "车仑",
+      "id": 1907
+   },
+   {
+      "character": "陈功",
+      "id": 1908
+   },
+   {
+      "character": "陈水扁",
+      "id": 1909
+   },
+   {
+      "character": "陈希同",
+      "id": 1910
+   },
+   {
+      "character": "陈晓宁",
+      "id": 1911
+   },
+   {
+      "character": "成人电影",
+      "id": 1912
+   },
+   {
+      "character": "成人片",
+      "id": 1913
+   },
+   {
+      "character": "吃大便",
+      "id": 1914
+   },
+   {
+      "character": "吃屎",
+      "id": 1915
+   },
+   {
+      "character": "迟浩田",
+      "id": 1916
+   },
+   {
+      "character": "赤匪",
+      "id": 1917
+   },
+   {
+      "character": "抽插",
+      "id": 1918
+   },
+   {
+      "character": "抽你丫的",
+      "id": 1919
+   },
+   {
+      "character": "臭化西",
+      "id": 1920
+   },
+   {
+      "character": "出售假币",
+      "id": 1921
+   },
+   {
+      "character": "出售枪支",
+      "id": 1922
+   },
+   {
+      "character": "出售手枪",
+      "id": 1923
+   },
+   {
+      "character": "春药",
+      "id": 1924
+   },
+   {
+      "character": "粗制吗啡",
+      "id": 1925
+   },
+   {
+      "character": "达赖",
+      "id": 1926
+   },
+   {
+      "character": "达赖喇嘛",
+      "id": 1927
+   },
+   {
+      "character": "打炮",
+      "id": 1928
+   },
+   {
+      "character": "大B",
+      "id": 1929
+   },
+   {
+      "character": "大逼",
+      "id": 1930
+   },
+   {
+      "character": "大便",
+      "id": 1931
+   },
+   {
+      "character": "大波波",
+      "id": 1932
+   },
+   {
+      "character": "大麻树脂",
+      "id": 1933
+   },
+   {
+      "character": "大麻油",
+      "id": 1934
+   },
+   {
+      "character": "戴维教",
+      "id": 1935
+   },
+   {
+      "character": "大学骚乱",
+      "id": 1936
+   },
+   {
+      "character": "大血B",
+      "id": 1937
+   },
+   {
+      "character": "呆卵",
+      "id": 1938
+   },
+   {
+      "character": "戴海静",
+      "id": 1939
+   },
+   {
+      "character": "戴红",
+      "id": 1940
+   },
+   {
+      "character": "戴晶",
+      "id": 1941
+   },
+   {
+      "character": "党主席",
+      "id": 1942
+   },
+   {
+      "character": "档案局",
+      "id": 1943
+   },
+   {
+      "character": "盗窃犯",
+      "id": 1944
+   },
+   {
+      "character": "道教",
+      "id": 1945
+   },
+   {
+      "character": "邓小平",
+      "id": 1946
+   },
+   {
+      "character": "帝国主义",
+      "id": 1947
+   },
+   {
+      "character": "电监会",
+      "id": 1948
+   },
+   {
+      "character": "叼你妈",
+      "id": 1949
+   },
+   {
+      "character": "屌7",
+      "id": 1950
+   },
+   {
+      "character": "屌鸠",
+      "id": 1951
+   },
+   {
+      "character": "屌毛",
+      "id": 1952
+   },
+   {
+      "character": "屌妳",
+      "id": 1953
+   },
+   {
+      "character": "屌七",
+      "id": 1954
+   },
+   {
+      "character": "屌西",
+      "id": 1955
+   },
+   {
+      "character": "钓鱼台",
+      "id": 1956
+   },
+   {
+      "character": "丁关根",
+      "id": 1957
+   },
+   {
+      "character": "丁子霖",
+      "id": 1958
+   },
+   {
+      "character": "东北独立",
+      "id": 1959
+   },
+   {
+      "character": "东升",
+      "id": 1960
+   },
+   {
+      "character": "东突暴动和独立",
+      "id": 1961
+   },
+   {
+      "character": "东突组织",
+      "id": 1962
+   },
+   {
+      "character": "董建华",
+      "id": 1963
+   },
+   {
+      "character": "董贱华",
+      "id": 1964
+   },
+   {
+      "character": "董文华",
+      "id": 1965
+   },
+   {
+      "character": "懂文华",
+      "id": 1966
+   },
+   {
+      "character": "独立",
+      "id": 1967
+   },
+   {
+      "character": "独立台湾会",
+      "id": 1968
+   },
+   {
+      "character": "二B",
+      "id": 1969
+   },
+   {
+      "character": "二屄",
+      "id": 1970
+   },
+   {
+      "character": "二逼",
+      "id": 1971
+   },
+   {
+      "character": "二乙基酰胺发抡",
+      "id": 1972
+   },
+   {
+      "character": "发抡功",
+      "id": 1973
+   },
+   {
+      "character": "发伦",
+      "id": 1974
+   },
+   {
+      "character": "发伦功",
+      "id": 1975
+   },
+   {
+      "character": "发轮",
+      "id": 1976
+   },
+   {
+      "character": "发论",
+      "id": 1977
+   },
+   {
+      "character": "发论公",
+      "id": 1978
+   },
+   {
+      "character": "发论功",
+      "id": 1979
+   },
+   {
+      "character": "法(轮)功",
+      "id": 1980
+   },
+   {
+      "character": "法*轮*功",
+      "id": 1981
+   },
+   {
+      "character": "法功",
+      "id": 1982
+   },
+   {
+      "character": "法愣",
+      "id": 1983
+   },
+   {
+      "character": "法仑",
+      "id": 1984
+   },
+   {
+      "character": "法西斯",
+      "id": 1985
+   },
+   {
+      "character": "法制办",
+      "id": 1986
+   },
+   {
+      "character": "反动",
+      "id": 1987
+   },
+   {
+      "character": "反革命",
+      "id": 1988
+   },
+   {
+      "character": "发票",
+      "id": 1989
+   },
+   {
+      "character": "冰粉",
+      "id": 1990
+   },
+   {
+      "character": "性奴",
+      "id": 1991
+   },
+   {
+      "character": "反华",
+      "id": 1992
+   },
+   {
+      "character": "反恐委员会",
+      "id": 1993
+   },
+   {
+      "character": "反日",
+      "id": 1994
+   },
+   {
+      "character": "反政府",
+      "id": 1995
+   },
+   {
+      "character": "分裂祖国",
+      "id": 1996
+   },
+   {
+      "character": "佛教",
+      "id": 1997
+   },
+   {
+      "character": "佛展千手法",
+      "id": 1998
+   },
+   {
+      "character": "佛祖",
+      "id": 1999
+   },
+   {
+      "character": "斧头镰刀",
+      "id": 2000
+   },
+   {
+      "character": "阝月",
+      "id": 2001
+   },
+   {
+      "character": "傅鹏",
+      "id": 2002
+   },
+   {
+      "character": "傅作义",
+      "id": 2003
+   },
+   {
+      "character": "干GM",
+      "id": 2004
+   },
+   {
+      "character": "干Gm",
+      "id": 2005
+   },
+   {
+      "character": "干gM",
+      "id": 2006
+   },
+   {
+      "character": "干gm",
+      "id": 2007
+   },
+   {
+      "character": "干拎娘",
+      "id": 2008
+   },
+   {
+      "character": "干妳老母",
+      "id": 2009
+   },
+   {
+      "character": "干妳妈",
+      "id": 2010
+   },
+   {
+      "character": "干你妈",
+      "id": 2011
+   },
+   {
+      "character": "干你妈逼",
+      "id": 2012
+   },
+   {
+      "character": "干七八",
+      "id": 2013
+   },
+   {
+      "character": "干死你",
+      "id": 2014
+   },
+   {
+      "character": "肛",
+      "id": 2015
+   },
+   {
+      "character": "肛门",
+      "id": 2016
+   },
+   {
+      "character": "港澳办",
+      "id": 2017
+   },
+   {
+      "character": "高俊",
+      "id": 2018
+   },
+   {
+      "character": "高校暴乱",
+      "id": 2019
+   },
+   {
+      "character": "高校群体事件",
+      "id": 2020
+   },
+   {
+      "character": "高校骚乱",
+      "id": 2021
+   },
+   {
+      "character": "睾",
+      "id": 2022
+   },
+   {
+      "character": "睾丸",
+      "id": 2023
+   },
+   {
+      "character": "膏药旗",
+      "id": 2024
+   },
+   {
+      "character": "弓虽女干",
+      "id": 2025
+   },
+   {
+      "character": "公安",
+      "id": 2026
+   },
+   {
+      "character": "公安部",
+      "id": 2027
+   },
+   {
+      "character": "公安局",
+      "id": 2028
+   },
+   {
+      "character": "共产主义",
+      "id": 2029
+   },
+   {
+      "character": "共狗",
+      "id": 2030
+   },
+   {
+      "character": "狗b",
+      "id": 2031
+   },
+   {
+      "character": "狗操",
+      "id": 2032
+   },
+   {
+      "character": "狗卵",
+      "id": 2033
+   },
+   {
+      "character": "狗娘",
+      "id": 2034
+   },
+   {
+      "character": "狗屁",
+      "id": 2035
+   },
+   {
+      "character": "狗日的",
+      "id": 2036
+   },
+   {
+      "character": "狗屎",
+      "id": 2037
+   },
+   {
+      "character": "观世音",
+      "id": 2038
+   },
+   {
+      "character": "官逼民反",
+      "id": 2039
+   },
+   {
+      "character": "官商勾结",
+      "id": 2040
+   },
+   {
+      "character": "龟儿子",
+      "id": 2041
+   },
+   {
+      "character": "龟公",
+      "id": 2042
+   },
+   {
+      "character": "龟孙子",
+      "id": 2043
+   },
+   {
+      "character": "鬼村",
+      "id": 2044
+   },
+   {
+      "character": "国安局",
+      "id": 2045
+   },
+   {
+      "character": "国防部",
+      "id": 2046
+   },
+   {
+      "character": "国防科工委",
+      "id": 2047
+   },
+   {
+      "character": "国管局",
+      "id": 2048
+   },
+   {
+      "character": "国际法院",
+      "id": 2049
+   },
+   {
+      "character": "国家民委",
+      "id": 2050
+   },
+   {
+      "character": "国家主席",
+      "id": 2051
+   },
+   {
+      "character": "国家主要部委",
+      "id": 2052
+   },
+   {
+      "character": "国民党",
+      "id": 2053
+   },
+   {
+      "character": "国民党万岁",
+      "id": 2054
+   },
+   {
+      "character": "海洋局",
+      "id": 2055
+   },
+   {
+      "character": "何候华",
+      "id": 2056
+   },
+   {
+      "character": "黑社会",
+      "id": 2057
+   },
+   {
+      "character": "黑手党",
+      "id": 2058
+   },
+   {
+      "character": "红卫兵",
+      "id": 2059
+   },
+   {
+      "character": "洪兴",
+      "id": 2060
+   },
+   {
+      "character": "洪志",
+      "id": 2061
+   },
+   {
+      "character": "后庭",
+      "id": 2062
+   },
+   {
+      "character": "胡XX",
+      "id": 2063
+   },
+   {
+      "character": "胡紧涛",
+      "id": 2064
+   },
+   {
+      "character": "胡紧掏",
+      "id": 2065
+   },
+   {
+      "character": "胡紧套",
+      "id": 2066
+   },
+   {
+      "character": "胡锦淘",
+      "id": 2067
+   },
+   {
+      "character": "胡乔木",
+      "id": 2068
+   },
+   {
+      "character": "胡主席",
+      "id": 2069
+   },
+   {
+      "character": "花柳",
+      "id": 2070
+   },
+   {
+      "character": "华国锋",
+      "id": 2071
+   },
+   {
+      "character": "换妻",
+      "id": 2072
+   },
+   {
+      "character": "黄　菊",
+      "id": 2073
+   },
+   {
+      "character": "黄色电影",
+      "id": 2074
+   },
+   {
+      "character": "黄色小电影",
+      "id": 2075
+   },
+   {
+      "character": "回教",
+      "id": 2076
+   },
+   {
+      "character": "回民暴动",
+      "id": 2077
+   },
+   {
+      "character": "回族人吃猪肉",
+      "id": 2078
+   },
+   {
+      "character": "昏药",
+      "id": 2079
+   },
+   {
+      "character": "火棒",
+      "id": 2080
+   },
+   {
+      "character": "机巴",
+      "id": 2081
+   },
+   {
+      "character": "鸡芭",
+      "id": 2082
+   },
+   {
+      "character": "基督",
+      "id": 2083
+   },
+   {
+      "character": "激情电影",
+      "id": 2084
+   },
+   {
+      "character": "激情小电影",
+      "id": 2085
+   },
+   {
+      "character": "鸡",
+      "id": 2086
+   },
+   {
+      "character": "计牌软件",
+      "id": 2087
+   },
+   {
+      "character": "计生委",
+      "id": 2088
+   },
+   {
+      "character": "妓",
+      "id": 2089
+   },
+   {
+      "character": "妓院",
+      "id": 2090
+   },
+   {
+      "character": "奸夫淫妇",
+      "id": 2091
+   },
+   {
+      "character": "奸你",
+      "id": 2092
+   },
+   {
+      "character": "贱",
+      "id": 2093
+   },
+   {
+      "character": "贱逼",
+      "id": 2094
+   },
+   {
+      "character": "贱人",
+      "id": 2095
+   },
+   {
+      "character": "江Core",
+      "id": 2096
+   },
+   {
+      "character": "江八",
+      "id": 2097
+   },
+   {
+      "character": "江八点",
+      "id": 2098
+   },
+   {
+      "character": "江独裁",
+      "id": 2099
+   },
+   {
+      "character": "江核心",
+      "id": 2100
+   },
+   {
+      "character": "江戏子",
+      "id": 2101
+   },
+   {
+      "character": "江择民",
+      "id": 2102
+   },
+   {
+      "character": "江贼民",
+      "id": 2103
+   },
+   {
+      "character": "江折民",
+      "id": 2104
+   },
+   {
+      "character": "江猪",
+      "id": 2105
+   },
+   {
+      "character": "江猪媳",
+      "id": 2106
+   },
+   {
+      "character": "江主席",
+      "id": 2107
+   },
+   {
+      "character": "僵贼民",
+      "id": 2108
+   },
+   {
+      "character": "蒋介石",
+      "id": 2109
+   },
+   {
+      "character": "蒋中正",
+      "id": 2110
+   },
+   {
+      "character": "酱猪媳",
+      "id": 2111
+   },
+   {
+      "character": "交通部",
+      "id": 2112
+   },
+   {
+      "character": "姣西",
+      "id": 2113
+   },
+   {
+      "character": "叫床",
+      "id": 2114
+   },
+   {
+      "character": "叫鸡",
+      "id": 2115
+   },
+   {
+      "character": "叫小姐",
+      "id": 2116
+   },
+   {
+      "character": "教育部",
+      "id": 2117
+   },
+   {
+      "character": "她妈的金日成",
+      "id": 2118
+   },
+   {
+      "character": "禁书",
+      "id": 2119
+   },
+   {
+      "character": "经济社会理事会",
+      "id": 2120
+   },
+   {
+      "character": "经社理事会",
+      "id": 2121
+   },
+   {
+      "character": "警匪一家",
+      "id": 2122
+   },
+   {
+      "character": "敬国神社",
+      "id": 2123
+   },
+   {
+      "character": "靖国神社",
+      "id": 2124
+   },
+   {
+      "character": "静坐",
+      "id": 2125
+   },
+   {
+      "character": "纠察员",
+      "id": 2126
+   },
+   {
+      "character": "鸠",
+      "id": 2127
+   },
+   {
+      "character": "鸠屎",
+      "id": 2128
+   },
+   {
+      "character": "军长发威",
+      "id": 2129
+   },
+   {
+      "character": "军国主义",
+      "id": 2130
+   },
+   {
+      "character": "军妓",
+      "id": 2131
+   },
+   {
+      "character": "靠",
+      "id": 2132
+   },
+   {
+      "character": "靠腰",
+      "id": 2133
+   },
+   {
+      "character": "可待因",
+      "id": 2134
+   },
+   {
+      "character": "可卡叶",
+      "id": 2135
+   },
+   {
+      "character": "恐怖份子",
+      "id": 2136
+   },
+   {
+      "character": "恐怖主义",
+      "id": 2137
+   },
+   {
+      "character": "寇晓伟",
+      "id": 2138
+   },
+   {
+      "character": "狂操",
+      "id": 2139
+   },
+   {
+      "character": "狂操你全家",
+      "id": 2140
+   },
+   {
+      "character": "拉登",
+      "id": 2141
+   },
+   {
+      "character": "懒教",
+      "id": 2142
+   },
+   {
+      "character": "烂B",
+      "id": 2143
+   },
+   {
+      "character": "烂屄",
+      "id": 2144
+   },
+   {
+      "character": "烂比",
+      "id": 2145
+   },
+   {
+      "character": "烂屌",
+      "id": 2146
+   },
+   {
+      "character": "烂货",
+      "id": 2147
+   },
+   {
+      "character": "劳+教+所",
+      "id": 2148
+   },
+   {
+      "character": "劳动保障部",
+      "id": 2149
+   },
+   {
+      "character": "老逼",
+      "id": 2150
+   },
+   {
+      "character": "老母",
+      "id": 2151
+   },
+   {
+      "character": "黎阳评",
+      "id": 2152
+   },
+   {
+      "character": "李弘旨",
+      "id": 2153
+   },
+   {
+      "character": "李红志",
+      "id": 2154
+   },
+   {
+      "character": "李宏旨",
+      "id": 2155
+   },
+   {
+      "character": "李宏志",
+      "id": 2156
+   },
+   {
+      "character": "李鹏*",
+      "id": 2157
+   },
+   {
+      "character": "李山",
+      "id": 2158
+   },
+   {
+      "character": "李铁映",
+      "id": 2159
+   },
+   {
+      "character": "李先念",
+      "id": 2160
+   },
+   {
+      "character": "联大",
+      "id": 2161
+   },
+   {
+      "character": "联合国",
+      "id": 2162
+   },
+   {
+      "character": "联合国大会",
+      "id": 2163
+   },
+   {
+      "character": "联易",
+      "id": 2164
+   },
+   {
+      "character": "联易互动",
+      "id": 2165
+   },
+   {
+      "character": "粮食局",
+      "id": 2166
+   },
+   {
+      "character": "两腿之间",
+      "id": 2167
+   },
+   {
+      "character": "林业局",
+      "id": 2168
+   },
+   {
+      "character": "刘　淇",
+      "id": 2169
+   },
+   {
+      "character": "刘军",
+      "id": 2170
+   },
+   {
+      "character": "刘少奇",
+      "id": 2171
+   },
+   {
+      "character": "刘云山",
+      "id": 2172
+   },
+   {
+      "character": "流氓",
+      "id": 2173
+   },
+   {
+      "character": "六.四",
+      "id": 2174
+   },
+   {
+      "character": "六。四",
+      "id": 2175
+   },
+   {
+      "character": "六?四",
+      "id": 2176
+   },
+   {
+      "character": "六合彩",
+      "id": 2177
+   },
+   {
+      "character": "六-四",
+      "id": 2178
+   },
+   {
+      "character": "六四事件",
+      "id": 2179
+   },
+   {
+      "character": "六四真相",
+      "id": 2180
+   },
+   {
+      "character": "龙新民",
+      "id": 2181
+   },
+   {
+      "character": "旅游局",
+      "id": 2182
+   },
+   {
+      "character": "卵",
+      "id": 2183
+   },
+   {
+      "character": "轮功",
+      "id": 2184
+   },
+   {
+      "character": "罗　干",
+      "id": 2185
+   },
+   {
+      "character": "骡干",
+      "id": 2186
+   },
+   {
+      "character": "妈比",
+      "id": 2187
+   },
+   {
+      "character": "妈卖妈屁",
+      "id": 2188
+   },
+   {
+      "character": "妈批",
+      "id": 2189
+   },
+   {
+      "character": "妈祖",
+      "id": 2190
+   },
+   {
+      "character": "妈B",
+      "id": 2191
+   },
+   {
+      "character": "麻醉钢枪",
+      "id": 2192
+   },
+   {
+      "character": "麻醉枪",
+      "id": 2193
+   },
+   {
+      "character": "麻醉药",
+      "id": 2194
+   },
+   {
+      "character": "麻醉乙醚",
+      "id": 2195
+   },
+   {
+      "character": "马卖马屁",
+      "id": 2196
+   },
+   {
+      "character": "吗啡",
+      "id": 2197
+   },
+   {
+      "character": "吗啡碱",
+      "id": 2198
+   },
+   {
+      "character": "吗啡片",
+      "id": 2199
+   },
+   {
+      "character": "买财富",
+      "id": 2200
+   },
+   {
+      "character": "买卖枪支",
+      "id": 2201
+   },
+   {
+      "character": "麦角酸",
+      "id": 2202
+   },
+   {
+      "character": "卖.国",
+      "id": 2203
+   },
+   {
+      "character": "卖B",
+      "id": 2204
+   },
+   {
+      "character": "卖ID",
+      "id": 2205
+   },
+   {
+      "character": "卖QQ",
+      "id": 2206
+   },
+   {
+      "character": "卖比",
+      "id": 2207
+   },
+   {
+      "character": "卖财富",
+      "id": 2208
+   },
+   {
+      "character": "卖党求荣",
+      "id": 2209
+   },
+   {
+      "character": "卖国",
+      "id": 2210
+   },
+   {
+      "character": "卖国求荣",
+      "id": 2211
+   },
+   {
+      "character": "卖卡",
+      "id": 2212
+   },
+   {
+      "character": "卖软件",
+      "id": 2213
+   },
+   {
+      "character": "毛XX",
+      "id": 2214
+   },
+   {
+      "character": "毛厕洞",
+      "id": 2215
+   },
+   {
+      "character": "毛一鲜",
+      "id": 2216
+   },
+   {
+      "character": "毛贼东",
+      "id": 2217
+   },
+   {
+      "character": "毛主席",
+      "id": 2218
+   },
+   {
+      "character": "梅花网",
+      "id": 2219
+   },
+   {
+      "character": "美国",
+      "id": 2220
+   },
+   {
+      "character": "美国佬",
+      "id": 2221
+   },
+   {
+      "character": "美利坚",
+      "id": 2222
+   },
+   {
+      "character": "蒙尘药",
+      "id": 2223
+   },
+   {
+      "character": "蒙独",
+      "id": 2224
+   },
+   {
+      "character": "蒙古达子",
+      "id": 2225
+   },
+   {
+      "character": "蒙古独立",
+      "id": 2226
+   },
+   {
+      "character": "迷魂药",
+      "id": 2227
+   },
+   {
+      "character": "迷奸药",
+      "id": 2228
+   },
+   {
+      "character": "迷歼药",
+      "id": 2229
+   },
+   {
+      "character": "迷药",
+      "id": 2230
+   },
+   {
+      "character": "密洞",
+      "id": 2231
+   },
+   {
+      "character": "民航局",
+      "id": 2232
+   },
+   {
+      "character": "民政部",
+      "id": 2233
+   },
+   {
+      "character": "明慧网",
+      "id": 2234
+   },
+   {
+      "character": "莫索里尼",
+      "id": 2235
+   },
+   {
+      "character": "妳妈的",
+      "id": 2236
+   },
+   {
+      "character": "妳马的",
+      "id": 2237
+   },
+   {
+      "character": "南联盟",
+      "id": 2238
+   },
+   {
+      "character": "南蛮子",
+      "id": 2239
+   },
+   {
+      "character": "嫩B",
+      "id": 2240
+   },
+   {
+      "character": "伱妈",
+      "id": 2241
+   },
+   {
+      "character": "你爸",
+      "id": 2242
+   },
+   {
+      "character": "你大爷",
+      "id": 2243
+   },
+   {
+      "character": "你二大爷",
+      "id": 2244
+   },
+   {
+      "character": "你老母",
+      "id": 2245
+   },
+   {
+      "character": "你老味",
+      "id": 2246
+   },
+   {
+      "character": "你姥",
+      "id": 2247
+   },
+   {
+      "character": "你姥姥的",
+      "id": 2248
+   },
+   {
+      "character": "你妈",
+      "id": 2249
+   },
+   {
+      "character": "你妈逼",
+      "id": 2250
+   },
+   {
+      "character": "你妈的",
+      "id": 2251
+   },
+   {
+      "character": "你娘",
+      "id": 2252
+   },
+   {
+      "character": "你爷爷的",
+      "id": 2253
+   },
+   {
+      "character": "鸟GM",
+      "id": 2254
+   },
+   {
+      "character": "鸟Gm",
+      "id": 2255
+   },
+   {
+      "character": "鸟gM",
+      "id": 2256
+   },
+   {
+      "character": "鸟gm",
+      "id": 2257
+   },
+   {
+      "character": "鸟你",
+      "id": 2258
+   },
+   {
+      "character": "农业部",
+      "id": 2259
+   },
+   {
+      "character": "虐待",
+      "id": 2260
+   },
+   {
+      "character": "拍肩神药",
+      "id": 2261
+   },
+   {
+      "character": "喷你",
+      "id": 2262
+   },
+   {
+      "character": "彭真",
+      "id": 2263
+   },
+   {
+      "character": "皮条",
+      "id": 2264
+   },
+   {
+      "character": "嫖客",
+      "id": 2265
+   },
+   {
+      "character": "苹果日报",
+      "id": 2266
+   },
+   {
+      "character": "破坏",
+      "id": 2267
+   },
+   {
+      "character": "仆街",
+      "id": 2268
+   },
+   {
+      "character": "气象局",
+      "id": 2269
+   },
+   {
+      "character": "钱其琛",
+      "id": 2270
+   },
+   {
+      "character": "枪决女犯",
+      "id": 2271
+   },
+   {
+      "character": "枪决现场",
+      "id": 2272
+   },
+   {
+      "character": "枪支弹药",
+      "id": 2273
+   },
+   {
+      "character": "强奸犯",
+      "id": 2274
+   },
+   {
+      "character": "强卫",
+      "id": 2275
+   },
+   {
+      "character": "强效失意药",
+      "id": 2276
+   },
+   {
+      "character": "强硬发言",
+      "id": 2277
+   },
+   {
+      "character": "乔石",
+      "id": 2278
+   },
+   {
+      "character": "侨办",
+      "id": 2279
+   },
+   {
+      "character": "切七",
+      "id": 2280
+   },
+   {
+      "character": "窃听器",
+      "id": 2281
+   },
+   {
+      "character": "窃听器材",
+      "id": 2282
+   },
+   {
+      "character": "青天白日",
+      "id": 2283
+   },
+   {
+      "character": "去你妈的",
+      "id": 2284
+   },
+   {
+      "character": "全国人大",
+      "id": 2285
+   },
+   {
+      "character": "人大",
+      "id": 2286
+   },
+   {
+      "character": "人大代表",
+      "id": 2287
+   },
+   {
+      "character": "人代会",
+      "id": 2288
+   },
+   {
+      "character": "人弹",
+      "id": 2289
+   },
+   {
+      "character": "人民",
+      "id": 2290
+   },
+   {
+      "character": "人民大会堂",
+      "id": 2291
+   },
+   {
+      "character": "人民广场",
+      "id": 2292
+   },
+   {
+      "character": "人民日报",
+      "id": 2293
+   },
+   {
+      "character": "人民银行",
+      "id": 2294
+   },
+   {
+      "character": "人体炸弹",
+      "id": 2295
+   },
+   {
+      "character": "日GM",
+      "id": 2296
+   },
+   {
+      "character": "日Gm",
+      "id": 2297
+   },
+   {
+      "character": "日gM",
+      "id": 2298
+   },
+   {
+      "character": "日gm",
+      "id": 2299
+   },
+   {
+      "character": "日X妈",
+      "id": 2300
+   },
+   {
+      "character": "日本RING",
+      "id": 2301
+   },
+   {
+      "character": "日本鬼子",
+      "id": 2302
+   },
+   {
+      "character": "日你娘",
+      "id": 2303
+   },
+   {
+      "character": "日他娘",
+      "id": 2304
+   },
+   {
+      "character": "肉壁",
+      "id": 2305
+   },
+   {
+      "character": "肉洞",
+      "id": 2306
+   },
+   {
+      "character": "肉缝",
+      "id": 2307
+   },
+   {
+      "character": "肉棍",
+      "id": 2308
+   },
+   {
+      "character": "肉棍子",
+      "id": 2309
+   },
+   {
+      "character": "肉穴",
+      "id": 2310
+   },
+   {
+      "character": "乳",
+      "id": 2311
+   },
+   {
+      "character": "乳波臀浪",
+      "id": 2312
+   },
+   {
+      "character": "乳头",
+      "id": 2313
+   },
+   {
+      "character": "撒尿",
+      "id": 2314
+   },
+   {
+      "character": "塞白",
+      "id": 2315
+   },
+   {
+      "character": "塞你爸",
+      "id": 2316
+   },
+   {
+      "character": "塞你公",
+      "id": 2317
+   },
+   {
+      "character": "塞你老母",
+      "id": 2318
+   },
+   {
+      "character": "塞你老师",
+      "id": 2319
+   },
+   {
+      "character": "塞你母",
+      "id": 2320
+   },
+   {
+      "character": "塞你娘",
+      "id": 2321
+   },
+   {
+      "character": "三个呆婊",
+      "id": 2322
+   },
+   {
+      "character": "三个代婊",
+      "id": 2323
+   },
+   {
+      "character": "三级片",
+      "id": 2324
+   },
+   {
+      "character": "三民主义",
+      "id": 2325
+   },
+   {
+      "character": "三陪女",
+      "id": 2326
+   },
+   {
+      "character": "三去车仑",
+      "id": 2327
+   },
+   {
+      "character": "三唑仑",
+      "id": 2328
+   },
+   {
+      "character": "骚",
+      "id": 2329
+   },
+   {
+      "character": "骚B",
+      "id": 2330
+   },
+   {
+      "character": "骚逼",
+      "id": 2331
+   },
+   {
+      "character": "色情电影",
+      "id": 2332
+   },
+   {
+      "character": "色情服务",
+      "id": 2333
+   },
+   {
+      "character": "色情小电影",
+      "id": 2334
+   },
+   {
+      "character": "谋害犯",
+      "id": 2335
+   },
+   {
+      "character": "傻屄",
+      "id": 2336
+   },
+   {
+      "character": "傻吊",
+      "id": 2337
+   },
+   {
+      "character": "傻卵",
+      "id": 2338
+   },
+   {
+      "character": "煞逼",
+      "id": 2339
+   },
+   {
+      "character": "商务部",
+      "id": 2340
+   },
+   {
+      "character": "上妳",
+      "id": 2341
+   },
+   {
+      "character": "社科院",
+      "id": 2342
+   },
+   {
+      "character": "射精",
+      "id": 2343
+   },
+   {
+      "character": "身份生成器",
+      "id": 2344
+   },
+   {
+      "character": "神通加持法",
+      "id": 2345
+   },
+   {
+      "character": "生鸦片",
+      "id": 2346
+   },
+   {
+      "character": "圣女峰",
+      "id": 2347
+   },
+   {
+      "character": "十八摸",
+      "id": 2348
+   },
+   {
+      "character": "十年动乱石进",
+      "id": 2349
+   },
+   {
+      "character": "食捻屎",
+      "id": 2350
+   },
+   {
+      "character": "食屎",
+      "id": 2351
+   },
+   {
+      "character": "驶你爸",
+      "id": 2352
+   },
+   {
+      "character": "驶你公",
+      "id": 2353
+   },
+   {
+      "character": "驶你老母",
+      "id": 2354
+   },
+   {
+      "character": "驶你老师",
+      "id": 2355
+   },
+   {
+      "character": "驶你母",
+      "id": 2356
+   },
+   {
+      "character": "驶你娘",
+      "id": 2357
+   },
+   {
+      "character": "是鸡",
+      "id": 2358
+   },
+   {
+      "character": "受虐狂",
+      "id": 2359
+   },
+   {
+      "character": "售ID",
+      "id": 2360
+   },
+   {
+      "character": "售号",
+      "id": 2361
+   },
+   {
+      "character": "售软件",
+      "id": 2362
+   },
+   {
+      "character": "双峰微颤",
+      "id": 2363
+   },
+   {
+      "character": "氵去",
+      "id": 2364
+   },
+   {
+      "character": "水利部",
+      "id": 2365
+   },
+   {
+      "character": "水去车仑",
+      "id": 2366
+   },
+   {
+      "character": "税务总局",
+      "id": 2367
+   },
+   {
+      "character": "司法部",
+      "id": 2368
+   },
+   {
+      "character": "私服",
+      "id": 2369
+   },
+   {
+      "character": "私/服",
+      "id": 2370
+   },
+   {
+      "character": "私\\\\服",
+      "id": 2371
+   },
+   {
+      "character": "私-服",
+      "id": 2372
+   },
+   {
+      "character": "私—服",
+      "id": 2373
+   },
+   {
+      "character": "死gd",
+      "id": 2374
+   },
+   {
+      "character": "死GD",
+      "id": 2375
+   },
+   {
+      "character": "死gm",
+      "id": 2376
+   },
+   {
+      "character": "死GM",
+      "id": 2377
+   },
+   {
+      "character": "死全家",
+      "id": 2378
+   },
+   {
+      "character": "四川独立",
+      "id": 2379
+   },
+   {
+      "character": "四人帮",
+      "id": 2380
+   },
+   {
+      "character": "宋祖英",
+      "id": 2381
+   },
+   {
+      "character": "孙逸仙",
+      "id": 2382
+   },
+   {
+      "character": "他爹",
+      "id": 2383
+   },
+   {
+      "character": "他妈",
+      "id": 2384
+   },
+   {
+      "character": "他妈的",
+      "id": 2385
+   },
+   {
+      "character": "他马的",
+      "id": 2386
+   },
+   {
+      "character": "他母亲",
+      "id": 2387
+   },
+   {
+      "character": "他祖宗",
+      "id": 2388
+   },
+   {
+      "character": "台办",
+      "id": 2389
+   },
+   {
+      "character": "台湾党",
+      "id": 2390
+   },
+   {
+      "character": "台湾帝国",
+      "id": 2391
+   },
+   {
+      "character": "台湾共产党",
+      "id": 2392
+   },
+   {
+      "character": "台湾共和国",
+      "id": 2393
+   },
+   {
+      "character": "台湾狗",
+      "id": 2394
+   },
+   {
+      "character": "太监",
+      "id": 2395
+   },
+   {
+      "character": "天皇陛下",
+      "id": 2396
+   },
+   {
+      "character": "田纪云",
+      "id": 2397
+   },
+   {
+      "character": "舔西",
+      "id": 2398
+   },
+   {
+      "character": "投毒谋害",
+      "id": 2399
+   },
+   {
+      "character": "透视软件",
+      "id": 2400
+   },
+   {
+      "character": "推油",
+      "id": 2401
+   },
+   {
+      "character": "外　挂",
+      "id": 2402
+   },
+   {
+      "character": "外挂",
+      "id": 2403
+   },
+   {
+      "character": "外/挂",
+      "id": 2404
+   },
+   {
+      "character": "外\\\\挂",
+      "id": 2405
+   },
+   {
+      "character": "外_挂",
+      "id": 2406
+   },
+   {
+      "character": "外-挂",
+      "id": 2407
+   },
+   {
+      "character": "外—挂",
+      "id": 2408
+   },
+   {
+      "character": "外汇局",
+      "id": 2409
+   },
+   {
+      "character": "外交部",
+      "id": 2410
+   },
+   {
+      "character": "外专局",
+      "id": 2411
+   },
+   {
+      "character": "晚年周恩来",
+      "id": 2412
+   },
+   {
+      "character": "万税",
+      "id": 2413
+   },
+   {
+      "character": "王宝森",
+      "id": 2414
+   },
+   {
+      "character": "王昊",
+      "id": 2415
+   },
+   {
+      "character": "王岐山",
+      "id": 2416
+   },
+   {
+      "character": "王太华",
+      "id": 2417
+   },
+   {
+      "character": "王震",
+      "id": 2418
+   },
+   {
+      "character": "网管",
+      "id": 2419
+   },
+   {
+      "character": "威而柔",
+      "id": 2420
+   },
+   {
+      "character": "卫生部",
+      "id": 2421
+   },
+   {
+      "character": "温加宝",
+      "id": 2422
+   },
+   {
+      "character": "温家保",
+      "id": 2423
+   },
+   {
+      "character": "温馨",
+      "id": 2424
+   },
+   {
+      "character": "温总理",
+      "id": 2425
+   },
+   {
+      "character": "文化部",
+      "id": 2426
+   },
+   {
+      "character": "文物局",
+      "id": 2427
+   },
+   {
+      "character": "倭国",
+      "id": 2428
+   },
+   {
+      "character": "倭寇",
+      "id": 2429
+   },
+   {
+      "character": "我操你",
+      "id": 2430
+   },
+   {
+      "character": "我妳老爸",
+      "id": 2431
+   },
+   {
+      "character": "我日你",
+      "id": 2432
+   },
+   {
+      "character": "无界浏览器",
+      "id": 2433
+   },
+   {
+      "character": "吴　仪",
+      "id": 2434
+   },
+   {
+      "character": "吴仪",
+      "id": 2435
+   },
+   {
+      "character": "五星红旗",
+      "id": 2436
+   },
+   {
+      "character": "西藏天葬",
+      "id": 2437
+   },
+   {
+      "character": "希特勒",
+      "id": 2438
+   },
+   {
+      "character": "希望之声",
+      "id": 2439
+   },
+   {
+      "character": "洗脑班",
+      "id": 2440
+   },
+   {
+      "character": "系统",
+      "id": 2441
+   },
+   {
+      "character": "系统公告",
+      "id": 2442
+   },
+   {
+      "character": "系统讯息",
+      "id": 2443
+   },
+   {
+      "character": "鲜族",
+      "id": 2444
+   },
+   {
+      "character": "想上你",
+      "id": 2445
+   },
+   {
+      "character": "小鸡巴",
+      "id": 2446
+   },
+   {
+      "character": "小鸡鸡",
+      "id": 2447
+   },
+   {
+      "character": "小泉纯一郎",
+      "id": 2448
+   },
+   {
+      "character": "小日本",
+      "id": 2449
+   },
+   {
+      "character": "小肉粒",
+      "id": 2450
+   },
+   {
+      "character": "小乳头",
+      "id": 2451
+   },
+   {
+      "character": "邪教",
+      "id": 2452
+   },
+   {
+      "character": "兴奋剂",
+      "id": 2453
+   },
+   {
+      "character": "性爱",
+      "id": 2454
+   },
+   {
+      "character": "性虐待",
+      "id": 2455
+   },
+   {
+      "character": "性无能",
+      "id": 2456
+   },
+   {
+      "character": "徐光春",
+      "id": 2457
+   },
+   {
+      "character": "血逼",
+      "id": 2458
+   },
+   {
+      "character": "血腥图片",
+      "id": 2459
+   },
+   {
+      "character": "鸦片液",
+      "id": 2460
+   },
+   {
+      "character": "鸦片渣",
+      "id": 2461
+   },
+   {
+      "character": "烟草局",
+      "id": 2462
+   },
+   {
+      "character": "严方军",
+      "id": 2463
+   },
+   {
+      "character": "阳精",
+      "id": 2464
+   },
+   {
+      "character": "摇头玩",
+      "id": 2465
+   },
+   {
+      "character": "耶苏",
+      "id": 2466
+   },
+   {
+      "character": "夜情",
+      "id": 2467
+   },
+   {
+      "character": "一党专制",
+      "id": 2468
+   },
+   {
+      "character": "一国两制",
+      "id": 2469
+   },
+   {
+      "character": "伊拉克",
+      "id": 2470
+   },
+   {
+      "character": "伊朗",
+      "id": 2471
+   },
+   {
+      "character": "以茎至洞",
+      "id": 2472
+   },
+   {
+      "character": "抑制剂",
+      "id": 2473
+   },
+   {
+      "character": "阴唇",
+      "id": 2474
+   },
+   {
+      "character": "阴蒂",
+      "id": 2475
+   },
+   {
+      "character": "阴户",
+      "id": 2476
+   },
+   {
+      "character": "阴毛",
+      "id": 2477
+   },
+   {
+      "character": "阴水",
+      "id": 2478
+   },
+   {
+      "character": "阴小撕大",
+      "id": 2479
+   },
+   {
+      "character": "淫货",
+      "id": 2480
+   },
+   {
+      "character": "淫贱",
+      "id": 2481
+   },
+   {
+      "character": "淫叫",
+      "id": 2482
+   },
+   {
+      "character": "淫毛",
+      "id": 2483
+   },
+   {
+      "character": "淫靡",
+      "id": 2484
+   },
+   {
+      "character": "淫娃",
+      "id": 2485
+   },
+   {
+      "character": "淫语连连",
+      "id": 2486
+   },
+   {
+      "character": "淫欲",
+      "id": 2487
+   },
+   {
+      "character": "英雄纪念碑",
+      "id": 2488
+   },
+   {
+      "character": "硬挺",
+      "id": 2489
+   },
+   {
+      "character": "邮政局",
+      "id": 2490
+   },
+   {
+      "character": "游戏发奖员",
+      "id": 2491
+   },
+   {
+      "character": "游戏宫理员",
+      "id": 2492
+   },
+   {
+      "character": "管理员",
+      "id": 2493
+   },
+   {
+      "character": "舆论钳制",
+      "id": 2494
+   },
+   {
+      "character": "玉杵",
+      "id": 2495
+   },
+   {
+      "character": "欲火焚身",
+      "id": 2496
+   },
+   {
+      "character": "原子能机构",
+      "id": 2497
+   },
+   {
+      "character": "远程偷拍",
+      "id": 2498
+   },
+   {
+      "character": "曰GM",
+      "id": 2499
+   },
+   {
+      "character": "曰Gm",
+      "id": 2500
+   },
+   {
+      "character": "曰gM",
+      "id": 2501
+   },
+   {
+      "character": "曰gm",
+      "id": 2502
+   },
+   {
+      "character": "曰你",
+      "id": 2503
+   },
+   {
+      "character": "月经",
+      "id": 2504
+   },
+   {
+      "character": "月经不调",
+      "id": 2505
+   },
+   {
+      "character": "扎卡维是英雄",
+      "id": 2506
+   },
+   {
+      "character": "杂种",
+      "id": 2507
+   },
+   {
+      "character": "曾庆红",
+      "id": 2508
+   },
+   {
+      "character": "扎卡维",
+      "id": 2509
+   },
+   {
+      "character": "张朝阳",
+      "id": 2510
+   },
+   {
+      "character": "张潮阳",
+      "id": 2511
+   },
+   {
+      "character": "张磊",
+      "id": 2512
+   },
+   {
+      "character": "张小平",
+      "id": 2513
+   },
+   {
+      "character": "侦探设备",
+      "id": 2514
+   },
+   {
+      "character": "中国恐怖组织",
+      "id": 2515
+   },
+   {
+      "character": "中华民国",
+      "id": 2516
+   },
+   {
+      "character": "中南海",
+      "id": 2517
+   },
+   {
+      "character": "中宣部",
+      "id": 2518
+   },
+   {
+      "character": "周总理",
+      "id": 2519
+   },
+   {
+      "character": "朱容鸡",
+      "id": 2520
+   },
+   {
+      "character": "朱总理",
+      "id": 2521
+   },
+   {
+      "character": "猪容基",
+      "id": 2522
+   },
+   {
+      "character": "主席",
+      "id": 2523
+   },
+   {
+      "character": "装屄",
+      "id": 2524
+   },
+   {
+      "character": "追查国际",
+      "id": 2525
+   },
+   {
+      "character": "子女任职名单",
+      "id": 2526
+   },
+   {
+      "character": "自杀手册",
+      "id": 2527
+   },
+   {
+      "character": "自杀指南",
+      "id": 2528
+   },
+   {
+      "character": "自制手枪",
+      "id": 2529
+   },
+   {
+      "character": "宗教",
+      "id": 2530
+   },
+   {
+      "character": "总局",
+      "id": 2531
+   },
+   {
+      "character": "坐台的",
+      "id": 2532
+   },
+   {
+      "character": "操逼毛",
+      "id": 2533
+   },
+   {
+      "character": "taobao",
+      "id": 2534
+   },
+   {
+      "character": "webgame.com.cn",
+      "id": 2535
+   },
+   {
+      "character": "牛逼",
+      "id": 2536
+   },
+   {
+      "character": "日你妈",
+      "id": 2537
+   },
+   {
+      "character": "垃圾游戏",
+      "id": 2538
+   },
+   {
+      "character": "烂游戏",
+      "id": 2539
+   },
+   {
+      "character": "草你妈",
+      "id": 2540
+   },
+   {
+      "character": "JB",
+      "id": 2541
+   },
+   {
+      "character": "淘宝",
+      "id": 2542
+   },
+   {
+      "character": "j8",
+      "id": 2543
+   },
+   {
+      "character": "h站",
+      "id": 2544
+   },
+   {
+      "character": "龙虎",
+      "id": 2545
+   },
+   {
+      "character": "虎门",
+      "id": 2546
+   },
+   {
+      "character": "龙虎门",
+      "id": 2547
+   },
+   {
+      "character": "WEB牌戰",
+      "id": 2548
+   },
+   {
+      "character": "WEB战牌",
+      "id": 2549
+   },
+   {
+      "character": "战牌",
+      "id": 2550
+   },
+   {
+      "character": "ＵＲ",
+      "id": 2551
+   },
+   {
+      "character": "街头对抗",
+      "id": 2552
+   },
+   {
+      "character": "混沌决",
+      "id": 2553
+   },
+   {
+      "character": "urban",
+      "id": 2554
+   },
+   {
+      "character": "鸡巴",
+      "id": 2555
+   },
+   {
+      "character": "自治机关",
+      "id": 2556
+   },
+   {
+      "character": "恺英",
+      "id": 2557
+   },
+   {
+      "character": "kingnet",
+      "id": 2558
+   },
+   {
+      "character": "神仙道",
+      "id": 2559
+   },
+   {
+      "character": "大话神仙",
+      "id": 2560
+   },
+   {
+      "character": "GM",
+      "id": 2561
+   },
+   {
+      "character": "gm",
+      "id": 2562
+   },
+   {
+      "character": "Gm",
+      "id": 2563
+   },
+   {
+      "character": "客服",
+      "id": 2564
+   },
+   {
+      "character": "钓鱼岛",
+      "id": 2565
+   },
+   {
+      "character": "尖阁列岛",
+      "id": 2566
+   },
+   {
+      "character": "信徒",
+      "id": 2567
+   },
+   {
+      "character": "主佛",
+      "id": 2568
+   },
+   {
+      "character": "活摘",
+      "id": 2569
+   },
+   {
+      "character": "陆雪琴",
+      "id": 2570
+   },
+   {
+      "character": "西藏",
+      "id": 2571
+   },
+   {
+      "character": "新疆",
+      "id": 2572
+   },
+   {
+      "character": "东伊运",
+      "id": 2573
+   },
+   {
+      "character": "东突",
+      "id": 2574
+   },
+   {
+      "character": "人间福报",
+      "id": 2575
+   },
+   {
+      "character": "自由新闻报",
+      "id": 2576
+   },
+   {
+      "character": "都市日报",
+      "id": 2577
+   },
+   {
+      "character": "头条日报",
+      "id": 2578
+   },
+   {
+      "character": "香港商报",
+      "id": 2579
+   },
+   {
+      "character": "香港电台",
+      "id": 2580
+   },
+   {
+      "character": "Discuss",
+      "id": 2581
+   },
+   {
+      "character": "华富财经",
+      "id": 2582
+   },
+   {
+      "character": "新报网站",
+      "id": 2583
+   },
+   {
+      "character": "The Standard",
+      "id": 2584
+   },
+   {
+      "character": "Hong Kong Herald. 台湾报纸",
+      "id": 2585
+   },
+   {
+      "character": "中央社新闻网",
+      "id": 2586
+   },
+   {
+      "character": "中央日报网络报",
+      "id": 2587
+   },
+   {
+      "character": "中时电子报",
+      "id": 2588
+   },
+   {
+      "character": "联合新闻网",
+      "id": 2589
+   },
+   {
+      "character": "自由时报",
+      "id": 2590
+   },
+   {
+      "character": "新台湾新闻",
+      "id": 2591
+   },
+   {
+      "character": "中华日报",
+      "id": 2592
+   },
+   {
+      "character": "民众电子报",
+      "id": 2593
+   },
+   {
+      "character": "交清电子报",
+      "id": 2594
+   },
+   {
+      "character": "东亚日报",
+      "id": 2595
+   },
+   {
+      "character": "马祖日报",
+      "id": 2596
+   },
+   {
+      "character": "国语日报",
+      "id": 2597
+   },
+   {
+      "character": "八方国际资讯",
+      "id": 2598
+   },
+   {
+      "character": "自立晚报",
+      "id": 2599
+   },
+   {
+      "character": "台湾旺报",
+      "id": 2600
+   },
+   {
+      "character": "天下杂志",
+      "id": 2601
+   },
+   {
+      "character": "美洲台湾日报",
+      "id": 2602
+   },
+   {
+      "character": "经济日报",
+      "id": 2603
+   },
+   {
+      "character": "壹周刊(台湾)",
+      "id": 2604
+   },
+   {
+      "character": "世界电影(台湾)",
+      "id": 2605
+   },
+   {
+      "character": "鑫报e乐网",
+      "id": 2606
+   },
+   {
+      "character": "工商时报",
+      "id": 2607
+   },
+   {
+      "character": "金融邮报(台湾股网)",
+      "id": 2608
+   },
+   {
+      "character": "30杂志",
+      "id": 2609
+   },
+   {
+      "character": "农业电子报",
+      "id": 2610
+   },
+   {
+      "character": "双语学生邮报",
+      "id": 2611
+   },
+   {
+      "character": "中国时报新竹分社",
+      "id": 2612
+   },
+   {
+      "character": "1999亚太新新闻",
+      "id": 2613
+   },
+   {
+      "character": "台湾记者协会",
+      "id": 2614
+   },
+   {
+      "character": "生命力公益新闻网",
+      "id": 2615
+   },
+   {
+      "character": "英文中国邮报",
+      "id": 2616
+   },
+   {
+      "character": "台英社",
+      "id": 2617
+   },
+   {
+      "character": "Taipei Times",
+      "id": 2618
+   },
+   {
+      "character": "天眼日报社",
+      "id": 2619
+   },
+   {
+      "character": "青年日报",
+      "id": 2620
+   },
+   {
+      "character": "世界新闻媒体网",
+      "id": 2621
+   },
+   {
+      "character": "非常新闻通讯社",
+      "id": 2622
+   },
+   {
+      "character": "更生日报",
+      "id": 2623
+   },
+   {
+      "character": "彭博新闻社",
+      "id": 2624
+   },
+   {
+      "character": "彭博商业周刊",
+      "id": 2625
+   },
+   {
+      "character": "纽约时报",
+      "id": 2626
+   },
+   {
+      "character": "C-SPAN",
+      "id": 2627
+   },
+   {
+      "character": "明报",
+      "id": 2628
+   },
+   {
+      "character": "明报月刊",
+      "id": 2629
+   },
+   {
+      "character": "星岛日报",
+      "id": 2630
+   },
+   {
+      "character": "太阳报",
+      "id": 2631
+   },
+   {
+      "character": "亚洲周刊",
+      "id": 2632
+   },
+   {
+      "character": "忽然1周",
+      "id": 2633
+   },
+   {
+      "character": "壹周刊",
+      "id": 2634
+   },
+   {
+      "character": "爽报",
+      "id": 2635
+   },
+   {
+      "character": "穿越浏览器",
+      "id": 2636
+   },
+   {
+      "character": "香港报纸",
+      "id": 2637
+   },
+   {
+      "character": "联合报",
+      "id": 2638
+   },
+   {
+      "character": "旺报",
+      "id": 2639
+   },
+   {
+      "character": "中华电视公司",
+      "id": 2640
+   },
+   {
+      "character": "客家电视台",
+      "id": 2641
+   },
+   {
+      "character": "原住民族电视台",
+      "id": 2642
+   },
+   {
+      "character": "壹电视",
+      "id": 2643
+   },
+   {
+      "character": "澳洲广播电台中文网",
+      "id": 2644
+   },
+   {
+      "character": "荷兰国际广播电台中文网",
+      "id": 2645
+   },
+   {
+      "character": "Engadget中文网",
+      "id": 2646
+   },
+   {
+      "character": "博客大赛网站",
+      "id": 2647
+   },
+   {
+      "character": "自由亚洲电台",
+      "id": 2648
+   },
+   {
+      "character": "自由欧洲电台",
+      "id": 2649
+   },
+   {
+      "character": "加拿大国际广播电台",
+      "id": 2650
+   },
+   {
+      "character": "法国国际广播电台",
+      "id": 2651
+   },
+   {
+      "character": "梵蒂冈广播电台",
+      "id": 2652
+   },
+   {
+      "character": "梵蒂冈亚洲新闻通讯社",
+      "id": 2653
+   },
+   {
+      "character": "今日悉尼",
+      "id": 2654
+   },
+   {
+      "character": "澳大利亚时报澳奇网",
+      "id": 2655
+   },
+   {
+      "character": "中欧新闻网",
+      "id": 2656
+   },
+   {
+      "character": "北美中文网",
+      "id": 2657
+   },
+   {
+      "character": "南洋视界",
+      "id": 2658
+   },
+   {
+      "character": "华人今日网",
+      "id": 2659
+   },
+   {
+      "character": "多维新闻",
+      "id": 2660
+   },
+   {
+      "character": "牛博网",
+      "id": 2661
+   },
+   {
+      "character": "香港独立媒体",
+      "id": 2662
+   },
+   {
+      "character": "媒体公民行动网",
+      "id": 2663
+   },
+   {
+      "character": "新头壳",
+      "id": 2664
+   },
+   {
+      "character": "主场新闻",
+      "id": 2665
+   },
+   {
+      "character": "香港人网",
+      "id": 2666
+   },
+   {
+      "character": "MyRadio",
+      "id": 2667
+   },
+   {
+      "character": "民间电台",
+      "id": 2668
+   },
+   {
+      "character": "阳光时务周刊",
+      "id": 2669
+   },
+   {
+      "character": "开放杂志",
+      "id": 2670
+   },
+   {
+      "character": "苦劳网",
+      "id": 2671
+   },
+   {
+      "character": "留园网",
+      "id": 2672
+   },
+   {
+      "character": "新三才",
+      "id": 2673
+   },
+   {
+      "character": "希望之声国际广播电台",
+      "id": 2674
+   },
+   {
+      "character": "新唐人电视台",
+      "id": 2675
+   },
+   {
+      "character": "大纪元时报",
+      "id": 2676
+   },
+   {
+      "character": "信报财经新闻",
+      "id": 2677
+   },
+   {
+      "character": "公教报",
+      "id": 2678
+   },
+   {
+      "character": "星岛日报消息",
+      "id": 2679
+   },
+   {
+      "character": "达赖喇嘛的智慧箴言",
+      "id": 2680
+   },
+   {
+      "character": "辛子陵",
+      "id": 2681
+   },
+   {
+      "character": "高文谦",
+      "id": 2682
+   },
+   {
+      "character": "心灵法门“白话佛法”系列节目",
+      "id": 2683
+   },
+   {
+      "character": "世界报纸",
+      "id": 2684
+   },
+   {
+      "character": "红太阳的陨落",
+      "id": 2685
+   },
+   {
+      "character": "CNN/NHK",
+      "id": 2686
+   },
+   {
+      "character": "彭博",
+      "id": 2687
+   },
+   {
+      "character": "美国有线电视频道",
+      "id": 2688
+   },
+   {
+      "character": "国际广播的电视节目",
+      "id": 2689
+   },
+   {
+      "character": "穆斯林",
+      "id": 2690
+   },
+   {
+      "character": "世维会",
+      "id": 2691
+   },
+   {
+      "character": "真主",
+      "id": 2692
+   },
+   {
+      "character": "安拉",
+      "id": 2693
+   },
+   {
+      "character": "白话佛法",
+      "id": 2694
+   },
+   {
+      "character": "islam",
+      "id": 2695
+   },
+   {
+      "character": "黄祸",
+      "id": 2696
+   },
+   {
+      "character": "天藏",
+      "id": 2697
+   },
+   {
+      "character": "法西斯 ",
+      "id": 2698
+   },
+   {
+      "character": "右翼",
+      "id": 2699
+   },
+   {
+      "character": "CND刊物和论坛",
+      "id": 2700
+   },
+   {
+      "character": "东方日报",
+      "id": 2701
+   },
+   {
+      "character": "内幕",
+      "id": 2702
+   },
+   {
+      "character": "中国茉莉花革命",
+      "id": 2703
+   },
+   {
+      "character": "法广中文网",
+      "id": 2704
+   },
+   {
+      "character": "明镜网",
+      "id": 2705
+   },
+   {
+      "character": "大事件",
+      "id": 2706
+   },
+   {
+      "character": "中央社",
+      "id": 2707
+   },
+   {
+      "character": "倍可亲",
+      "id": 2708
+   },
+   {
+      "character": "BBC",
+      "id": 2709
+   },
+   {
+      "character": "大纪元网",
+      "id": 2710
+   },
+   {
+      "character": "阿波罗新闻网",
+      "id": 2711
+   },
+   {
+      "character": "看中国专栏",
+      "id": 2712
+   },
+   {
+      "character": "万维读者网",
+      "id": 2713
+   },
+   {
+      "character": "RFA",
+      "id": 2714
+   },
+   {
+      "character": "零八宪章",
+      "id": 2715
+   },
+   {
+      "character": "华尔街日报",
+      "id": 2716
+   },
+   {
+      "character": "法广新闻网",
+      "id": 2717
+   },
+   {
+      "character": "中国密报",
+      "id": 2718
+   },
+   {
+      "character": "民主中国",
+      "id": 2719
+   },
+   {
+      "character": "多维新闻网",
+      "id": 2720
+   },
+   {
+      "character": "万维博客",
+      "id": 2721
+   },
+   {
+      "character": "太陽報",
+      "id": 2722
+   },
+   {
+      "character": "东网",
+      "id": 2723
+   },
+   {
+      "character": "世界日报",
+      "id": 2724
+   },
+   {
+      "character": "法广网",
+      "id": 2725
+   },
+   {
+      "character": "世界新闻网",
+      "id": 2726
+   },
+   {
+      "character": "阿波罗网",
+      "id": 2727
+   },
+   {
+      "character": "内幕第28期",
+      "id": 2728
+   },
+   {
+      "character": "多维网",
+      "id": 2729
+   },
+   {
+      "character": "新纪元周刊387期",
+      "id": 2730
+   },
+   {
+      "character": "中国时报",
+      "id": 2731
+   },
+   {
+      "character": "新唐人电视台网",
+      "id": 2732
+   },
+   {
+      "character": "联合早报",
+      "id": 2733
+   },
+   {
+      "character": "星岛环球网",
+      "id": 2734
+   },
+   {
+      "character": "博讯网",
+      "id": 2735
+   },
+   {
+      "character": "金融时报",
+      "id": 2736
+   },
+   {
+      "character": "南早中文网",
+      "id": 2737
+   },
+   {
+      "character": "新史记",
+      "id": 2738
+   },
+   {
+      "character": "金山桥",
+      "id": 2739
+   },
+   {
+      "character": "牛泪",
+      "id": 2740
+   },
+   {
+      "character": "德国之声中文网",
+      "id": 2741
+   },
+   {
+      "character": "信报月刊",
+      "id": 2742
+   },
+   {
+      "character": "中国人权双周刊",
+      "id": 2743
+   },
+   {
+      "character": "明星新聞網",
+      "id": 2744
+   },
+   {
+      "character": "西藏之声",
+      "id": 2745
+   },
+   {
+      "character": "开放网",
+      "id": 2746
+   },
+   {
+      "character": "RFI",
+      "id": 2747
+   },
+   {
+      "character": "博谈网",
+      "id": 2748
+   },
+   {
+      "character": "观察者网",
+      "id": 2749
+   },
+   {
+      "character": "路透社",
+      "id": 2750
+   },
+   {
+      "character": "香港经济日报",
+      "id": 2751
+   },
+   {
+      "character": "新纪元",
+      "id": 2752
+   },
+   {
+      "character": "纵览中国",
+      "id": 2753
+   },
+   {
+      "character": "爱思想",
+      "id": 2754
+   },
+   {
+      "character": "明镜新闻",
+      "id": 2755
+   },
+   {
+      "character": "动向杂志",
+      "id": 2756
+   },
+   {
+      "character": "争鸣杂志",
+      "id": 2757
+   },
+   {
+      "character": "DJY",
+      "id": 2758
+   },
+   {
+      "character": "茉莉花革命",
+      "id": 2759
+   },
+   {
+      "character": "英国金融时报",
+      "id": 2760
+   },
+   {
+      "character": "明镜周刊",
+      "id": 2761
+   },
+   {
+      "character": "联合新闻",
+      "id": 2762
+   },
+   {
+      "character": "AV",
+      "id": 2763
+   },
+   {
+      "character": "草榴",
+      "id": 2764
+   },
+   {
+      "character": "裸体",
+      "id": 2765
+   },
+   {
+      "character": "裸聊",
+      "id": 2766
+   },
+   {
+      "character": "性交易",
+      "id": 2767
+   },
+   {
+      "character": "性感",
+      "id": 2768
+   },
+   {
+      "character": "诱惑",
+      "id": 2769
+   },
+   {
+      "character": "重口味",
+      "id": 2770
+   },
+   {
+      "character": "做爱姿势",
+      "id": 2771
+   },
+   {
+      "character": "胸推",
+      "id": 2772
+   },
+   {
+      "character": "卖身",
+      "id": 2773
+   },
+   {
+      "character": "偷欢",
+      "id": 2774
+   },
+   {
+      "character": "赤裸",
+      "id": 2775
+   },
+   {
+      "character": "勾引",
+      "id": 2776
+   },
+   {
+      "character": "迷奸",
+      "id": 2777
+   },
+   {
+      "character": "淫荡",
+      "id": 2778
+   },
+   {
+      "character": "高潮",
+      "id": 2779
+   },
+   {
+      "character": "偷精",
+      "id": 2780
+   },
+   {
+      "character": "性骚扰",
+      "id": 2781
+   },
+   {
+      "character": "意淫",
+      "id": 2782
+   },
+   {
+      "character": "破处",
+      "id": 2783
+   },
+   {
+      "character": "吹萧",
+      "id": 2784
+   },
+   {
+      "character": "失身",
+      "id": 2785
+   },
+   {
+      "character": "失禁",
+      "id": 2786
+   },
+   {
+      "character": "外遇",
+      "id": 2787
+   },
+   {
+      "character": "出轨",
+      "id": 2788
+   },
+   {
+      "character": "呻吟",
+      "id": 2789
+   },
+   {
+      "character": "闷骚",
+      "id": 2790
+   },
+   {
+      "character": "风骚",
+      "id": 2791
+   },
+   {
+      "character": "调戏",
+      "id": 2792
+   },
+   {
+      "character": "调教",
+      "id": 2793
+   },
+   {
+      "character": "不良",
+      "id": 2794
+   },
+   {
+      "character": "寻欢",
+      "id": 2795
+   },
+   {
+      "character": "推女郎",
+      "id": 2796
+   },
+   {
+      "character": "诱人",
+      "id": 2797
+   },
+   {
+      "character": "害羞",
+      "id": 2798
+   },
+   {
+      "character": "色撸",
+      "id": 2799
+   },
+   {
+      "character": "TD",
+      "id": 2800
+   },
+   {
+      "character": "撸",
+      "id": 2801
+   },
+   {
+      "character": "性乐",
+      "id": 2802
+   },
+   {
+      "character": "恋孕",
+      "id": 2803
+   },
+   {
+      "character": "爱爱",
+      "id": 2804
+   },
+   {
+      "character": "里番",
+      "id": 2805
+   },
+   {
+      "character": "天天干",
+      "id": 2806
+   },
+   {
+      "character": "性息",
+      "id": 2807
+   },
+   {
+      "character": "裸欲",
+      "id": 2808
+   },
+   {
+      "character": "调教性奴",
+      "id": 2809
+   },
+   {
+      "character": "成人软件",
+      "id": 2810
+   },
+   {
+      "character": "sex聊天室",
+      "id": 2811
+   },
+   {
+      "character": "小姐裸聊",
+      "id": 2812
+   },
+   {
+      "character": "情色五月",
+      "id": 2813
+   },
+   {
+      "character": "美女祼聊",
+      "id": 2814
+   },
+   {
+      "character": "同居万岁",
+      "id": 2815
+   },
+   {
+      "character": "风流岁月",
+      "id": 2816
+   },
+   {
+      "character": "一本道",
+      "id": 2817
+   },
+   {
+      "character": "腹黑",
+      "id": 2818
+   },
+   {
+      "character": "滥情",
+      "id": 2819
+   },
+   {
+      "character": "暴君",
+      "id": 2820
+   },
+   {
+      "character": "同居",
+      "id": 2821
+   },
+   {
+      "character": "人屠",
+      "id": 2822
+   },
+   {
+      "character": "撩人",
+      "id": 2823
+   },
+   {
+      "character": "专宠",
+      "id": 2824
+   },
+   {
+      "character": "禁忌",
+      "id": 2825
+   },
+   {
+      "character": "木耳",
+      "id": 2826
+   },
+   {
+      "character": "丰乳",
+      "id": 2827
+   },
+   {
+      "character": "翘臀",
+      "id": 2828
+   },
+   {
+      "character": "乳波",
+      "id": 2829
+   },
+   {
+      "character": "臀浪",
+      "id": 2830
+   },
+   {
+      "character": "浪臀",
+      "id": 2831
+   },
+   {
+      "character": "咪咪",
+      "id": 2832
+   },
+   {
+      "character": "小攻",
+      "id": 2833
+   },
+   {
+      "character": "小姐",
+      "id": 2834
+   },
+   {
+      "character": "很黄",
+      "id": 2835
+   },
+   {
+      "character": "小右",
+      "id": 2836
+   },
+   {
+      "character": "小受",
+      "id": 2837
+   },
+   {
+      "character": "李鹏",
+      "id": 2838
+   },
+   {
+      "character": "杨糖",
+      "id": 2839
+   }
+]

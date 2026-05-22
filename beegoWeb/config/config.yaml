@@ -1,0 +1,4 @@
+importFile: "./xlsx"
+classFile: "../../src/beegoWeb/table"
+jsonFileDir: "./json"
+packageName: "table"

@@ -1,0 +1,144 @@
+<script>
+$(document).ready(function(){
+	$("#createnew").hide();
+	$("#btn_close").hide();
+	$("#btn_createnew").click(function(){
+		if({{.candoact}}){
+			$(this).hide();
+			$("#btn_close").show();
+			$("#createnew").show(1000);
+		}else{
+			alert("您没有删除的权限！！");
+		}
+	});
+	$("#btn_close").click(function(){
+		$(this).hide();
+		$("#btn_createnew").show();
+		$("#createnew").hide(1000);
+	});
+	$("#btn_new").click(function(){
+		if({{.candoact}}){
+			if($("#name_new").val().trim() == ""){
+				alert("{{.type_title}}不能为空！");
+			}else{
+				$("#form_new").submit();
+			}
+		}else{
+			alert("您没有该操作权限！！");
+		}
+	});
+	
+	$("[name='btn_delete']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_delete_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有删除的权限！！");
+		}
+	});
+
+	
+});
+</script>
+
+<!-- include "basetemplate/tab_link.html" -->
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i> {{.type_title}}列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> {{.type_title}} </th>
+                    <th> 黑白(1白2黑) </th>
+                    <th> 描述 </th>
+                    <th> 删除 </th>
+                </tr>
+            </thead>
+            <tbody>
+            	{{range $index,$mem := .type_list}}
+				{{if $.isIP}}
+					<tr><td>{{$mem.Ip}}</td>
+                        <td>
+                            {{$mem.Type}}
+{{/*                            {{range $vvindex,$statename := $.special_list}}*/}}
+
+{{/*                                {{if eq $mem.Type $vvindex}}*/}}
+{{/*                                    {{$mem.Type}} {{$statename}}*/}}
+{{/*                                {{end}}*/}}
+{{/*                            {{end}}*/}}
+                        </td>
+                        <td>{{$mem.Comment}}</td>
+                        <td>
+						<form id="form_delete_{{$index}}" method="post" action="/whiteblack/delete" >
+							<input type="hidden" name="platform" value="{{$.selectpf}}" />
+							<input type="hidden" name="type" value="{{$.type}}" />
+							<input type="hidden" name="id" value="{{$mem.Ip}}" />
+							<input type="button" id="{{$index}}" name="btn_delete" value="删除" class="btn btn-danger" />
+						</form>
+                        </td>
+                    </tr>
+				{{else}}
+					<tr><td>{{$mem.Account}}</td><td>{{$mem.Type}}</td><td>{{$mem.Comment}}</td><td>
+						<form id="form_delete_{{$index}}" method="post" action="/whiteblack/delete" >
+							<input type="hidden" name="platform" value="{{$.selectpf}}" />
+							<input type="hidden" name="type" value="{{$.type}}" />
+							<input type="hidden" name="id" value="{{$mem.Account}}" />
+							<input type="button" id="{{$index}}" name="btn_delete" value="删除" class="btn btn-danger" />
+						</form>
+					</td></tr>
+				{{end}}
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+<input type="button" id="btn_createnew" value="新增条目" class="btn " />
+<input type="button" id="btn_close" value="收起" class="btn " />
+
+
+<div id="createnew">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 添加信息 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/whiteblack/create">
+                <fieldset class="mws-form-inline">
+                    <legend> 添加信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> {{.type_title}} </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="name" id="name_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 黑白(1白2黑) </label>
+                        <div class="mws-form-item">
+                            <select id="select_special_num" name="select_special_num" class="large" style='width:50%'>
+                                <option value='1'>白</option>
+                                <option value='2'>黑</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 描述 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="desc" id="desc_new" />
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                	<input type="hidden" name="platform" value="{{.selectpf}}" />
+					<input type="hidden" name="type" value="{{.type}}" />
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_new"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>

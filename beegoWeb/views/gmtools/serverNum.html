@@ -1,0 +1,454 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<!-- JavaScript Plugins -->
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="/static/js/time.js"></script>
+<script>
+$(document).ready(function(){
+
+     $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+    });
+
+    function GetRoleNum(){
+        var CmdUrl =  $("#cmdurl").val();
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_role_num";
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,
+            success:function(obj){
+                $("#output").html('在线人数：'+obj.num);
+                $("#div1").attr("style",'display:');
+            }
+        });
+    };
+
+    function GetRoleData(){
+        var CmdUrl =  $("#cmdurl").val();
+        var FullUrl = CmdUrl + "zxlf_get?cmd=get_all_rolepos";
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,
+            success:function(ref){
+                if (ref.map != "") {
+                    $("#div_online_roledata").attr("style",'display:');
+                    $("#span_output").html('在线人数：'+ref.count);
+                    $("#output").html('在线人数：'+ref.count);
+                    AddTable(ref.map.split("\n"));   
+                }else{
+                    alert("没有玩家在线哦！");
+                };                               
+            }
+        });
+    };
+
+    function AddTable(platform){
+        $('#divtable').html("");
+        var addbody = "";   
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>角色ID</th><th>名称</th><th>角色账号</th><th>登陆时间</th><th>登陆方式</th><th>登陆信息</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("|");  
+                    //var timer = newpf[3];
+                    var timer = $.myTime.UnixToDate(newpf[3],true,8);
+                    var logintype = "";
+                    var loginmsg = "";
+                    if (newpf[4]=="1") {
+                        logintype = "手机号";
+                        loginmsg = newpf[7];
+                    }else if (newpf[4]=="2") {
+                        logintype = "微信";
+                        loginmsg = "<img src='"+newpf[6]+"' alt='头像' width='42' height='42'/><label>"+newpf[5]+"</label>";
+                    }else if (newpf[4]=="3") {
+                        logintype = "测试";
+                        loginmsg = "";
+                    }else{
+                        logintype = "游客";
+                        loginmsg = "";
+                    };
+             
+                    addbody = addbody+"<tr style='text-align:center'><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+newpf[2]+"</td><td>"+timer+"</td><td>"+logintype+"</td><td>"+loginmsg+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers", 
+                aaSorting : [[3, "desc"]], //默认的排序方式，第3列，降序排列  
+                aLengthMenu : [10, 50, 100, 500, 1000, 2000] //更改显示记录数选项 
+            });
+        }
+    };
+
+    $("[name='setstate']").click(function(){
+        var TX = $(this).val();
+        if (TX == 'onlinemsg') {
+            $("#stype").val("onlinemsg");
+            $("#divtime").attr("style",'display:none');
+            $("#divselectnum").attr("style",'display:none');
+        }else if (TX == 'Q') {
+            $("#stype").val("Q");
+            $("#divtime").attr("style",'display:');
+            $("#divselectnum").attr("style",'display:');
+        }else if (TX == 'onlinetime') {
+            $("#stype").val("onlinetime");
+            $("#divtime").attr("style",'display:');
+            $("#divselectnum").attr("style",'display:');
+        }else{
+            $("#stype").val("onlinenum");
+            $("#divtime").attr("style",'display:none');
+            $("#divselectnum").attr("style",'display:none');
+        };        
+    });    
+
+    $("#btn_new").click(function(){
+        var Fromtimer =  $("#fromtimer").val();
+        var Totimer =  $("#totimer").val();  
+        var arr0=Fromtimer.split("/");
+        var fromtimer=arr0[2]+arr0[0]+arr0[1];
+        var newfromtimer=arr0[2]+"-"+arr0[0]+"-"+arr0[1];
+        //alert(fromtimer);
+        var arr=Totimer.split("/");
+        var totimer=arr[2]+arr[0]+arr[1];
+        var newtotimer=arr[2]+"-"+arr[0]+"-"+arr[1];
+        //alert(totimer);
+        var TX = $('#chargechecked input[name="setstate"]:checked').val();
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+         }else if (TX == "Q") {
+            if (Fromtimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (Totimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (fromtimer>totimer) {
+                alert("开始时间不能大于结束时间！");    
+            }else{
+                select_the_data(newfromtimer,newtotimer);
+            };
+        }else if (TX == "onlinetime") {
+            if (Fromtimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (Totimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (fromtimer>totimer) {
+                alert("开始时间不能大于结束时间！");    
+            }else{
+                select_the_data(newfromtimer,newtotimer);  
+            };
+        }else if (TX == "onlinemsg") {
+            GetRoleData();    
+        }else{
+            GetRoleNum();
+        }
+    });
+    
+    function select_the_data(newfromtimer,newtotimer){
+        $("#div1").attr("style",'display:none');
+        $("#div_online_roledata").attr("style",'display:');
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var ter_num = $("#select_terminate_num").val();
+        var Type = $("#stype").val();
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_onlinetime_log&datefrom="+newfromtimer+"&dateto="+newtotimer+"&type="+Type+"&num="+ter_num;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                if (ref.onlinetime != "") {
+                    $("#span_output").html('在线时长排行');
+                    //alert(ref.roledata);
+                    OnlineTimeAddTable(ref.onlinetime.split("|"));
+                };
+                if (ref.alldata != "") {
+                    $("#span_output").html('在线时长');
+                    //alert(ref.dates);
+                    AlldataAddTable(ref.alldata.split("|"));
+                };           
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    function AlldataAddTable(platform){
+        $('#divtable').html("");
+        var addbody = "";     
+        //17608963260524-54299378-\u7eef\u7ea2-100-13420190111161820563049233-2019/1/11/16/18/30
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>渠道ID</th><th>角色ID</th><th>账号</th><th>登陆方式</th><th>登陆信息</th><th>登录时间</th><th>登出时间</th><th>在线时长(秒)</th><th>在线时长(分)</th><th>IP地址</th><th>SERVERID</th><th>机型</th><th>版本</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("^/^");  
+                    var mm = (parseInt(newpf[4])/60).toFixed(2);
+                    var logintype = "";
+                    var loginmsg = "";
+                    //alert(newpf[6])
+                    if (newpf[6]=="1") {
+                        logintype = "手机号";
+                        loginmsg = newpf[9];
+                    }else if (newpf[6]=="2") {
+                        logintype = "微信";
+                        loginmsg = "<img src='"+newpf[8]+"' alt='头像' width='42' height='42'/><label>"+newpf[7]+"</label>";
+                    }else if (newpf[6]=="3") {
+                        logintype = "测试";
+                        loginmsg = "";
+                    }else{
+                        logintype = "游客";
+                        loginmsg = "";
+                    };
+                    addbody = addbody+"<tr><td>"+newpf[5]+"</td><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+logintype+"</td><td>"+loginmsg+"</td><td>"+newpf[2]+"</td><td>"+newpf[3]+"</td><td>"+newpf[4]+"</td><td>"+mm+"</td><td>"+newpf[10]+"</td><td>"+newpf[11]+"</td><td>"+newpf[12]+"</td><td>"+newpf[13]+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                iDisplayLength : 50, //默认显示的记录数  
+                aaSorting : [[5, "desc"]], //默认的排序方式，第3列，升序排列  
+                aLengthMenu : [50, 100, 500, 1000, 2000] //更改显示记录数选项  
+            });
+        }
+    };
+
+    function OnlineTimeAddTable(platform){
+        $('#divtable').html("");
+        var addbody = ""; 
+        //17593863766018/jdjdjfjidkd/55276   
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>渠道ID</th><th>角色ID</th><th>账号</th><th>登陆方式</th><th>登陆信息</th><th>在线时长(秒)</th><th>在线时长(分)</th><th>在线时长(时)</th><th>IP地址</th><th>SERVERID</th><th>机型</th><th>版本</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("^/^");  
+                    var mm = (parseInt(newpf[2])/60).toFixed(2);
+                    var hh = (parseInt(newpf[2])/60/60).toFixed(2);
+                    var logintype = "";
+                    var loginmsg = "";
+                    //alert(newpf[6])
+                    if (newpf[4]=="1") {
+                        logintype = "手机号";
+                        loginmsg = newpf[7];
+                    }else if (newpf[4]=="2") {
+                        logintype = "微信";
+                        loginmsg = "<img src='"+newpf[6]+"' alt='头像' width='42' height='42'/><label>"+newpf[5]+"</label>";
+                    }else if (newpf[4]=="3") {
+                        logintype = "测试";
+                        loginmsg = "";    
+                    }else{
+                        logintype = "游客";
+                        loginmsg = "";
+                    };
+                    addbody = addbody+"<tr><td>"+newpf[3]+"</td><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+logintype+"</td><td>"+loginmsg+"</td><td>"+newpf[2]+"</td><td>"+mm+"</td><td>"+hh+"</td><td>"+newpf[8]+"</td><td>"+newpf[9]+"</td><td>"+newpf[10]+"</td><td>"+newpf[11]+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                iDisplayLength : 50, //默认显示的记录数  
+                aaSorting : [[5, "desc"]], //默认的排序方式，第3列，升序排列  
+                aLengthMenu : [50, 100, 500, 1000, 2000] //更改显示记录数选项  
+            });
+        }
+    };
+
+    $("#cmdurl").setDefauleValue();
+
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>当前在线玩家/在线时长查询</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/gmtools/redis/">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input style='width:50%' type="text"  class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>
+                         <div id="div1" class="mws-form-item" style="display:none">
+                           <label class="mws-form-label" id="output" ></label> 
+                        </div>                       
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 类型: </label>
+                        <div class="mws-form-item clearfix" id="chargechecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="setstate" name="setstate" type="radio" value="onlinenum" checked="checked"> <label>在线玩家数量</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="onlinemsg" > <label>在线玩家信息</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="Q" > <label>在线时长</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="onlinetime"> <label>在线时长排行</label></li>                                
+                            </ul> 
+                            <input style="display:none" id="stype" name="stype" value="onlinenum">                         
+                        </div>                       
+                    </div>                  
+                    <div class="mws-form-row bordered" style="display:none" id="divselectnum">
+                        <label class="mws-form-label">查询条数:</label>
+                        <div class="mws-form-item">
+                            <select id="select_terminate_num" class="large" style='width:50%'>                                
+                                <option value='50'>50</option>
+                                <option value='100'>100</option>
+                                <option value='200'>200</option>
+                                <option value='300'>300</option>
+                                <option value='500'>500</option>
+                                <option value='800'>800</option>
+                                <option value='1000'>1000</option>
+                                <option value='5000'>2000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" id="divtime" style="display:none" >
+                        <label class="mws-form-label">起止时间 :</label>
+                            <div class="mws-form-item">
+                                <div class="mws-form-cols">
+                                    <div class="mws-form-col-4-8">
+                                        <div class="mws-form-item">
+                                            <input id="fromtimer" name="fromtimer" type="text" class="mws-datepicker from" readonly="readonly">
+                                        </div>
+                                    </div>
+                                <div class="mws-form-col-4-8">
+                                    <div class="mws-form-item">
+                                        <input id="totimer" name="totimer" type="text" class="mws-datepicker to" readonly="readonly">                                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value=" 确 定 " class="btn btn-danger" id="btn_new"/>  
+                </div>
+            </form>
+
+            <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vIndex,$cMem1 := .centerurl}}
+                                            <option value={{$vIndex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vvIndex,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vvIndex}} style="display:none">
+                                 {{ range $_,$cMemMem := $cMem2.ServerList }}
+                                <li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+
+        </div>      
+    </div>
+</div>
+
+<div id="div_online_roledata" style="display:none">
+    <div class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output" ></label> </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+                         
+        </div>
+    </div>  
+</div> 

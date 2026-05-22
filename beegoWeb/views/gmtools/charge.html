@@ -1,0 +1,552 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<!-- JavaScript Plugins -->
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/plugins/datatables/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function() {  
+
+    {{ if .result }}
+        alert("{{.result}}");
+    {{end}}
+
+    $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    $("[name='setstate']").click(function(){
+        var TX = $(this).val();
+        if (TX == 'X') {
+            $("#stype").val("X");
+            $("#roleid").val("");
+            $("#divtime").attr("style",'display:');
+            $("#divcharge").attr("style",'display:none');
+            $("#divroleid").attr("style",'display:');
+            $("#divselectnum").attr("style",'display:');
+            $("#labelcharge").attr("style",'color:black');
+        }else if (TX == 'P') {
+            $("#stype").val("P");
+            $("#divroleid").attr("style",'display:none');
+            $("#roleid").val("0");
+            $("#divtime").attr("style",'display:');
+            $("#divcharge").attr("style",'display:none');
+            $("#divselectnum").attr("style",'display:');
+            $("#labelcharge").attr("style",'color:black');
+        }else if (TX == 'C') {
+            $("#stype").val("C");
+            $("#roleid").val("");
+            $("#divcharge").attr("style",'display:');            
+            $("#divroleid").attr("style",'display:');
+            $("#divtime").attr("style",'display:none');
+            $("#divselectnum").attr("style",'display:none');
+            $("#labelcharge").attr("style",'color:red');
+        }else{
+            $("#stype").val("T");
+            $("#divtime").attr("style",'display:');
+            $("#divcharge").attr("style",'display:none');
+            $("#divroleid").attr("style",'display:none');
+            $("#divselectnum").attr("style",'display:none');
+            $("#labelcharge").attr("style",'color:black');
+        };        
+    });    
+
+
+
+     function Getplot(sin,cos,man){           
+            var plot = $.plot($("#mws-line-chart"), [{
+                data: sin,
+                label: "RMB",
+                color: "#c75d7b"
+            }, {
+                data: cos,
+                label: "魔晶(×10)",
+                color: "#c5d52b"
+            }, {
+                data: man,
+                label: "玩家数(已去重)",
+                //color: "#c5d52b"                
+            }], {
+                tooltip: true, 
+                series: {
+                    lines: {
+                        show: true
+                    },
+                    points: {
+                        show: true
+                    }
+                },
+                grid: {                    
+                    borderWidth: 0.1, 
+                    hoverable: true,
+                    clickable: true
+                },
+                xaxis: {              
+                    minTickSize:[1,"day"],        
+                    mode:"time",
+                    timeformat:"%y/%m/%d"               
+                }
+            });         
+        };  
+
+    function Get_the_data(newfromtimer,newtotimer){
+        $("#div1").attr("style",'display:none');
+        $("#div2").attr("style",'display:none');
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_charge&datefrom="+newfromtimer+"&dateto="+newtotimer;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                //alert(ref.dates);              
+                $("#div1").attr("style",'display:');
+                $("#div2").attr("style",'display:');
+                var sin = [],
+                    man = [],
+                    cos = [];
+                var refsp=ref.dates.split("|"); 
+                //alert(refsp.length.toString());
+                for (var i =0 ; i < refsp.length; i+=1) {
+                    var team = refsp[i];
+                    var newteam = team.split("-");                     
+                    var timer = (new Date(newteam[0])).getTime()+8*60*60*1000;//new Date 转换后为UTC时间 所以需再加8小时                  
+                    sin.push([timer,Number(newteam[1])]);
+                  
+                    cos.push([timer,Number(newteam[2])/10]);
+          
+                    man.push([timer,Number(newteam[3])]);
+               
+                }; 
+               
+                Getplot(sin,cos,man);  
+                AddTable(ref.platform.split("|"));            
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    function AddTable(platform){
+        $('#divtable').html("");
+        var addbody = "",
+            rmb = 0,
+            role = 0,
+            paytime = 0,
+            gold = 0;     
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>平台ID</th><th>充值金额</th><th>充入魔晶</th><th>充值玩家</th><th>充值人次</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("-");  
+                    addbody = addbody+"<tr><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+newpf[2]+"</td><td>"+newpf[3]+"</td><td>"+newpf[4]+"</td></tr>";
+                    rmb = rmb+Number(newpf[1]);
+                    gold = gold+Number(newpf[2]);
+                    role = role+Number(newpf[3]);
+                    paytime = paytime+Number(newpf[4]);
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+        //总计 赋值
+        $("#pay").html(rmb+'元');
+        $("#gold").html(gold);
+        $("#payrole").html(role+'人');
+        $("#paytime").html(paytime+'次');
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                iDisplayLength : 50, //默认显示的记录数  
+                aaSorting : [[1, "desc"]], //默认的排序方式，第3列，降序排列  
+                aLengthMenu : [50, 100, 500, 1000] //更改显示记录数选项
+            });
+        }
+    };
+
+    $("#btn_new").click(function(){
+        var Fromtimer =  $("#fromtimer").val();
+        var Totimer =  $("#totimer").val();  
+        var arr0=Fromtimer.split("/");
+        var fromtimer=arr0[2]+arr0[0]+arr0[1];
+        var newfromtimer=arr0[2]+"-"+arr0[0]+"-"+arr0[1];
+        //alert(fromtimer);
+        var arr=Totimer.split("/");
+        var totimer=arr[2]+arr[0]+arr[1];
+        var newtotimer=arr[2]+"-"+arr[0]+"-"+arr[1];
+        //alert(totimer);
+        var TX = $('#chargechecked input[name="setstate"]:checked').val();
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else if (TX == "X") {
+            if ($("#roleid").val().trim() == "") {
+                alert("用户ID不能为空！");
+            }else if (Fromtimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (Totimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (fromtimer>totimer) {
+                alert("开始时间不能大于结束时间！");    
+            }else{
+                select_the_data(newfromtimer,newtotimer);
+            };
+        }else if (TX == "P") {
+            if (Fromtimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (Totimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (fromtimer>totimer) {
+                alert("开始时间不能大于结束时间！");    
+            }else{
+                select_the_data(newfromtimer,newtotimer);  
+            };      
+        }else if (TX == "C") {
+            if ($("#roleid").val().trim() == "") {
+                alert("用户ID不能为空！");
+            }else if ($("#chargeid").val().trim() == "") {
+                alert("充值ID不能为空！");
+            }else if ($("#chargegold").val().trim() == "") {
+                alert("钻石数量不能为空！");
+            }else if ($("#sell_rmb").val().trim() == "") {
+                alert("售价不能为空！");                    
+            }else{
+                var con = confirm("确认为 "+$("#roleid").val().trim()+" 充值？(点击确定一去不复返哦~)");
+                if (con==true) {
+                    $("#charge").submit();
+                };             
+            };        
+        }else{
+            if (Fromtimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (Totimer.trim() == "") {
+                alert("起止时间不能为空！");
+            }else if (fromtimer>totimer) {
+                alert("开始时间不能大于结束时间！");    
+            }else{
+                Get_the_data(newfromtimer,newtotimer);
+            };    
+        }
+    });
+//http://127.0.0.1:9110/zxlf_get?cmd=gm_select_charge&datefrom=2019-01-11&dateto=2019-01-18&roleid=0&num=1
+    function select_the_data(newfromtimer,newtotimer){
+        $("#div1").attr("style",'display:none');
+        $("#div2").attr("style",'display:none');
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var ter_num = $("#select_terminate_num").val();
+        var roleid = $("#roleid").val().trim();
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_select_charge&datefrom="+newfromtimer+"&dateto="+newtotimer+"&roleid="+roleid+"&num="+ter_num;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                $("#div2").attr("style",'display:');
+                if (ref.dates == "") {
+                    //alert(ref.roledata);
+                    SelectRoleAddTable(ref.roledata.split("|"));
+                };
+                if (ref.roledata == "") {
+                    //alert(ref.dates);
+                    SelectAddTable(ref.dates.split("|"));
+                };           
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    function SelectRoleAddTable(platform){
+        $('#divtable').html("");
+        var addbody = "";     
+        //17608963260524-54299378-\u7eef\u7ea2-100-13420190111161820563049233-2019/1/11/16/18/30
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>角色ID</th><th>账号</th><th>角色名称</th><th>充值金额</th><th>平台订单号</th><th>充值时间</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("/");  
+                    addbody = addbody+"<tr><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+newpf[2]+"</td><td>"+newpf[3]+"</td><td>"+newpf[4]+"</td><td>"+newpf[5]+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                iDisplayLength : 50, //默认显示的记录数  
+                aaSorting : [[5, "desc"]], //默认的排序方式，第3列，降序排列  
+                aLengthMenu : [50, 100, 500, 1000, 5000] //更改显示记录数选项  
+            });
+        }
+    };
+
+    function SelectAddTable(platform){
+        $('#divtable').html("");
+        var addbody = ""; 
+        //17608963275412-78607540-绝影-100-134    
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>角色ID</th><th>账号</th><th>角色名称</th><th>充值金额</th><th>平台ID</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("/");  
+                    addbody = addbody+"<tr><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+newpf[2]+"</td><td>"+newpf[3]+"</td><td>"+newpf[4]+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                iDisplayLength : 50, //默认显示的记录数  
+                aaSorting : [[3, "desc"]], //默认的排序方式，第3列，降序排列  
+                aLengthMenu : [50, 100, 500, 1000, 5000] //更改显示记录数选项  
+            });
+        }
+    };
+
+    $("#cmdurl").setDefauleValue();
+    //$("#roleid").setDefauleValue();
+
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}    
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span><i class="icon-search"></i>充值/查询</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="charge" method="post" action="/gmtools/charge/">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input style='width:50%' type="text" class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 类型: </label>
+                        <div class="mws-form-item clearfix" id="chargechecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="setstate" name="setstate" type="radio" value="T" checked="checked"> <label>充值统计</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="P"> <label>充值排行</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="X"> <label>充值详情</label></li>
+                                <li style= {{.style}}>
+                                <input id="setstate" name="setstate" type="radio" value="C"> <label id="labelcharge" name="labelcharge">在线充值</label>
+                                </li>
+                            </ul> 
+                            <input style="display:none" id="stype" name="stype" value="T">                         
+                        </div>                       
+                    </div>
+                    <div class="mws-form-row bordered" style="display:none" id="divroleid">
+                        <label class="mws-form-label">用户ID :</label>                        
+                        <div class="mws-form-item">                     
+                             <input style='width:50%' type="text" class="large" name="roleid" id="roleid"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"/>  
+                             <label>例: 17659294908430</label>                       
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" style="display:none" id="divselectnum">
+                        <label class="mws-form-label">查询条数:</label>
+                        <div class="mws-form-item">
+                            <select id="select_terminate_num" class="large" style='width:50%'>                                
+                                <option value='50'>50</option>
+                                <option value='100'>100</option>
+                                <option value='200'>200</option>
+                                <option value='300'>300</option>
+                                <option value='500'>500</option>
+                                <option value='800'>800</option>
+                                <option value='1000'>1000</option>
+                                <option value='5000'>5000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" id="divtime">
+                        <label class="mws-form-label">起止时间 :</label>
+                            <div class="mws-form-item">
+                                <div class="mws-form-cols">
+                                    <div class="mws-form-col-4-8">
+                                        <div class="mws-form-item">
+                                            <input id="fromtimer" name="fromtimer" type="text" class="mws-datepicker from" readonly="readonly">
+                                        </div>
+                                    </div>
+                                <div class="mws-form-col-4-8">
+                                    <div class="mws-form-item">
+                                        <input id="totimer" name="totimer" type="text" class="mws-datepicker to" readonly="readonly">                                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" style="display:none" id="divcharge">
+                        <label class="mws-form-label">充值ID:</label>                        
+                        <div class="mws-form-item">                     
+                              <input type="text" name="chargeid" id="chargeid"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">
+                        </div>
+                        <label class="mws-form-label">sell_rmb售价:</label>                        
+                        <div class="mws-form-item">                     
+                              <input type="text" name="sell_rmb" id="sell_rmb"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">                      
+                        </div>
+                        <label class="mws-form-label">gold获得钻石数量:</label>                        
+                        <div class="mws-form-item">                     
+                              <input type="text"  name="chargegold" id="chargegold"  onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')">                      
+                        </div>
+                    </div>                   
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value=" 确 定 " class="btn btn-danger" id="btn_new"/>
+                </div>
+            </form>
+
+
+            <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vIndex,$cMem1 := .centerurl}}
+                                            <option value={{$vIndex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                           {{range $vvIndex,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vvIndex}} style="display:none">
+                                {{range $_,$cMemMem := $cMem2.ServerList}}
+                                <li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+
+
+
+        </div>      
+    </div>
+    <div id="div1" style="display:none">    
+        <div class="mws-panel grid_4">
+            <div class="mws-panel-header">
+                <span><i class="icon-database"></i> 总计 </span>
+            </div>
+            <div class="mws-panel-body" >
+                <div class="mws-panel-content">
+                    <label class="mws-form-label">　　充值金额 :　</label>
+                    <label id="pay"></label>                    
+                    <label class="mws-form-label">　　充入魔晶 :　</label>
+                    <label id="gold"></label>
+                    <label class="mws-form-label">　　充值玩家 :　</label>
+                    <label id="payrole"></label>
+                    <label class="mws-form-label">　　充值人次 :　</label>
+                    <label id="paytime"></label>
+                </div>
+            </div> 
+        </div>
+        <div  class="mws-panel grid_8 mws-collapsible">
+            <div class="mws-panel-header">
+                <span><i class="icon-graph"></i> 时间曲线 </span><!-- Line Charts -->
+            </div>
+            <div class="mws-panel-body">
+                <div class="mws-panel-content">
+                    <div id="mws-line-chart" style="width:100%; height:300px; "></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div class="mws-panel grid_8 mws-collapsible" id="div2" style="display:none">
+            <div class="mws-panel-header">
+                <span><i class="icon-table"></i>  </span>
+            </div>
+            <div class="mws-panel-body no-padding" id="divtable">
+                     
+            </div>
+    </div>   
+
+</div>

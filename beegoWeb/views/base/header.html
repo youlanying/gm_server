@@ -1,0 +1,57 @@
+<nav class="navbar navbar-default" id="myNav">
+<div class="container">
+<div class="navbar-header">
+<button type="button" id="mybutton"  class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/home">HOME </a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav" id="nav_tab">
+
+<li ><a href="/gmhome">G M</a></li>
+<li ><a href="/server">SERVER</a></li>
+<!--<li><a href="/users?page_id=1">USER</a></li>-->
+<li><a href="/tool">TOOL</a></li>
+<!--<li><a href="/urls">URLS</a></li>-->
+<!--<li><a href="/gd">G D</a></li>-->
+<!--<li><a href="/translate">翻译纠错</a></li>-->
+<!--<li><a href="/netproxy">网络加速</a></li>-->
+<li><a href="/huodong">活动控制</a></li>
+<li ><a href="/gmaccount">添加账号</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+
+<script type="text/javascript"> 
+$(function(){ 
+	var url = location.pathname, navg = $('#nav_tab li');
+	if(!url.indexOf('/gm')){
+	navg.eq(0).addClass('active');
+	}else if(!url.indexOf('/server')){
+	navg.eq(1).addClass('active');
+	}else if(!url.indexOf('/users')){
+	navg.eq(2).addClass('active');
+	}else if(!url.indexOf('/tool')){
+	navg.eq(3).addClass('active');
+	}else if(!url.indexOf('/urls')){
+	navg.eq(4).addClass('active');
+	}else if(!url.indexOf('/gd')){
+	navg.eq(5).addClass('active');
+	}else if(!url.indexOf('/translate')){
+	navg.eq(6).addClass('active');
+	}else if(!url.indexOf('/netproxy')){
+	navg.eq(7).addClass('active');
+	}else if(!url.indexOf('/huodong')){
+	navg.eq(8).addClass('active');
+    }else if(!url.indexOf('/gmaccount')){
+	navg.eq(9).addClass('active');
+    }
+});  
+</script> 
+

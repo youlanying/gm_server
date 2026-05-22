@@ -1,0 +1,236 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+
+<script type="text/javascript">
+    function AddTable(platform, reVs) {
+        $("#span_output").html('服务器列表');
+        $('#divtable').html("");
+        let addbody = "";
+        let Table = "<table class='mws-datatable-fn mws-table dataTable'><thead><tr><th>平台ID</th><th>名称</th><th>更新地址</th><th>更新</th><th>当前版本</th><th>更新版本</th><th>历史版本</th></tr></thead>";
+        let Tbody1 = "<tbody align='center'>"
+        let Tbody2 = "</tbody></table>"
+        for (let i = 0; i < platform.length; i += 1) {
+            let newpf = platform[i];
+            if (newpf != "") {
+                let selversion = "";
+                for (let k = reVs.length - 1; k >= 0; k--) {
+                    if (reVs[k] == newpf[3]) {
+                        selversion += "<option value='" + reVs[k] + "' selected='selected'>" + reVs[k] + "</option>"
+                    } else {
+                        selversion += "<option value='" + reVs[k] + "'>" + reVs[k] + "</option>"
+                    }
+                }
+                addbody = addbody +
+                    "<tr style='text-align:center'>" +
+                    //"<form id='form_change_info_" + newpf[0] + "' method='post' action='/version/update_server'>" +
+                    "<td style='width:5%'><label class='mws-form-label' style='width:90%'>" + newpf[0] + "</label></td>" +
+                    "<td style='width:13%'><label class='mws-form-label' style='width:90%'>" + newpf[1] + "</label></td>" +
+                    "<td><textarea style='width:100%' name='serdir' id='serdir_" + newpf[0] + "' rows='1' cols='' class='large' >" + newpf[2] + "</textarea></td>" +
+                    "<td>" +
+                    //"<input type='hidden' name='serid' id='viewid_" + newpf[0] + "' value=" + newpf[0] + " />" +
+                    "<input type='button' id=" + newpf[0] + " name='btn_change_info' value='提交修改' class='btn btn-danger' />" +
+                    "</td>" +
+                    "<td><label class='mws-form-label' style='width:90%' id='nowversion_"+newpf[0]+"'>" + newpf[3] + "</label></td>" +
+                    "<td>" +
+                    "<select name='selversion' id='select_" + newpf[0] + "'>" +
+                    selversion +
+                    "</select>" +
+                    "<input type='hidden' name='updateserverid' value='" + newpf[0] + "'/>" +
+                    "<input type='hidden' name='updateserverdir' value='" + newpf[2] + "'/>" +
+                    "<input type='button' id='btn_update_" + newpf[0] + "' name='btn_update' value='更新' class='btn btn-danger' />" +
+                    "</td>" +
+                    "<td><form id='form_versionserver_" + newpf[0] + "' method='post' action='/version/server_version_log'>" +
+                    "<input type='hidden' name='versionserverid' value='" + newpf[0] + "'/>" +
+                    "<input type='hidden' name='versionservername' value='" + newpf[1] + "'/>" +
+                    "<input type='button' id='" + newpf[0] + "' name='btn_verionlog' value='历史版本' class='btn btn-danger'/>" +
+                    "</form></td>" +
+                    "</tr>";
+            };
+        };
+        //表 赋值
+        $('#divtable').append(Table + Tbody1 + addbody + Tbody2);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        // if ($.fn.dataTable) {
+        //     $(".mws-datatable").dataTable();
+        //     $(".mws-datatable-fn").dataTable({
+        //         sPaginationType: "full_numbers",
+        //         aaSorting: [[6, "desc"]], //默认的排序方式，第3列，降序排列
+        //         aLengthMenu: [10, 50, 100, 300] //更改显示记录数选项
+        //     });
+        // }
+    };
+    function UpdateUrl(Serdirid, UId, Serdirval) {
+        let FullUrl = "/version/update_server";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'text',
+            data: { id: UId, dir: Serdirval },
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    $(Serdirid).val(Serdirval);
+                    alert("修改完成！");
+                } else {
+                    alert("请重试！");
+                }
+                ;
+            }
+        });
+    };
+    function UpdateVersion(SId, Selversion) {
+        let FullUrl = "/version/update_version";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'text',
+            data: { updateserverid: SId, selversion: Selversion },
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    alert(ref);
+                    var lablename = "#nowversion_"+SId;
+                    $(lablename).html(Selversion);
+                    var btnUDis = "#btn_update_"+SId;
+                    $(btnUDis).attr("disabled", false);
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    function upload(Form) {
+        let FullUrl = "/version/new_version";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'text',
+            data: Form,
+            contentType: false,
+            processData: false,
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    $("[name='selversion']").html(ref);
+                    $("#btn_newdata").show();
+                    $("#div_newdata").hide(1000);
+                    $("#btn_closedata").hide();
+                    alert("上传成功！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+
+    $(document).ready(function () {
+        $("#div_server_version").hide();
+        $("#btn_closedata").hide();
+        $("#div_newdata").hide();
+        let Serverinfos = new Array()
+        if ("{{.serverinfo}}" != "") {
+            {{range $index,$mem := .serverinfo}}
+              Serverinfos[{{$index}}] = [{{$mem.Id}}, {{$mem.CName}}, {{$mem.Dir}}, {{$mem.VersionId}} ];            
+            {{end}}
+            $("#div_server_version").show();            
+            AddTable(Serverinfos, {{.allversion }})
+        };
+
+    //提交修改
+    $("input[name='btn_change_info']").bind("click", function () {
+        let UId = $(this).attr("id");
+        //alert(UId);
+        let Serdirid = "#serdir_" + UId;
+        //alert(Serdirid);
+        let Serdirval = $(Serdirid).val();
+        let con = confirm("确认修改地址为：" + Serdirval + " ？");
+        if (con == true) {
+            //alert(Serdirval);
+            UpdateUrl(Serdirid, UId, Serdirval);
+        };
+    });
+
+
+    $("[name='btn_update']").click(function () {
+        let UId = $(this).attr("id");
+        let TempArr = UId.split("_");
+        let SId = TempArr[(TempArr.length - 1)];
+        let SelectId = "#select_" + SId;
+        let Selversion = $(SelectId).find("option:selected").text();
+        let Serdirval = $("#serdir_" + UId).val();
+        if (Serdirval!=""&&Serdirval!="\"\""){
+            UpdateVersion(SId, Selversion);
+            $(this).attr("disabled", "disabled");
+        }else {
+            alert("更新地址错误~");
+        }
+    });
+
+    $("#btn_newdata").click(function () {
+        $("#btn_closedata").show();
+        $("#div_newdata").show(1000);
+        $(this).hide();
+    });
+
+    $("#btn_closedata").click(function () {
+        $("#btn_newdata").show();
+        $("#div_newdata").hide(1000);
+        $(this).hide();
+    });
+
+    $("#btn_version_submit").click(function () {
+        const Form = new FormData(document.getElementById("form_createversion"));
+        upload(Form);
+        //$("#form_createversion").submit();
+    });
+
+    $("[name='btn_verionlog']").click(function () {
+        let UId = $(this).attr("id");
+        const FormId = "#form_versionserver_" + UId;
+        $(FormId).submit();
+    });
+
+    });
+</script>
+
+<div id="div_server_version">
+    <div class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output"></label> </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+
+        </div>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<input type="button" id="btn_newdata" value="新增服务器版本内容" class="btn " /><input type="button" id="btn_closedata"
+    value="收起" class="btn " />
+
+
+<div id="div_newdata">
+    <div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 新增服务器版本内容 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_createversion" enctype="multipart/form-data">
+                <fieldset class="mws-form-inline">
+                    <legend> 服务器内容:</legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 版本内容上传【.zip】 </label>
+                        <div class="mws-form-item">
+                            <input type="file" name="upfile" />
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="提交服务器版本目录" class="btn btn-danger" id="btn_version_submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

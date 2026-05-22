@@ -1,0 +1,32 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<script>
+	
+</script>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>历史版本信息</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 服务器id </th>
+                    <th> 服务器名 </th>
+                    <th> 历史版本 </th>
+                    <th> 历史版本更新时间 </th>
+                </tr>
+            </thead>
+            <tbody>
+            	{{range $_,$mem := .versionlog}}
+				<tr>
+					<td>{{$mem.ServerId}}</td>
+					<td>{{$mem.ServerName}}</td>
+					<td>{{$mem.TmpVersion}}</td>
+					<td>{{$mem.VersionDate}}</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>

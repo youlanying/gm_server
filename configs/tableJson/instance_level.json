@@ -1,0 +1,1856 @@
+[
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         68.1,
+         0.459,
+         32.4
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10101,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            82.99454,
+            10.29348,
+            142.8781
+         ],
+         [
+            0,
+            174.39,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 10101,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         300,
+         38
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "1",
+         "1",
+         "旅途之始",
+         "艾瑞克森林",
+         "ONE"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         1010201,
+         1010202,
+         1010203,
+         1010204,
+         1010205,
+         1010206,
+         1010207,
+         1010208,
+         1010209,
+         1010210,
+         1010211,
+         1010212,
+         1010213,
+         1010214,
+         1010215,
+         1010216,
+         1010217,
+         1010218,
+         1010219,
+         1010220,
+         1010221,
+         1010222
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9033
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10101,
+      "next_level": [
+         10102
+      ],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010101
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         68.1,
+         0.459,
+         32.4
+      ],
+      "ban_heros": [],
+      "before_level": [
+         10101
+      ],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10102,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            42.87,
+            7.6,
+            39.33
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010202,
+         1010203
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 10102,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         611,
+         -116
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "1",
+         "2",
+         "狂暴哥布林领军测试场景",
+         "TWO"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         1002001
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9012
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10102,
+      "next_level": [
+         10103
+      ],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010201
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         119.12,
+         0.459,
+         180.73
+      ],
+      "ban_heros": [],
+      "before_level": [
+         10102
+      ],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10103,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            -335.1434,
+            7.44,
+            -10.76886
+         ],
+         [
+            0,
+            52.349,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010302,
+         1010303
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 10103,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         949,
+         85
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "1",
+         "3",
+         "魔化石巨人测试场景",
+         "THREE"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         1003001
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9054
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10103,
+      "next_level": [
+         10104
+      ],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010301
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         -58.22,
+         0.459,
+         -56.1
+      ],
+      "ban_heros": [],
+      "before_level": [
+         10103
+      ],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10104,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            -96.43,
+            11.038,
+            -135.62
+         ],
+         [
+            0,
+            87.865,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010402,
+         1010403
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 10104,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         1240,
+         -163
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "1",
+         "4",
+         "风暴边缘",
+         "艾瑞克森林",
+         "FOUR"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         1010401
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9001
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10104,
+      "next_level": [
+         10105
+      ],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010401
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         0.72,
+         0.5,
+         -5.67
+      ],
+      "ban_heros": [],
+      "before_level": [
+         10104
+      ],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10105,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            88.5,
+            3.94,
+            66.6
+         ],
+         [
+            0,
+            -121.985,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010601,
+         1010603
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [
+         3
+      ],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 10105,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         1547,
+         61
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "1",
+         "5",
+         "潜入作战",
+         "艾瑞克森林",
+         "FIVE"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         1010501
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9001
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10105,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010602
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         68.1,
+         0.459,
+         32.4
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105100,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 1,
+      "chapter_name": 10101,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            81.91315,
+            0.24,
+            69.08923
+         ],
+         [
+            -0.000002037545,
+            313.6927,
+            -0.000003933099
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         1010102,
+         1010103
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [
+         3
+      ],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30101,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         300,
+         38
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "1",
+         "传送",
+         "场景测试",
+         "ONE"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010101,
+         3010102,
+         3010103,
+         3010104,
+         3010105,
+         3010106,
+         3010107,
+         3010108,
+         3010109,
+         3010110,
+         3010111,
+         3010112,
+         3010113
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9033
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 10101,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         1010101
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         -40,
+         0.5,
+         51
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30102,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            -14.4,
+            9.41,
+            -3.26
+         ],
+         [
+            0,
+            79.766,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30102,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         527,
+         -80
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "02",
+         "传送2",
+         "场景",
+         "TWO"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010201,
+         3010202
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9008,
+         9010,
+         9031,
+         9001
+      ],
+      "monsterListData": [
+         10102001,
+         10102002,
+         10102003,
+         10102004
+      ],
+      "name": 30102,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 0,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 1,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         -40,
+         0.5,
+         51
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30102,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            -19.92,
+            7.38,
+            -80.73
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30103,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         782,
+         85
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "03",
+         "3-3",
+         "场景",
+         "TWO"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3011601,
+         3011602
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9008,
+         9010,
+         9031,
+         9001
+      ],
+      "monsterListData": [
+         10102001,
+         10102002,
+         10102003,
+         10102004
+      ],
+      "name": 30102,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 0,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 1,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         -40,
+         0.5,
+         51
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30104,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            22.96629,
+            0.2873769,
+            -51.41499
+         ],
+         [
+            0,
+            -337.016,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30104,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         782,
+         85
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "04",
+         "3-4",
+         "场景",
+         "FOUR"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010401
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9008,
+         9010,
+         9031,
+         9001
+      ],
+      "monsterListData": [
+         10102001,
+         10102002,
+         10102003,
+         10102004
+      ],
+      "name": 30104,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 0,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 1,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         450,
+         0.5,
+         459
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30106,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            28.49,
+            1.38,
+            39.13
+         ],
+         [
+            0,
+            90.815,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30106,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         1381,
+         -104
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "06",
+         "困難",
+         "BOSS",
+         "SIX"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010601,
+         3010602
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9012,
+         9009,
+         9007,
+         9008
+      ],
+      "monsterListData": [
+         10106001,
+         10106002,
+         10106003,
+         10106004
+      ],
+      "name": 30106,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 0,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 1,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         450,
+         0.5,
+         459
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30107,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            25.41,
+            11.28,
+            30.88
+         ],
+         [
+            0,
+            87.56,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30107,
+      "isBeg": 0,
+      "isBossLevel": 1,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         1622,
+         88
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3",
+         "07",
+         "困難",
+         "BOSS",
+         "SIX"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010701
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9012,
+         9009,
+         9007,
+         9008
+      ],
+      "monsterListData": [
+         10106001,
+         10106002,
+         10106003,
+         10106004
+      ],
+      "name": 30107,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 0,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 1,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         0.72,
+         0.5,
+         -5.67
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 10106,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            43.05,
+            8.39,
+            34.73
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30108,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         1812,
+         -147
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3.08",
+         "战斗测试",
+         "战斗测试",
+         "Test"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010801
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9010,
+         9009,
+         9007,
+         9008
+      ],
+      "monsterListData": [
+         10108001,
+         10108002,
+         10108003,
+         10108004
+      ],
+      "name": 30108,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "AssetbundleExport/Scenes/Camera/camera_10103_2020-5-8",
+      "Camerapos": [
+         0.72,
+         0.5,
+         -5.67
+      ],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [
+         105103,
+         102001,
+         500001
+      ],
+      "better_award_First": [
+         500003,
+         30
+      ],
+      "better_award_FullStar": [
+         500003,
+         30
+      ],
+      "chapter_id": 99,
+      "chapter_name": 30109,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         8,
+         3.5
+      ],
+      "createPlayerPoint": [
+         [
+            71.9071,
+            0.63,
+            63.14242
+         ],
+         [
+            0,
+            0.548,
+            0
+         ]
+      ],
+      "day_times": 99,
+      "delayChapterName": 2.5,
+      "distance": 50,
+      "fail_condition": [
+         3010902,
+         3010903
+      ],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 20,
+      "hero_max_exp": 100,
+      "id": 30109,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [
+         2089,
+         -147
+      ],
+      "level_limit": 1,
+      "level_nameImg": [
+         "3.09",
+         "传送测试",
+         "传送测试",
+         "Test"
+      ],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         3010901
+      ],
+      "level_type": 1,
+      "max_money": 99999999,
+      "monsterList": [
+         9033
+      ],
+      "monsterListData": [
+         10101001
+      ],
+      "name": 30109,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 1,
+      "role_max_exp": 110,
+      "scene_hurt_param": 1,
+      "score_type": [
+         1,
+         2,
+         3,
+         5,
+         7,
+         8,
+         20,
+         21,
+         22,
+         23,
+         24,
+         25,
+         28,
+         29,
+         30,
+         31,
+         32
+      ],
+      "star_id": [
+         7,
+         8,
+         9
+      ],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [
+         3010901
+      ],
+      "team_exp": 10,
+      "type": 1,
+      "walkView_ani": "1101_ani"
+   },
+   {
+      "Camera": "",
+      "Camerapos": [],
+      "ban_heros": [],
+      "before_level": [],
+      "better_award": [],
+      "better_award_First": [],
+      "better_award_FullStar": [],
+      "chapter_id": 99,
+      "chapter_name": 1,
+      "chapter_namepic": [
+         "Atlas_Chapter",
+         "gkzj_Icon_m1"
+      ],
+      "continueTime": [
+         0,
+         0
+      ],
+      "createPlayerPoint": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "day_times": 0,
+      "delayChapterName": 2.5,
+      "distance": 0,
+      "fail_condition": [],
+      "fightsceneatlas": [],
+      "fightsceneeffect": [],
+      "heroList": [],
+      "hero_exp": 10,
+      "hero_likability": 0,
+      "hero_max_exp": 30,
+      "id": 90101,
+      "isBeg": 0,
+      "isBossLevel": 0,
+      "isCameraPath": 0,
+      "level_anchor_coord": [],
+      "level_limit": 0,
+      "level_nameImg": [],
+      "level_of_difficulty": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "level_son_id": [
+         90101
+      ],
+      "level_type": 0,
+      "max_money": 3,
+      "monsterList": [],
+      "monsterListData": [],
+      "name": 1,
+      "next_level": [],
+      "npcNumLimit": 5,
+      "over_time": 36000,
+      "physical_lost": 10,
+      "rank_type": 0,
+      "role_max_exp": 5,
+      "scene_hurt_param": 1,
+      "score_type": [
+         0
+      ],
+      "star_id": [],
+      "startLightMapId": 0,
+      "startTimelineId": 0,
+      "story_trigger_id": 0,
+      "success_condition": [],
+      "team_exp": 10,
+      "type": 9,
+      "walkView_ani": "1101_ani"
+   }
+]

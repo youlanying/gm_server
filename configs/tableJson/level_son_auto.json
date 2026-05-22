@@ -1,0 +1,390 @@
+[
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1001,
+      "id": 90101
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1011901,
+      "id": 1010201
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1011902,
+      "id": 1010202
+   },
+   {
+      "BattleTriggerGroup": [
+         101020401,
+         101020402,
+         101020403,
+         101020404,
+         101020405,
+         101020406
+      ],
+      "MechanismGroup": [],
+      "area_id": 1010101,
+      "id": 1010203
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9983,
+      "id": 1010204
+   },
+   {
+      "BattleTriggerGroup": [
+         101020501,
+         101020502
+      ],
+      "MechanismGroup": [],
+      "area_id": 9980,
+      "id": 1010205
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9985,
+      "id": 1010206
+   },
+   {
+      "BattleTriggerGroup": [
+         1010401001,
+         1010401002,
+         1010401003,
+         1010401004,
+         1010401005,
+         1010401006,
+         1010401007,
+         1010401008,
+         1010401009,
+         1010401010,
+         1010401011,
+         1010401012,
+         1010401013,
+         1010401014,
+         1010401015,
+         1010401016,
+         1010401017,
+         1010401018,
+         1010401019,
+         1010401020,
+         1010401021,
+         1010401022,
+         1010401023,
+         1010401024,
+         1010401025,
+         1010401026,
+         101020601
+      ],
+      "MechanismGroup": [],
+      "area_id": 1010401,
+      "id": 1010207
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9983,
+      "id": 1010208
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9981,
+      "id": 1010209
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9985,
+      "id": 1010210
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9998,
+      "id": 1010211
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9985,
+      "id": 1010212
+   },
+   {
+      "BattleTriggerGroup": [
+         101021300
+      ],
+      "MechanismGroup": [],
+      "area_id": 1010801002,
+      "id": 1010213
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9983,
+      "id": 1010214
+   },
+   {
+      "BattleTriggerGroup": [
+         99999
+      ],
+      "MechanismGroup": [],
+      "area_id": 1011101,
+      "id": 1010215
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9985,
+      "id": 1010216
+   },
+   {
+      "BattleTriggerGroup": [
+         99998
+      ],
+      "MechanismGroup": [],
+      "area_id": 1010901,
+      "id": 1010217
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9983,
+      "id": 1010218
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9979,
+      "id": 1010219
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9983,
+      "id": 1010220
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9982,
+      "id": 1010221
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9986,
+      "id": 1010222
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9988,
+      "id": 1010223
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 10000,
+      "id": 1010301
+   },
+   {
+      "BattleTriggerGroup": [
+         1010401027
+      ],
+      "MechanismGroup": [],
+      "area_id": 1010401,
+      "id": 1010401
+   },
+   {
+      "BattleTriggerGroup": [
+         1010501001
+      ],
+      "MechanismGroup": [
+         101050101
+      ],
+      "area_id": 1010401001,
+      "id": 1010501
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010101,
+      "id": 3010101
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010201,
+      "id": 3010102
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9989,
+      "id": 3010103
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010401,
+      "id": 3010104
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9998,
+      "id": 3010105
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010801,
+      "id": 3010106
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9989,
+      "id": 3010107
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010301,
+      "id": 3010108
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1011101,
+      "id": 3010109
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010901,
+      "id": 3010110
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9989,
+      "id": 3010111
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010701,
+      "id": 3010112
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9988,
+      "id": 3010113
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010401,
+      "id": 3010201
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010901,
+      "id": 3010202
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9990,
+      "id": 3010301
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9986,
+      "id": 3010401
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [
+         1
+      ],
+      "area_id": 8009,
+      "id": 3010501
+   },
+   {
+      "BattleTriggerGroup": [
+         1010901001
+      ],
+      "MechanismGroup": [],
+      "area_id": 9989001,
+      "id": 3010601
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [
+         1010101
+      ],
+      "area_id": 9989,
+      "id": 3010602
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9988,
+      "id": 3010701
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010801003,
+      "id": 3010801
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [
+         30109001
+      ],
+      "area_id": 999,
+      "id": 3010901
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9989,
+      "id": 1001001
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010801003,
+      "id": 1001002
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010801003,
+      "id": 1002001
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 1010801003,
+      "id": 1003001
+   },
+   {
+      "BattleTriggerGroup": [],
+      "MechanismGroup": [],
+      "area_id": 9989001,
+      "id": 1004001
+   }
+]

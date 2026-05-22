@@ -1,0 +1,677 @@
+<script language="javascript" type="text/javascript">
+
+console.log("111")
+
+//先按天存 再按时间存
+//先按ID存 再按时间存
+var loginDicKeyDay = {};
+var bugDicKeyDay = {};
+var pointDicKeyDay = {};
+
+var loginDicKeyID = {};
+var bugDicKeyID = {};
+var pointDicKeyID = {};
+
+var CurPage = 1;
+var MaxPage = 1;
+var DataLen = 1;
+var DataList = [];
+
+var MainType = 1;
+
+const MAX_EVERY = 20;//每页最多50条
+
+function formatTime(time){
+	var now = new Date(time);
+	var year = now.getFullYear();
+	var mon = now.getMonth()+1;
+	var date= now.getDate();
+	var hour= now.getHours();
+	var fen= now.getMinutes();
+	var min= now.getSeconds();
+	
+	if(mon<10){
+		mon = '0'+mon;
+	};
+	
+	if(date<10){
+		date = '0'+date;
+	}
+	if(hour<10){
+		hour = '0'+hour;
+	}
+	if(fen<10){
+		fen = '0'+fen;
+	}
+	if(min<10){
+		min = '0'+min;
+	}
+	
+	var postDate = year+'/'+mon+'/'+date + "&nbsp;&nbsp;" +hour + ":" + fen + ":" + min;
+	return postDate;
+}
+
+var SaveToLoginDic = function(timeStr,obj){
+	obj.PointType = "LOGIN"
+	obj.ServerTime = timeStr;
+	obj.ClientTime = formatTime(obj.TimeStamp);
+	var day = timeStr.slice(0,10)
+	if (loginDicKeyDay[day] == undefined){
+		loginDicKeyDay[day] = [];
+		//console.log("new day",day);
+	}
+	loginDicKeyDay[day].push(obj);
+	
+	if(loginDicKeyID[obj.RoleId] == undefined){
+		loginDicKeyID[obj.RoleId] = [];
+		//console.log("new UsrID",obj.RoleId);
+	}
+	loginDicKeyID[obj.RoleId].push(obj);
+} 
+
+var GetLoginListByDay = function(day){
+	if (loginDicKeyDay[day] == undefined){
+		return [];
+	}
+	return loginDicKeyDay[day]
+}
+
+var GetLoginListByID = function(UsrID){
+	if(loginDicKeyID[UsrID] == undefined){
+		return [];
+	}
+	return loginDicKeyID[UsrID]
+}
+
+var SaveToBugDic = function(timeStr,obj){
+	obj.ServerTime = timeStr;
+	obj.TimeStamp = Math.ceil(Number(obj.Client));
+	obj.ClientTime = formatTime(obj.TimeStamp);
+	var day = timeStr.slice(0,10)
+	if (bugDicKeyDay[day] == undefined){
+		bugDicKeyDay[day] = [];
+		//console.log("new day",day);
+	}
+	bugDicKeyDay[day].push(obj);
+	
+	if(bugDicKeyID[obj.UsrID] == undefined){
+		bugDicKeyID[obj.UsrID] = [];
+		//console.log("new UsrID",obj.UsrID);
+	}
+	bugDicKeyID[obj.UsrID].push(obj);
+}
+
+var GetBugListByDay = function(day){
+	if (bugDicKeyDay[day] == undefined){
+		return [];
+	}
+	return bugDicKeyDay[day]
+}
+
+var GetBugListByID = function(UsrID){
+	if(bugDicKeyID[UsrID] == undefined){
+		return [];
+	}
+	return bugDicKeyID[UsrID]
+}
+
+var SaveToLogDic = function(timeStr,obj){
+	obj.ServerTime = timeStr;
+	obj.TimeStamp = Math.ceil(Number(obj.Client));
+	obj.ClientTime = formatTime(obj.TimeStamp);
+	var day = timeStr.slice(0,10)
+	if (pointDicKeyDay[day] == undefined){
+		pointDicKeyDay[day] = [];
+		//console.log("new day",day);
+	}
+	pointDicKeyDay[day].push(obj);
+	
+	if(pointDicKeyID[obj.UsrID] == undefined){
+		pointDicKeyID[obj.UsrID] = [];
+		//console.log("new UsrID",obj.UsrID);
+	}
+	pointDicKeyID[obj.UsrID].push(obj);
+}
+
+var GetLogListByDay = function(day){
+	if (pointDicKeyDay[day] == undefined){
+		return [];
+	}
+	return pointDicKeyDay[day]
+}
+
+var GetLogListByID = function(UsrID){
+	if(pointDicKeyID[UsrID] == undefined){
+		return [];
+	}
+	return pointDicKeyID[UsrID]
+}
+
+//---- init数据 ----
+
+$(document).ready(function(){
+	$("[name='setrang']").click(function(){
+		MainType = $(this).val();
+		console.log("SearchMainType:",MainType);		
+    });  
+
+	console.log("222")
+
+	//拿到3个数据
+	var loginList = {{.loginArr}};
+	var bugList = {{.bugArr}};
+	var LogList = {{.pointArr}};
+	
+	var len = loginList.length;
+	for(var i = 0; i < len; i ++){
+		var str = loginList[i];
+		var timeStr = str.slice(0,19)
+		var dataStr = str.slice(20,-1)
+		var obj = JSON.parse(dataStr);
+		if(obj){
+			SaveToLoginDic(timeStr,obj);
+		}
+	}
+	
+	var len = bugList.length;
+	for(var i = 0; i < len; i ++){
+		var str = bugList[i];
+		var timeStr = str.slice(0,19)
+		var dataStr = str.slice(20,-1)
+		var obj = JSON.parse(dataStr);
+		if(obj){
+			SaveToBugDic(timeStr,obj);
+		}
+	}
+	
+	var len = LogList.length;
+	for(var i = 0; i < len; i ++){
+		var str = LogList[i];
+		var timeStr = str.slice(0,19)
+		var dataStr = str.slice(20,-1)
+		var obj = JSON.parse(dataStr);
+		if(obj){
+			SaveToLogDic(timeStr,obj);
+		}
+	}
+	
+	//-- 其他事件的处理 --
+
+	$("#btn_reset").click(function(){
+		CurPage = 1;
+		MaxPage = 1;
+		$("#showdatasource").html("");
+	});
+	
+	//首页
+	$("#btn1").click(function(){
+		
+		if(CurPage == 1){
+			return;
+		}
+		
+		CurPage = 1;
+		
+		$("#pageNum").attr("value",CurPage)
+		RenderAll();
+	});
+	
+	//上一页
+	$("#btn2").click(function(){
+		if(CurPage == 1){
+			return;
+		}
+		CurPage --;
+		$("#pageNum").attr("value",CurPage)
+		RenderAll();
+	});
+
+	//立即跳转
+	$("#btnGo").click(function(){
+		targetPage = $("#pageNum").val();
+		if(targetPage > MaxPage){
+			return;
+		}
+		if(targetPage < 1){
+			return;
+		}
+		if(targetPage == undefined){
+			return;
+		}
+		if(targetPage == NaN){
+			return;
+		}
+		CurPage = targetPage;
+		$("#pageNum").attr("value",CurPage)
+		RenderAll();
+	});	
+	
+	//下一页
+	$("#btn3").click(function(){
+		if(CurPage == MaxPage){
+			return;
+		}
+		CurPage ++;
+		$("#pageNum").attr("value",CurPage)
+		RenderAll();
+	});
+	
+	//最后一页
+	$("#btn4").click(function(){
+		if(CurPage == MaxPage){
+			return;
+		}
+		CurPage = MaxPage;
+		$("#pageNum").attr("value",CurPage)
+		RenderAll();
+	});
+	
+	
+	$("#btn_ask").click(function(){
+		
+		console.log("btn_ask on click")
+		
+		var targetUsrID = $("#inputid").val();
+		console.log("targetUsrID:",targetUsrID);
+		
+		//先忽略掉
+		var lv1 = $("#lv1").val();
+		var lv2 = $("#lv2").val();
+		//日期 这个得做
+		var t1 = $("#t1").val();
+		var t2 = $("#t2").val();
+		console.log(lv1,lv2,t1,t2);		
+				
+		if(MainType== 2){//登陆
+			if(targetUsrID != undefined && targetUsrID > 0){
+				ShowLoginOne(targetUsrID);
+			}else{
+				ShowLoginAll();
+			}
+		}else if(MainType== 3){//崩溃
+			if(targetUsrID != undefined && targetUsrID > 0){
+				ShowBugOne(targetUsrID);
+			}else{
+				ShowBugAll();
+			}		
+		}else if(MainType== 4){//常规日志
+			if(targetUsrID != undefined && targetUsrID > 0){
+				ShowPointOne(targetUsrID);
+			}else{
+				ShowPointAll();
+			}		
+		}else{//默认全部
+			if(targetUsrID != undefined && targetUsrID > 0){
+				ShowOne(targetUsrID);
+			}else{
+				ShowAll();
+			}		
+		}
+
+		UpdatePage();
+		RenderAll();
+	});
+});
+	
+function UpdatePage(){
+
+	CurPage = 1;
+	MaxPage = Math.ceil(DataLen/MAX_EVERY);
+	/*if(DataLen%MAX_EVERY != 0){
+		MaxPage = MaxPage + 1;
+	}*/
+	
+	$("#pageNum").attr("value",CurPage)
+	$("#pageMax").text("/" + MaxPage);
+}
+
+function RenderAll(){
+
+	var htmlStr = "";
+	
+	var startIndex = (CurPage - 1) * MAX_EVERY;
+	var endIndex = startIndex + MAX_EVERY - 1;
+	
+	if(endIndex > DataLen - 1){
+		endIndex = DataLen - 1
+	}
+
+	//登陆
+	if(MainType == 2){
+		for(var i = startIndex; i <= endIndex; i ++){
+			var memStr = "<tr>"
+			//服务器时间
+			memStr += "<td>" + DataList[i].ServerTime + "</td>"
+			//客户端时间
+			memStr += "<td>" + DataList[i].ClientTime + "</td>"
+			//用户ID
+			memStr += "<td>" + DataList[i].RoleId + "</td>"
+			//用户名
+			memStr += "<td>" + DataList[i].Account + "</td>"
+			//行为
+			memStr += "<td>" + DataList[i].PointType + "</td>"
+			//手机型号
+			memStr += "<td>" + DataList[i].Platform.PhoneModel + "</td>"
+			//系统
+			memStr += "<td>" + DataList[i].Platform.PhoneVersion + "</td>"
+			//整体信息
+			memStr += "<td>" + JSON.stringify(DataList[i].Platform) + "</td>"
+			memStr += "</tr>"
+			htmlStr += memStr;
+		}
+		
+		$("#showdatasource").html(htmlStr);
+		return;
+	}
+	
+	//打点或者BUG
+	if(MainType == 3 || MainType == 4){
+
+		for(var i = startIndex; i <= endIndex; i ++){
+							
+			var targetUsrID = DataList[i].UsrID;			
+							
+			var baseInfo = GetLoginListByID(targetUsrID)[0];	
+				
+			
+
+			var memStr = "<tr>"
+
+			if(targetUsrID == undefined || baseInfo == undefined){
+				
+			}else{
+				//服务器时间
+				memStr += "<td>" + DataList[i].ServerTime + "</td>"
+				//客户端时间
+				memStr += "<td>" + DataList[i].ClientTime + "</td>"
+				//用户ID
+				memStr += "<td>" + DataList[i].UsrID + "</td>"
+				//用户名字
+				memStr += "<td>" + baseInfo.Account + "</td>"
+				//行为
+				memStr += "<td>" + DataList[i].PointType + "</td>"
+				//手机型号
+				memStr += "<td>" + baseInfo.Platform.PhoneModel + "</td>"
+				//系统
+				memStr += "<td>" + baseInfo.Platform.PhoneVersion + "</td>"
+			}	
+
+			//整体信息
+			memStr += "<td>" + JSON.stringify(DataList[i]) + "</td>"
+			memStr += "</tr>"
+			htmlStr += memStr;
+			
+			//console.log(vList[i].PhoneModel,vList[i].PhoneVersion);
+		}
+		
+		$("#showdatasource").html(htmlStr);
+		return;
+	}//end if
+	
+	//-- 展示全部 --
+	
+	for(var i = startIndex; i <= endIndex; i ++){
+					
+		if(DataList[i].PointType == "LOGIN")
+		{
+			var memStr = "<tr>"
+			//服务器时间
+			memStr += "<td>" + DataList[i].ServerTime + "</td>"
+			//客户端时间
+			memStr += "<td>" + DataList[i].ClientTime + "</td>"
+			//用户ID
+			memStr += "<td>" + DataList[i].RoleId + "</td>"
+			//用户名
+			memStr += "<td>" + DataList[i].Account + "</td>"
+			//行为
+			memStr += "<td>" + DataList[i].PointType + "</td>"
+			//手机型号
+			memStr += "<td>" + DataList[i].Platform.PhoneModel + "</td>"
+			//系统
+			memStr += "<td>" + DataList[i].Platform.PhoneVersion + "</td>"
+			//整体信息
+			memStr += "<td>" + JSON.stringify(DataList[i].Platform) + "</td>"
+			memStr += "</tr>"
+			htmlStr += memStr;
+		}else{
+			var targetUsrID = DataList[i].UsrID;			
+						
+			var baseInfo = GetLoginListByID(targetUsrID)[0];	
+				
+			var memStr = "<tr>"
+
+			if(targetUsrID == undefined || baseInfo == undefined){
+				
+			}else{
+				//服务器时间
+				memStr += "<td>" + DataList[i].ServerTime + "</td>"
+				//客户端时间
+				memStr += "<td>" + DataList[i].ClientTime + "</td>"
+				//用户ID
+				memStr += "<td>" + DataList[i].UsrID + "</td>"
+				//用户名字
+				memStr += "<td>" + baseInfo.Account + "</td>"
+				//行为
+				memStr += "<td>" + DataList[i].PointType + "</td>"
+				//手机型号
+				memStr += "<td>" + baseInfo.Platform.PhoneModel + "</td>"
+				//系统
+				memStr += "<td>" + baseInfo.Platform.PhoneVersion + "</td>"
+			}		
+			
+			//整体信息
+			memStr += "<td>" + JSON.stringify(DataList[i]) + "</td>"
+			memStr += "</tr>"
+			htmlStr += memStr;
+		}
+	}	
+
+	$("#showdatasource").html(htmlStr);		
+}
+
+function ShowBugOne(targetUsrID){
+	
+	var vList = GetBugListByID(targetUsrID);
+	var vListLen = vList.length;
+	
+	DataList = vList;
+	DataLen = vListLen;
+}
+
+function ShowBugAll(){				
+	DataList = [];
+	DataLen = 0;		
+			
+	for(var key in bugDicKeyDay) {
+		vList = bugDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}	
+}	
+
+function ShowPointOne(targetUsrID){
+	var vList = GetLogListByID(targetUsrID);
+	var vListLen = vList.length;
+	DataList = vList;
+	DataLen = vListLen;
+}
+
+function ShowPointAll(){
+	DataList = [];
+	DataLen = 0;		
+			
+	for(var key in pointDicKeyDay) {
+		vList = pointDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}		
+}
+
+function ShowLoginOne(targetUsrID){
+	var vList = GetLoginListByID(targetUsrID);
+	var vListLen = vList.length;
+	DataList = vList;
+	DataLen = vListLen;
+}
+
+function ShowLoginAll(){
+
+	DataList = [];
+	DataLen = 0;		
+			
+	for(var key in loginDicKeyDay) {
+		vList = loginDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}
+}
+
+function ShowOne(targetUsrID){
+	DataList = [];
+	DataLen = 0;
+	
+	var vList1 = GetLoginListByID(targetUsrID);
+	var vList2 = GetBugListByID(targetUsrID);
+	var vList3 = GetLogListByID(targetUsrID);
+	var vListLen1 = vList1.length;
+	var vListLen2 = vList2.length;
+	var vListLen3 = vList3.length;
+	DataLen = vListLen1 + vListLen2 + vListLen3;
+	
+	DataList = vList1.concat(vList2);
+	DataList = DataList.concat(vList3);
+	DataList.sort(SortFun);
+}
+
+function SortFun(a,b){
+	if(a.TimeStamp > b.TimeStamp){
+		return 1;
+	}
+	
+	return -1;
+}
+
+function ShowAll(){
+
+	alert("用时极其长 请稍后");
+
+	DataList = [];
+	DataLen = 0;		
+			
+	for(var key in loginDicKeyDay) {
+		vList = loginDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}
+	
+	for(var key in bugDicKeyDay) {
+		vList = bugDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}
+	
+	for(var key in pointDicKeyDay) {
+		vList = pointDicKeyDay[key]
+		DataList = DataList.concat(vList);			
+		DataLen += vList.length;
+	}
+	
+	DataList.sort(SortFun);
+	
+	alert("显示完毕");
+}
+
+
+	
+</script>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div class="mws-panel grid_4">
+    <div class="mws-panel-header">
+        <span> 筛选条件 </span>
+    </div>
+			
+    <div class="mws-panel-body no-padding">
+	
+		<div class="mws-form-row bordered" id="sexzone">
+			 
+			<div class="mws-form-item clearfix" id="sexchecked">
+				<ul class="mws-form-list inline">
+					<input id="setrang" name="setrang" type="radio" value="1" checked="checked"> <label style="color:red">全部</label>
+					<input id="setrang" name="setrang" type="radio" value="2"> <label style="color:red">登陆</label>
+					<input id="setrang" name="setrang" type="radio" value="3"> <label style="color:red">崩溃</label>
+					<input id="setrang" name="setrang" type="radio" value="4"> <label style="color:red">常规日志</label>
+				</ul>                       
+			</div>                       
+		</div>
+
+	
+        <form class="mws-form" id="form_ask" action="/info/ask" method="POST">
+            <fieldset class="mws-form-inline">
+                <div class="mws-form-row bordered" id="select2">
+                    <label class="mws-form-label">指定玩家ID</label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="inputid" id="inputid" maxlength="50" />
+                    </div>
+                </div>
+				
+				<div class="mws-form-row bordered" id="select2">
+                    <label class="mws-form-label">等级范围</label>
+                    <input type="text" class="large" name="lv1" id="lv1" maxlength="50" />
+					<label class="mws-form-label">-</label>
+					<input type="text" class="large" name="lv2" id="lv2" maxlength="50" />
+                </div>
+				
+				<div class="mws-form-row bordered" id="select2">
+                    <label class="mws-form-label">时间范围</label>
+                    <input type="text" class="large" name="t1" id="t1" maxlength="50" />
+					<label class="mws-form-label">-</label>
+					<input type="text" class="large" name="t2" id="t2" maxlength="50" />
+                </div>
+				
+				<input type="button" value="重置条件" class="btn btn-danger" name="btn_reset" id="btn_reset" />
+				<input type="button" value="立即查询" class="btn btn-danger" name="btn_ask" id="btn_ask" />
+			</fieldset>
+		</form>
+    </div>      
+</div>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>查询结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+					<th> 服务器时间 </th>
+					<th> 客户端时间 </th>
+                    <th> 用户ID </th>
+                    <th> 用户名 </th>
+					<th> 行为 </th>
+					<th> 机型 </th>
+					<th> 系统版本 </th>
+					<th> 详细信息 </th>
+                </tr>
+            </thead>
+            <tbody id="showdatasource">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<input type="button" value="首页" class="btn btn-danger" name="btn1" id="btn1" />
+	<input type="button" value="上一页" class="btn btn-danger" name="btn2" id="btn2" />
+	<input type="text" class="large" name="pageNum" id="pageNum" maxlength="3" />
+	<label type="text" name="pageMax" id="pageMax" value="/10"></label>>
+	<input type="button" value="GO" class="btn btn-danger" name="btnGo" id="btnGo" />
+	<input type="button" value="下一页" class="btn btn-danger" name="btn3" id="btn3" />
+	<input type="button" value="尾页" class="btn btn-danger" name="btn4" id="btn4" />
+</div>
+
+
+
+

@@ -1,0 +1,152 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+
+<script>
+$(document).ready(function(){
+	$("#btn_close").hide();
+	$("#div_create").hide();
+	
+	$("#btn_create").click(function(){
+		if({{.candoact}}){
+			$("#btn_close").show();
+			$("#div_create").show(1000);
+			$(this).hide();
+		}else{
+			alert("您没有该操作权限！");
+		}
+	});
+	$("#btn_close").click(function(){
+		$("#btn_create").show();
+		$("#div_create").hide(1000);
+		$(this).hide();
+	});
+	// if (isNaN(items_1) || isNaN(items_2) || isNaN(items_3))
+ //            {
+ //                alert('道具必须为数字');
+ //                return false;
+ //            }
+
+	$("#btn_new_submit").click(function(){
+		if({{.candoact}}){
+			if($("#tableid_new").val().trim() == ""){
+				alert("表ID不能为空！！");
+			}else if(isNaN($("#tableid_new").val().trim())){
+				alert("表ID请填写数字！");
+			}else if($("#tablename_new").val().trim() == ""){
+				alert("表名不能为空！！");
+			}else if($("#describe_new").val().trim() == ""){
+				alert("描述不能为空！！");
+			}else if($("#list_dir").val().trim() == ""){
+				alert("结构不能为空！");
+			}else{
+				$("#form_createnew").submit();
+			}
+		}else{
+			alert("您没有该操作权限！！");
+		}
+	});
+	
+	$("[name='btn_proto_info']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_proto_info_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有修改信息的权限！！");
+		}
+	});
+});
+</script>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i> 服务器列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                	<th> ID </th>
+                	<th> 表ID </th>
+                    <th> 表名 </th>
+                    <th> 描述 </th>
+                    <th> 结构 </th>   
+                    <th> 修改 </th>   
+                    <th> 删除 </th>              
+                </tr>
+            </thead>
+            <tbody>
+            	{{range $_,$mem := .tableinfo}}
+				<tr>
+					<form id="form_proto_info_{{$mem.id}}" method="post" action="/operator/up_add_proto">
+						<td><label class="mws-form-label"> {{$mem.id}} </label></td>
+						<td><input type="text" name="tid" id="tid_{{$mem.id}}" value="{{$mem.tid}}" /></td>
+						<td><input style='width:100%' type="text" name="tname" id="tname_{{$mem.id}}" value="{{$mem.tname}}" /></td>
+						<td><input style='width:100%' type="text" name="describe" id="describe_{{$mem.id}}" value="{{$mem.describe}}" /></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="uplist" id="describe_{{$mem.id}}" rows="" cols="" class="large" >{{$mem.list}}</textarea></td>
+						<td>
+							<input type="hidden" name="id" id="viewid_{{$mem.id}}" value="{{$mem.id}}" />
+							<input type="button" id="{{$mem.id}}" name="btn_proto_info" value="提交修改" class="btn btn-danger" />
+						</td>
+					</form>
+					<td>
+						<span class="btn-group">				
+						<a class="btn btn-small" href="operator/delete_proto?id={{$mem.id}}">
+						<i class="icon-trash"></i>
+						</a>
+						</span>
+					</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<input type="button" id="btn_create" value="新增数据表" class="btn " /><input type="button" id="btn_close" value="收起" class="btn " />
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 新增数据表 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_createnew" method="post" action="/operator/add_proto/">
+                <fieldset class="mws-form-inline">
+                    <legend> 表信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 表名ID </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="tableid" id="tableid_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 表名 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="tablename" id="tablename_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 描述 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="describe" id="describe_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 结构 </label>
+                        <div class="mws-form-item">
+                        	<textarea name="list" id="list_dir" rows="" cols="" class="large" ></textarea><!-- disabled="disabled" -->
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="创建表信息" class="btn btn-danger" id="btn_new_submit"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>
+
+</div>

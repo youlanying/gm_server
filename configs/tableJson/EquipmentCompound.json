@@ -1,0 +1,102 @@
+[
+   {
+      "conditionequipment": [
+         [
+            121005,
+            1
+         ],
+         [
+            121006,
+            3
+         ]
+      ],
+      "craftedcost": [
+         [
+            2,
+            100
+         ]
+      ],
+      "id": 121004
+   },
+   {
+      "conditionequipment": [
+         [
+            121006,
+            2
+         ],
+         [
+            121007,
+            2
+         ],
+         [
+            121009,
+            5
+         ]
+      ],
+      "craftedcost": [
+         [
+            2,
+            200
+         ]
+      ],
+      "id": 121005
+   },
+   {
+      "conditionequipment": [
+         [
+            121007,
+            3
+         ],
+         [
+            121009,
+            5
+         ]
+      ],
+      "craftedcost": [
+         [
+            2,
+            102
+         ]
+      ],
+      "id": 121006
+   },
+   {
+      "conditionequipment": [
+         [
+            121008,
+            4
+         ],
+         [
+            121009,
+            5
+         ]
+      ],
+      "craftedcost": [
+         [
+            2,
+            103
+         ]
+      ],
+      "id": 121007
+   },
+   {
+      "conditionequipment": [
+         [
+            121009,
+            5
+         ]
+      ],
+      "craftedcost": [
+         [
+            2,
+            104
+         ]
+      ],
+      "id": 121008
+   },
+   {
+      "conditionequipment": [],
+      "craftedcost": [],
+      "id": 121009
+   }
+]

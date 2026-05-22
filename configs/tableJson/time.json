@@ -1,0 +1,686 @@
+[
+   {
+      "daydelay": 0,
+      "id": 1,
+      "timeend": 2592000,
+      "timestart": [
+         2021,
+         6,
+         1,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 4,
+      "timeend": 864000,
+      "timestart": [
+         2015,
+         12,
+         18,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 7,
+      "timeend": 864000,
+      "timestart": [
+         2015,
+         12,
+         31,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 100,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 101,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 102,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 103,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 104,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 105,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 106,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 201,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 202,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 203,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 204,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 205,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 206,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 207,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 301,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 302,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 303,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 304,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 305,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 306,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 307,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 30,
+      "timeend": 604800,
+      "timestart": [
+         2016,
+         10,
+         25,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 308,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 309,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 310,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 311,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 312,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 313,
+      "timeend": 86400,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 3,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 314,
+      "timeend": 79200,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 400,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 401,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 402,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 403,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 404,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 405,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 406,
+      "timeend": 84600,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 410,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 1
+   },
+   {
+      "daydelay": 0,
+      "id": 411,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 2
+   },
+   {
+      "daydelay": 0,
+      "id": 412,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 3
+   },
+   {
+      "daydelay": 0,
+      "id": 413,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 4
+   },
+   {
+      "daydelay": 0,
+      "id": 414,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 5
+   },
+   {
+      "daydelay": 0,
+      "id": 415,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 6
+   },
+   {
+      "daydelay": 0,
+      "id": 416,
+      "timeend": 81900,
+      "timestart": [
+         0,
+         0,
+         0
+      ],
+      "type": 2,
+      "weekday": 7
+   },
+   {
+      "daydelay": 0,
+      "id": 1000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         4,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 7000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 8000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 9000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 10000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 20000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 30000,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         8,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   },
+   {
+      "daydelay": 0,
+      "id": 50,
+      "timeend": 31536000,
+      "timestart": [
+         2017,
+         8,
+         7,
+         0,
+         0,
+         0
+      ],
+      "type": 1,
+      "weekday": 0
+   }
+]

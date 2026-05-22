@@ -1,0 +1,422 @@
+[
+   {
+      "goods": [],
+      "id": 10101,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10102,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10103,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10104,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10105,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10106,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10107,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10108,
+      "owner": 101,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10201,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10202,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10203,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10204,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10205,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10206,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10207,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10208,
+      "owner": 102,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10301,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10302,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10303,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10304,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10305,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10306,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10307,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10308,
+      "owner": 103,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10401,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10402,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10403,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10404,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10405,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10406,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10407,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10408,
+      "owner": 104,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10501,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10502,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10503,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 10504,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10505,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10506,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10507,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 10508,
+      "owner": 105,
+      "plottype": 1,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 20301,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 20302,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 20303,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": []
+   },
+   {
+      "goods": [],
+      "id": 20304,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": []
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 20305,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": [
+         2,
+         30
+      ]
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 20306,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": [
+         1,
+         1000
+      ]
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 20307,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": [
+         3,
+         100
+      ]
+   },
+   {
+      "goods": [
+         500003,
+         30
+      ],
+      "id": 20308,
+      "owner": 3,
+      "plottype": 2,
+      "proper_value": [
+         2,
+         100
+      ]
+   }
+]

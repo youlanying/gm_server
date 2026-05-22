@@ -1,0 +1,1281 @@
+[
+   {
+      "AniRoleName": "AssetbundleExport/Players/C001/ui_ani/C001_ui_ani_prefab",
+      "AniRoleSpeak": [],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C001"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c028"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [
+         1.5,
+         1.63,
+         -3.24
+      ],
+      "aimCameraRotation": [
+         0,
+         -12,
+         0
+      ],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C028",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC028",
+         "BS_Icon_LH_C028"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c001",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10010,
+         10011,
+         10012,
+         10013,
+         10014
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c028",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 1,
+      "hero_loseaudio": 0,
+      "hero_selectaudio": 0,
+      "hero_startaudio": 0,
+      "hero_winaudio": 0,
+      "hintAddHeight": 0,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c028",
+      "id": 1,
+      "ideTime": 5,
+      "infodes": [
+         120000028,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c028",
+      "intensify_unselected": "juese_role_grayicon_c028",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "弓箭",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -508,
+         -205,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -1.16,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 90,
+      "positionType": 2,
+      "positionType2": 2,
+      "prioritylock": 12,
+      "professionId": 0,
+      "property": 2,
+      "property_limte": [
+         60,
+         21,
+         6,
+         6900,
+         7400
+      ],
+      "regular_atlas": "AtlasC028",
+      "regular_icon": "prepare_head_c028",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc028/Atlasc028",
+      "resident_effect": [],
+      "role_image": "prepare_head_c028",
+      "role_name_image": "juesexinxinamec028",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 3,
+      "shortname": "弓箭",
+      "skill_far": [
+         10101,
+         10102,
+         10103,
+         10104
+      ],
+      "skill_ids": [
+         10010,
+         10011,
+         10012,
+         10013,
+         10014
+      ],
+      "small_sprite": "prepare_head_c028",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9001,
+      "timeequip": "assetbundleexport/players/c001/prefab/C001_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c001/prefab/C001_model_prefab_pvp",
+      "warnRange": 10
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C003/prefab/C003_model_Prefab_story",
+      "AniRoleSpeak": [
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ],
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ]
+      ],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C003"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c033"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C033",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC033",
+         "BS_Icon_LH_C033"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c003",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10030,
+         10031,
+         10032,
+         10033,
+         10034
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c033",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 0,
+      "hero_loseaudio": 1033015,
+      "hero_selectaudio": 1033010,
+      "hero_startaudio": 1033011,
+      "hero_winaudio": 1033013,
+      "hintAddHeight": 0,
+      "hitSound": [
+         "AssetbundleExport/Audio/Hero/c033/Audio_c033_Hit"
+      ],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c033",
+      "id": 3,
+      "ideTime": 5,
+      "infodes": [
+         120000033,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c033",
+      "intensify_unselected": "juese_role_grayicon_c033",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "伊凡娜·霍克",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -597,
+         -399,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -1.28,
+         4.2,
+         0,
+         177.24,
+         0
+      ],
+      "positionParam": 79,
+      "positionType": 0,
+      "positionType2": 1,
+      "prioritylock": 7,
+      "professionId": 2,
+      "property": 1,
+      "property_limte": [
+         60,
+         24,
+         6,
+         6900,
+         7400
+      ],
+      "regular_atlas": "AtlasC033",
+      "regular_icon": "prepare_head_c033",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc033/Atlasc033",
+      "resident_effect": [],
+      "role_image": "prepare_head_c033",
+      "role_name_image": "juesexinxinamec033",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 2,
+      "shortname": "伊凡娜",
+      "skill_far": [],
+      "skill_ids": [
+         10030,
+         10031,
+         10032,
+         10033,
+         10034
+      ],
+      "small_sprite": "prepare_head_c033",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9001,
+      "timeequip": "assetbundleexport/players/c003/prefab/C003_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c003/prefab/C003_model_prefab_pvp",
+      "warnRange": 5
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C003/ui_ani/C005_ui_ani_prefab",
+      "AniRoleSpeak": [
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ],
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ]
+      ],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C005"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c033"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C033",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC033",
+         "BS_Icon_LH_C033"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c005",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10050,
+         10051,
+         10052,
+         10053,
+         10054
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c033",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 0,
+      "hero_loseaudio": 1033015,
+      "hero_selectaudio": 1033010,
+      "hero_startaudio": 1033011,
+      "hero_winaudio": 1033005,
+      "hintAddHeight": 0,
+      "hitSound": [
+         "AssetbundleExport/Audio/Hero/c033/Audio_c033_Hit"
+      ],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c033",
+      "id": 5,
+      "ideTime": 5,
+      "infodes": [
+         120000033,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c033",
+      "intensify_unselected": "juese_role_grayicon_c033",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "洛桑米",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -597,
+         -399,
+         0
+      ],
+      "pos_rot": [
+         -0.27,
+         -1.33,
+         6.57,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 79,
+      "positionType": 0,
+      "positionType2": 1,
+      "prioritylock": 7,
+      "professionId": 2,
+      "property": 1,
+      "property_limte": [
+         60,
+         24,
+         6,
+         6900,
+         7400
+      ],
+      "regular_atlas": "AtlasC033",
+      "regular_icon": "prepare_head_c033",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc033/Atlasc033",
+      "resident_effect": [],
+      "role_image": "prepare_head_c033",
+      "role_name_image": "juesexinxinamec033",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 2,
+      "shortname": "洛桑米",
+      "skill_far": [],
+      "skill_ids": [
+         10050,
+         10051,
+         10052,
+         10053,
+         10054
+      ],
+      "small_sprite": "prepare_head_c033",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9001,
+      "timeequip": "assetbundleexport/players/c005/prefab/C005_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c005/prefab/C005_model_prefab_pvp",
+      "warnRange": 5
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C006/ui_ani/C006_ui_ani_prefab",
+      "AniRoleSpeak": [],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C006"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c004"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C004",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC004",
+         "BS_Icon_LH_C004"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c006",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10060,
+         10061,
+         10062,
+         10063,
+         10064
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c004",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 2,
+      "hero_loseaudio": 0,
+      "hero_selectaudio": 0,
+      "hero_startaudio": 0,
+      "hero_winaudio": 0,
+      "hintAddHeight": 0,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c004",
+      "id": 6,
+      "ideTime": 5,
+      "infodes": [
+         120000006,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c004",
+      "intensify_unselected": "juese_role_grayicon_c004",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "莉莉娅·埃迪拉",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -597,
+         -523,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -0.36,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 50,
+      "positionType": 2,
+      "positionType2": 1,
+      "prioritylock": 12,
+      "professionId": 0,
+      "property": 0,
+      "property_limte": [
+         56,
+         17,
+         6,
+         5600,
+         7400
+      ],
+      "regular_atlas": "AtlasC004",
+      "regular_icon": "prepare_head_c004",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc004/Atlasc004",
+      "resident_effect": [],
+      "role_image": "prepare_head_c004",
+      "role_name_image": "juesexinxinamec004",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1.05,
+         1.05,
+         1.05
+      ],
+      "seat_property": 4,
+      "shortname": "莉莉婭",
+      "skill_far": [],
+      "skill_ids": [
+         10060,
+         10061,
+         10062,
+         10063,
+         10064
+      ],
+      "small_sprite": "prepare_head_c004",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9006,
+      "timeequip": "assetbundleexport/players/c006/prefab/c006_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c006/prefab/c006_model_prefab_pvp",
+      "warnRange": 10
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C008/Ui_ani/C008_ui_ani_prefab",
+      "AniRoleSpeak": [
+         [
+            1020018,
+            1020019,
+            1020020,
+            1020021,
+            1020022,
+            1020023
+         ],
+         [
+            1020018,
+            1020019,
+            1020020,
+            1020021,
+            1020022,
+            1020023
+         ]
+      ],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C008"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c020"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C020",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC020",
+         "BS_Icon_LH_C020"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c008",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10080,
+         10081,
+         10082,
+         10083,
+         10084
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c020",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 0,
+      "hero_loseaudio": 1020015,
+      "hero_selectaudio": 1020010,
+      "hero_startaudio": 1020011,
+      "hero_winaudio": 1020013,
+      "hintAddHeight": 0,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c020",
+      "id": 8,
+      "ideTime": 5,
+      "infodes": [
+         120000008,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c020",
+      "intensify_unselected": "juese_role_grayicon_c020",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "卡琳·基尼斯特",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_02_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -502,
+         -492,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -1.35,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 60,
+      "positionType": 0,
+      "positionType2": 2,
+      "prioritylock": 7,
+      "professionId": 0,
+      "property": 3,
+      "property_limte": [
+         66,
+         25,
+         6,
+         9200,
+         8200
+      ],
+      "regular_atlas": "AtlasC020",
+      "regular_icon": "prepare_head_c020",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc020/Atlasc020",
+      "resident_effect": [],
+      "role_image": "prepare_head_c020",
+      "role_name_image": "juesexinxinamec020",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 1,
+      "shortname": "008技能特化",
+      "skill_far": [],
+      "skill_ids": [
+         10080,
+         10081,
+         10082,
+         10083,
+         10084
+      ],
+      "small_sprite": "prepare_head_c020",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9008,
+      "timeequip": "assetbundleexport/players/c008/prefab/C008_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c008/prefab/C008_model_prefab_pvp",
+      "warnRange": 5
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/c010/ui_ani/c010_ui_ani_prefab",
+      "AniRoleSpeak": [
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ],
+         [
+            1033018,
+            1033019,
+            1033020,
+            1033021,
+            1033022,
+            1033023
+         ]
+      ],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C010"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c010"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C010",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC010",
+         "BS_Icon_LH_C010"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c010",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10100,
+         10101,
+         10102,
+         10103,
+         10104
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c010",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 0,
+      "hero_loseaudio": 1033007,
+      "hero_selectaudio": 1033010,
+      "hero_startaudio": 1033011,
+      "hero_winaudio": 1033013,
+      "hintAddHeight": 0,
+      "hitSound": [
+         "AssetbundleExport/Audio/Hero/c033/Audio_c033_Hit"
+      ],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c010",
+      "id": 10,
+      "ideTime": 5,
+      "infodes": [
+         120000033,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c010",
+      "intensify_unselected": "juese_role_grayicon_c010",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "娜塔莉",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 1,
+      "pos4_3": [
+         -597,
+         -399,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -1.13,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 79,
+      "positionType": 0,
+      "positionType2": 1,
+      "prioritylock": 7,
+      "professionId": 2,
+      "property": 1,
+      "property_limte": [
+         60,
+         24,
+         6,
+         6900,
+         7400
+      ],
+      "regular_atlas": "AtlasC010",
+      "regular_icon": "prepare_head_c010",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc010/Atlasc010",
+      "resident_effect": [],
+      "role_image": "prepare_head_c010",
+      "role_name_image": "juesexinxinamec010",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 2,
+      "shortname": "娜塔莉",
+      "skill_far": [],
+      "skill_ids": [
+         10100,
+         10101,
+         10102,
+         10103,
+         10104
+      ],
+      "small_sprite": "prepare_head_c010",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9001,
+      "timeequip": "assetbundleexport/players/c010/prefab/C010_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c010/prefab/c010_model_prefab_pvp",
+      "warnRange": 5
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C008/Ui_ani/C008_ui_ani_prefab",
+      "AniRoleSpeak": [
+         [
+            1020018,
+            1020019,
+            1020020,
+            1020021,
+            1020022,
+            1020023
+         ],
+         [
+            1020018,
+            1020019,
+            1020020,
+            1020021,
+            1020022,
+            1020023
+         ]
+      ],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C023"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c020"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [],
+      "aimCameraRotation": [],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C020",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC020",
+         "BS_Icon_LH_C020"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c023",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10230,
+         10231,
+         10232,
+         10233,
+         10234
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c020",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 0,
+      "hero_loseaudio": 1020015,
+      "hero_selectaudio": 1020010,
+      "hero_startaudio": 1020011,
+      "hero_winaudio": 1020013,
+      "hintAddHeight": 0,
+      "hitSound": [
+         "AssetbundleExport/Audio/Hero/c033/Audio_c033_Hit"
+      ],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c020",
+      "id": 23,
+      "ideTime": 5,
+      "infodes": [
+         120000008,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c020",
+      "intensify_unselected": "juese_role_grayicon_c020",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "蕾欧拉",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_02_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -502,
+         -492,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -0.36,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 60,
+      "positionType": 0,
+      "positionType2": 1,
+      "prioritylock": 7,
+      "professionId": 0,
+      "property": 3,
+      "property_limte": [
+         66,
+         25,
+         6,
+         9200,
+         8200
+      ],
+      "regular_atlas": "AtlasC020",
+      "regular_icon": "prepare_head_c020",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc020/Atlasc020",
+      "resident_effect": [],
+      "role_image": "prepare_head_c020",
+      "role_name_image": "juesexinxinamec020",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 1,
+      "shortname": "23蕾欧拉",
+      "skill_far": [],
+      "skill_ids": [
+         10230,
+         10231,
+         10232,
+         10233,
+         10234
+      ],
+      "small_sprite": "prepare_head_c020",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9008,
+      "timeequip": "assetbundleexport/players/c023/prefab/C023_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c023/prefab/C023_model_prefab_pvp",
+      "warnRange": 5
+   },
+   {
+      "AniRoleName": "AssetbundleExport/Players/C028/ui_ani/C028_ui_ani_prefab",
+      "AniRoleSpeak": [],
+      "BTTemplates": [
+         "AssetbundleExport/BehaverTreeAi/Player/C028"
+      ],
+      "FightSuccess_Icon": [
+         "FightScene",
+         "zhandou_head_c028"
+      ],
+      "IsPictureRot": 0,
+      "aimCameraPosition": [
+         1.5,
+         1.63,
+         -3.24
+      ],
+      "aimCameraRotation": [
+         0,
+         -12,
+         0
+      ],
+      "atlas": "MainScene",
+      "atlasintensify": "AtlasMain",
+      "attackDistance": 1.2,
+      "autoFightChase": 15,
+      "autoFightGuard": 5,
+      "autoFightMaxDistance": 10,
+      "becrush": 1,
+      "big_sprite": "zhandou_jiaose_C028",
+      "cameraR": 0,
+      "camp": 1,
+      "changeHeroIcon": [
+         "AtlasC028",
+         "BS_Icon_LH_C028"
+      ],
+      "choosehero_atlas": "AtlasChooseHero",
+      "choosehero_icon": "xuanren_role_icon_c028",
+      "conditions": [
+         4003
+      ],
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 117,
+      "dead_sprite": "prepare_head_1",
+      "fight_btn_ids": [
+         10280,
+         10281,
+         10282,
+         10283,
+         10284
+      ],
+      "formation_atlas": "AtlasFormation",
+      "formation_icon": "biandui_role_icon_c028",
+      "gift_item": [
+         [
+            11,
+            1
+         ]
+      ],
+      "hero_class": 1,
+      "hero_loseaudio": 0,
+      "hero_selectaudio": 0,
+      "hero_startaudio": 0,
+      "hero_winaudio": 0,
+      "hintAddHeight": 0,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "icon": "prepare_head_c028",
+      "id": 28,
+      "ideTime": 5,
+      "infodes": [
+         120000028,
+         100000001,
+         110000001
+      ],
+      "intensify_selected": "juese_role_icon_c028",
+      "intensify_unselected": "juese_role_grayicon_c028",
+      "isDisableHero": 0,
+      "level": 1,
+      "model_path": "none",
+      "modelfbx_name": "none",
+      "name": "艾妮卡",
+      "order_id": 1,
+      "over_closeup": [
+         "Camera_win_01_ani"
+      ],
+      "playerGravityf": 0.5,
+      "pos4_3": [
+         -508,
+         -205,
+         0
+      ],
+      "pos_rot": [
+         0,
+         -0.36,
+         4.2,
+         0,
+         180,
+         0
+      ],
+      "positionParam": 90,
+      "positionType": 2,
+      "positionType2": 1,
+      "prioritylock": 12,
+      "professionId": 0,
+      "property": 2,
+      "property_limte": [
+         60,
+         21,
+         6,
+         6900,
+         7400
+      ],
+      "regular_atlas": "AtlasC028",
+      "regular_icon": "prepare_head_c028",
+      "regular_iconpath": "AssetbundleExport/UI/Atlas/Atlasc028/Atlasc028",
+      "resident_effect": [],
+      "role_image": "prepare_head_c028",
+      "role_name_image": "juesexinxinamec028",
+      "roleimage_position": [
+         -543,
+         -527,
+         0
+      ],
+      "runAudio": "AssetbundleExport/Audio/Hero/Common/Audio_run_loop",
+      "scale16_9": [
+         1,
+         1,
+         1
+      ],
+      "scale4_3": [
+         1,
+         1,
+         1
+      ],
+      "seat_property": 3,
+      "shortname": "艾妮卡",
+      "skill_far": [
+         10101,
+         10102,
+         10103,
+         10104
+      ],
+      "skill_ids": [
+         10280,
+         10281,
+         10282,
+         10283,
+         10284
+      ],
+      "small_sprite": "prepare_head_c028",
+      "special_skill_sound": [],
+      "star": 1,
+      "story_id": 9001,
+      "timeequip": "assetbundleexport/players/c028/prefab/C028_model_prefab",
+      "timeequippvp": "assetbundleexport/players/c028/prefab/C028_model_prefab_pvp",
+      "warnRange": 10
+   }
+]

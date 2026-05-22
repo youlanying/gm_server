@@ -1,0 +1,85 @@
+<script>
+$(document).ready(function(){
+	$("#btn_edit").click(function(){
+		if($("#gname").val().trim() == ""){
+			alert("群组名称不能为空！");
+		}else{
+			$("#form_edit").submit();
+		}
+	});
+});
+</script>
+
+<!-- Inner Container Start -->
+<div class="container">
+
+	<!-- Statistics Button Container -->
+	<div class="mws-stat-container clearfix">
+    	
+        <!-- Statistic Item -->
+    	
+    	<a class="mws-stat" href="/admin/showgroup">
+        	<!-- Statistic Icon (edit to change icon) -->
+        	<span class="mws-stat-icon icol32-car"></span>
+
+            <!-- Statistic Content -->
+            <span class="mws-stat-content">
+            	<span class="mws-stat-title">return</span>
+                <span class="mws-stat-value"> 返回</span>
+            </span>
+        </a>
+        
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div id="div_createnew">
+	<div class="mws-panel grid_6">
+        <div class="mws-panel-header">
+            <span> 编辑群组 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_edit" method="post" action="/admin/doeditgroup"}> <!--这里面有个 action=url的定义-->
+                <fieldset class="mws-form-inline">
+                    <legend> 群组信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 群组ID </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="gid" value={{.gid}} readonly="readonly" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 群组名称 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="gname" id="gname" value={{.gname}} />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 功能列表 </label>
+                        <div class="mws-form-item clearfix">
+                            <ul class="mws-form-list inline">
+								{{$isIn := 0}}
+								{{range $_, $mem := .actlist}}
+									{{$isIn = 0}}
+									{{range $index, $mem2 := $.showlist}}
+										{{if eq $mem.Id $mem2}}
+										{{$isIn = 1}}
+										<li><input type="checkbox" name="gactlist" value={{$mem.Id}} checked="checked" /><label>{{$mem.Name}}</label></li>
+										{{end}}
+									{{end}}
+									{{if eq $isIn 0}}
+									<li><input type="checkbox" name="gactlist" value={{$mem.Id}} /><label>{{$mem.Name}}</label></li>
+									{{end}}
+                            	{{end}}
+        					</ul>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_edit"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>

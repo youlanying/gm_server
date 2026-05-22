@@ -1,0 +1,1909 @@
+[
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1002,
+      "id": 1001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1003,
+      "id": 1002,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1004,
+      "id": 1003,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1006,
+      "id": 1004,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1007,
+      "id": 1005,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1008,
+      "id": 1006,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1020,
+      "id": 1008,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1024,
+      "id": 1017,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 1
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 1001,
+      "id": 2001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 2
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3002
+      ],
+      "condition": 4001,
+      "id": 3001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3003
+      ],
+      "condition": 4002,
+      "id": 3002,
+      "pre_questid": 3001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3004
+      ],
+      "condition": 4003,
+      "id": 3003,
+      "pre_questid": 3002,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3005
+      ],
+      "condition": 4004,
+      "id": 3004,
+      "pre_questid": 3003,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3006
+      ],
+      "condition": 4005,
+      "id": 3005,
+      "pre_questid": 3004,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3007
+      ],
+      "condition": 4006,
+      "id": 3006,
+      "pre_questid": 3005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3008
+      ],
+      "condition": 4007,
+      "id": 3007,
+      "pre_questid": 3006,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3009
+      ],
+      "condition": 4008,
+      "id": 3008,
+      "pre_questid": 3007,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3010
+      ],
+      "condition": 4009,
+      "id": 3009,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3011
+      ],
+      "condition": 4010,
+      "id": 3010,
+      "pre_questid": 3009,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3012
+      ],
+      "condition": 4011,
+      "id": 3011,
+      "pre_questid": 3010,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3013
+      ],
+      "condition": 4012,
+      "id": 3012,
+      "pre_questid": 3011,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3014
+      ],
+      "condition": 4013,
+      "id": 3013,
+      "pre_questid": 3012,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3015
+      ],
+      "condition": 4014,
+      "id": 3014,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         3016
+      ],
+      "condition": 4015,
+      "id": 3015,
+      "pre_questid": 3014,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 4016,
+      "id": 3016,
+      "pre_questid": 3015,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4004
+      ],
+      "condition": 3001,
+      "id": 4001,
+      "pre_questid": 5001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4005
+      ],
+      "condition": 3002,
+      "id": 4002,
+      "pre_questid": 5001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4006
+      ],
+      "condition": 3003,
+      "id": 4003,
+      "pre_questid": 5001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4007
+      ],
+      "condition": 3004,
+      "id": 4004,
+      "pre_questid": 4001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4008
+      ],
+      "condition": 3005,
+      "id": 4005,
+      "pre_questid": 4002,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4009
+      ],
+      "condition": 3006,
+      "id": 4006,
+      "pre_questid": 4003,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3007,
+      "id": 4007,
+      "pre_questid": 4004,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3008,
+      "id": 4008,
+      "pre_questid": 4005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3009,
+      "id": 4009,
+      "pre_questid": 4006,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4014
+      ],
+      "condition": 3010,
+      "id": 4010,
+      "pre_questid": 5005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4015
+      ],
+      "condition": 3011,
+      "id": 4011,
+      "pre_questid": 5005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4016
+      ],
+      "condition": 3012,
+      "id": 4012,
+      "pre_questid": 5005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4017
+      ],
+      "condition": 3013,
+      "id": 4013,
+      "pre_questid": 5005,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4018
+      ],
+      "condition": 3014,
+      "id": 4014,
+      "pre_questid": 4010,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4019
+      ],
+      "condition": 3015,
+      "id": 4015,
+      "pre_questid": 4011,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4020
+      ],
+      "condition": 3016,
+      "id": 4016,
+      "pre_questid": 4012,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4021
+      ],
+      "condition": 3017,
+      "id": 4017,
+      "pre_questid": 4013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3018,
+      "id": 4018,
+      "pre_questid": 4014,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3019,
+      "id": 4019,
+      "pre_questid": 4015,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3020,
+      "id": 4020,
+      "pre_questid": 4016,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3021,
+      "id": 4021,
+      "pre_questid": 4017,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3022,
+      "id": 4022,
+      "pre_questid": 4014,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3023,
+      "id": 4023,
+      "pre_questid": 4014,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4030
+      ],
+      "condition": 3024,
+      "id": 4024,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4031
+      ],
+      "condition": 3025,
+      "id": 4025,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4032
+      ],
+      "condition": 3026,
+      "id": 4026,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4033
+      ],
+      "condition": 3027,
+      "id": 4027,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4034
+      ],
+      "condition": 3028,
+      "id": 4028,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4035
+      ],
+      "condition": 3029,
+      "id": 4029,
+      "pre_questid": 3008,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4036
+      ],
+      "condition": 3030,
+      "id": 4030,
+      "pre_questid": 4024,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4037
+      ],
+      "condition": 3031,
+      "id": 4031,
+      "pre_questid": 4025,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4038
+      ],
+      "condition": 3032,
+      "id": 4032,
+      "pre_questid": 4026,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4039
+      ],
+      "condition": 3033,
+      "id": 4033,
+      "pre_questid": 4027,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4040
+      ],
+      "condition": 3034,
+      "id": 4034,
+      "pre_questid": 4028,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4041
+      ],
+      "condition": 3035,
+      "id": 4035,
+      "pre_questid": 4029,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3036,
+      "id": 4036,
+      "pre_questid": 4030,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3037,
+      "id": 4037,
+      "pre_questid": 4031,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3038,
+      "id": 4038,
+      "pre_questid": 4032,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3039,
+      "id": 4039,
+      "pre_questid": 4033,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3040,
+      "id": 4040,
+      "pre_questid": 4034,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3041,
+      "id": 4041,
+      "pre_questid": 4035,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4048
+      ],
+      "condition": 3042,
+      "id": 4042,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4049
+      ],
+      "condition": 3043,
+      "id": 4043,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4050
+      ],
+      "condition": 3044,
+      "id": 4044,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4051
+      ],
+      "condition": 3045,
+      "id": 4045,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4052
+      ],
+      "condition": 3046,
+      "id": 4046,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4053
+      ],
+      "condition": 3047,
+      "id": 4047,
+      "pre_questid": 3013,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4054
+      ],
+      "condition": 3048,
+      "id": 4048,
+      "pre_questid": 4042,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4055
+      ],
+      "condition": 3049,
+      "id": 4049,
+      "pre_questid": 4043,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4056
+      ],
+      "condition": 3050,
+      "id": 4050,
+      "pre_questid": 4044,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4057
+      ],
+      "condition": 3051,
+      "id": 4051,
+      "pre_questid": 4045,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4058
+      ],
+      "condition": 3052,
+      "id": 4052,
+      "pre_questid": 4046,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         4059
+      ],
+      "condition": 3053,
+      "id": 4053,
+      "pre_questid": 4047,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3054,
+      "id": 4054,
+      "pre_questid": 4048,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3055,
+      "id": 4055,
+      "pre_questid": 4049,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3056,
+      "id": 4056,
+      "pre_questid": 4050,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3057,
+      "id": 4057,
+      "pre_questid": 4051,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3058,
+      "id": 4058,
+      "pre_questid": 4052,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 3059,
+      "id": 4059,
+      "pre_questid": 4053,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            30
+         ]
+      ],
+      "tag": 4
+   },
+   {
+      "activity": 10,
+      "after_questid": [],
+      "condition": 1101,
+      "id": 5001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 10,
+      "after_questid": [],
+      "condition": 1102,
+      "id": 5002,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 20,
+      "after_questid": [],
+      "condition": 1103,
+      "id": 5003,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 30,
+      "after_questid": [],
+      "condition": 1104,
+      "id": 5004,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 30,
+      "after_questid": [],
+      "condition": 1105,
+      "id": 5005,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 20,
+      "after_questid": [],
+      "condition": 1106,
+      "id": 5006,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 20,
+      "after_questid": [],
+      "condition": 1107,
+      "id": 5007,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 20,
+      "after_questid": [],
+      "condition": 1108,
+      "id": 5008,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": 10,
+      "after_questid": [],
+      "condition": 1109,
+      "id": 5009,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            10
+         ]
+      ],
+      "tag": 5
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2001,
+      "id": 6001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2002,
+      "id": 6002,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2003,
+      "id": 6003,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2004,
+      "id": 6004,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2005,
+      "id": 6005,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2006,
+      "id": 6006,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 2007,
+      "id": 6007,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 6
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7011
+      ],
+      "condition": 5001,
+      "id": 7001,
+      "pre_questid": -1,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7021
+      ],
+      "condition": 5001,
+      "id": 7011,
+      "pre_questid": 7001,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7022
+      ],
+      "condition": 5001,
+      "id": 7021,
+      "pre_questid": 7011,
+      "quest_trigger": 0,
+      "reward_items": [],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7031
+      ],
+      "condition": 5002,
+      "id": 7022,
+      "pre_questid": 7021,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7041
+      ],
+      "condition": 5003,
+      "id": 7031,
+      "pre_questid": 7022,
+      "quest_trigger": 0,
+      "reward_items": [],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7051
+      ],
+      "condition": 5012,
+      "id": 7041,
+      "pre_questid": 7031,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7052
+      ],
+      "condition": 5004,
+      "id": 7051,
+      "pre_questid": 7041,
+      "quest_trigger": 0,
+      "reward_items": [],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7053
+      ],
+      "condition": 5013,
+      "id": 7052,
+      "pre_questid": 7051,
+      "quest_trigger": 0,
+      "reward_items": [],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7061
+      ],
+      "condition": 5014,
+      "id": 7053,
+      "pre_questid": 7052,
+      "quest_trigger": 0,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7071
+      ],
+      "condition": 5001,
+      "id": 7061,
+      "pre_questid": 7051,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7072
+      ],
+      "condition": 7071,
+      "id": 7071,
+      "pre_questid": 7061,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7081
+      ],
+      "condition": 7072,
+      "id": 7072,
+      "pre_questid": 7071,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7082
+      ],
+      "condition": 7081,
+      "id": 7081,
+      "pre_questid": 7071,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7083
+      ],
+      "condition": 7082,
+      "id": 7082,
+      "pre_questid": 7081,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7091
+      ],
+      "condition": 7083,
+      "id": 7083,
+      "pre_questid": 7082,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7101
+      ],
+      "condition": 5007,
+      "id": 7091,
+      "pre_questid": 7083,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7111
+      ],
+      "condition": 7101,
+      "id": 7101,
+      "pre_questid": 7091,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [
+         7121
+      ],
+      "condition": 7111,
+      "id": 7111,
+      "pre_questid": 7101,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   },
+   {
+      "activity": -1,
+      "after_questid": [],
+      "condition": 7121,
+      "id": 7121,
+      "pre_questid": 7111,
+      "quest_trigger": 1,
+      "reward_items": [
+         [
+            500003,
+            20
+         ]
+      ],
+      "tag": 3
+   }
+]

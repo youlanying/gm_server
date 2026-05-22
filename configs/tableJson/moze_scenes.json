@@ -1,0 +1,23 @@
+[
+   {
+      "crossing_num": 1,
+      "hidebox_probability": 10,
+      "id": 1,
+      "over_id": 1,
+      "refreshboxid": [
+         [
+            1,
+            2
+         ],
+         [
+            2,
+            3
+         ],
+         [
+            3,
+            4
+         ]
+      ],
+      "room_id": 1
+   }
+]

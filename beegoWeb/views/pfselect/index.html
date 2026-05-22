@@ -1,0 +1,205 @@
+<div>
+    <script type="text/javascript">
+        function AddTable(platform) {
+            $("#div_table_data").attr("style", 'display:');
+            $("#span_output").html('平台信息');
+
+            $('#divtable').html("");
+            let addbody = "";
+            let Table = "<table class='mws-datatable-fn mws-table dataTable'><thead><tr><th>平台ID</th><th>平台名称</th><th>平台IP</th><th>端口</th><th>操作</th></tr></thead><tbody>";
+            let Tbody = "</tbody></table>"
+            for (let i = 0; i < platform.length; i += 1) {
+                let onerow = platform[i];
+                addbody +=
+                    "<tr style='text-align:center' >" +
+                    "<td class=\" \"><label class='mws-form-label' id='cid_"+onerow.ID+"'>" + onerow.ID + "</label></td>" +
+                    "<td class=\" \"> <input type=\"text\" class=\"large\" id=\"name_"+onerow.ID+"\"  value='" + onerow.NAME + "' /></td>" +
+                    "<td class=\" \"> <input type=\"text\" class=\"large\" id=\"ip_"+onerow.ID+"\" value='" + onerow.IP + "' /></td>" +
+                    "<td class=\" \"> <input type=\"text\" class=\"large\" id=\"port_"+onerow.ID+"\" value='" + onerow.PORT + "' /></td>" +
+                    "<td class=\" \">" +
+                    "<input type='button' id='btn_update_" + onerow.ID + "' name='btn_update' value='修改' class='btn btn-danger' />" +
+                    "<input type='button' id='btn_delete_" + onerow.ID + "' name='btn_delete' value='删除' class='btn btn-danger' />" +
+                    "</td>" +
+                    "</tr>";
+
+            }
+            //表 赋值
+            $('#divtable').append(Table + addbody + Tbody);
+
+            //必须在表格 赋值 后
+            //static/js/demo/demo.table.js
+            // if ($.fn.dataTable) {
+            //     $(".mws-datatable").dataTable();
+            //     $(".mws-datatable-fn").dataTable({
+            //         sPaginationType: "full_numbers",
+            //         aaSorting: [[1, "asc"]], //默认的排序方式，第3列，降序排列
+            //     });
+            // }
+        };
+
+        function UpdatePf(data) {
+            let FullUrl = "/pfselect/update";
+            $.ajax({
+                url: FullUrl,
+                type: 'POST',
+                dataType: 'text',
+                data: data,
+                cache: false,
+                success: function (ref) {
+                    if (ref == "true") {
+                        alert("修改成功！");
+                    } else {
+                        alert("请重试！");
+                    };
+                }
+            });
+        };
+        function DeletePf(SId) {
+            let FullUrl = "/pfselect/delete";
+            $.ajax({
+                url: FullUrl,
+                type: 'POST',
+                dataType: 'text',
+                data: {cid:SId},
+                cache: false,
+                success: function (ref) {
+                    if (ref != "") {
+                        let jsonplatform = JSON.parse(ref)
+                        AddTable(jsonplatform)
+                        alert("删除成功！");
+                    } else {
+                        alert("请重试！");
+                    };
+                }
+            });
+        };
+        function AddCenter(Form){
+            let FullUrl = "/pfselect/createnew";
+            $.ajax({
+                url: FullUrl,
+                type: 'POST',
+                dataType: 'json',
+                data: Form,
+                contentType: false,
+                processData: false,
+                cache: false,
+                success: function (ref) {
+                    if (ref != "") {
+                        $("#btn_show").show();
+                        $("#div_register").hide();
+                        AddTable(ref)
+                        alert("添加成功！");
+                    } else {
+                        alert("请重试！");
+                    };
+                }
+            });
+        };
+
+        $(document).on('click',"[name='btn_update']",function(){
+            let UId = $(this).attr("id");
+            let TempArr = UId.split("_");
+            let SId = TempArr[(TempArr.length - 1)];
+            let StrId = $("#cid_"+SId).html();
+            let StrName = $("#name_"+SId).val();
+            let StrIp = $("#ip_"+SId).val();
+            let StrPort = $("#port_"+SId).val();
+            let Form = $("#form_"+SId).serialize();
+            //alert(StrName+"==="+StrIp+"==="+StrPort+"=="+StrId)
+            UpdatePf({cid:StrId,center_name:StrName,ip:StrIp,port:StrPort})
+
+        });
+        $(document).on('click',"[name='btn_delete']",function(){
+            let UId = $(this).attr("id");
+            let TempArr = UId.split("_");
+            let SId = TempArr[(TempArr.length - 1)];
+            DeletePf(SId)
+        });
+
+        $(document).ready(function(){
+            $("#div_register").hide();
+            $("#btn_close").hide();
+            let platforms = {{.platforms}};
+            if ( platforms!= "") {
+                let jsonplatform = JSON.parse(platforms)
+                AddTable(jsonplatform)
+            }
+            $("#btn_show").click(function(){
+                $(this).hide();
+                $("#btn_close").show();
+                $("#div_register").show();
+            });
+            $("#btn_close").click(function(){
+                $(this).hide();
+                $("#btn_show").show();
+                $("#div_register").hide();
+            });
+
+            $("#btn_reg").click(function(){
+                    const Form = new FormData(document.getElementById("form_new_pf"));
+                    AddCenter(Form);
+                }
+            )
+        });
+
+    </script>
+
+</div>
+<div id="div_table_data">
+    <div class="mws-panel grid_6 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output"></label> </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+
+        </div>
+    </div>
+</div>
+
+<!--换行分割-->
+<div class="clear"></div>
+
+
+<div class="mws-form-item">
+    <input type="button" id="btn_show" value="添加平台" class="btn " />
+    <input type="button" id="btn_close" value="收起" class="btn " />
+</div>
+
+<div id="div_register">
+    <div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 新平台 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new_pf" enctype="multipart/form-data">
+                <fieldset class="mws-form-inline">
+                    <legend> 平台信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 平台名称： </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="cname" id="cid" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> IP地址： </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="ip" id="ip_reg" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 端口： </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="port" id="port_reg" />
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_reg"/>
+                    <span style="color: #ff5100; ">  注意： 新添加的平台默认添加到超级管理员组</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

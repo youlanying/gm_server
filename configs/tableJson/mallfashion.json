@@ -1,0 +1,189 @@
+[
+   {
+      "cost_num": 30,
+      "cost_type": 0,
+      "id": 1001,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 10
+   },
+   {
+      "cost_num": 60,
+      "cost_type": 0,
+      "id": 1011,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 20
+   },
+   {
+      "cost_num": 98,
+      "cost_type": 0,
+      "id": 1021,
+      "ishot": 1,
+      "item_num": 10,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 30
+   },
+   {
+      "cost_num": 98,
+      "cost_type": 0,
+      "id": 1031,
+      "ishot": 1,
+      "item_num": 10,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 40
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1041,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 50
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1051,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 60
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1061,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 70
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1071,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 10
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1081,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 20
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1091,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 30
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1101,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111004,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 40
+   },
+   {
+      "cost_num": 100000,
+      "cost_type": 0,
+      "id": 1111,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 50
+   },
+   {
+      "cost_num": 188,
+      "cost_type": 0,
+      "id": 1121,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 60
+   },
+   {
+      "cost_num": 188,
+      "cost_type": 0,
+      "id": 1131,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 70
+   },
+   {
+      "cost_num": 188,
+      "cost_type": 0,
+      "id": 1141,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 10
+   },
+   {
+      "cost_num": 188,
+      "cost_type": 0,
+      "id": 1151,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 20
+   },
+   {
+      "cost_num": 188,
+      "cost_type": 0,
+      "id": 1161,
+      "ishot": 1,
+      "item_num": 1,
+      "item_protoid": 111005,
+      "price_pre": 100,
+      "price_str": "",
+      "price_then": 30
+   }
+]

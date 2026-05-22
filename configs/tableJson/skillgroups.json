@@ -1,0 +1,2506 @@
+[
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100301
+      ],
+      "SkillIdList": [
+         [
+            1
+         ],
+         [
+            2
+         ],
+         [
+            3
+         ],
+         [
+            4
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 1,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100311
+      ],
+      "SkillIdList": [
+         [
+            6
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 2,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill_dodge"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100331,
+         100332,
+         100333
+      ],
+      "SkillIdList": [
+         [
+            5
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 3,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill2"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100321,
+         100322,
+         100323
+      ],
+      "SkillIdList": [
+         [
+            7
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         7
+      ],
+      "id": 4,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill1"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100101
+         ],
+         [
+            100102
+         ],
+         [
+            100103
+         ],
+         [
+            100104
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10010,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100110
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 10011,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100120
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 10012,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100130
+         ]
+      ],
+      "SkillLocationType": 6,
+      "TypeList": [
+         1
+      ],
+      "id": 10013,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100140
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         8
+      ],
+      "id": 10014,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100150
+         ],
+         [
+            100151
+         ],
+         [
+            100152
+         ],
+         [
+            100153
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10015,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100121
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [],
+      "id": 10016,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100301
+      ],
+      "SkillIdList": [
+         [
+            100300
+         ],
+         [
+            100301
+         ],
+         [
+            100302
+         ],
+         [
+            100303
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10030,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100301
+      ],
+      "SkillIdList": [
+         [
+            100360
+         ],
+         [
+            100301
+         ],
+         [
+            100302
+         ],
+         [
+            100303
+         ]
+      ],
+      "SkillLocationType": 7,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10036,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100311
+      ],
+      "SkillIdList": [
+         [
+            100310
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 10031,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill_dodge"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100331,
+         100332,
+         100333
+      ],
+      "SkillIdList": [
+         [
+            100320
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 10032,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill2"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100331,
+         100332,
+         100333
+      ],
+      "SkillIdList": [
+         [
+            100330
+         ]
+      ],
+      "SkillLocationType": 6,
+      "TypeList": [
+         1
+      ],
+      "id": 10033,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill2"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 2,
+      "SkillDescId": [
+         100321,
+         100322,
+         100323
+      ],
+      "SkillIdList": [
+         [
+            100340
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         8
+      ],
+      "id": 10034,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill1"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100301
+      ],
+      "SkillIdList": [
+         [
+            100350
+         ],
+         [
+            100351
+         ],
+         [
+            100352
+         ],
+         [
+            100353
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10035,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100600
+         ],
+         [
+            100601
+         ],
+         [
+            100602
+         ],
+         [
+            100603
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10060,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100610
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 10061,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c003_skill_dodge"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100620
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 10062,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c006_skill1"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100630
+         ]
+      ],
+      "SkillLocationType": 6,
+      "TypeList": [
+         1
+      ],
+      "id": 10063,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c006_skill2"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100640
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         8
+      ],
+      "id": 10064,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c006_skill_special"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100650
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1
+      ],
+      "id": 10065,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_c006_skill2"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [
+         100101,
+         100111,
+         100121
+      ],
+      "SkillIdList": [
+         [
+            100660
+         ],
+         [
+            100661
+         ],
+         [
+            100662
+         ],
+         [
+            100663
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10066,
+      "skillIcon": [
+         "AtlasFight",
+         "combat_icon_skill_attack"
+      ]
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100800
+         ],
+         [
+            100801
+         ],
+         [
+            100802
+         ],
+         [
+            100803
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10080,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100810
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 10081,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100820
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 10082,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100830
+         ]
+      ],
+      "SkillLocationType": 6,
+      "TypeList": [
+         1
+      ],
+      "id": 10083,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100840
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         8
+      ],
+      "id": 10084,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            100850
+         ],
+         [
+            100851
+         ],
+         [
+            100852
+         ],
+         [
+            100853
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10085,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            101001
+         ],
+         [
+            101002
+         ],
+         [
+            101003
+         ],
+         [
+            101004
+         ],
+         [
+            101005
+         ]
+      ],
+      "SkillLocationType": 1,
+      "TypeList": [
+         1,
+         1,
+         1,
+         1
+      ],
+      "id": 10100,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            101010
+         ]
+      ],
+      "SkillLocationType": 4,
+      "TypeList": [
+         5
+      ],
+      "id": 10101,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            101020
+         ]
+      ],
+      "SkillLocationType": 2,
+      "TypeList": [
+         1
+      ],
+      "id": 10102,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            101031
+         ]
+      ],
+      "SkillLocationType": 0,
+      "TypeList": [
+         1
+      ],
+      "id": 10103,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 1,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            101040
+         ]
+      ],
+      "SkillLocationType": 3,
+      "TypeList": [
+         8
+      ],
+      "id": 10104,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            700001
+         ]
+      ],
+      "SkillLocationType": 5,
+      "TypeList": [
+         5
+      ],
+      "id": 700001,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            700002
+         ]
+      ],
+      "SkillLocationType": 5,
+      "TypeList": [
+         5
+      ],
+      "id": 700002,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            702101
+         ]
+      ],
+      "SkillLocationType": 5,
+      "TypeList": [
+         5
+      ],
+      "id": 702101,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            700003
+         ]
+      ],
+      "SkillLocationType": 5,
+      "TypeList": [
+         5
+      ],
+      "id": 700003,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            700004
+         ]
+      ],
+      "SkillLocationType": 5,
+      "TypeList": [
+         5
+      ],
+      "id": 700004,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900001
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900001,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900002
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900002,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900003
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900003,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900004
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900004,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900005
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900005,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900006
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900006,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900007
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900007,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900008
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900008,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900009
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900009,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900010
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900010,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900011
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900011,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900101
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900101,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900111
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900111,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900112
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900112,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900113
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900113,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900114
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900114,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900601
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900601,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900611
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900611,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900612
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900612,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900613
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900613,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900614
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900614,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900615
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900615,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900616
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900616,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900701
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900701,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900702
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900702,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900703
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900703,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900711
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900711,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900712
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900712,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900713
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900713,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900714
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900714,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900715
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900715,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900716
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900716,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900801
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900801,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900802
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900802,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900811
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900811,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900812
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900812,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900813
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900813,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900901
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900901,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900902
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900902,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900903
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900903,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900911
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900911,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900912
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900912,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900913
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900913,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900914
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900914,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901001
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901001,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901011
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901011,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901012
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901012,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901013
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901013,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901014
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901014,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901015
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901015,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901016
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901016,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901201
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901201,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901211
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901211,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901212
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901212,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901213
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901213,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901221
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901221,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901222
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901222,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901223
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901223,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901224
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901224,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            901231
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 901231,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903001
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903001,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903002
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903002,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903011
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903011,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903012
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903012,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903301
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903301,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903311
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903311,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903312
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903312,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903321
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903321,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903331
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903331,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            999901
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 999901,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            999911
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 999911,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            999912
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 999912,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            999921
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 999921,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903421
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903421,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903422
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903422,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            903431
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 903431,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905401
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905401,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905411
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905411,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905421
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905421,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905422
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905422,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905423
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905423,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905424
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905424,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905425
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905425,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905426,
+            905431
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905426,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905427
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905427,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905428
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905428,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905429
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905429,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905430
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905430,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905431
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905431,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905432
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905432,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905433
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905433,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905434
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905434,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905435
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905435,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            905436
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 905436,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900193
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900193,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900194
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900194,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900195
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900195,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900196
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900196,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900197
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900197,
+      "skillIcon": []
+   },
+   {
+      "InnerCD": 0,
+      "SkillCostTimes": 0,
+      "SkillDescId": [],
+      "SkillIdList": [
+         [
+            900198
+         ]
+      ],
+      "SkillLocationType": -1,
+      "TypeList": [
+         1
+      ],
+      "id": 900198,
+      "skillIcon": []
+   }
+]

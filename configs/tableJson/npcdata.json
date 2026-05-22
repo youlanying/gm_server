@@ -1,0 +1,1241 @@
+[
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M001"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010100,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101001,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         900101,
+         900111,
+         900112,
+         900113
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            300
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M006"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010200,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101006,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            18
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            300
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M007"
+      ],
+      "camp": 2,
+      "crush_other": 1,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010310,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101007,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 1,
+      "miss_flyhurt": 1,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": 1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [],
+      "start_buff": [],
+      "superArmorBuffs": [
+         9052000,
+         9000200
+      ],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            300
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M008"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010300,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101008,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         900801,
+         900802,
+         900811,
+         900812
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            18
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            300
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M009"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010300,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101009,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         903001,
+         903011,
+         903012
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M010"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010300,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101010,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         901001,
+         901011,
+         901012,
+         901013,
+         901014,
+         901015
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            4000
+         ],
+         [
+            2,
+            20
+         ],
+         [
+            3,
+            0
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            302,
+            1100
+         ],
+         [
+            301,
+            1
+         ],
+         [
+            306,
+            600
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M012"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101012,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         901201,
+         901211,
+         901212,
+         901213,
+         901221,
+         901222,
+         901223,
+         901224
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            4000
+         ],
+         [
+            2,
+            20
+         ],
+         [
+            3,
+            0
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            302,
+            1100
+         ],
+         [
+            301,
+            1
+         ],
+         [
+            306,
+            600
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10102012,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M030"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101030,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         903001,
+         903002
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            536
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M033"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101033,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 1,
+      "skill_list": [
+         903301,
+         903311,
+         903312,
+         903321
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            18
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            536
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10102033,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 1,
+      "skill_list": [],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            210
+         ],
+         [
+            2,
+            12
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            232
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M053"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101053,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         903301,
+         903311,
+         903312,
+         903321
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            60000
+         ],
+         [
+            2,
+            25
+         ],
+         [
+            3,
+            0
+         ],
+         [
+            101,
+            290
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            302,
+            1000
+         ],
+         [
+            301,
+            2000
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M054_Test"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010400,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 10101054,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         905401,
+         905411,
+         905421,
+         905422,
+         905423,
+         905424,
+         905425,
+         905426,
+         905427,
+         905428,
+         905429,
+         905430,
+         905431,
+         905432,
+         905433,
+         905434,
+         905435,
+         905436
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 5,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            1000000
+         ],
+         [
+            2,
+            50
+         ],
+         [
+            101,
+            200
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M012"
+      ],
+      "camp": 2,
+      "crush_other": 1,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 101,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 30101012,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 1,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         901201,
+         901211,
+         901212,
+         901213,
+         901221,
+         901222,
+         901223,
+         901224
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            100000
+         ],
+         [
+            2,
+            1
+         ],
+         [
+            3,
+            20
+         ],
+         [
+            101,
+            300
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M008_3-6test"
+      ],
+      "camp": 2,
+      "crush_other": 0,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1010300,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 30101008,
+      "level": 1,
+      "locked_priority": 1,
+      "miss_bemove": 0,
+      "miss_flyhurt": 0,
+      "miss_normalhurt": 0,
+      "miss_skyhurt": -1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         900801,
+         900802,
+         900811,
+         900812
+      ],
+      "start_buff": [],
+      "superArmorBuffs": [],
+      "timeLinePath": [],
+      "type_detail": 1,
+      "weaknessPart": []
+   },
+   {
+      "BrokenSuperArmor": 1,
+      "attr_init": [
+         [
+            1,
+            60000
+         ],
+         [
+            2,
+            25
+         ],
+         [
+            3,
+            0
+         ],
+         [
+            101,
+            100
+         ],
+         [
+            303,
+            10000
+         ],
+         [
+            304,
+            80
+         ],
+         [
+            302,
+            1000
+         ],
+         [
+            301,
+            2000
+         ],
+         [
+            307,
+            1
+         ],
+         [
+            308,
+            20
+         ]
+      ],
+      "becrush": 0,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M054_Test"
+      ],
+      "camp": 2,
+      "crush_other": 1,
+      "deadTime": 3.5,
+      "defense": [],
+      "drop": 1011130,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "drop_itemeffect": 0,
+      "flytype": 0,
+      "gravityf": 0.005,
+      "hpPercent": [],
+      "hp_num": 1,
+      "id": 30107001,
+      "level": 6,
+      "locked_priority": 1,
+      "miss_bemove": 1,
+      "miss_flyhurt": 1,
+      "miss_normalhurt": 1,
+      "miss_skyhurt": 1,
+      "npc_rotationSpeed": 3,
+      "skill_list": [
+         905401,
+         905411,
+         905421,
+         905422,
+         905423,
+         905424,
+         905425,
+         905426,
+         905427,
+         905428,
+         905429,
+         905430,
+         905431,
+         905432,
+         905433,
+         905434,
+         905435,
+         905436
+      ],
+      "start_buff": [
+         9000100
+      ],
+      "superArmorBuffs": [
+         9052000,
+         9000200
+      ],
+      "timeLinePath": [],
+      "type_detail": 5,
+      "weaknessPart": []
+   }
+]

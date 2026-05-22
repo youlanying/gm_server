@@ -1,0 +1,126 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+
+<script type="text/javascript">
+    function GetTerminateData() {
+        var ter_num = $("#select_terminate_num").val();
+        var FullUrl = "/gmtools/terminate";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'text',
+            data: {num:ter_num},
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    if (ref != "error") {
+                        $("#div_online_roledata").attr("style", 'display:');
+                        $("#span_output").html('错误信息');
+                        AddTable(ref.split("(@)"));
+                    }else {
+                        alert("平台连接失效请重新选择平台！");
+                    }
+                } else {
+                    alert("没有错误信息哦！");
+                }
+                ;
+            }
+        });
+    };
+
+    function AddTable(platform) {
+        $("#div_online_roledata").attr("style", 'display:');
+        $("#span_output").html('错误信息');
+
+        $('#divtable').html("");
+        var addbody = "";
+        var Table = "<table class='mws-datatable-fn mws-table dataTable'><thead><tr><th>角色ID</th><th>名称</th><th>可能引起报错数据表</th><th>具体原因</th><th>服务器ID</th><th>角色账号</th><th>时间</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"
+        for (var i = 0; i < platform.length; i += 1) {
+            var team = platform[i];
+            if (team != "") {
+                var newpf = team.split("|");
+
+                addbody = addbody +
+                    "<tr style='text-align:center'>" +
+                    "<td>" + newpf[0] + "</td>" +
+                    "<td>" + newpf[1] + "</td>" +
+                    "<td><textarea style='width:80%;overflow-y:hidden;' rows='2' disabled='disabled'>" + newpf[2] + "</textarea></td>" +
+                    "<td><textarea style='width:100%;overflow-y:scroll;' rows='3' disabled='disabled'>" + newpf[3] + "</textarea></td>" +
+                    "<td>" + newpf[4] + "</td>" +
+                    "<td>" + newpf[5] + "</td>" +
+                    "<td>" + newpf[6] + "</td>" +
+                    "</tr>";
+            }
+        }
+        //表 赋值
+        $('#divtable').append(Table + addbody + Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if ($.fn.dataTable) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers",
+                aaSorting: [[6, "desc"]], //默认的排序方式，第3列，降序排列
+                aLengthMenu: [10, 50, 100, 300] //更改显示记录数选项
+            });
+        }
+    };
+
+    $(document).ready(function () {
+
+        if ("{{.terminateData}}" != "") {
+            AddTable("{{.terminateData}}".split("(@)"))
+        }
+
+        $("#btn_sel_role").click(function () {
+            //$("#form_new").submit();
+            GetTerminateData();
+        });
+
+    });
+
+</script>
+
+<div id="div_create">
+    <div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>报错查询</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+
+            <form class="mws-form" id="form_new" method="post" action="/gmtools/terminate/">
+                <fieldset class="mws-form-inline">
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">查询条数:</label>
+                        <div class="mws-form-item">
+                            <select id="select_terminate_num" name="select_terminate_num" class="large"
+                                    style='width:50%'>
+                                <option value='10'>10</option>
+                                <option value='50'>50</option>
+                                <option value='100'>100</option>
+                                <option value='200'>200</option>
+                                <option value='300'>300</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_sel_role"/>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div id="div_online_roledata" style="display:none">
+    <div class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output"></label> </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+
+        </div>
+    </div>
+</div> 

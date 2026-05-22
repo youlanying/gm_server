@@ -1,0 +1,617 @@
+[
+   {
+      "DataTableID": 901001,
+      "Type": 1,
+      "id": 901001
+   },
+   {
+      "DataTableID": 901002,
+      "Type": 1,
+      "id": 901002
+   },
+   {
+      "DataTableID": 901003,
+      "Type": 1,
+      "id": 901003
+   },
+   {
+      "DataTableID": 901004,
+      "Type": 1,
+      "id": 901004
+   },
+   {
+      "DataTableID": 901005,
+      "Type": 1,
+      "id": 901005
+   },
+   {
+      "DataTableID": 901006,
+      "Type": 1,
+      "id": 901006
+   },
+   {
+      "DataTableID": 901007,
+      "Type": 1,
+      "id": 901007
+   },
+   {
+      "DataTableID": 901008,
+      "Type": 1,
+      "id": 901008
+   },
+   {
+      "DataTableID": 901009,
+      "Type": 1,
+      "id": 901009
+   },
+   {
+      "DataTableID": 901010,
+      "Type": 1,
+      "id": 901010
+   },
+   {
+      "DataTableID": 3010601,
+      "Type": 2,
+      "id": 3010601
+   },
+   {
+      "DataTableID": 3010602,
+      "Type": 2,
+      "id": 3010602
+   },
+   {
+      "DataTableID": 101020301,
+      "Type": 2,
+      "id": 101020301
+   },
+   {
+      "DataTableID": 101020302,
+      "Type": 2,
+      "id": 101020302
+   },
+   {
+      "DataTableID": 101020501,
+      "Type": 2,
+      "id": 101020501
+   },
+   {
+      "DataTableID": 101020502,
+      "Type": 2,
+      "id": 101020502
+   },
+   {
+      "DataTableID": 101020503,
+      "Type": 2,
+      "id": 101020503
+   },
+   {
+      "DataTableID": 101020504,
+      "Type": 2,
+      "id": 101020504
+   },
+   {
+      "DataTableID": 101020601,
+      "Type": 2,
+      "id": 101020601
+   },
+   {
+      "DataTableID": 101020602,
+      "Type": 2,
+      "id": 101020602
+   },
+   {
+      "DataTableID": 101020603,
+      "Type": 2,
+      "id": 101020603
+   },
+   {
+      "DataTableID": 101020604,
+      "Type": 2,
+      "id": 101020604
+   },
+   {
+      "DataTableID": 101020701,
+      "Type": 2,
+      "id": 101020701
+   },
+   {
+      "DataTableID": 101020702,
+      "Type": 2,
+      "id": 101020702
+   },
+   {
+      "DataTableID": 101020703,
+      "Type": 2,
+      "id": 101020703
+   },
+   {
+      "DataTableID": 101020704,
+      "Type": 2,
+      "id": 101020704
+   },
+   {
+      "DataTableID": 101020401,
+      "Type": 2,
+      "id": 101020401
+   },
+   {
+      "DataTableID": 101020402,
+      "Type": 2,
+      "id": 101020402
+   },
+   {
+      "DataTableID": 101020403,
+      "Type": 2,
+      "id": 101020403
+   },
+   {
+      "DataTableID": 101020404,
+      "Type": 2,
+      "id": 101020404
+   },
+   {
+      "DataTableID": 101020102,
+      "Type": 2,
+      "id": 101020102
+   },
+   {
+      "DataTableID": 101020101,
+      "Type": 2,
+      "id": 101020101
+   },
+   {
+      "DataTableID": 101020303,
+      "Type": 2,
+      "id": 101020303
+   },
+   {
+      "DataTableID": 101020304,
+      "Type": 2,
+      "id": 101020304
+   },
+   {
+      "DataTableID": 101020201,
+      "Type": 2,
+      "id": 101020201
+   },
+   {
+      "DataTableID": 101020202,
+      "Type": 2,
+      "id": 101020202
+   },
+   {
+      "DataTableID": 101020203,
+      "Type": 2,
+      "id": 101020203
+   },
+   {
+      "DataTableID": 101020204,
+      "Type": 2,
+      "id": 101020204
+   },
+   {
+      "DataTableID": 101020801,
+      "Type": 2,
+      "id": 101020801
+   },
+   {
+      "DataTableID": 101020802,
+      "Type": 2,
+      "id": 101020802
+   },
+   {
+      "DataTableID": 101020803,
+      "Type": 2,
+      "id": 101020803
+   },
+   {
+      "DataTableID": 101020804,
+      "Type": 2,
+      "id": 101020804
+   },
+   {
+      "DataTableID": 101021801,
+      "Type": 2,
+      "id": 101021801
+   },
+   {
+      "DataTableID": 101021802,
+      "Type": 2,
+      "id": 101021802
+   },
+   {
+      "DataTableID": 101021803,
+      "Type": 2,
+      "id": 101021803
+   },
+   {
+      "DataTableID": 101021804,
+      "Type": 2,
+      "id": 101021804
+   },
+   {
+      "DataTableID": 101022001,
+      "Type": 2,
+      "id": 101022001
+   },
+   {
+      "DataTableID": 101022002,
+      "Type": 2,
+      "id": 101022002
+   },
+   {
+      "DataTableID": 101022003,
+      "Type": 2,
+      "id": 101022003
+   },
+   {
+      "DataTableID": 101022004,
+      "Type": 2,
+      "id": 101022004
+   },
+   {
+      "DataTableID": 101020901,
+      "Type": 2,
+      "id": 101020901
+   },
+   {
+      "DataTableID": 101020902,
+      "Type": 2,
+      "id": 101020902
+   },
+   {
+      "DataTableID": 101022101,
+      "Type": 2,
+      "id": 101022101
+   },
+   {
+      "DataTableID": 101022102,
+      "Type": 2,
+      "id": 101022102
+   },
+   {
+      "DataTableID": 101021201,
+      "Type": 2,
+      "id": 101021201
+   },
+   {
+      "DataTableID": 101021202,
+      "Type": 2,
+      "id": 101021202
+   },
+   {
+      "DataTableID": 101021203,
+      "Type": 2,
+      "id": 101021203
+   },
+   {
+      "DataTableID": 101021204,
+      "Type": 2,
+      "id": 101021204
+   },
+   {
+      "DataTableID": 101020705,
+      "Type": 2,
+      "id": 101020705
+   },
+   {
+      "DataTableID": 101020706,
+      "Type": 2,
+      "id": 101020706
+   },
+   {
+      "DataTableID": 101021701,
+      "Type": 2,
+      "id": 101021701
+   },
+   {
+      "DataTableID": 101021702,
+      "Type": 2,
+      "id": 101021702
+   },
+   {
+      "DataTableID": 101021703,
+      "Type": 2,
+      "id": 101021703
+   },
+   {
+      "DataTableID": 101021704,
+      "Type": 2,
+      "id": 101021704
+   },
+   {
+      "DataTableID": 101021705,
+      "Type": 2,
+      "id": 101021705
+   },
+   {
+      "DataTableID": 101021706,
+      "Type": 2,
+      "id": 101021706
+   },
+   {
+      "DataTableID": 101021501,
+      "Type": 2,
+      "id": 101021501
+   },
+   {
+      "DataTableID": 101021502,
+      "Type": 2,
+      "id": 101021502
+   },
+   {
+      "DataTableID": 101021503,
+      "Type": 2,
+      "id": 101021503
+   },
+   {
+      "DataTableID": 101021504,
+      "Type": 2,
+      "id": 101021504
+   },
+   {
+      "DataTableID": 101021301,
+      "Type": 2,
+      "id": 101021301
+   },
+   {
+      "DataTableID": 101021302,
+      "Type": 2,
+      "id": 101021302
+   },
+   {
+      "DataTableID": 101021303,
+      "Type": 2,
+      "id": 101021303
+   },
+   {
+      "DataTableID": 101021304,
+      "Type": 2,
+      "id": 101021304
+   },
+   {
+      "DataTableID": 101021901,
+      "Type": 2,
+      "id": 101021901
+   },
+   {
+      "DataTableID": 101021902,
+      "Type": 2,
+      "id": 101021902
+   },
+   {
+      "DataTableID": 101012101,
+      "Type": 2,
+      "id": 101012101
+   },
+   {
+      "DataTableID": 101012102,
+      "Type": 2,
+      "id": 101012102
+   },
+   {
+      "DataTableID": 901011,
+      "Type": 2,
+      "id": 101021903
+   },
+   {
+      "DataTableID": 101020191,
+      "Type": 3,
+      "id": 101020191
+   },
+   {
+      "DataTableID": 101020450,
+      "Type": 3,
+      "id": 101020450
+   },
+   {
+      "DataTableID": 101020451,
+      "Type": 3,
+      "id": 101020451
+   },
+   {
+      "DataTableID": 101020850,
+      "Type": 3,
+      "id": 101020850
+   },
+   {
+      "DataTableID": 101020851,
+      "Type": 3,
+      "id": 101020851
+   },
+   {
+      "DataTableID": 101021850,
+      "Type": 3,
+      "id": 101021850
+   },
+   {
+      "DataTableID": 101021851,
+      "Type": 3,
+      "id": 101021851
+   },
+   {
+      "DataTableID": 101022050,
+      "Type": 3,
+      "id": 101022050
+   },
+   {
+      "DataTableID": 101022051,
+      "Type": 3,
+      "id": 101022051
+   },
+   {
+      "DataTableID": 101020650,
+      "Type": 3,
+      "id": 101020650
+   },
+   {
+      "DataTableID": 101020651,
+      "Type": 3,
+      "id": 101020651
+   },
+   {
+      "DataTableID": 101021050,
+      "Type": 3,
+      "id": 101021050
+   },
+   {
+      "DataTableID": 101021051,
+      "Type": 3,
+      "id": 101021051
+   },
+   {
+      "DataTableID": 101021250,
+      "Type": 3,
+      "id": 101021250
+   },
+   {
+      "DataTableID": 101021251,
+      "Type": 3,
+      "id": 101021251
+   },
+   {
+      "DataTableID": 101021650,
+      "Type": 3,
+      "id": 101021650
+   },
+   {
+      "DataTableID": 101021651,
+      "Type": 3,
+      "id": 101021651
+   },
+   {
+      "DataTableID": 101020250,
+      "Type": 3,
+      "id": 101020250
+   },
+   {
+      "DataTableID": 101020251,
+      "Type": 3,
+      "id": 101020251
+   },
+   {
+      "DataTableID": 1010201001,
+      "Type": 1,
+      "id": 1010201001
+   },
+   {
+      "DataTableID": 101020121,
+      "Type": 1,
+      "id": 101020121
+   },
+   {
+      "DataTableID": 101020221,
+      "Type": 1,
+      "id": 101020221
+   },
+   {
+      "DataTableID": 101020321,
+      "Type": 1,
+      "id": 101020321
+   },
+   {
+      "DataTableID": 101020521,
+      "Type": 1,
+      "id": 101020521
+   },
+   {
+      "DataTableID": 101020721,
+      "Type": 1,
+      "id": 101020721
+   },
+   {
+      "DataTableID": 101021150,
+      "Type": 3,
+      "id": 101021150
+   },
+   {
+      "DataTableID": 101021151,
+      "Type": 3,
+      "id": 101021151
+   },
+   {
+      "DataTableID": 101021550,
+      "Type": 3,
+      "id": 101021550
+   },
+   {
+      "DataTableID": 101021551,
+      "Type": 3,
+      "id": 101021551
+   },
+   {
+      "DataTableID": 101021101,
+      "Type": 2,
+      "id": 101021101
+   },
+   {
+      "DataTableID": 101021102,
+      "Type": 2,
+      "id": 101021102
+   },
+   {
+      "DataTableID": 101021104,
+      "Type": 2,
+      "id": 101021104
+   },
+   {
+      "DataTableID": 101021103,
+      "Type": 2,
+      "id": 101021103
+   },
+   {
+      "DataTableID": 101020122,
+      "Type": 1,
+      "id": 101020122
+   },
+   {
+      "DataTableID": 1010217001,
+      "Type": 1,
+      "id": 1010217001
+   },
+   {
+      "DataTableID": 1010217002,
+      "Type": 1,
+      "id": 1010217002
+   },
+   {
+      "DataTableID": 1010223001,
+      "Type": 1,
+      "id": 1010223001
+   },
+   {
+      "DataTableID": 1010213001,
+      "Type": 1,
+      "id": 1010213001
+   },
+   {
+      "DataTableID": 1011901001,
+      "Type": 3,
+      "id": 101020205
+   },
+   {
+      "DataTableID": 1011901002,
+      "Type": 3,
+      "id": 101020206
+   },
+   {
+      "DataTableID": 1011901003,
+      "Type": 3,
+      "id": 101020207
+   },
+   {
+      "DataTableID": 1011901004,
+      "Type": 3,
+      "id": 101020208
+   },
+   {
+      "DataTableID": 101020707,
+      "Type": 2,
+      "id": 101020707
+   },
+   {
+      "DataTableID": 101020708,
+      "Type": 2,
+      "id": 101020708
+   }
+]

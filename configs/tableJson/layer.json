@@ -1,0 +1,860 @@
+[
+   {
+      "id": 101,
+      "next_layer": 102,
+      "room_type": [
+         1
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 102,
+      "next_layer": 103,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 103,
+      "next_layer": 104,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 104,
+      "next_layer": 105,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 105,
+      "next_layer": 106,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 106,
+      "next_layer": 107,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 107,
+      "next_layer": 108,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 108,
+      "next_layer": 109,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 109,
+      "next_layer": 110,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 110,
+      "next_layer": 111,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 111,
+      "next_layer": 112,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 112,
+      "next_layer": 113,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 113,
+      "next_layer": 114,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 114,
+      "next_layer": 115,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 115,
+      "next_layer": 116,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 116,
+      "next_layer": 117,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 117,
+      "next_layer": 118,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 118,
+      "next_layer": 119,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 119,
+      "next_layer": 120,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 120,
+      "next_layer": 201,
+      "room_type": [
+         7
+      ],
+      "weeks_id": 1
+   },
+   {
+      "id": 201,
+      "next_layer": 202,
+      "room_type": [
+         1
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 202,
+      "next_layer": 203,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 203,
+      "next_layer": 204,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 204,
+      "next_layer": 205,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 205,
+      "next_layer": 206,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 206,
+      "next_layer": 207,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 207,
+      "next_layer": 208,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 208,
+      "next_layer": 209,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 209,
+      "next_layer": 210,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 210,
+      "next_layer": 211,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 211,
+      "next_layer": 212,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 212,
+      "next_layer": 213,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 213,
+      "next_layer": 214,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 214,
+      "next_layer": 215,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 215,
+      "next_layer": 216,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 216,
+      "next_layer": 217,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 217,
+      "next_layer": 218,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 218,
+      "next_layer": 219,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 219,
+      "next_layer": 220,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 220,
+      "next_layer": 301,
+      "room_type": [
+         7
+      ],
+      "weeks_id": 2
+   },
+   {
+      "id": 301,
+      "next_layer": 302,
+      "room_type": [
+         1
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 302,
+      "next_layer": 303,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 303,
+      "next_layer": 304,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 304,
+      "next_layer": 305,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 305,
+      "next_layer": 306,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 306,
+      "next_layer": 307,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 307,
+      "next_layer": 308,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 308,
+      "next_layer": 309,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 309,
+      "next_layer": 310,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 310,
+      "next_layer": 311,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 311,
+      "next_layer": 312,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 312,
+      "next_layer": 313,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 313,
+      "next_layer": 314,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 314,
+      "next_layer": 315,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 315,
+      "next_layer": 316,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 316,
+      "next_layer": 317,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 317,
+      "next_layer": 318,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 318,
+      "next_layer": 319,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 319,
+      "next_layer": 320,
+      "room_type": [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8
+      ],
+      "weeks_id": 3
+   },
+   {
+      "id": 320,
+      "next_layer": 0,
+      "room_type": [
+         7
+      ],
+      "weeks_id": 3
+   }
+]

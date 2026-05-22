@@ -1,0 +1,271 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+
+<script>
+$(document).ready(function() {  
+
+    $('#selecttable').change(function(){
+       var objd = $(this).children('option:selected').val();
+       if (objd == "0") {
+             $("#proto_id").val(""); 
+       }else{
+         $("#proto_id").val(objd); 
+       }
+       
+       //alert(objd);       
+        });
+
+    $('#selectname').change(function(){
+       var objd = $(this).children('option:selected').val();
+        $("#tablename").val(objd);       
+        });
+        
+    
+      $("#btn_get").click(function(){
+        var sss1 = $("#proto_id").val(); 
+         //alert(sss1);
+       $("#rangem_new").submit();
+    });
+
+    $("#mws-rangem-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $(":radio").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    function Get_the_data(){
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var Tablename =  $("#tablename").val().trim();  
+        var Tablekey =  $("#tablekey").val().trim();  
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_proto&proto="+Tablename+"&key="+Tablekey;
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                // alert(ref.times);              
+                $("#div1").attr("style",'display:');
+                $("#proto_table").html(ref.proto);                        
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    $("#btn_sel").click(function(){
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else{
+            $("#div2").attr("style",'display:none');
+            Get_the_data();
+        }
+    });
+
+    $("#btn_sub_proto").click(function(){
+        var Settimer =  $("#settimer").val();
+        $("#rangem_table").submit();
+    });
+
+    $("#cmdurl").setDefauleValue();
+
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}    
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_8">
+        <div class="mws-panel-header">
+            <span>查询/选择</span>
+        </div>
+        
+       
+        <div class="mws-panel-body no-padding">
+             <rangem class="mws-rangem" id="rangem_new" method="post" action="/operator/select_table">
+                <fieldset class="mws-rangem-inline">   
+                    <div class="mws-rangem-row bordered">
+                        <label class="mws-rangem-label">cmdurl :</label>
+                        <div class="mws-rangem-item">
+                           <input style='width:50%' type="text" class="large" id="cmdurl" name="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-rangem-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>
+                    <div class="mws-rangem-row bordered">
+                        <label class="mws-rangem-label"> 表名: 例:proto_activity </label>
+                        <div class="mws-rangem-col-1-8">
+                             <select class="mws-select2 small" id="selectname" onchange="selectchange()">
+                                <option value="0">请选择</option>
+                                {{ range $_,$tmem1 := .tableinfo }}
+									<option value={{$tmem1.tname}}>{{$tmem1.describe}}</option>   
+                                {{end}}                                            
+                            </select>
+                            <input type="text" class="large" name="tablename" id="tablename" /> <label>  Key: </label><input type="text" class="large" name="tablekey" id="tablekey" /><input type="button" value="查询" class="btn btn-danger" id="btn_sel"/>
+                        </div>
+                    </div>
+                   <div id="div1" class="mws-rangem-row bordered" style="display:none">
+                        <label class="mws-rangem-label"></label>
+                        <div class="mws-rangem-item">
+                            <textarea name="cdata" id="proto_table" rows="" cols="" class="large" disabled="disabled"></textarea>
+                            <!-- <label class="mws-rangem-label" id="proto_table"></label> -->
+                        </div>                                        
+                    </div>              
+                                   
+                    <div class="mws-rangem-row bordered">
+                        <label class="mws-rangem-label">选择数据表</label>
+                        <div class="mws-rangem-item">                                            
+                            <select class="mws-select2 small" id="selecttable" onchange="gradechange()">
+                                <option value="0">请选择</option>
+                                {{ range $_,$tmem := .tableinfo }}
+									<option value={{$tmem.id}}>{{$tmem.describe}}</option>   
+                                {{end}}                                            
+                            </select>
+                            <input type="button" value="确定" class="btn btn-danger" id="btn_get"/>
+                        </div>
+                    </div>
+                    <input type="text" id="proto_id" name="proto_id" style="display:none" value="0" />      
+                </fieldset>               
+            </rangem>  
+        </div>      
+    </div>
+
+
+    <div class="mws-panel grid_8 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> {{.tbname}} </span>
+        </div>
+
+        <div class="mws-panel-body no-padding">
+            <table class="mws-table mws-datatable">
+                <thead>
+                    <tr>
+                    <!--  <th><input type="button" id="mws-rangem-dialog-mdl-btn" class="btn btn-success" value="url选择"></th> -->
+                     {{ range $_,$title := .thead }}
+                        <th> {{$title}} </th>                   
+                     {{end}}  
+                      <th>操作</th>                      
+                    </tr>
+                </thead>
+                <tbody>               
+                    <tr>
+                        <rangem id="rangem_table" method="post" action="/operator/add_proto_data/">
+                        <!--  <td>                       
+                           <input type="text" class="large" id="cmdurl" name="cmdurl" value="例: http://127.0.0.1:9010/" />                                                                      
+                        </td> -->
+                         {{range $_,$id := .tinfo}}
+                            <td><input type="text" class="large" name={{$id}} id={{$id}} /> </td>
+                         {{end}}
+                            <td>  
+                                <input type="text" name="proto_data_id" style="display:none" value={{.dataid}} />                 
+                                <input type="button" id="btn_sub_proto" name="btn_delmail" value="提交" class="btn btn-danger" style="{{.style}}"/><!-- display:none --><!-- btn btn-danger  "disabled",'disabled'-->
+                            </td>
+                        </rangem>             
+                    </tr>                
+                </tbody>
+            </table>
+        </div>
+          <div id="mws-rangem-dialog">
+             <rangem id="mws-validate" class="mws-rangem" action="">
+                <div class="mws-rangem-row bordered">
+                                    <label class="mws-rangem-label">平台列表</label>
+                                    <div class="mws-rangem-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vindex,$cMem1 := .centerurl}}
+												<option value={{$vindex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-rangem-block">
+                    <div class="mws-rangem-row">
+                        <label class="mws-rangem-label"></label>
+                        <div class="mws-rangem-item clearfix" id="divurl">
+                            {{range $vindex2,$cMem2 := .centerurl}}
+                            <ul class="mws-rangem-list inline" id={{$vindex2}} style="display:none">
+                                {{ range $_,$cMemMem := $cMem2.ServerList }}
+									<li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label range="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </rangem>    
+            </div>
+    </div>
+
+</div>

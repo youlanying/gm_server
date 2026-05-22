@@ -1,0 +1,515 @@
+[
+   {
+      "achievement": [],
+      "boss_id": 1001,
+      "difficulty": 1,
+      "group_id": 1,
+      "id": 1,
+      "instance_id": 10101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 1002,
+      "difficulty": 2,
+      "group_id": 1,
+      "id": 2,
+      "instance_id": 10101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 1003,
+      "difficulty": 3,
+      "group_id": 1,
+      "id": 3,
+      "instance_id": 10101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 2001,
+      "difficulty": 1,
+      "group_id": 2,
+      "id": 4,
+      "instance_id": 20101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 2002,
+      "difficulty": 2,
+      "group_id": 2,
+      "id": 5,
+      "instance_id": 20101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 2003,
+      "difficulty": 3,
+      "group_id": 2,
+      "id": 6,
+      "instance_id": 20101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 3001,
+      "difficulty": 1,
+      "group_id": 3,
+      "id": 7,
+      "instance_id": 30101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 3002,
+      "difficulty": 2,
+      "group_id": 3,
+      "id": 8,
+      "instance_id": 30101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 3003,
+      "difficulty": 3,
+      "group_id": 3,
+      "id": 9,
+      "instance_id": 30101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 4001,
+      "difficulty": 1,
+      "group_id": 4,
+      "id": 10,
+      "instance_id": 40101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 4002,
+      "difficulty": 2,
+      "group_id": 4,
+      "id": 11,
+      "instance_id": 40101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 4003,
+      "difficulty": 3,
+      "group_id": 4,
+      "id": 12,
+      "instance_id": 40101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 5001,
+      "difficulty": 1,
+      "group_id": 5,
+      "id": 13,
+      "instance_id": 50101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 5002,
+      "difficulty": 2,
+      "group_id": 5,
+      "id": 14,
+      "instance_id": 50101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 5003,
+      "difficulty": 3,
+      "group_id": 5,
+      "id": 15,
+      "instance_id": 50101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 6001,
+      "difficulty": 1,
+      "group_id": 6,
+      "id": 16,
+      "instance_id": 60101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 6002,
+      "difficulty": 2,
+      "group_id": 6,
+      "id": 17,
+      "instance_id": 60101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 6003,
+      "difficulty": 3,
+      "group_id": 6,
+      "id": 18,
+      "instance_id": 60101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 7001,
+      "difficulty": 1,
+      "group_id": 7,
+      "id": 19,
+      "instance_id": 70101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 7002,
+      "difficulty": 2,
+      "group_id": 7,
+      "id": 20,
+      "instance_id": 70101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 7003,
+      "difficulty": 3,
+      "group_id": 7,
+      "id": 21,
+      "instance_id": 70101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 8001,
+      "difficulty": 1,
+      "group_id": 8,
+      "id": 22,
+      "instance_id": 80101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 8002,
+      "difficulty": 2,
+      "group_id": 8,
+      "id": 23,
+      "instance_id": 80101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 8003,
+      "difficulty": 3,
+      "group_id": 8,
+      "id": 24,
+      "instance_id": 80101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 9001,
+      "difficulty": 1,
+      "group_id": 9,
+      "id": 25,
+      "instance_id": 90101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 9002,
+      "difficulty": 2,
+      "group_id": 9,
+      "id": 26,
+      "instance_id": 90101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   },
+   {
+      "achievement": [],
+      "boss_id": 9003,
+      "difficulty": 3,
+      "group_id": 9,
+      "id": 27,
+      "instance_id": 90101,
+      "rewards": [
+         [
+            500000,
+            1
+         ],
+         [
+            500001,
+            1000
+         ]
+      ],
+      "special_rewards": []
+   }
+]

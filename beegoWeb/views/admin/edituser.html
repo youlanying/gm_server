@@ -1,0 +1,92 @@
+<script>
+$(document).ready(function(){
+	{{if .res}}
+        if({{.res}} === true){
+            alert("修改成功！");
+        }else({{.res}} === false){
+            alert("修改失败...");
+        }
+	{{end}}
+});
+</script>
+
+<!-- Inner Container Start -->
+<div class="container">
+
+	<!-- Statistics Button Container -->
+	<div class="mws-stat-container clearfix">
+    	
+        <!-- Statistic Item -->
+    	
+    	<a class="mws-stat" href="/admin/showuser">
+        	<!-- Statistic Icon (edit to change icon) -->
+        	<span class="mws-stat-icon icol32-car"></span>
+
+            <!-- Statistic Content -->
+            <span class="mws-stat-content">
+            	<span class="mws-stat-title">return</span>
+                <span class="mws-stat-value"> 返回</span>
+            </span>
+        </a>
+        
+    </div>
+</div>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 用户信息修改 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_create" method="post" action="/admin/doedituser">
+                <fieldset class="mws-form-inline">
+                    <legend> 用户信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 用户名 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="userid" value="{{.edituserid}}" readonly="readonly" />
+                            <input type="hidden" name="id" value="{{.cid}}" />
+                            <input type="hidden" name="isself" value="{{.isself}}" />
+                        </div>
+                    </div>
+                    {{if .isself}}
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 旧密码 </label>
+                        <div class="mws-form-item">
+                            <input type="password" class="large" name="oldpwd" id="pwd_create" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 新密码 </label>
+                        <div class="mws-form-item">
+                            <input type="password" class="large" name="newpwd" id="pwd_create" />
+                        </div>
+                    </div>
+                    {{end}}
+                    {{if .ismaster}}
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 用户组 </label>
+                        <div class="mws-form-item">
+                            <select class="large" name="group">
+                            	{{range $_, $mem := .grouplist}}
+									{{if eq $mem.ID $.gid }}
+										<option value={{$mem.ID}} selected="selected" >{{$mem.NAME}}</option>
+									{{else}}
+										<option value={{$mem.ID}}>{{$mem.NAME}}</option>
+									{{end}}
+								{{end}}
+        					</select>
+        					<input type="hidden" name="ismaster" value={{.ismaster}} />
+                        </div>
+                    </div>
+                    {{end}}
+                </fieldset>
+                {{if or .isself  .ismaster}}
+                <div class="mws-button-row">
+                    <input type="submit" value="提交" class="btn btn-danger" id="btn_edit"/>
+                </div>
+                {{end}}
+            </form>
+        </div>      
+    </div>
+</div>

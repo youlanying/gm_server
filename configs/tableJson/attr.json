@@ -1,0 +1,138 @@
+[
+   {
+      "attrCoefficient": 0.1,
+      "id": 1
+   },
+   {
+      "attrCoefficient": 1,
+      "id": 2
+   },
+   {
+      "attrCoefficient": 1,
+      "id": 3
+   },
+   {
+      "attrCoefficient": 4.5,
+      "id": 4
+   },
+   {
+      "attrCoefficient": 4.5,
+      "id": 5
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 101
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 102
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 103
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 104
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 105
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 106
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 201
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 202
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 203
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 204
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 205
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 206
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 207
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 208
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 301
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 302
+   },
+   {
+      "attrCoefficient": 600,
+      "id": 303
+   },
+   {
+      "attrCoefficient": 10,
+      "id": 304
+   },
+   {
+      "attrCoefficient": 30,
+      "id": 305
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 306
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 307
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 308
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 401
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 402
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 403
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 404
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 405
+   },
+   {
+      "attrCoefficient": 0,
+      "id": 406
+   },
+   {
+      "attrCoefficient": 30,
+      "id": 407
+   }
+]

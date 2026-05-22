@@ -1,0 +1,206 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+
+<script>
+$(document).ready(function() {  
+
+    $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+    function Get_the_data(){
+        var CmdUrl =  $("#cmdurl").val().trim();    
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_can_create";
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,            
+            success:function(ref){  
+                // alert(ref.times);              
+                $("#div1").attr("style",'display:');
+				if(ref.state == "true"){
+					$("#opentime").attr("style","color:green;");
+				}else{
+					$("#opentime").attr("style","color:red;");
+				}
+                $("#opentime").html(ref.statestr);                        
+            },
+            complete:function(req){
+                
+            },
+            error:function(XMLs,textSt,ErTh){
+                alert('sssss-'+XMLs.status+'='+XMLs.readyState+'='+textSt+'='+ErTh);
+            }
+        });
+    };
+
+    $("#btn_new").click(function(){
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else{
+            $("#div2").attr("style",'display:none');
+            Get_the_data();
+        }
+    });
+
+    $("#btn_set").click(function(){
+        var Settimer =  $("#settimer").val();
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("cmdurl不能为空！");
+        }else{
+            $("#form_new").submit();
+        }
+    });
+
+    $("#cmdurl").setDefauleValue();
+
+});
+
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}    
+</script>
+
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>角色创建</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/gmtools/setcreate/">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input type="text" class="large" id="cmdurl" name="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>
+                   <div id="div1" class="mws-form-row bordered" style="display:none">
+                        <label class="mws-form-label">当前状态 :</label>
+                        <div class="mws-form-item">
+                            <label class="mws-form-label" id="opentime"></label>
+                        </div>                                        
+                    </div>
+					<div class="mws-form-row">
+						<label class="mws-form-label">修改状态 :</label>
+						<div class="mws-form-item clearfix">
+							<ul class="mws-form-list inline">
+								<li><input id="setstate" name="setstate" type="radio" value="0"> <label>不可以！</label></li>
+								<li><input id="setstate" name="setstate" type="radio" value="1"> <label>可以创建</label></li>
+							</ul>
+						</div>
+					</div>
+                </fieldset>
+                <div class="mws-button-row">                    
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_new"/>
+
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_set"/>
+                </div>
+            </form>
+
+
+             <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vIndex,$cMem1 := .centerurl}}
+                                            <option value={{$vIndex}}>{{$cMem1.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vvIndex,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vvIndex}} style="display:none">
+                                {{range $_,$cMemMem := $cMem2.ServerList}}
+                                <li><input  type="radio" name="gender" class="required" value ={{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+        </div>      
+    </div>
+</div>

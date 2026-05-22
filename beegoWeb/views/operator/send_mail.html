@@ -1,0 +1,557 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/static/css/demo.css" media="screen">
+<!-- JavaScript Plugins -->
+
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- <script src="/static/js/demo/demo.charts.js"></script> -->
+<script>
+$(document).ready(function(){
+    $("#btn_close").hide();
+    $("#div_create").hide();
+    $("#btn_closedata").hide();
+	//$("#timezone1").hide();
+	//$("#timezone2").hide();
+
+    $("#cmdurl").setDefauleValue();
+    $("#itemid").setDefauleValue();
+    $("#itemnum").setDefauleValue();
+    $("#itemlevel").setDefauleValue();
+
+
+
+    $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $("[name='gender']").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+   	
+
+    {{if .audit_res }}
+      alert("{{.audit_res}}");
+    {{end}}
+
+	$("[name='btn_audit']").click(function(){
+        var UId = $(this).attr("id");
+        var FormId = "#form_mail_" + UId;
+        $(FormId).submit();
+    });
+
+    $("[name='btn_delmail']").click(function(){
+        var MId = $(this).attr("id");
+        var con = confirm("确认删除ID为"+MId+"的邮件？");
+                if (con==true) {
+                     var url = "/operator/delete_mail/" +"?id="+ MId
+                     window.location.href = url                    
+                };       
+    });
+
+    $("#btn_new_submit").click(function(){
+        var QD = $('#mailchecked input[name="setstate"]:checked').val();
+        var Settimer =  $("#settimer").val();
+        if ($("#cmdurl").val().trim() == "") {
+            alert("区服url不能为空！");
+        }else if ($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/") {
+            alert("区服url不能为空！");
+        }else if ($("#title1").val().trim() == "") {
+            alert("标题不能为空！");   
+        }else if ($("#content").val().trim() == "") {
+            alert("内容不能为空！");                    
+        }else if ($("#sendname").val().trim() == "") {
+            alert("发件人不能为空！");  
+        }else if (QD == "D") {
+            if ($("#roleid").val().trim() == "") {
+                alert("被补偿ID不能为空！");
+            }else{  
+                  //alert("00"+$("#mailtype").val());
+                $("#send_mail").submit();  
+            };                                    
+        }else{
+            //alert("01"+$("#mailtype").val());
+            $("#send_mail").submit();  
+                        
+        }
+    });
+
+    $("[name='setstate']").click(function(){
+        var QD = $(this).val();
+        if (QD == 'D') {
+            $("#mailtype").val("D");
+            $("#divroleid").attr("style",'display:');
+            $("#divroleids").attr("style",'display:');
+			$("#lvzone").attr("style",'display:none');
+            $("#sexzone").attr("style",'display:none');
+        }else{
+            $("#mailtype").val("Q");
+            $("#divroleid").attr("style",'display:none');
+            $("#divroleids").attr("style",'display:none');
+			$("#lvzone").attr("style",'display:');
+            $("#sexzone").attr("style",'display:');
+        };        
+    });    
+	
+	$("[name='setsexstate']").click(function(){
+        var QD = $(this).val();
+        if (QD == 'W') {
+            $("#sextype").val("W");
+        }else if(QD == 'M'){
+            $("#sextype").val("M");
+        }else{
+		    $("#sextype").val("A");
+		};        
+    }); 
+	
+	$("[name='settimestate']").click(function(){
+        var XX = $(this).val();
+        if (XX == 'V2') {
+            $("#timetype").val("V2");
+            $("#timezone1").attr("style",'display:');
+            $("#timezone2").attr("style",'display:none');
+        }else if(XX == 'V3'){
+            $("#timetype").val("V3");
+            $("#timezone1").attr("style",'display:none');
+            $("#timezone2").attr("style",'display:');
+        }else{
+		    $("#timetype").val("V1");
+            $("#timezone1").attr("style",'display:none');
+            $("#timezone2").attr("style",'display:none');
+		}        
+    }); 
+	
+
+    $("#btn_create").click(function(){
+        if({{.candoact}}){
+            $("#btn_close").show();
+            $("#div_create").show(1000);
+            $(this).hide();
+        }else{
+            alert("您没有该操作权限！");
+        }
+    });
+    $("#btn_close").click(function(){
+        $("#btn_create").show();
+        $("#div_create").hide(1000);
+        $(this).hide();
+    });
+
+	
+	$("[name='btn_verionlog']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_versionserver_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有提交版本更新内容权限！！");
+		}
+	});
+
+    // 道具添加 $("#opentime").html(ref.times);
+    
+    $('#add_item').click(function() {
+        var last_content = $('#items').val();
+        // $('#items').css({'display':'block', 'width':'auto','font-size':'18px'});
+        var items_1 = $('#itemid').val();
+        var items_2 = $('#itemnum').val();
+        var items_3 = $('#itemlevel').val();
+            // 表单验证
+            if (isNaN(items_1) || isNaN(items_2) || isNaN(items_3))
+            {
+                alert('道具必须为数字');
+                return false;
+            }
+            var content = '';
+            if (items_1!='' && items_2!='' && items_3!='') {
+                if (last_content.length>1) {
+                    content += ';'+'{'+items_1+','+items_2+','+items_3+'}';
+                    last_content += content;
+                    $('#items').val(last_content);
+                }else{
+                    content += '{'+items_1+','+items_2+','+items_3+'}';
+                    last_content += content;
+                    $('#items').val(last_content);
+                };                           
+            } else {
+                $('#items').val('');
+            }
+
+        });
+
+    $('#del_item').click(function() {
+        var con = confirm("确认删除已添加的道具？");
+                if (con==true) {
+                     $('#items').val(''); 
+                };       
+     });
+
+
+    $('#add_roleid').click(function() {
+        var last_content0 = $('#roleids').val();
+        // $('#items').css({'display':'block', 'width':'auto','font-size':'18px'});
+        var roleid_1 = $('#roleid').val().trim();
+            // 表单验证
+            if (isNaN(roleid_1))
+            {
+                alert('ID必须为数字');
+                return false;
+            }
+            var content0 = '';
+            if (roleid_1!='') {
+                if (last_content0.length>1) {
+                    content0 += ','+roleid_1;
+                    last_content0 += content0;
+                    $('#roleids').val(last_content0);
+                }else{
+                    content0 += roleid_1;
+                    last_content0 += content0;
+                    $('#roleids').val(last_content0);
+                };                           
+            } else {
+                $('#roleids').val('');
+            }
+
+        });
+
+    $('#del_roleid').click(function() {
+         var con = confirm("确认删除已添加的ID？");
+                if (con==true) {
+                    $('#roleids').val(''); 
+                };       
+		});
+		
+		$("#btn_version_submit").click(function(){
+		if({{.candoact}}){
+			$("#form_createversion").submit();
+		}else{
+			alert("您没有权限！");
+		}
+	});	
+
+});
+
+	$.fn.setDefauleValue = function() {
+		var defauleValue = $(this).val();
+		$(this).val(defauleValue).css("color","#999");
+		return this.each(function(){
+			$(this).focus(function(){
+				if ($(this).val() == defauleValue){
+					$(this).val("").css("color","#000");
+				}
+			}).blur(function(){
+				if ($(this).val() == ""){
+					$(this).val(defauleValue).css("color","#999");
+				}
+			});
+		});
+	} 
+
+</script>
+
+<div>
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+<input type="button" id="btn_create" value="发送邮件" class="btn " /><input type="button" id="btn_close" value="收起" class="btn " />
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+<div id="div_create">
+    <div class="mws-panel grid_5">
+        <div class="mws-panel-header">
+            <span> 发送邮件信息 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="send_mail" method="post" action="/operator/send_mail/">
+                <fieldset class="mws-form-inline">
+                    <!-- <legend> 服务器信息: </legend> -->
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 区服url: </label>
+                        <div class="mws-form-item">
+                           <input style='width:50%' type="text" class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>                    
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 标题: </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="title1" id="title1" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">           
+                        <label class="mws-form-label"> 内容: </label>
+                        <div class="mws-form-item">
+                            <textarea style='overflow-y:hidden;' name="content" id="content" rows="" cols="" class="large"></textarea>                          
+                        </div>
+                    </div>
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"> 奖励列表: </label>
+                        <div class="mws-form-col-1-8">                                 
+                            <div class="mws-form-item">
+                                 <input type="text" value="道具ID" name="itemid" id="itemid" ><input type="text" value="数量" name="itemnum" id="itemnum"><input type="text" value="等级" name="itemlevel" id="itemlevel"><input type="button" id="add_item" name="add_item" class="btn btn-success" value="添加"><input type="button" id="del_item" name="del_item" class="btn btn-success" value="清空">                                  
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <div class="mws-form-item">
+                            <input type="text" class="large" value="" readonly="readonly" id="items" name="items">
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 邮件类型: </label>
+                        <div class="mws-form-item clearfix" id="mailchecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="setstate" name="setstate" type="radio" value="Q" checked="checked"> <label style="color:red">全体</label></li>
+                                <li><input id="setstate" name="setstate" type="radio" value="D"> <label style="color:red">多人</label></li>
+                            </ul> 
+                            <input style="display:none" id="mailtype" name="mailtype" value="Q">                         
+                        </div>                       
+                    </div>
+					
+					<div class="mws-form-row" id="lvzone">
+                        <label class="mws-form-label">等级范围</label>
+                        <div class="mws-form-col-1-8">                                 
+                            <div class="mws-form-item">
+                                 <input type="text" value="" name="lvstart" id="lvstart" >
+								 <label> - </label>
+								 <input type="text" value="" name="lvend" id="lvend" >
+								 <label> *不填写默认为全体 </label>
+                            </div>      						
+                        </div>
+                    </div>
+					
+					<div class="mws-form-row bordered" id="sexzone">
+                        <label class="mws-form-label"> 性别范围: </label>
+                        <div class="mws-form-item clearfix" id="sexchecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="setstate" name="setsexstate" type="radio" value="A" checked="checked"> <label style="color:red">全体</label></li>
+                                <li><input id="setstate" name="setsexstate" type="radio" value="M"> <label style="color:red">男</label></li>
+								<li><input id="setstate" name="setsexstate" type="radio" value="W"> <label style="color:red">女</label></li>
+                            </ul> 
+                            <input style="display:none" id="sextype" name="sextype" value="A">                         
+                        </div>                       
+                    </div>
+					
+                    <div class="mws-form-row" style="display:none" id="divroleid">
+                        <label class="mws-form-label"> 被补偿ID: </label>
+                        <div class="mws-form-col-1-8">
+                           <div class="mws-form-item">
+                            <input type="text" name="roleid" id="roleid" /><input type="button" id="add_roleid" name="add_roleid" class="btn btn-success" value="添加"><input type="button" id="del_roleid" name="del_roleid" class="btn btn-success" value="清空">
+                           </div> 
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered" style="display:none" id="divroleids">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="roleids" id="roleids" readonly="readonly" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 发件人: </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="sendname" id="sendname" />
+                        </div>
+                    </div>
+					<div class="mws-form-row bordered">           
+                        <label class="mws-form-label"> 发送邮件原因:   (*仅服务器记录不会展示给玩家) </label>
+                        <div class="mws-form-item">
+                            <textarea style='overflow-y:hidden;' name="reason" id="reason" rows="" cols="" class="large"></textarea>                          
+                        </div>
+                    </div>
+					
+					<div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 发送时间选择: </label>
+                        <div class="mws-form-item clearfix" id="timechecked">
+                            <ul class="mws-form-list inline">
+                                <li><input id="settimestate" name="settimestate" type="radio" value="V1" checked="checked"> <label style="color:red">默认立即发送</label></li>
+                                <li><input id="settimestate" name="settimestate" type="radio" value="V2"> <label style="color:red">玩家登陆时间</label></li>
+								<li><input id="settimestate" name="settimestate" type="radio" value="V3"> <label style="color:red">玩家创角时间</label></li>
+                            </ul> 
+                            <input style="display:none" id="timetype" name="timetype" value="V1">                         
+                        </div>                       
+                    </div>
+					
+					<div class="mws-form-row" style="display:none" id="timezone1">
+                        <label class="mws-form-label"> 在范围时间内玩家登录游戏后自动推送邮件</label>
+                        <div class="mws-form-col-1-8">                                 
+                            <div class="mws-form-item">
+                                 <input type="text" value="开始时间" name="t1" id="t1" >
+								 <label> - </label>
+								 <input type="text" value="结束时间" name="t2" id="t2" >
+								 <label> *时间格式 2021/7/3 18:00:00 </label>
+                            </div>      						
+                        </div>
+                    </div>
+					
+					<div class="mws-form-row" style="display:none" id="timezone2">
+                        <label class="mws-form-label"> 在范围时间内的创角玩家才能获得奖励</label>
+                        <div class="mws-form-col-1-8">                                 
+                            <div class="mws-form-item">
+                                <input type="text" value="开始时间" name="t3" id="t3" >
+								<label> - </label>
+								<input type="text" value="结束时间" name="t4" id="t4" >
+								<label> *时间格式 2021/7/3 18:00:00 </label>
+                            </div>                           
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_new_submit"/>
+                </div>
+            </form>
+        </div>            
+    </div>
+</div>
+
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i> 服务器列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> ID </th>
+                    <th> 服务器url </th>
+                    <th> 标题 </th>                    
+                    <th> 内容 </th>
+                    <th> 奖励列表 </th>
+                    <th> 收件人 </th>
+                    <th> 发件人 </th>
+                    <th> 创建/发送时间 </th>
+                    <th> 提交ID </th>
+                    <th> 审核ID </th>
+                    <th> 操作 </th>                        
+                </tr>
+            </thead>
+            <tbody><!-- MAILID, TITLE, SENName, RECVNAME, ISONLINE, CONTENT, ITEMLIST, CREATETIME, SENDOK, SERVERURL, SENDID, AUDITID -->
+            	{{range $_,$vmem := .mailresult}}
+				<tr>
+					<form id="form_mail_{{$vmem.MAILID}}" method="post" action="/operator/audit_mail/">
+						<td><label class="mws-form-label">{{$vmem.MAILID}}</label></td>
+						<td><label class="mws-form-label">{{$vmem.SERVERURL}}</label></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="content" rows="" cols="" class="large" disabled="disabled">{{$vmem.TITLE}}</textarea></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="content" rows="" cols="" class="large" disabled="disabled">{{$vmem.CONTENT}}</textarea></td>
+						<td><textarea style='width:100%;overflow-y:hidden;' name="content" rows="" cols="" class="large" disabled="disabled">{{$vmem.ITEMLIST}}</textarea></td>
+                        <td><textarea style='width:100%;overflow-y:hidden;' name="content" rows="" cols="" class="large" disabled="disabled">{{$vmem.RECVNAME}}</textarea></td>
+                        <td><label class="mws-form-label">{{$vmem.SENDOR}}</label></td>
+                        <td><label class="mws-form-label">{{$vmem.CREATETIME}}</label></td>
+                        <td><label class="mws-form-label">{{$vmem.SENDID}}</label></td>
+                        <td><label class="mws-form-label">{{$vmem.AUDITID}}</label></td>
+						<td>
+							<input type="hidden" name="mailid" id="mailid" value="{{$vmem.MAILID}}" />
+							<input type="button" id="{{$vmem.MAILID}}" name="btn_audit" value="{{$vmem.Sendok}}" class="{{$vmem.Mclass}}" {{$vmem.Disabled}} /><!-- btn btn-danger  "disabled",'disabled'-->
+                            <input type="button" id="{{$vmem.MAILID}}" name="btn_delmail" value="删除" class="btn btn-danger" style="{{$vmem.Style}}" {{$vmem.Disabled}}/><!-- display:none -->
+						</td>
+					</form>				
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+	<div id="mws-form-dialog">
+		<form id="mws-validate" class="mws-form" action="">
+			<div class="mws-form-row bordered">
+				<label class="mws-form-label">平台列表</label>
+				<div class="mws-form-item">
+					<select id="selectID" class="large">
+						<option value="">请选择</option>
+						{{range $vindex,$cMem1 := .centerurl}}
+						 <option value={{$vindex}}>{{$cMem1.PlatformName}}</option>
+						{{end}}
+					</select>
+				</div>
+			</div>
+			<div class="mws-form-block">
+				<div class="mws-form-row">
+					<label class="mws-form-label"></label>
+					<div class="mws-form-item clearfix" id="divurl">
+						{{range $vindex2,$cMem2 := .centerurl}}
+						<ul class="mws-form-list inline" id={{$vindex2}} style="display:none">
+							{{ range $_,$cMemMem := $cMem2.ServerList }}
+							<li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+							{{end}}
+						</ul>
+						{{end}}
+					</div>                                 
+				</div>
+			</div>
+		</form>    
+	</div>
+
+
+	<div id="div_newdata">
+		<div class="mws-panel grid_4">
+			<div class="mws-panel-header">
+				<span> 快捷批量发送邮件 </span>
+			</div>
+			<div class="mws-panel-body no-padding">
+				<form class="mws-form" id="form_createversion" method="post" action="/operator/quick_createmails" enctype="multipart/form-data">
+					<fieldset class="mws-form-inline">
+						<div class="mws-button-row">
+							<input type="button" value="点击下载样表" class="btn btn-danger" id="btn_downdemo"/>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 上传修改后的样表 </label>
+							<div class="mws-form-item">
+								<input type="file" name="upfile" />
+							</div>
+						</div>
+					</fieldset>
+					<div class="mws-button-row">
+						<input type="button" value="上传并解析" class="btn btn-danger" id="btn_version_submit"/>
+					</div>
+				</form>
+			</div>      
+		</div>
+	</div>
+
+</div>

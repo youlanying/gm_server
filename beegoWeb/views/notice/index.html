@@ -1,0 +1,327 @@
+<script>
+    function AddTable(noticelist) {
+        $("#span_output").html('公告列表');
+        $('#divtable').html("");
+        let addbody = "";
+        let Thead = "<thead><tr><th>ID</th><th>游戏服ID</th><th>类型</th><th>标签</th><th>优先级</th><th>短标题</th><th>标题</th><th>内容</th><th>开始时间</th><th>结束时间</th><th>创建/审核时间</th><th>提交ID</th><th>审核ID</th><th>操作</th></tr></thead>";
+        for (let i = 0; i < noticelist.length; i += 1) {
+            let onenotice = noticelist[i];
+            let startTime = $.myTime.UnixToDate(onenotice.STARTTIME,true,8);
+            let endTime = $.myTime.UnixToDate(onenotice.ENDTIME,true,8);
+            let acTime=0
+            let butStr = ""
+            if (onenotice.AUDITTIME==0){
+                acTime = $.myTime.UnixToDate(onenotice.CREATETIME,true,8);
+                butStr += "<input type='button' id=\"" + onenotice.ID + "\" name='delete_notice' value='删除' class='btn btn-danger' />"
+                if ($.myTime.CurTime()<=onenotice.ENDTIME){
+                    butStr += "<input type='button' id=\"" + onenotice.ID + "\" name='btn_audit' value='审核' class='btn btn-danger' />"
+                }else {
+                    butStr += "<input type='button' value='已失效' class='btn btn-danger' disabled/>"
+                }
+            }else{
+                acTime = $.myTime.UnixToDate(onenotice.AUDITTIME,true,8);
+                butStr += "<input type='button' value='已审核' class='btn btn-success' disabled/>"
+            }
+            addbody +=
+                "<tr style='text-align:center'>" +
+                "<td style='width:2%'><label class='mws-form-label' style='width:90%'>" + onenotice.ID + "</label></td>" +
+                "<td style='width:4%'><label class='mws-form-label' style='width:90%'>" + onenotice.SERVERID + "</label></td>" +
+                "<td style='width:3%'><label class='mws-form-label' style='width:90%'>" + onenotice.NOTICETYPE + "</label></td>" +
+                "<td style='width:3%'><label class='mws-form-label' style='width:90%'>" + onenotice.LABEL + "</label></td>" +
+                "<td style='width:3%'><label class='mws-form-label' style='width:90%'>" + onenotice.PRIORITY + "</label></td>" +
+                "<td style='width:10%'><textarea style='width:100%' rows='2' cols='' class='large' readonly>" + onenotice.TITLESHORT + "</textarea></td>" +
+                "<td style='width:12%'><textarea style='width:100%' rows='2' cols='' class='large' readonly>" + onenotice.TITLE + "</textarea></td>" +
+                "<td style='width:30%'><textarea style='width:100%' rows='2' cols='' class='large' readonly>" + onenotice.CONTENT + "</textarea></td>" +
+                "<td style='width:10%'><label class='mws-form-label' style='width:90%'>" + startTime + "</label></td>" +
+                "<td style='width:10%'><label class='mws-form-label' style='width:90%'>" + endTime + "</label></td>" +
+                "<td style='width:10%'><label class='mws-form-label' style='width:90%'>" + acTime + "</label></td>" +
+                "<td style='width:8%'><label class='mws-form-label' style='width:90%'>" + onenotice.SENDID + "</label></td>" +
+                "<td style='width:8%'><label class='mws-form-label' style='width:90%'>" + onenotice.AUDITID + "</label></td>" +
+                "<td>" +
+                butStr+
+                "</td>" +
+                "</tr>";
+
+        };
+        //表 赋值
+        $('#divtable').append("<table class='mws-datatable-fn mws-table dataTable'>" +Thead + "<tbody align='center'>" + addbody + "</tbody></table>");
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if ($.fn.dataTable) {
+            $(".mws-datatable-fn").dataTable({
+                bSort: true, //是否启动各个字段的排序功能
+                sPaginationType: "full_numbers",
+                aaSorting: [[0, "desc"]], //排序方式 从0开始
+                //aoColumns:[{"sType": "numeric"},null,null,null,null,null,null,null,null,null,null,null,null,null],//设定排序属性为数字 注意要保函所有列
+                //bLengthChange: false,//去掉每页显示多少条数据方法
+                //bFilter: false,//去掉搜索框
+                //bInfo: false, //去除 Showing 1 of N Entries 文本行
+                //bPaginate: false,//去除翻页
+            });
+        }
+    };
+    function newnotice(Form) {
+        let FullUrl = "/notice/add";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'json',
+            data: Form,
+            contentType: false,
+            processData: false,
+            cache: false,
+            success: function (ref) {
+                if (ref != "") {
+                    $("#btn_create").show();
+                    $("#btn_close").hide();
+                    $("#div_create").hide(1000);
+                    AddTable(ref);
+                    alert("发送成功，请等待审核！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    function delete_notice(id) {
+        let FullUrl = "/notice/del";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'json',
+            data: {noticeid:id},
+            cache: false,
+            success: function (ref) {
+                if(ref != null){
+                    AddTable(ref);
+                    alert("删除成功！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    function audit_notice(id) {
+        let FullUrl = "/notice/audit";
+        $.ajax({
+            url: FullUrl,
+            type: 'POST',
+            dataType: 'json',
+            data: {noticeid:id},
+            cache: false,
+            success: function (ref) {
+                if(ref != null){
+                    AddTable(ref);
+                    alert("审核成功！");
+                } else {
+                    alert("请重试！");
+                };
+            }
+        });
+    };
+    $(document).on('click',"[name='btn_audit']",function(){
+        let mId = $(this).attr("id");
+        let con = confirm("确认审核ID为"+mId+"的公告？审核后会发送到游戏服");
+        if (con==true) {
+            audit_notice(mId)
+        }
+    });
+    $(document).on('click',"[name='delete_notice']",function(){
+        let MId = $(this).attr("id");
+        let con = confirm("确认删除ID为"+MId+"的公告？");
+        if (con==true) {
+            delete_notice(MId)
+        }
+    });
+    $(document).ready(function(){
+        $("#btn_close").hide();
+        $("#div_create").hide();
+
+        let strNotice = {{.jsonNotice}};
+        if (strNotice!="[]"){
+            let jsonNotice = JSON.parse(strNotice);
+            AddTable(jsonNotice);
+        }
+
+
+        $("#btn_new_submit").click(function(){
+            var QD = $('#mailchecked input[name="setstate"]:checked').val();
+            var Settimer =  $("#settimer").val();
+            let ServerId = $("#serverid").val().trim();
+            if (ServerId == "") {
+                alert("游戏服ID不能为空！");
+            }else if ($("#titleshort").val().trim() == "") {
+                alert("短标题不能为空！");
+            }else if ($("#title").val().trim() == "") {
+                alert("标题不能为空！");
+            }else if ($("#content").val().trim() == "") {
+                alert("内容不能为空！");
+            }else if ($("#t1").val().trim() == "") {
+                alert("开始时间不能为空！");
+            }else if ($("#t2").val().trim() == "") {
+                alert("结束时间不能为空！");
+            }else if ($("#t1").val().trim()>=$("#t2").val().trim()) {
+                alert("开始时间不能大于结束时间！");
+            }else{
+                if (isNaN(ServerId))
+                {
+                    alert('游戏服ID必须为数字');
+                }else {
+                    //$("#form_notice").submit();
+                    const Form = new FormData(document.getElementById("form_notice"));
+                    newnotice(Form)
+                }
+            }
+        });
+
+
+        $("#btn_create").click(function(){
+            $("#btn_close").show();
+            $("#div_create").show(1000);
+            $(this).hide();
+        });
+        $("#btn_close").click(function(){
+            $("#btn_create").show();
+            $("#div_create").hide(1000);
+            $(this).hide();
+        });
+    });
+
+</script>
+
+<div>
+    <div id="div_notice">
+        <div class="mws-panel grid_8 mws-collapsible">
+            <div class="mws-panel-header">
+                <span><i class="icon-table"></i> <label class="mws-form-label" id="span_output"></label> </span>
+            </div>
+            <div class="mws-panel-body no-padding" id="divtable">
+
+            </div>
+
+        </div>
+    </div>
+
+    <hr style="height:2px;border:none;border-top:2px solid #555555;" />
+    <input type="button" id="btn_create" value="发送公告" class="btn " /><input type="button" id="btn_close" value="收起" class="btn " />
+    <div id="div_create">
+        <div class="mws-panel grid_5">
+            <div class="mws-panel-header">
+                <span> 提交公告信息 </span>
+            </div>
+            <div class="mws-panel-body no-padding">
+                <form class="mws-form" id="form_notice" action="#" enctype="multipart/form-data">
+                    <fieldset class="mws-form-inline">
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 游戏服ID: </label>
+                            <div class="mws-form-item">
+                                <input type="text" name="serverid" id="serverid" value="0"/>
+                                <label> *例如:默认0全服，填写ID时为指定游戏服</label>
+                            </div>
+
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 类型: </label>
+                            <div class="mws-form-item">
+                                <select id="select_noticetype" class="large" style='width:25%' name="noticetype">
+                                    <option value='1'>1</option>
+                                    <option value='2'>2</option>
+                                    <option value='3'>3</option>
+                                    <option value='4'>4</option>
+                                    <option value='5'>5</option>
+                                    <option value='6'>6</option>
+                                    <option value='7'>7</option>
+                                    <option value='8'>8</option>
+                                    <option value='9'>9</option>
+                                    <option value='10'>10</option>
+                                </select>
+                                <label> *例如:类型决定展示位置</label>
+                            </div>
+
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 公告标签: </label>
+                            <div class="mws-form-item">
+                                <select id="select_label" class="large" style='width:25%' name="label">
+                                    <option value='1'>1</option>
+                                    <option value='2'>2</option>
+                                    <option value='3'>3</option>
+                                    <option value='4'>4</option>
+                                    <option value='5'>5</option>
+                                    <option value='6'>6</option>
+                                    <option value='7'>7</option>
+                                    <option value='8'>8</option>
+                                    <option value='9'>9</option>
+                                    <option value='10'>10</option>
+                                </select>
+                                <label> *例如:New Hot 等等</label>
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 优先级: </label>
+                            <div class="mws-form-item">
+                                <select id="select_priority" class="large" style='width:25%' name="priority">
+                                    <option value='1'>1</option>
+                                    <option value='2'>2</option>
+                                    <option value='3'>3</option>
+                                    <option value='4'>4</option>
+                                    <option value='5'>5</option>
+                                    <option value='6'>6</option>
+                                    <option value='7'>7</option>
+                                    <option value='8'>8</option>
+                                    <option value='9'>9</option>
+                                    <option value='10'>10</option>
+                                </select>
+                                <label> *数字越小排位越高</label>
+                            </div>
+
+                        </div>
+
+
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 短标题: </label>
+                            <div class="mws-form-item">
+                                <input type="text" name="titleshort" id="titleshort" />
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 标题: </label>
+                            <div class="mws-form-item">
+                                <input type="text" name="title" id="title" />
+                            </div>
+                        </div>
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 内容: </label>
+                            <div class="mws-form-item">
+                                <textarea style='overflow-y:hidden;width:100%' rows='3' cols='' class='large' name="content" id="content"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 开始时间</label>
+                            <div class="mws-form-col-1-8">
+                                <div class="mws-form-item">
+                                    <input type="text" class="mws-dtpicker large" readonly="readonly" name="t1" id="t1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mws-form-row bordered">
+                            <label class="mws-form-label"> 结束时间</label>
+                            <div class="mws-form-col-1-8">
+                                <div class="mws-form-item">
+                                    <input type="text" class="mws-dtpicker large" readonly="readonly" name="t2" id="t2">
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="mws-button-row">
+                        <input type="button" value="提交" class="btn btn-danger" id="btn_new_submit"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

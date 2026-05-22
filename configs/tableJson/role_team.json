@@ -1,0 +1,1262 @@
+[
+   {
+      "add_physical": 0,
+      "exp": 94,
+      "hero_max": 15,
+      "id": 1,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 113,
+      "hero_max": 15,
+      "id": 2,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 132,
+      "hero_max": 15,
+      "id": 3,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 151,
+      "hero_max": 15,
+      "id": 4,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 170,
+      "hero_max": 15,
+      "id": 5,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 189,
+      "hero_max": 15,
+      "id": 6,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 208,
+      "hero_max": 15,
+      "id": 7,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 227,
+      "hero_max": 15,
+      "id": 8,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 245,
+      "hero_max": 15,
+      "id": 9,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 264,
+      "hero_max": 15,
+      "id": 10,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 283,
+      "hero_max": 15,
+      "id": 11,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 302,
+      "hero_max": 15,
+      "id": 12,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 321,
+      "hero_max": 15,
+      "id": 13,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 340,
+      "hero_max": 15,
+      "id": 14,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 359,
+      "hero_max": 15,
+      "id": 15,
+      "partner_max": 15,
+      "physical": 70,
+      "treasure_max": 15
+   },
+   {
+      "add_physical": 10,
+      "exp": 378,
+      "hero_max": 16,
+      "id": 16,
+      "partner_max": 16,
+      "physical": 70,
+      "treasure_max": 16
+   },
+   {
+      "add_physical": 10,
+      "exp": 396,
+      "hero_max": 17,
+      "id": 17,
+      "partner_max": 17,
+      "physical": 70,
+      "treasure_max": 17
+   },
+   {
+      "add_physical": 10,
+      "exp": 415,
+      "hero_max": 18,
+      "id": 18,
+      "partner_max": 18,
+      "physical": 70,
+      "treasure_max": 18
+   },
+   {
+      "add_physical": 10,
+      "exp": 434,
+      "hero_max": 19,
+      "id": 19,
+      "partner_max": 19,
+      "physical": 70,
+      "treasure_max": 19
+   },
+   {
+      "add_physical": 10,
+      "exp": 453,
+      "hero_max": 20,
+      "id": 20,
+      "partner_max": 20,
+      "physical": 70,
+      "treasure_max": 20
+   },
+   {
+      "add_physical": 10,
+      "exp": 479,
+      "hero_max": 21,
+      "id": 21,
+      "partner_max": 21,
+      "physical": 70,
+      "treasure_max": 21
+   },
+   {
+      "add_physical": 10,
+      "exp": 489,
+      "hero_max": 22,
+      "id": 22,
+      "partner_max": 22,
+      "physical": 70,
+      "treasure_max": 22
+   },
+   {
+      "add_physical": 10,
+      "exp": 499,
+      "hero_max": 23,
+      "id": 23,
+      "partner_max": 23,
+      "physical": 70,
+      "treasure_max": 23
+   },
+   {
+      "add_physical": 10,
+      "exp": 508,
+      "hero_max": 24,
+      "id": 24,
+      "partner_max": 24,
+      "physical": 70,
+      "treasure_max": 24
+   },
+   {
+      "add_physical": 10,
+      "exp": 518,
+      "hero_max": 25,
+      "id": 25,
+      "partner_max": 25,
+      "physical": 70,
+      "treasure_max": 25
+   },
+   {
+      "add_physical": 10,
+      "exp": 527,
+      "hero_max": 26,
+      "id": 26,
+      "partner_max": 26,
+      "physical": 70,
+      "treasure_max": 26
+   },
+   {
+      "add_physical": 10,
+      "exp": 537,
+      "hero_max": 27,
+      "id": 27,
+      "partner_max": 27,
+      "physical": 70,
+      "treasure_max": 27
+   },
+   {
+      "add_physical": 10,
+      "exp": 546,
+      "hero_max": 28,
+      "id": 28,
+      "partner_max": 28,
+      "physical": 70,
+      "treasure_max": 28
+   },
+   {
+      "add_physical": 10,
+      "exp": 556,
+      "hero_max": 29,
+      "id": 29,
+      "partner_max": 29,
+      "physical": 70,
+      "treasure_max": 29
+   },
+   {
+      "add_physical": 10,
+      "exp": 566,
+      "hero_max": 30,
+      "id": 30,
+      "partner_max": 30,
+      "physical": 70,
+      "treasure_max": 30
+   },
+   {
+      "add_physical": 10,
+      "exp": 622,
+      "hero_max": 31,
+      "id": 31,
+      "partner_max": 31,
+      "physical": 70,
+      "treasure_max": 31
+   },
+   {
+      "add_physical": 10,
+      "exp": 758,
+      "hero_max": 32,
+      "id": 32,
+      "partner_max": 32,
+      "physical": 70,
+      "treasure_max": 32
+   },
+   {
+      "add_physical": 10,
+      "exp": 895,
+      "hero_max": 33,
+      "id": 33,
+      "partner_max": 33,
+      "physical": 70,
+      "treasure_max": 33
+   },
+   {
+      "add_physical": 10,
+      "exp": 1032,
+      "hero_max": 34,
+      "id": 34,
+      "partner_max": 34,
+      "physical": 70,
+      "treasure_max": 34
+   },
+   {
+      "add_physical": 10,
+      "exp": 1168,
+      "hero_max": 35,
+      "id": 35,
+      "partner_max": 35,
+      "physical": 70,
+      "treasure_max": 35
+   },
+   {
+      "add_physical": 10,
+      "exp": 1247,
+      "hero_max": 36,
+      "id": 36,
+      "partner_max": 36,
+      "physical": 70,
+      "treasure_max": 36
+   },
+   {
+      "add_physical": 10,
+      "exp": 1284,
+      "hero_max": 37,
+      "id": 37,
+      "partner_max": 37,
+      "physical": 70,
+      "treasure_max": 37
+   },
+   {
+      "add_physical": 10,
+      "exp": 1360,
+      "hero_max": 38,
+      "id": 38,
+      "partner_max": 38,
+      "physical": 70,
+      "treasure_max": 38
+   },
+   {
+      "add_physical": 10,
+      "exp": 1435,
+      "hero_max": 39,
+      "id": 39,
+      "partner_max": 39,
+      "physical": 70,
+      "treasure_max": 39
+   },
+   {
+      "add_physical": 10,
+      "exp": 1511,
+      "hero_max": 40,
+      "id": 40,
+      "partner_max": 40,
+      "physical": 70,
+      "treasure_max": 40
+   },
+   {
+      "add_physical": 10,
+      "exp": 1586,
+      "hero_max": 41,
+      "id": 41,
+      "partner_max": 41,
+      "physical": 70,
+      "treasure_max": 41
+   },
+   {
+      "add_physical": 10,
+      "exp": 1662,
+      "hero_max": 42,
+      "id": 42,
+      "partner_max": 42,
+      "physical": 70,
+      "treasure_max": 42
+   },
+   {
+      "add_physical": 10,
+      "exp": 1738,
+      "hero_max": 43,
+      "id": 43,
+      "partner_max": 43,
+      "physical": 70,
+      "treasure_max": 43
+   },
+   {
+      "add_physical": 10,
+      "exp": 1813,
+      "hero_max": 44,
+      "id": 44,
+      "partner_max": 44,
+      "physical": 70,
+      "treasure_max": 44
+   },
+   {
+      "add_physical": 10,
+      "exp": 1889,
+      "hero_max": 45,
+      "id": 45,
+      "partner_max": 45,
+      "physical": 70,
+      "treasure_max": 45
+   },
+   {
+      "add_physical": 10,
+      "exp": 1969,
+      "hero_max": 46,
+      "id": 46,
+      "partner_max": 46,
+      "physical": 70,
+      "treasure_max": 46
+   },
+   {
+      "add_physical": 10,
+      "exp": 2117,
+      "hero_max": 47,
+      "id": 47,
+      "partner_max": 47,
+      "physical": 70,
+      "treasure_max": 47
+   },
+   {
+      "add_physical": 10,
+      "exp": 2264,
+      "hero_max": 48,
+      "id": 48,
+      "partner_max": 48,
+      "physical": 70,
+      "treasure_max": 48
+   },
+   {
+      "add_physical": 10,
+      "exp": 2412,
+      "hero_max": 49,
+      "id": 49,
+      "partner_max": 49,
+      "physical": 70,
+      "treasure_max": 49
+   },
+   {
+      "add_physical": 10,
+      "exp": 2560,
+      "hero_max": 50,
+      "id": 50,
+      "partner_max": 50,
+      "physical": 70,
+      "treasure_max": 50
+   },
+   {
+      "add_physical": 10,
+      "exp": 2707,
+      "hero_max": 51,
+      "id": 51,
+      "partner_max": 51,
+      "physical": 70,
+      "treasure_max": 51
+   },
+   {
+      "add_physical": 10,
+      "exp": 2855,
+      "hero_max": 52,
+      "id": 52,
+      "partner_max": 52,
+      "physical": 70,
+      "treasure_max": 52
+   },
+   {
+      "add_physical": 10,
+      "exp": 3003,
+      "hero_max": 53,
+      "id": 53,
+      "partner_max": 53,
+      "physical": 70,
+      "treasure_max": 53
+   },
+   {
+      "add_physical": 10,
+      "exp": 3150,
+      "hero_max": 54,
+      "id": 54,
+      "partner_max": 54,
+      "physical": 70,
+      "treasure_max": 54
+   },
+   {
+      "add_physical": 10,
+      "exp": 3298,
+      "hero_max": 55,
+      "id": 55,
+      "partner_max": 55,
+      "physical": 70,
+      "treasure_max": 55
+   },
+   {
+      "add_physical": 10,
+      "exp": 3381,
+      "hero_max": 56,
+      "id": 56,
+      "partner_max": 56,
+      "physical": 70,
+      "treasure_max": 56
+   },
+   {
+      "add_physical": 10,
+      "exp": 3689,
+      "hero_max": 57,
+      "id": 57,
+      "partner_max": 57,
+      "physical": 70,
+      "treasure_max": 57
+   },
+   {
+      "add_physical": 10,
+      "exp": 4303,
+      "hero_max": 58,
+      "id": 58,
+      "partner_max": 58,
+      "physical": 70,
+      "treasure_max": 58
+   },
+   {
+      "add_physical": 10,
+      "exp": 4918,
+      "hero_max": 59,
+      "id": 59,
+      "partner_max": 59,
+      "physical": 70,
+      "treasure_max": 59
+   },
+   {
+      "add_physical": 10,
+      "exp": 5533,
+      "hero_max": 60,
+      "id": 60,
+      "partner_max": 60,
+      "physical": 70,
+      "treasure_max": 60
+   },
+   {
+      "add_physical": 10,
+      "exp": 6148,
+      "hero_max": 61,
+      "id": 61,
+      "partner_max": 61,
+      "physical": 70,
+      "treasure_max": 61
+   },
+   {
+      "add_physical": 10,
+      "exp": 6762,
+      "hero_max": 62,
+      "id": 62,
+      "partner_max": 62,
+      "physical": 70,
+      "treasure_max": 62
+   },
+   {
+      "add_physical": 10,
+      "exp": 7377,
+      "hero_max": 63,
+      "id": 63,
+      "partner_max": 63,
+      "physical": 70,
+      "treasure_max": 63
+   },
+   {
+      "add_physical": 10,
+      "exp": 7992,
+      "hero_max": 64,
+      "id": 64,
+      "partner_max": 64,
+      "physical": 70,
+      "treasure_max": 64
+   },
+   {
+      "add_physical": 10,
+      "exp": 8607,
+      "hero_max": 65,
+      "id": 65,
+      "partner_max": 65,
+      "physical": 70,
+      "treasure_max": 65
+   },
+   {
+      "add_physical": 10,
+      "exp": 8902,
+      "hero_max": 66,
+      "id": 66,
+      "partner_max": 66,
+      "physical": 70,
+      "treasure_max": 66
+   },
+   {
+      "add_physical": 10,
+      "exp": 9176,
+      "hero_max": 67,
+      "id": 67,
+      "partner_max": 67,
+      "physical": 70,
+      "treasure_max": 67
+   },
+   {
+      "add_physical": 10,
+      "exp": 9450,
+      "hero_max": 68,
+      "id": 68,
+      "partner_max": 68,
+      "physical": 70,
+      "treasure_max": 68
+   },
+   {
+      "add_physical": 10,
+      "exp": 9587,
+      "hero_max": 69,
+      "id": 69,
+      "partner_max": 69,
+      "physical": 70,
+      "treasure_max": 69
+   },
+   {
+      "add_physical": 10,
+      "exp": 10272,
+      "hero_max": 70,
+      "id": 70,
+      "partner_max": 70,
+      "physical": 70,
+      "treasure_max": 70
+   },
+   {
+      "add_physical": 10,
+      "exp": 10957,
+      "hero_max": 71,
+      "id": 71,
+      "partner_max": 71,
+      "physical": 70,
+      "treasure_max": 71
+   },
+   {
+      "add_physical": 10,
+      "exp": 11642,
+      "hero_max": 72,
+      "id": 72,
+      "partner_max": 72,
+      "physical": 70,
+      "treasure_max": 72
+   },
+   {
+      "add_physical": 10,
+      "exp": 12326,
+      "hero_max": 73,
+      "id": 73,
+      "partner_max": 73,
+      "physical": 70,
+      "treasure_max": 73
+   },
+   {
+      "add_physical": 10,
+      "exp": 13011,
+      "hero_max": 74,
+      "id": 74,
+      "partner_max": 74,
+      "physical": 70,
+      "treasure_max": 74
+   },
+   {
+      "add_physical": 10,
+      "exp": 13696,
+      "hero_max": 75,
+      "id": 75,
+      "partner_max": 75,
+      "physical": 70,
+      "treasure_max": 75
+   },
+   {
+      "add_physical": 10,
+      "exp": 14167,
+      "hero_max": 76,
+      "id": 76,
+      "partner_max": 76,
+      "physical": 70,
+      "treasure_max": 76
+   },
+   {
+      "add_physical": 10,
+      "exp": 14219,
+      "hero_max": 77,
+      "id": 77,
+      "partner_max": 77,
+      "physical": 70,
+      "treasure_max": 77
+   },
+   {
+      "add_physical": 10,
+      "exp": 14270,
+      "hero_max": 78,
+      "id": 78,
+      "partner_max": 78,
+      "physical": 70,
+      "treasure_max": 78
+   },
+   {
+      "add_physical": 10,
+      "exp": 14322,
+      "hero_max": 79,
+      "id": 79,
+      "partner_max": 79,
+      "physical": 70,
+      "treasure_max": 79
+   },
+   {
+      "add_physical": 10,
+      "exp": 14373,
+      "hero_max": 80,
+      "id": 80,
+      "partner_max": 80,
+      "physical": 70,
+      "treasure_max": 80
+   },
+   {
+      "add_physical": 10,
+      "exp": 14425,
+      "hero_max": 81,
+      "id": 81,
+      "partner_max": 81,
+      "physical": 70,
+      "treasure_max": 81
+   },
+   {
+      "add_physical": 10,
+      "exp": 14476,
+      "hero_max": 82,
+      "id": 82,
+      "partner_max": 82,
+      "physical": 70,
+      "treasure_max": 82
+   },
+   {
+      "add_physical": 10,
+      "exp": 14528,
+      "hero_max": 83,
+      "id": 83,
+      "partner_max": 83,
+      "physical": 70,
+      "treasure_max": 83
+   },
+   {
+      "add_physical": 10,
+      "exp": 14579,
+      "hero_max": 84,
+      "id": 84,
+      "partner_max": 84,
+      "physical": 70,
+      "treasure_max": 84
+   },
+   {
+      "add_physical": 10,
+      "exp": 14631,
+      "hero_max": 85,
+      "id": 85,
+      "partner_max": 85,
+      "physical": 70,
+      "treasure_max": 85
+   },
+   {
+      "add_physical": 10,
+      "exp": 14682,
+      "hero_max": 86,
+      "id": 86,
+      "partner_max": 86,
+      "physical": 70,
+      "treasure_max": 86
+   },
+   {
+      "add_physical": 10,
+      "exp": 14734,
+      "hero_max": 87,
+      "id": 87,
+      "partner_max": 87,
+      "physical": 70,
+      "treasure_max": 87
+   },
+   {
+      "add_physical": 10,
+      "exp": 14785,
+      "hero_max": 88,
+      "id": 88,
+      "partner_max": 88,
+      "physical": 70,
+      "treasure_max": 88
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 89,
+      "id": 89,
+      "partner_max": 89,
+      "physical": 70,
+      "treasure_max": 89
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 90,
+      "id": 90,
+      "partner_max": 90,
+      "physical": 70,
+      "treasure_max": 90
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 91,
+      "id": 91,
+      "partner_max": 91,
+      "physical": 70,
+      "treasure_max": 91
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 92,
+      "id": 92,
+      "partner_max": 92,
+      "physical": 70,
+      "treasure_max": 92
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 93,
+      "id": 93,
+      "partner_max": 93,
+      "physical": 70,
+      "treasure_max": 93
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 94,
+      "id": 94,
+      "partner_max": 94,
+      "physical": 70,
+      "treasure_max": 94
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 95,
+      "id": 95,
+      "partner_max": 95,
+      "physical": 70,
+      "treasure_max": 95
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 96,
+      "id": 96,
+      "partner_max": 96,
+      "physical": 70,
+      "treasure_max": 96
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 97,
+      "id": 97,
+      "partner_max": 97,
+      "physical": 70,
+      "treasure_max": 97
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 98,
+      "id": 98,
+      "partner_max": 98,
+      "physical": 70,
+      "treasure_max": 98
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 99,
+      "id": 99,
+      "partner_max": 99,
+      "physical": 70,
+      "treasure_max": 99
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 100,
+      "id": 100,
+      "partner_max": 100,
+      "physical": 70,
+      "treasure_max": 100
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 101,
+      "id": 101,
+      "partner_max": 101,
+      "physical": 70,
+      "treasure_max": 101
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 102,
+      "id": 102,
+      "partner_max": 102,
+      "physical": 70,
+      "treasure_max": 102
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 103,
+      "id": 103,
+      "partner_max": 103,
+      "physical": 70,
+      "treasure_max": 103
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 104,
+      "id": 104,
+      "partner_max": 104,
+      "physical": 70,
+      "treasure_max": 104
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 105,
+      "id": 105,
+      "partner_max": 105,
+      "physical": 70,
+      "treasure_max": 105
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 106,
+      "id": 106,
+      "partner_max": 106,
+      "physical": 70,
+      "treasure_max": 106
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 107,
+      "id": 107,
+      "partner_max": 107,
+      "physical": 70,
+      "treasure_max": 107
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 108,
+      "id": 108,
+      "partner_max": 108,
+      "physical": 70,
+      "treasure_max": 108
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 109,
+      "id": 109,
+      "partner_max": 109,
+      "physical": 70,
+      "treasure_max": 109
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 110,
+      "id": 110,
+      "partner_max": 110,
+      "physical": 70,
+      "treasure_max": 110
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 111,
+      "id": 111,
+      "partner_max": 111,
+      "physical": 70,
+      "treasure_max": 111
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 112,
+      "id": 112,
+      "partner_max": 112,
+      "physical": 70,
+      "treasure_max": 112
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 113,
+      "id": 113,
+      "partner_max": 113,
+      "physical": 70,
+      "treasure_max": 113
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 114,
+      "id": 114,
+      "partner_max": 114,
+      "physical": 70,
+      "treasure_max": 114
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 115,
+      "id": 115,
+      "partner_max": 115,
+      "physical": 70,
+      "treasure_max": 115
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 116,
+      "id": 116,
+      "partner_max": 116,
+      "physical": 70,
+      "treasure_max": 116
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 117,
+      "id": 117,
+      "partner_max": 117,
+      "physical": 70,
+      "treasure_max": 117
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 118,
+      "id": 118,
+      "partner_max": 118,
+      "physical": 70,
+      "treasure_max": 118
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 119,
+      "id": 119,
+      "partner_max": 119,
+      "physical": 70,
+      "treasure_max": 119
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 120,
+      "id": 120,
+      "partner_max": 120,
+      "physical": 70,
+      "treasure_max": 120
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 121,
+      "id": 121,
+      "partner_max": 121,
+      "physical": 70,
+      "treasure_max": 121
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 122,
+      "id": 122,
+      "partner_max": 122,
+      "physical": 70,
+      "treasure_max": 122
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 123,
+      "id": 123,
+      "partner_max": 123,
+      "physical": 70,
+      "treasure_max": 123
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 124,
+      "id": 124,
+      "partner_max": 124,
+      "physical": 70,
+      "treasure_max": 124
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 125,
+      "id": 125,
+      "partner_max": 125,
+      "physical": 70,
+      "treasure_max": 125
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 126,
+      "id": 126,
+      "partner_max": 126,
+      "physical": 70,
+      "treasure_max": 126
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 127,
+      "id": 127,
+      "partner_max": 127,
+      "physical": 70,
+      "treasure_max": 127
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 128,
+      "id": 128,
+      "partner_max": 128,
+      "physical": 70,
+      "treasure_max": 128
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 129,
+      "id": 129,
+      "partner_max": 129,
+      "physical": 70,
+      "treasure_max": 129
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 130,
+      "id": 130,
+      "partner_max": 130,
+      "physical": 70,
+      "treasure_max": 130
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 131,
+      "id": 131,
+      "partner_max": 131,
+      "physical": 70,
+      "treasure_max": 131
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 132,
+      "id": 132,
+      "partner_max": 132,
+      "physical": 70,
+      "treasure_max": 132
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 133,
+      "id": 133,
+      "partner_max": 133,
+      "physical": 70,
+      "treasure_max": 133
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 134,
+      "id": 134,
+      "partner_max": 134,
+      "physical": 70,
+      "treasure_max": 134
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 135,
+      "id": 135,
+      "partner_max": 135,
+      "physical": 70,
+      "treasure_max": 135
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 136,
+      "id": 136,
+      "partner_max": 136,
+      "physical": 70,
+      "treasure_max": 136
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 137,
+      "id": 137,
+      "partner_max": 137,
+      "physical": 70,
+      "treasure_max": 137
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 138,
+      "id": 138,
+      "partner_max": 138,
+      "physical": 70,
+      "treasure_max": 138
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 139,
+      "id": 139,
+      "partner_max": 139,
+      "physical": 70,
+      "treasure_max": 139
+   },
+   {
+      "add_physical": 10,
+      "exp": 14837,
+      "hero_max": 140,
+      "id": 140,
+      "partner_max": 140,
+      "physical": 70,
+      "treasure_max": 140
+   }
+]

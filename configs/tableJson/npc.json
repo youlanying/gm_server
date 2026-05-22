@@ -1,0 +1,709 @@
+[
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 2,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 9001001,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m001"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9001,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "凝水史莱姆",
+      "npc_modelName": "AssetbundleExport/Monster/M001/Prefab/M001_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 1,
+      "billboard_height": 3,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m006"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9006,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林战士",
+      "npc_modelName": "AssetbundleExport/Monster/M006/Prefab/M006_model_prefab",
+      "residentEffect": [],
+      "scale": 1.2
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 2,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m007"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9007,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林弓手",
+      "npc_modelName": "AssetbundleExport/Monster/M007/Prefab/M007_model_prefab",
+      "residentEffect": [],
+      "scale": 1.2
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 2,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m008"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9008,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林工人",
+      "npc_modelName": "AssetbundleExport/Monster/M008/Prefab/M008_model_Prefab",
+      "residentEffect": [],
+      "scale": 1.2
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 1,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m009"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9009,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林巫师",
+      "npc_modelName": "AssetbundleExport/Monster/M009/Prefab/M009_model_Prefab",
+      "residentEffect": [
+         9009133
+      ],
+      "scale": 1.2
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 1,
+      "billboard_height": 3,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10057,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m010"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9010,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林百夫长",
+      "npc_modelName": "AssetbundleExport/Monster/M010/Prefab/M010_model_Prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 1,
+      "billboard_height": 3,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10057,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m012"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9012,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "哥布林狂战士",
+      "npc_modelName": "AssetbundleExport/Monster/M012/Prefab/M012_model_Prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 1,
+      "billboard_height": 3,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10057,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m030"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9030,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "尖刺魔花",
+      "npc_modelName": "AssetbundleExport/Monster/M030/Prefab/M030_model_Prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 2,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m033"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9033,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "狼（森林）",
+      "npc_modelName": "AssetbundleExport/Monster/M033/Prefab/M033_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 2,
+      "billboard_height": 2,
+      "birthEffect": 10058,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 11,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m033"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9991,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "狼（森林）",
+      "npc_modelName": "AssetbundleExport/Monster/M991/Prefab/M991_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 5,
+      "billboard_height": 3,
+      "birthEffect": 10059,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10057,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m054"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9054,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "岩龟巨人",
+      "npc_modelName": "AssetbundleExport/Monster/M054/Prefab/M054_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 0,
+      "billboard_height": 3,
+      "birthEffect": 10059,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m055"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9055,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "扭曲傀儡",
+      "npc_modelName": "AssetbundleExport/Monster/M055/Prefab/M055_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 0,
+      "billboard_height": 3,
+      "birthEffect": 10059,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m055"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9035,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "野猪",
+      "npc_modelName": "AssetbundleExport/Monster/M035/Prefab/M035_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 0,
+      "billboard_height": 3,
+      "birthEffect": 10059,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m055"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9991,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "亚莲娜",
+      "npc_modelName": "AssetbundleExport/Monster/M991/Prefab/M991_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   },
+   {
+      "CameraDistanceVal": [
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ],
+         [
+            0,
+            0
+         ]
+      ],
+      "MagicElementId": 0,
+      "billboard_height": 3,
+      "birthEffect": 10059,
+      "bornAction_ID": 0,
+      "boss_icon": "fight_Icon_BossMA01_03",
+      "buffeffect_scale": [
+         1,
+         1,
+         1
+      ],
+      "collider_grade": 101,
+      "deadSound": [],
+      "deadSoundProbability": 100,
+      "dead_effect": 10056,
+      "dead_fade_effect": 0,
+      "headIcon": [
+         "AtlasIcon",
+         "icon_enemy_m055"
+      ],
+      "hintAddHeight": 3,
+      "hitSound": [],
+      "hitSoundProbability": 100,
+      "hurtEffect": 0,
+      "id": 9992,
+      "isCloseCollision": 1,
+      "isTurnBack": 1,
+      "lockEnmyEffectScale": 1,
+      "name": "莉莉娅",
+      "npc_modelName": "AssetbundleExport/Monster/M992/Prefab/M992_model_prefab",
+      "residentEffect": [],
+      "scale": 1
+   }
+]

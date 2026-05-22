@@ -1,0 +1,152 @@
+<script>
+$(document).ready(function(){
+	if({{.type}}){
+		$("#div_register").hide();
+		$("#div_create").hide();
+		$("#btn_close").hide();
+		//console.log("all hide");
+	}else{
+		$("#div_user").hide();
+	}
+	$("#btn_reg").click(function(){
+		/*if($("#id_reg").val().trim() == ""){
+			alert("用户名不能为空！");
+		}else($("#pwd_reg") && $("#pwd_reg").val() == ""){
+			alert("密码不能为空！");
+		}else{
+			$("#form_reg").submit();
+		}*/
+		$("#form_reg").submit();
+	});
+	{{if .candoact}}
+	$("#btn_show").click(function(){
+		if({{.candoact}}){
+			$("#div_create").show(1000);
+			$(this).hide();
+			$("#btn_close").show();
+		}else{
+			alert("您没有该操作权限！");
+		}
+	});
+	$("#btn_create").click(function(){
+		if({{.candoact}}){
+			/*if($("#id_create").val().trim() == ""){
+				alert("用户名不能为空！");
+			}else($("#pwd_create").val().trim() == ""){
+				alert("密码不能为空！");
+			}else{
+				$("#form_create").submit();
+			}*/
+			$("#form_create").submit();
+		}else{
+			alert("您没有该操作权限！");
+		}
+	});
+	$("[name='btn_delete']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_delete_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有删除的权限！！");
+		}
+	});
+	{{ end }}
+	$("#btn_close").click(function(){
+		$("#div_create").hide(1000);
+		$(this).hide();
+		$("#btn_show").show();
+	});
+	
+});
+</script>
+
+<div id="div_user">
+	<div class="mws-panel grid_6 mws-collapsible">
+		<div class="mws-panel-header">
+			<span><i class="icon-table"></i> 用户列表 {{.condoact}} </span>
+		</div>
+		<div class="mws-panel-body no-padding">
+			<table class="mws-table mws-datatable">
+				<thead>
+					<tr>
+						<th> 用户名 </th>
+						<th> 用户组 </th>
+						<th> 操作 </th>
+					</tr>
+				</thead>
+				<tbody>
+					{{ range $index,$mem := .userlist }}
+					<tr>
+						<td>{{$mem.USERID}}</td>
+						
+						{{ range $_, $GMem := $.grouplist }}
+							{{if eq $GMem.ID $mem.GROUPID}}
+								<td>{{$GMem.NAME}}</td>
+							{{ end }}
+						{{ end }}
+						
+						<td class="">
+							<span class="btn-group">
+								<form id="form_edit_{{$mem.ID}}" method="post" action="/admin/edituser"><input type="hidden" name="id" value={{$mem.ID}} /><input type="submit" id="btn_edit_{{$mem.ID}}" value="编辑" class="btn btn-danger" /></form>
+								<form id="form_delete_{{$mem.ID}}" method="post" action="/admin/deleteuser"><input type="hidden" name="id" value={{$mem.ID}} /><input type="button" name="btn_delete" id={{$mem.ID}} value="删除" class="btn btn-danger" /></form>
+							</span>
+						</td>
+					</tr>
+					{{end}}
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!--换行分割-->
+	<div class="clear"></div>
+	<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+	<input type="button" id="btn_show" value="创建新用户" class="btn " />
+	<input type="button" id="btn_close" value="收起" class="btn " />
+
+	<div id="div_create">
+		<div class="mws-panel grid_4">
+			<div class="mws-panel-header">
+				<span> 新用户 </span>
+			</div>
+			<div class="mws-panel-body no-padding">
+				<form class="mws-form" id="form_create" method="post" action="/admin/newuser">
+					<fieldset class="mws-form-inline">
+						<legend> 用户信息: </legend>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 用户名 </label>
+							<div class="mws-form-item">
+								<input type="text" class="large" name="id" id="id_create" />
+							</div>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 密码 </label>
+							<div class="mws-form-item">
+								<input type="password" class="large" name="pwd" id="pwd_create" />
+							</div>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 用户组 </label>
+							<div class="mws-form-item">
+								<select class="large" name="group">
+									{{ range $_, $GMem1 := .grouplist }}
+										{{ if eq $GMem1.ID $.defgroup }}
+											<option value={{$GMem1.ID}} selected="selected" >{{$GMem1.NAME}}</option>
+										{{ else }}
+											<option value={{$GMem1.ID}}>{{$GMem1.NAME}}</option>
+										{{ end }}
+									{{ end }}
+								</select>
+							</div>
+						</div>
+					</fieldset>
+					<div class="mws-button-row">
+						<input type="hidden" name="type" value="1" />
+						<input type="button" value="提交" class="btn btn-danger" id="btn_create"/>
+					</div>
+				</form>
+			</div>      
+		</div>
+	</div>
+</div>

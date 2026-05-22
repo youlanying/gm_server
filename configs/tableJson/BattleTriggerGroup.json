@@ -1,0 +1,668 @@
+[
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010901001,
+      "refreshBoxId": [
+         30106011
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010901002,
+      "refreshBoxId": [
+         10020013
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401001,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401002,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401003,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401004,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401005,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401006,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401007,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401008,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401009,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401010,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401011,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401012,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401013,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401014,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401015,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401016,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401017,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401018,
+      "refreshBoxId": [
+         10010012
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401019,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401020,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401021,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401022,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401023,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401024,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401025,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401026,
+      "refreshBoxId": [
+         10010001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010101001,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980001,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980002,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980003,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980004,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980005,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980006,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980007,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980008,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980009,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980010,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980011,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9980012,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9998001,
+      "refreshBoxId": [
+         10010006
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9998002,
+      "refreshBoxId": [
+         10010006
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 9998003,
+      "refreshBoxId": [
+         10010009
+      ]
+   },
+   {
+      "BattleId": 1010102,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010801001,
+      "refreshBoxId": [
+         10020012
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020401,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020402,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020403,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020404,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020405,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020406,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010215001,
+      "refreshBoxId": [
+         10010033
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020501,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020502,
+      "refreshBoxId": [
+         10010030
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101020601,
+      "refreshBoxId": [
+         10010008
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 99999,
+      "refreshBoxId": [
+         10010011
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 99998,
+      "refreshBoxId": [
+         10010011
+      ]
+   },
+   {
+      "BattleId": 1001002,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010213001,
+      "refreshBoxId": [
+         10020012
+      ]
+   },
+   {
+      "BattleId": 1004001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010401027,
+      "refreshBoxId": [
+         10040001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601001,
+      "refreshBoxId": [
+         10106001
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601002,
+      "refreshBoxId": [
+         10106002
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601003,
+      "refreshBoxId": [
+         10106003
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601004,
+      "refreshBoxId": [
+         10106004
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601009,
+      "refreshBoxId": [
+         10106005
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601011,
+      "refreshBoxId": [
+         10106006
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601013,
+      "refreshBoxId": [
+         10106007
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 1010601020,
+      "refreshBoxId": [
+         10106008
+      ]
+   },
+   {
+      "BattleId": 1010501,
+      "HeroExp": 0,
+      "TeamExp": 0,
+      "id": 1010501001,
+      "refreshBoxId": [
+         10020012
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 21301,
+      "refreshBoxId": [
+         0
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 21302,
+      "refreshBoxId": [
+         0
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 21303,
+      "refreshBoxId": [
+         0
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 21304,
+      "refreshBoxId": [
+         0
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101021300,
+      "refreshBoxId": [
+         101021300
+      ]
+   },
+   {
+      "BattleId": 1001001,
+      "HeroExp": 10,
+      "TeamExp": 20,
+      "id": 101021301,
+      "refreshBoxId": [
+         101021301
+      ]
+   }
+]

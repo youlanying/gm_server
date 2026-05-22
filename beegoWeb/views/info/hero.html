@@ -1,0 +1,97 @@
+<script>
+
+</script>
+
+
+{{template "tabar2" .}}
+
+<div class="container">
+	<div class="mws-stat-container clearfix">
+    	<a class="mws-stat" >
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">已获得</span>
+            </span>
+        </a>
+		<a class="mws-stat" >
+        	<span class="mws-stat-icon icol32-bug"></span>
+            <span class="mws-stat-content">
+                <span class="mws-stat-value">未获得</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>玩家已有英雄列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 角色ID </th>
+                    <th> 角色名称 </th>
+                    <th> 星级 </th>
+                    <th> RANK </th>
+					<th> 等级 </th>
+					<th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .herolist }}
+				<tr>
+				<td>{{$mem.ProtoId}}</td>
+				<td>{{$mem.HeroName}}</td>
+				<td>{{$mem.Level }}</td>
+				<td>{{$mem.Rank }}</td>
+				<td>{{$mem.Star }}</td>
+				<td>
+					<input type="button" id="{{$mem.HeroId}}" name="btn_detail" value="查看详情" class="btn btn-danger" />
+				</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>玩家未收集英雄列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 角色ID </th>
+                    <th> 角色名称 </th>
+                    <th> 收集进度 </th>
+					<th> 操作 </th>
+                </tr>
+            </thead>
+            <tbody>
+				<!-- for NoticeId, Notice, NoticeTime, EndTime, Titile, RewardStrList  in dbcont -->
+            	{{range $_,$mem := .unherolist }}
+				<tr>
+				<td>{{$mem.ProtoId}}</td>
+				<td>{{$mem.HeroName }}</td>
+				<td>{{$mem.NumStr }}</td>
+				<td>
+					<input type="button" id="{{$mem.ProtoId}}" name="btn_delete" value="删除" class="btn btn-danger" />
+				</td>
+				</tr>
+				{{end}}
+            </tbody>
+		
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+
+

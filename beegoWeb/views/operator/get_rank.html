@@ -1,0 +1,209 @@
+<!-- extends "./basetemplate/basetemplate.html" -->
+<link rel="stylesheet" type="text/css" href="/static/jui/css/jquery.ui.timepicker.css" media="screen">
+<!-- JavaScript Plugins -->
+<script src="/static/js/libs/jquery.mousewheel.min.js"></script>
+<script src="/static/js/libs/jquery.placeholder.min.js"></script>
+<script src="/static/custom-plugins/fileinput.js"></script>
+<!-- jQuery-UI Dependent Scripts -->
+<script src="/static/jui/js/jquery-ui-1.9.2.min.js"></script>
+<script src="/static/jui/jquery-ui.custom.min.js"></script>
+<script src="/static/jui/js/jquery.ui.touch-punch.js"></script>
+<script src="/static/jui/js/timepicker/jquery-ui-timepicker.min.js"></script>
+    <!-- Plugin Scripts -->
+    <!--[if lt IE 9]>
+    <script src="js/libs/excanvas.min.js"></script>
+    <![endif]-->
+<script src="/static/plugins/flot/jquery.flot.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.tooltip.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.pie.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.stack.min.js"></script>
+<script src="/static/plugins/flot/plugins/jquery.flot.resize.min.js"></script>
+<script src="/static/plugins/colorpicker/colorpicker-min.js"></script>
+<!-- Core Script -->
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<!-- Themer Script (Remove if not needed) -->
+<script src="/static/js/core/themer.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/js/demo/demo.widget.js"></script>
+<!-- Demo Scripts (remove if not needed) -->
+<script src="/static/plugins/datatables/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready(function(){
+
+     $("#mws-form-dialog").dialog({
+                autoOpen: false,
+                title: "请选择",
+                modal: true,
+                width: "640",
+                buttons: [{
+                    text: "关闭",
+                    click: function () {
+                        $(this).dialog("close");
+                    }
+                }]
+            });
+
+    $(":radio").click(function(){
+        $("#cmdurl").val($(this).val());
+    });
+
+    $("#selectID").change(function(){
+        //var selecttext =$("#selectID").find("option:selected").text();
+        var selecttext =$("#selectID").val();
+        $("#divurl").find("ul").attr("style",'display:none');
+        $("#"+selecttext).attr("style",'display:');
+        //alert(selecttext);
+    });
+
+
+
+    function GetRank(){
+        var CmdUrl =  $("#cmdurl").val();
+        var FullUrl = CmdUrl + "zxlf_get?cmd=gm_get_rank_js&type=1&ranktype=0";
+        $.ajax({
+            url:FullUrl,
+            type:'GET',
+            dataType:'JSONP',
+            cache:false,
+            success:function(ref){
+                if (ref.map != "") {
+                    // var data = 
+
+                    // alert(ref.map.length);
+                    // for (var i = ref.map.length - 1; i >= 0; i--) {
+                    //     Things[i]
+                    // };
+                    // var pj = jquery.parseJSON(ref.map);
+                    
+                    // $("#div_rank_data").attr("style",'display:');
+                    // AddTable(ref.map.split("\n"));   
+                }else{
+                    alert("没有玩家在线哦！");
+                };                               
+            }
+        });
+    };
+
+    function AddTable(platform){
+        $('#divtable').html("");
+        var addbody = "";   
+        var Table = "<table class='mws-datatable-fn mws-table'><thead><tr><th>角色ID</th><th>名称</th><th>角色账号</th><th>登陆时间</th></tr></thead><tbody>";
+        var Tbody = "</tbody></table>"                 
+        for (var i =0 ; i < platform.length; i+=1) {
+                    var team = platform[i];
+                    var newpf = team.split("|");  
+                    var timer = newpf[3];
+                    addbody = addbody+"<tr><td>"+newpf[0]+"</td><td>"+newpf[1]+"</td><td>"+newpf[2]+"</td><td>"+timer+"</td></tr>";
+                }
+        //表 赋值        
+        $('#divtable').append(Table+addbody+Tbody);
+
+        //必须在表格 赋值 后
+        //static/js/demo/demo.table.js
+        if( $.fn.dataTable ) {
+            $(".mws-datatable").dataTable();
+            $(".mws-datatable-fn").dataTable({
+                sPaginationType: "full_numbers"
+            });
+        }
+    };
+
+    $("#btn_new").click(function(){
+        if ($("#cmdurl").val().trim() == "") {
+            alert("cmdurl不能为空！");
+        }else if($("#cmdurl").val().trim() == "例: http://127.0.0.1:9010/"){
+            alert("cmdurl不能为空！");
+        }else{
+            GetRank();
+        }
+    }); 
+
+
+    $("#cmdurl").setDefauleValue();
+
+});
+// $(function(){
+//     $("#cmdurl").setDefauleValue();
+// })
+$.fn.setDefauleValue = function() {
+    var defauleValue = $(this).val();
+    $(this).val(defauleValue).css("color","#999");
+    return this.each(function(){
+        $(this).focus(function(){
+            if ($(this).val() == defauleValue){
+                $(this).val("").css("color","#000");
+            }
+        }).blur(function(){
+            if ($(this).val() == ""){
+                $(this).val(defauleValue).css("color","#999");
+            }
+        });
+    });
+}
+</script>
+
+<div id="div_create">
+    <div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span>获取榜单</span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_new" method="post" action="/redis">
+                <fieldset class="mws-form-inline">               
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label">cmdurl :</label>
+                        <div class="mws-form-item">
+                           <input type="text"  class="large" name="cmdurl" id="cmdurl" value="例: http://127.0.0.1:9010/" />
+                           <input type="button" id="mws-form-dialog-mdl-btn" class="btn btn-success" value="url选择">
+                        </div>                                        
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                    <input type="button" value="查询" class="btn btn-danger" id="btn_new"/>  
+                </div>
+            </form>
+
+            <div id="mws-form-dialog">
+             <form id="mws-validate" class="mws-form" action="">
+                <div class="mws-form-row bordered">
+                                    <label class="mws-form-label">平台列表</label>
+                                    <div class="mws-form-item">
+                                        <select id="selectID" class="large">
+                                            <option value="">请选择</option>
+                                            {{range $vindex,$cMem1 := .centerurl}}
+												<option value={{$vindex}}>{{$cMem1.Plant.PlatformName}}</option>
+                                            {{end}}
+                                        </select>
+                                    </div>
+                                </div>
+                <div class="mws-form-block">
+                    <div class="mws-form-row">
+                        <label class="mws-form-label"></label>
+                        <div class="mws-form-item clearfix" id="divurl">
+                            {{range $vindex2,$cMem2 := .centerurl}}
+                            <ul class="mws-form-list inline" id={{$vindex2}} style="display:none">
+                                {{ range $_,$cMemMem := $cMem2.ServerList }}
+                                <li><input  type="radio" name="gender" class="required" value = {{$cMemMem.Scmdurl}}> <label for="gender_male">{{$cMemMem.Sserver_name}}</label></li>                                
+                                {{end}}
+                            </ul>
+                            {{end}}
+                        </div>                                 
+                    </div>
+                </div>
+                </form>    
+            </div>
+
+        </div>      
+    </div>
+</div>
+
+<div id="div_rank_data" style="display:none">
+    <div class="mws-panel grid_5 mws-collapsible">
+        <div class="mws-panel-header">
+            <span><i class="icon-table"></i> 榜 单 </span>
+        </div>
+        <div class="mws-panel-body no-padding" id="divtable">
+                         
+        </div>
+    </div>  
+</div> 

@@ -1,0 +1,218 @@
+[
+   {
+      "href": "\"#\"",
+      "icon": "icon-cogs",
+      "id": 1,
+      "name": "管 理"
+   },
+   {
+      "href": "\"/pfselect/index\"",
+      "icon": "icon-graph",
+      "id": 2,
+      "name": "平台管理"
+   },
+   {
+      "href": "\"#\"",
+      "icon": "icon-list",
+      "id": 3,
+      "name": "GM工具"
+   },
+   {
+      "href": "\"/version/server_version\"",
+      "icon": "icon-folder-closed",
+      "id": 4,
+      "name": "版本管理"
+   },
+   {
+      "href": "\"/gmtools/dictionary\"",
+      "icon": "\"\"",
+      "id": 5,
+      "name": "字典查询"
+   },
+   {
+      "href": "\"/gmtools/redis\"",
+      "icon": "\"\"",
+      "id": 6,
+      "name": "redis查询"
+   },
+   {
+      "href": "\"/gmtools/servernum\"",
+      "icon": "\"\"",
+      "id": 7,
+      "name": "在线查询"
+   },
+   {
+      "href": "\"/gmtools/kick\"",
+      "icon": "\"\"",
+      "id": 8,
+      "name": "踢人"
+   },
+   {
+      "href": "\"/gmtools/logincount\"",
+      "icon": "\"\"",
+      "id": 9,
+      "name": "登录统计"
+   },
+   {
+      "href": "\"/gmtools/register\"",
+      "icon": "\"\"",
+      "id": 10,
+      "name": "注册统计"
+   },
+   {
+      "href": "\"/gmtools/servertime\"",
+      "icon": "\"\"",
+      "id": 11,
+      "name": "修改服务器时间"
+   },
+   {
+      "href": "\"/gmtools/charge\"",
+      "icon": "\"\"",
+      "id": 12,
+      "name": "充值查询"
+   },
+   {
+      "href": "\"/gmtools/setcreate\"",
+      "icon": "\"\"",
+      "id": 13,
+      "name": "修改可否创建新角色"
+   },
+   {
+      "href": "\"/gmtools/delitem\"",
+      "icon": "\"\"",
+      "id": 14,
+      "name": "删除玩家道具"
+   },
+   {
+      "href": "\"/operator/send_mail\"",
+      "icon": "\"\"",
+      "id": 15,
+      "name": "发送邮件"
+   },
+   {
+      "href": "\"\"",
+      "icon": "\"\"",
+      "id": 16,
+      "name": "审核邮件"
+   },
+   {
+      "href": "\"/operator/send_marquee\"",
+      "icon": "\"\"",
+      "id": 17,
+      "name": "发送跑马灯"
+   },
+   {
+      "href": "\"\"",
+      "icon": "\"\"",
+      "id": 18,
+      "name": "审核跑马灯"
+   },
+   {
+      "href": "\"/operator/add_proto\"",
+      "icon": "\"\"",
+      "id": 19,
+      "name": "添加数据表"
+   },
+   {
+      "href": "\"/operator/up_proto\"",
+      "icon": "\"\"",
+      "id": 20,
+      "name": "表数据添加"
+   },
+   {
+      "href": "\"/operator/send_proto\"",
+      "icon": "\"\"",
+      "id": 21,
+      "name": "表数据信息"
+   },
+   {
+      "href": "\"\"",
+      "icon": "\"\"",
+      "id": 22,
+      "name": "表数据发送"
+   },
+   {
+      "href": "\"/gmtools/copyrole\"",
+      "icon": "\"\"",
+      "id": 23,
+      "name": "角色复制"
+   },
+   {
+      "href": "\"\"",
+      "icon": "\"\"",
+      "id": 24,
+      "name": "获取榜单"
+   },
+   {
+      "href": "\"/gmtools/terminate\"",
+      "icon": "icol32-tree",
+      "id": 25,
+      "name": "获取错误记录"
+   },
+   {
+      "href": "\"/gmtools/gm_account\"",
+      "icon": "\"\"",
+      "id": 26,
+      "name": "设置GM账号"
+   },
+   {
+      "href": "\"/gmtools/black_account\"",
+      "icon": "\"\"",
+      "id": 27,
+      "name": "封号/禁言"
+   },
+   {
+      "href": "\"\"",
+      "icon": "\"\"",
+      "id": 28,
+      "name": "在线充值"
+   },
+   {
+      "href": "\"#\"",
+      "icon": "icon-list",
+      "id": 29,
+      "name": "运营相关"
+   },
+   {
+      "href": "\"/admin/showgroup\"",
+      "icon": "\"\"",
+      "id": 95,
+      "name": "群组管理"
+   },
+   {
+      "href": "\"/admin/showuser\"",
+      "icon": "\"\"",
+      "id": 96,
+      "name": "账号管理"
+   },
+   {
+      "href": "\"/whiteblack/top\"",
+      "icon": "icon-pictures",
+      "id": 97,
+      "name": "黑白名单"
+   },
+   {
+      "href": "\"/notice/index\"",
+      "icon": "icon-calendar",
+      "id": 98,
+      "name": "公告管理"
+   },
+   {
+      "href": "\"/number/top\"",
+      "icon": "icon-font",
+      "id": 99,
+      "name": "各种码管理"
+   },
+   {
+      "href": "\"/info/index\"",
+      "icon": "",
+      "id": 104,
+      "name": "玩家查询"
+   },
+   {
+      "href": "\"/log/index\"",
+      "icon": "",
+      "id": 105,
+      "name": "日志查询"
+   }
+]

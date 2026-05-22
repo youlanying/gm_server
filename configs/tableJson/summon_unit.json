@@ -1,0 +1,96 @@
+[
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 800200,
+      "npc_modelName": "AssetbundleExport/Monster/B002/prefab/B002_prefab",
+      "npcdataid": 30105002,
+      "protoid": 8002,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M031"
+      ],
+      "collision_radius": 1,
+      "growth_attr": [
+         [
+            1,
+            1000
+         ],
+         [
+            2,
+            10
+         ]
+      ],
+      "id": 903100,
+      "npc_modelName": "AssetbundleExport/Monster/M031/M031_prefab",
+      "npcdataid": 10106001,
+      "protoid": 9031,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M053_2"
+      ],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 905300,
+      "npc_modelName": "AssetbundleExport/Monster/M053/M053_prefab",
+      "npcdataid": 10101001,
+      "protoid": 9053,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M055_C"
+      ],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 905500,
+      "npc_modelName": "AssetbundleExport/Monster/M055/M055_prefab",
+      "npcdataid": 30105003,
+      "protoid": 9055,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [
+         "AssetbundleExport/BehaverTreeAi/Npc/M012"
+      ],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 9000020,
+      "npc_modelName": "AssetbundleExport/Monster/M012/M012_model_Prefab",
+      "npcdataid": 30101009,
+      "protoid": 9012,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 0,
+      "btTreeSharePathList": [],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 9054001,
+      "npc_modelName": "AssetbundleExport/SceneItem/obj_ST_crystal12/Prefab/obj_ST_crystal12_FBX",
+      "npcdataid": 10116003,
+      "protoid": 8018,
+      "sonBtTreeIndex": []
+   },
+   {
+      "aniBornId": 1,
+      "btTreeSharePathList": [],
+      "collision_radius": 1,
+      "growth_attr": [],
+      "id": 7031001,
+      "npc_modelName": "AssetbundleExport/SceneItem/brokenitem_hp_01/Prefab/brokenitem_hp_01_1",
+      "npcdataid": 10104003,
+      "protoid": 8011,
+      "sonBtTreeIndex": []
+   }
+]

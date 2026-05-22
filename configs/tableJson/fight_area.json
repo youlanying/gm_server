@@ -1,0 +1,1309 @@
+[
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [
+         122,
+         0.7,
+         150
+      ],
+      "disappearTrigger_Rotation": [
+         0,
+         3,
+         0
+      ],
+      "disappearTrigger_Scale": [
+         1,
+         1,
+         1.3
+      ],
+      "disappear_conditions": [
+         1
+      ],
+      "fightWall_Position": [
+         [
+            113,
+            0.5,
+            124
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1.8,
+            1,
+            1.8
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         2
+      ],
+      "generatingTrigger": [
+         123,
+         0.7,
+         161
+      ],
+      "generatingTrigger_Rotation": [
+         0,
+         1,
+         0
+      ],
+      "generatingTrigger_Scale": [
+         1.1,
+         1,
+         1.2
+      ],
+      "generating_Condition": [
+         1
+      ],
+      "id": 1,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            118,
+            2,
+            160
+         ],
+         [
+            0,
+            50,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         10,
+         8
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [
+         122,
+         0.8,
+         150
+      ],
+      "disappearTrigger_Rotation": [
+         0,
+         3,
+         0
+      ],
+      "disappearTrigger_Scale": [
+         1,
+         1,
+         1.3
+      ],
+      "disappear_conditions": [
+         2,
+         0
+      ],
+      "fightWall_Position": [
+         [
+            113,
+            0.5,
+            124
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1.8,
+            1,
+            1.8
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         1
+      ],
+      "generatingTrigger": [
+         123,
+         0.8,
+         161
+      ],
+      "generatingTrigger_Rotation": [
+         0,
+         2,
+         0
+      ],
+      "generatingTrigger_Scale": [
+         1.1,
+         1.3,
+         1.2
+      ],
+      "generating_Condition": [
+         0
+      ],
+      "id": 2,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            121,
+            0.7,
+            155
+         ]
+      ],
+      "moveArea_Scale": [
+         3
+      ]
+   },
+   {
+      "KillCloseEntities": [
+         "101090101001"
+      ],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "101090101001"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            71.06192,
+            -0.05000019,
+            39.9223
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            -1.107324e-9,
+            1.031726,
+            1.229846e-7
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            13.375,
+            1,
+            1
+         ]
+      ],
+      "fightWall_Type": [
+         2,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10101011,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [
+         "1010201101002",
+         "1010201101001",
+         "1010201101003"
+      ],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "1010201101002",
+         "1010201101001",
+         "1010201101003"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            242.7,
+            11.489,
+            220.2
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            7.542129,
+            1.8227,
+            1
+         ]
+      ],
+      "fightWall_Type": [
+         2,
+         2
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10102011,
+      "lookBoxAngle": [
+         0,
+         0,
+         0
+      ],
+      "lookBoxPos": [
+         273.3254,
+         11.322,
+         262.0763
+      ],
+      "lookBoxScale": [
+         1,
+         1,
+         1
+      ],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            312.8335,
+            11.62049,
+            280.059
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            242.19463,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            10.94921,
+            3.761241,
+            0.5095984
+         ]
+      ],
+      "fightWall_Type": [
+         2,
+         2
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10102012,
+      "lookBoxAngle": [
+         0,
+         0,
+         0
+      ],
+      "lookBoxPos": [
+         313.35,
+         11.322,
+         283.07
+      ],
+      "lookBoxScale": [
+         1,
+         1,
+         1
+      ],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            118.4,
+            0.1,
+            150.4
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            2,
+            1,
+            2
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10103011,
+      "lookBoxAngle": [
+         0,
+         0,
+         0
+      ],
+      "lookBoxPos": [
+         113.71,
+         2.8124,
+         101.32
+      ],
+      "lookBoxScale": [
+         56.00376,
+         14.2855,
+         1
+      ],
+      "moveArea": [
+         [
+            118.42,
+            -9.1,
+            156.23
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            115.17,
+            0.11,
+            114.11
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            2,
+            1,
+            2
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10103012,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            112.6,
+            -9.1,
+            97
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            -35.12,
+            6.55,
+            -8.47
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            2,
+            1,
+            2
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10104011,
+      "lookBoxAngle": [
+         0,
+         0,
+         0
+      ],
+      "lookBoxPos": [
+         1.69224,
+         7.4854,
+         -1.2364
+      ],
+      "lookBoxScale": [
+         1,
+         12.31904,
+         33.69057
+      ],
+      "moveArea": [
+         [
+            -47.2,
+            -0.12,
+            -16.9
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            32.2,
+            7.03,
+            6.2
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            2,
+            1,
+            2
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 10104012,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            24.8,
+            -0.12,
+            7.2
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            -22,
+            9,
+            -10
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            8,
+            1,
+            8
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         1
+      ],
+      "generatingTrigger": [
+         -32,
+         9,
+         44
+      ],
+      "generatingTrigger_Rotation": [
+         0,
+         130,
+         0
+      ],
+      "generatingTrigger_Scale": [
+         10,
+         5,
+         1
+      ],
+      "generating_Condition": [
+         0
+      ],
+      "id": 30102011,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            -22,
+            10,
+            -10
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         80,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            -15,
+            45,
+            0
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            9,
+            1,
+            9
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         1
+      ],
+      "generatingTrigger": [
+         30,
+         42,
+         -50
+      ],
+      "generatingTrigger_Rotation": [
+         0,
+         0,
+         0
+      ],
+      "generatingTrigger_Scale": [
+         10,
+         5,
+         1
+      ],
+      "generating_Condition": [
+         0
+      ],
+      "id": 30103011,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            -15,
+            45,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         90,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "101010101001",
+         "101010101002",
+         "101010101003",
+         "101010106001",
+         "101010106002",
+         "101010106003",
+         "101010107001",
+         "101010107002",
+         "101010107003",
+         "101010108001",
+         "101010108002",
+         "101010108003",
+         "101010109001",
+         "101010109002",
+         "101010109003",
+         "101010130001",
+         "101010130002",
+         "101010130003",
+         "101010133001",
+         "101010133002",
+         "101010133003",
+         "101060101001",
+         "101060101002",
+         "101060101003",
+         "101060102001",
+         "101060102002",
+         "101060102003",
+         "101060103001",
+         "101060103002",
+         "101060103003",
+         "101060104001",
+         "101060104002",
+         "101060104003",
+         "101060105001",
+         "101060105002",
+         "101060105003",
+         "101060106001",
+         "101060106002",
+         "101060106003",
+         "101060107001",
+         "101060107002",
+         "101060107003",
+         "101060108001",
+         "101060108002",
+         "101060108003",
+         "101040101001",
+         "101040101002",
+         "101040101003",
+         "30106001",
+         "30106002",
+         "30106003"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         4
+      ],
+      "fightWall_Position": [
+         [
+            38.05,
+            0.68,
+            41.31
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1.3,
+            1,
+            1.3
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 9989,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "101010112002",
+         "101010154001"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         4
+      ],
+      "fightWall_Position": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1,
+            1,
+            1
+         ]
+      ],
+      "fightWall_Type": [
+         2,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 1010801,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [
+         "30106001",
+         "30106002",
+         "30106003"
+      ],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            38.05,
+            0.18,
+            41.31
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1.3,
+            1,
+            1.3
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 3010601,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [
+         "3010701101001"
+      ],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "3010701101001"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            35.86,
+            9.77,
+            35.14
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            1.8,
+            1,
+            1.8
+         ]
+      ],
+      "fightWall_Type": [
+         1,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 3010701,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   },
+   {
+      "KillCloseEntities": [
+         "301080101101001"
+      ],
+      "KillTriggerEntities": [],
+      "WarnCloseEntities": [],
+      "WarnTriggerEntities": [
+         "301080101101001"
+      ],
+      "disappearTrigger": [],
+      "disappearTrigger_Rotation": [],
+      "disappearTrigger_Scale": [],
+      "disappear_conditions": [
+         2
+      ],
+      "fightWall_Position": [
+         [
+            56.17,
+            6.67,
+            45.89
+         ],
+         [
+            30.82445,
+            6.67,
+            44.32862
+         ],
+         [
+            44.47,
+            6.67,
+            32.32
+         ],
+         [
+            42.71,
+            6.67,
+            57.55
+         ],
+         [
+            61.204,
+            6.7,
+            46.147
+         ],
+         [
+            44.771,
+            6.67,
+            27.194
+         ],
+         [
+            25.8,
+            6.67,
+            43.8
+         ],
+         [
+            42.318,
+            6.7,
+            62.496
+         ]
+      ],
+      "fightWall_Rotation": [
+         [
+            -0.000006753305,
+            270.645,
+            -0.000006829756
+         ],
+         [
+            -0.000006874239,
+            90.36951,
+            0.000006830046
+         ],
+         [
+            -8.735132e-10,
+            0.9162219,
+            1.092173e-7
+         ],
+         [
+            -0.00001366009,
+            179.4745,
+            6.264473e-8
+         ],
+         [
+            -0.000006753305,
+            270.645,
+            -0.000006829756
+         ],
+         [
+            -8.735132e-10,
+            0.9162219,
+            1.092173e-7
+         ],
+         [
+            -0.000006874239,
+            90.36951,
+            0.000006830046
+         ],
+         [
+            -0.00001366009,
+            179.4745,
+            6.264473e-8
+         ]
+      ],
+      "fightWall_Scale": [
+         [
+            12.50789,
+            1,
+            1
+         ],
+         [
+            12.50789,
+            1,
+            1
+         ],
+         [
+            12.50789,
+            1,
+            1
+         ],
+         [
+            12.50789,
+            1,
+            1
+         ],
+         [
+            17.19834,
+            1,
+            1
+         ],
+         [
+            17.5173,
+            1,
+            1
+         ],
+         [
+            17.73162,
+            1,
+            1
+         ],
+         [
+            17.66739,
+            1,
+            1
+         ]
+      ],
+      "fightWall_Type": [
+         2,
+         0
+      ],
+      "generatingTrigger": [],
+      "generatingTrigger_Rotation": [],
+      "generatingTrigger_Scale": [],
+      "generating_Condition": [
+         1
+      ],
+      "id": 30108011,
+      "lookBoxAngle": [],
+      "lookBoxPos": [],
+      "lookBoxScale": [],
+      "moveArea": [
+         [
+            0,
+            0,
+            0
+         ],
+         [
+            0,
+            0,
+            0
+         ]
+      ],
+      "moveArea_Scale": [
+         1,
+         0
+      ]
+   }
+]

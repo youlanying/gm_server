@@ -1,0 +1,231 @@
+<script>
+$(document).ready(function(){
+	$("#btn_close").hide();
+	$("#div_create").hide();
+	$("#btn_create").click(function(){
+		if({{.candoact}}){
+			$("#btn_close").show();
+			$(this).hide();
+			$("#div_create").show(1000);
+		}else{
+			alert("您没有该操作权限！！");
+		}
+	});
+	$("#btn_close").click(function(){
+		$("#btn_create").show();
+		$("#div_create").hide(1000);
+		$(this).hide();
+	});
+	$("#btn_new_submit").click(function(){
+		if({{.candoact}}){
+			if($("#viewid_new").val().trim() == ""){
+				alert("ViewId 不能为空！");
+			}else if($("#serverid_new").val().trim() == ""){
+				alert("ServerId 不能为空！");
+			}else if($("#servername_new").val().trim() == ""){
+				alert("服务器名称不能为空！");
+			}else if($("#gateips_new").val().trim() == ""){
+				alert("GateIps 不能为空！");
+			}else if($("#maxnum_new").val().trim() == ""){
+				alert("MaxNum 不能为空！");
+			}else if($("#cmdurl_new").val().trim() == ""){
+				alert("CmdUrl 不能为空！");
+			}else{
+				$("#form_createnew").submit();
+			}
+		}else{
+			alert("您没有该操作权限！！");
+		}
+	});
+	
+	$("[name='btn_edit']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_edit_" + UId;
+			console.log(FormId);
+			$(FormId).submit();
+		}else{
+			alert("您没有编辑的权限！！");
+		}
+	});
+	
+	$("[name='btn_delete']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_delete_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有删除的权限！！");
+		}
+	});
+	
+	$("[name='btn_kick']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_kick_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有踢人的权限！！");
+		}
+	});
+	
+	$("[name='btn_close']").click(function(){
+		if({{.candoact}}){
+			var UId = $(this).attr("id");
+			var FormId = "#form_close_" + UId;
+			$(FormId).submit();
+		}else{
+			alert("您没有关服的权限！！");
+		}
+	});
+	
+});
+</script>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i> 服务器列表</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 排序id </th>
+                    <th> 服务器id </th>
+                    <th> 服务器名称 </th>
+                    <th> 服务器状态 </th>
+                    <th> 游戏网关列表 </th>
+                    <th> 限制人数 </th>
+                    <th> 游戏后台接口 </th>
+                    <th> 数据库ID </th>
+                    <th> 操作 </th>
+                    <th> 删除 </th>
+                    <th> 服务器操作 </th>
+                </tr>
+            </thead>
+            <tbody align="center">
+            	{{range $index,$mem := .server_records }}
+				<tr>
+					<form id="form_edit_{{$mem.Sserverid}}" method="post" action="/pfselect/update">
+						<td style='width:6%'><input type="text" style='width:90%' name="viewid" id="viewid_{{$mem.Sviewid}}" value={{$mem.Sviewid}} /></td>
+						<td style='width:6%'><label class="mws-form-label" style='width:90%'>{{$mem.Sserverid}}</label></td>
+						<td style='width:12%'><input type="text" style='width:100%' name="servername" id="servername_{{$mem.Sviewid}}"  value={{$mem.Sserver_name}} /></td>
+						<td style='width:8%'>
+							<select style='width:100%' name="serverstate" id="status_{{$mem.Sviewid}}">
+							{{range $vvindex,$statename := $.statelist }}
+								{{if eq $vvindex $mem.Sstatus }}
+									<option value={{$mem.Sstatus}} selected="selected">{{$statename}}</option>
+								{{else}}
+									<option value={{$vvindex}}>{{$statename}}</option>
+								{{end}}
+							{{end}}
+							</select>
+						</td>
+						<td style='width:20%'><textarea style='width:100%' name="gateips" id="gateips_{{$mem.Sviewid}}" rows="1" cols="" class="large" >{{$mem.Sgateips}}</textarea></td>
+				
+						<td style='width:6%'><input type="text" style='width:80%' name="maxnum" id="maxnum_{{$mem.Sviewid}}" value={{$mem.Smaxnum}} /></td>
+						<td><input type="text" style='width:100%' name="cmdurl" id="cmdurl_{{$mem.Sviewid}}" value={{$mem.Scmdurl}} /></td>
+                        <td style='width:6%'><input type="text" style='width:80%' name="dbid" id="cmdurl_{{$mem.Sviewid}}" value={{$mem.Sdbid}} /></td>
+						<td>
+							<input type="hidden" name="serid" id="serid_{{$mem.Sserverid}}" value={{$mem.Sserverid}} />
+							<input type="hidden" name="platform" id="platform_{{$mem.Sserverid}}" value={{$index}} />
+							<input type="button" id={{$mem.Sserverid}} name="btn_edit" value="提交修改" class="btn btn-warning" />
+						</td>
+					</form>
+					<td>
+						<form id="form_delete_{{$mem.Sserverid}}" method="post" action="/pfselect/delete">
+						<input type="hidden" name="serid" id="serid_{{$mem.Sserverid}}" value={{$mem.Sserverid}} />
+						<input type="hidden" name="platform" id="platform_{{$mem.Sserverid}}" value={{$index}} />
+						<input type="button" id="{{$mem.Sserverid}}" name="btn_delete" value="删除" class="btn btn-danger" />
+						</form>
+					</td>
+					<td>
+						<form id="form_kick_{{$mem.Sserverid}}" method="post" action="kick">
+							<input type="hidden" name="serid" id="serid_{{$mem.Sserverid}}" value="{{$mem.Sserverid}}" />
+							<input type="hidden" name="platform" id="platform_{{$mem.Sserverid}}" value="{{$index}}" />
+							<!-- if serst in dislist disabled="disabled" -->
+							<input type="button" id="{{$mem.Sserverid}}" name="btn_kick" value="踢人" class="btn btn-primary" />
+						</form>
+						<form id="form_close_{{$mem.Sserverid}}" method="post" action="close">
+							<input type="hidden" name="serid" id="serid_{{$mem.Sserverid}}" value={{$mem.Sserverid}} />
+							<input type="hidden" name="platform" id="platform_{{$mem.Sserverid}}" value={{$index}} />
+							<input type="button" id="{{$mem.Sserverid}}" name="btn_close" value="停服" class="btn btn-primary"/>
+						</form>
+					</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+<input type="button" id="btn_create" value="新增服务器信息" class="btn " /><input type="button" id="btn_close" value="收起" class="btn " />
+<div id="div_create">
+	<div class="mws-panel grid_4">
+        <div class="mws-panel-header">
+            <span> 新服务器 </span>
+        </div>
+        <div class="mws-panel-body no-padding">
+            <form class="mws-form" id="form_createnew" method="post" action="/pfselect/createnew">
+                <fieldset class="mws-form-inline">
+                    <legend> 服务器信息: </legend>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> ViewId </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="viewid" id="viewid_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> ServerId </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="serverid" id="serverid_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 服务器名称 </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="servername" id="servername_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> 初始状态 </label>
+                        <div class="mws-form-item">
+                            <select class="large" name="serverstate" id="status_new">
+                            	{{range $vvvindex,$vmem := .statelist }}
+									{{if eq $vvvindex 6}}
+										<option value={{$vvvindex}} selected="selected">{{$vmem}}</option>
+									{{else}}
+										<option value={{$vvvindex}}>{{$vmem}}</option>
+									{{end}}
+								{{end}}
+        					</select>
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> GateIps </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="gateips" id="gateips_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> MaxNum </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="maxnum" id="maxnum_new" />
+                        </div>
+                    </div>
+                    <div class="mws-form-row bordered">
+                        <label class="mws-form-label"> CmdUrl(格式: http://127.0.0.1:9010/) </label>
+                        <div class="mws-form-item">
+                            <input type="text" class="large" name="cmdurl" id="cmdurl_new" />
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="mws-button-row">
+                	<input type="hidden" name="platform" id="platform_new" value={{.selectpf}} />
+                    <input type="button" value="提交" class="btn btn-danger" id="btn_new_submit"/>
+                </div>
+            </form>
+        </div>      
+    </div>
+</div>

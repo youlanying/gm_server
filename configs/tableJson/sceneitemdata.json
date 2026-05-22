@@ -1,0 +1,1162 @@
+[
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10101002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10101003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10101004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10102001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103002
+   },
+   {
+      "drop": 1010350,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103003
+   },
+   {
+      "drop": 1010350,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103004
+   },
+   {
+      "drop": 1010350,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103005
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103006
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103007
+   },
+   {
+      "drop": 1010360,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103008
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103009
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10103010
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104005
+   },
+   {
+      "drop": 1010460,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104006
+   },
+   {
+      "drop": 1010450,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104007
+   },
+   {
+      "drop": 1010450,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10104008
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105005
+   },
+   {
+      "drop": 1010560,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105006
+   },
+   {
+      "drop": 1010550,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105007
+   },
+   {
+      "drop": 1010550,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105008
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10105009
+   },
+   {
+      "drop": 1010560,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106004
+   },
+   {
+      "drop": 1010550,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106005
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106006
+   },
+   {
+      "drop": 1010550,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106007
+   },
+   {
+      "drop": 1010550,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106008
+   },
+   {
+      "drop": 1010570,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106009
+   },
+   {
+      "drop": 1010580,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10106010
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107005
+   },
+   {
+      "drop": 1010670,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10107006
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10108001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10108002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10108003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10108004
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10108005
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10109001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10109002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10109003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10109004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10110002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10110003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10110004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10111001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10111002
+   },
+   {
+      "drop": 1010870,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10111003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10112001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10112002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10112003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10112004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10113001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10113002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10113003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10113004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10114001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10115001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10115002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10115003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10115004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10116001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10116002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 10116003
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107001
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107002
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107003
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107004
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107005
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107006
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107007
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107008
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107009
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107010
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107011
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107012
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107013
+   },
+   {
+      "drop": 1010750,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 30107014
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800901
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800902
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800903
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800904
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800905
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800906
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800501
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800502
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800503
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800504
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800505
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 800506
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801100
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801101
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801102
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801103
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801104
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 801105
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011200
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011201
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011202
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011203
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011204
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 0,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 8011205
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98001001
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98002002
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98003003
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98004004
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98005005
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98006006
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98007007
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98008008
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98012012
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98013013
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98014014
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98015015
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98016016
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98017017
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98018018
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98019019
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98020020
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98021021
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98022022
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98023023
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98024024
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98025025
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98026026
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98027027
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98028028
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98029029
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98030030
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98036036
+   },
+   {
+      "drop": 0,
+      "dropParm": [],
+      "dropType": 1,
+      "drop_coineffect": 118,
+      "drop_geteffect": 119,
+      "id": 98037037
+   }
+]

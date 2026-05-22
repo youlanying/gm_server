@@ -1,0 +1,29 @@
+
+<!-- Inner Container Start -->
+<div class="container">
+
+	<!-- Statistics Button Container -->
+	<div class="/static/mws-stat-container clearfix">
+    	
+        <!-- Statistic Item -->
+    	
+	{{range $index,$mem := .links}}
+		<a class="mws-stat" href= {{$mem.linkact}} + "/" + {{$mem.param}}">
+        	<!-- Statistic Icon (edit to change icon) -->
+        	<span class="mws-stat-icon icol32-sport"></span>
+            
+            <!-- Statistic Content -->
+            <span class="mws-stat-content">
+            	<span class="mws-stat-title">Link</span>
+                <span class="mws-stat-value">{{$mem.link}}</span>
+            </span>
+        </a>
+	{{end}}
+
+    </div>
+</div>
+
+
+
+
+https://www.mylib.xyz/tank-web/

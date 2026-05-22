@@ -1,0 +1,19 @@
+<!-- Inner Container Start -->
+<div class="container">
+	<!-- Statistics Button Container -->
+	<div class="mws-stat-container clearfix">
+        <!-- Statistic Item -->
+        {{range $index,$mem := .platforms }}
+    	<a class="mws-stat" href="/whiteblack/index?index={{$index}}">
+        	<!-- Statistic Icon (edit to change icon) -->
+        	<span class="mws-stat-icon icol32-sport"></span>
+            
+            <!-- Statistic Content -->
+            <span class="mws-stat-content">
+            	<span class="mws-stat-title">platform</span>
+                <span class="mws-stat-value">{{$mem.PlatformName}}</span>
+            </span>
+        </a>
+        {{end}}
+    </div>
+</div>

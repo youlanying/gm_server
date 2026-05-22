@@ -1,0 +1,378 @@
+<script language="javascript" type="text/javascript">
+
+function onTouchDetail(simpledata){
+
+	console.log("onTouch on player's Detail index=",simpledata)
+	
+	window.location.href="./index2?usrid=" + simpledata.roleId + "&serverid=" + simpledata.serverId + "&username=" + simpledata.userName
+};
+
+/**
+ * 未解之迷 simpledata传入是大写 不知道为啥是小写
+ */
+function onTouchQuickChange(simpledata){
+
+	console.log("onTouch on player's Detail",simpledata)
+	
+	$("#background-pop").attr("style",'display:block');
+		
+	$("#cur_channelname").text(simpledata.platId)
+	$("#cur_channelid").text(simpledata.serverId)
+	$("#cur_usrid").text(simpledata.roleId)
+	$("#cur_usrname").text(simpledata.userName)
+	$("#cur_sex").text(simpledata.sexStr)
+	$("#cur_gold").attr("value",simpledata.gold)
+	$("#cur_money").attr("value",simpledata.money)
+	$("#cur_moneyfree").attr("value",0)
+	var physxStr = simpledata.physical + "/" + simpledata.physicalMax;
+	console.log("physxStr=",physxStr)
+	$("#cur_physcal").attr("value",physxStr)
+	$("#cur_level").attr("value",simpledata.level)
+	
+	if(simpledata.isonline){
+		$("#cur_onlie").attr("value","在线")
+	}else{
+		$("#cur_onlie").attr("value","不在线")
+	}
+	
+	$("#time_reg").attr("value",simpledata.createTime)
+};
+
+$(document).ready(function(){
+
+    $("[name='setsexstate']").click(function(){
+        var QD = $(this).val();
+        if (QD == 'I') {
+            $("#asktype").val("I");
+            $("#select1").attr("style",'display:none');
+			$("#select2").attr("style",'display:');
+        }else{
+			$("#asktype").val("N");
+			$("#select1").attr("style",'display:');
+			$("#select2").attr("style",'display:none');
+        };        
+    });  
+
+	$("#btn_ask").click(function(){
+		console.log("btn_ask on touch")
+		$("#form_ask").submit();
+	});
+
+	$("#btn_quickjump").click(function(){
+		
+		console.log("btn_quickjump")
+		
+		var roleId = $("#cur_usrid").html().trim();
+		var serverId = $("#cur_channelid").html().trim();
+		var userName = $("#cur_usrname").html().trim();
+		
+		//console.log(roleId,serverId,userName);
+		
+		window.location.href="./index2?usrid=" + roleId + "&serverid=" + serverId + "&username=" + userName
+	});	
+	
+	$("#btn_closepop").click(function(){
+		$("#background-pop").attr("style",'display:none');
+	});
+	
+	
+	$("#btn_test_detail").click(function(){
+		$("#background-pop").attr("style",'display:block');
+	});
+
+	$("#btn_kick").click(function(){
+		
+		var vusrid = $("#cur_usrid").val();
+		var vserverid = $("#cur_channelid").val();
+		
+		if(vusrid == ""){
+			alert("当前的用户名字为空,提交失败");
+			return;
+		}
+		
+		if(vserverid == "当前的服务器地址为空,提交失败"){
+			alert("");
+			return;
+		}
+		
+        var routerUrl = "/info/kick";
+		
+		$.ajax({
+			url: routerUrl,
+			type: 'POST',
+			dataType: 'text',
+			data: {usrid:vusrid,serverid:vserverid},
+			cache: false,
+			success: function (ref) {
+				if(ref == 1){
+					$("#cur_onlie").attr("value","在线")
+					alert("提交成功");
+				}else{
+					$("#cur_onlie").attr("value","不在线")
+					alert("提交失败");
+				}
+			}
+		});
+	});
+	
+	$("#btn_jumpguide").click(function(){
+		
+		var vusrid = $("#cur_usrid").val();
+		var vserverid = $("#cur_channelid").val();
+		
+		if(vusrid == ""){
+			alert("当前的用户名字为空,提交失败");
+			return;
+		}
+		
+		if(vserverid == ""){
+			alert("当前的服务器地址为空,提交失败");
+			return;
+		}
+		
+        var routerUrl = "/info/jumpguide";
+		
+		$.ajax({
+			url: routerUrl,
+			type: 'POST',
+			dataType: 'text',
+			data: {usrid:vusrid,serverid:vserverid},
+			cache: false,
+			success: function (ref) {
+				if(ref == 1){
+					alert("提交跳过新手引导成功");
+				}else{
+					alert("提交跳过新手引导失败");
+				}
+			}
+		});
+		
+	});
+	
+});
+</script>
+
+
+
+{{template "tabar" .}}
+
+
+<div class="mws-panel grid_4">
+    <div class="mws-panel-header">
+        <span> 玩家查询 (二选一) </span>
+    </div>
+	
+		
+	
+    <div class="mws-panel-body no-padding">
+	
+		<div class="mws-form-row bordered" id="sexzone">
+			<div class="mws-form-item clearfix" id="sexchecked">
+				<ul class="mws-form-list inline">
+					<input id="setstate" name="setsexstate" type="radio" value="I" checked="checked"> <label style="color:red">玩家ID查询</label>
+					<input id="setstate" name="setsexstate" type="radio" value="N"> <label style="color:red">玩家名字查询</label>
+				</ul>                       
+			</div>                       
+		</div>
+
+	
+        <form class="mws-form" id="form_ask" action="/info/ask" method="POST">
+            <fieldset class="mws-form-inline">
+				<input style="display:none" id="asktype" name="asktype" value="I">  
+                <div class="mws-form-row bordered" id="select2">
+                    <label class="mws-form-label"> 玩家ID </label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="askid" id="askid" maxlength="50" />
+                    </div>
+                </div>
+				<div class="mws-form-row bordered" id="select1" style="display:none">
+                    <label class="mws-form-label"> 玩家名字 </label>
+                    <div class="mws-form-item">
+                        <input type="text" class="large" name="askname" id="askname" maxlength="50" />
+                    </div>
+                </div>
+				<input type="button" value="查询" class="btn btn-danger" name="btn_ask" id="btn_ask" />
+			</fieldset>
+		</form>
+    </div>      
+</div>
+
+<div class="mws-panel grid_8 mws-collapsible">
+	<div class="mws-panel-header">
+    	<span><i class="icon-table"></i>查询结果</span>
+    </div>
+    <div class="mws-panel-body no-padding">
+        <table class="mws-table mws-datatable">
+            <thead>
+                <tr>
+                    <th> 渠道 </th>
+                    <th> 渠道平台ID </th>
+                    <th> 服务器 </th>
+                    <th> 玩家ID </th>
+					<th> 玩家名 </th>
+					<th> 性别 </th>
+					<th> 等级 </th>
+					<th> 金币 </th>
+					<th> 钻石 </th>
+					<th> 体力值 </th>
+					<th> 英雄数量 </th>
+					<th> 注册时间 </th>
+					<th> 最后登录 </th>
+					<th> 是否在线 </th>
+					<th> 快速修改 </th>
+					<th> 查看详细 </th>
+                </tr>
+            </thead>
+            <tbody>
+            	{{range $index,$mem := .usrlist }}
+				<tr>
+				<td>{{$mem.PlatId}}</td>
+				<td>{{$mem.PlatId }}</td>
+				<td>{{$mem.ServerId }}</td>
+				<td>{{$mem.RoleId }}</td>
+				<td>{{$mem.UserName }}</td>
+				<td>{{$mem.SexStr }}</td>
+				<td>{{$mem.Level }}</td>
+				<td>{{$mem.Gold }}</td>
+				<td>{{$mem.Money }}</td>
+				<td>{{$mem.Physical }} / {{$mem.PhysicalMax }}</td>
+				<td>{{$mem.HeroNum }}</td>
+				<td>{{$mem.CreateTime }}</td>
+				<td>{{$mem.LastTime }}</td>
+				<td>{{$mem.Isonline }}</td>
+				<td>
+					<input type="button" name="btn_quickchange" onclick="onTouchQuickChange({{$mem}})"  value="快速修改" class="btn btn-danger" /-->
+					<!--input type="button" name="btn_quickchange" onclick="onTouchQuickChange({{$index}})"  value="快速修改" class="btn btn-danger" /--><!--这种写法同样有效-->
+				</td>
+				<td>
+					<input type="button" name="btn_detail" onclick="onTouchDetail({{$mem}})"  value="查看详细" class="btn btn-danger" />
+				</td>
+				</tr>
+				{{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!--input type="button" value="测试详细" class="btn btn-danger" onclick="onTouchDetail()"/ -->
+
+<hr style="height:1px;border:none;border-top:1px solid #555555;" />
+
+<div id="background-pop">
+	<div id="div-pop">
+		<div class="mws-panel">
+			<input type="button" value="关闭" class="btn btn-danger" id="btn_closepop" />
+			<input type="button" value="跳转至详细" class="btn btn-danger" id="btn_quickjump" />
+			<div class="mws-panel-header">
+				<span> 玩家详情 </span>
+			</div>
+			<div class="mws-panel-body no-padding">
+				<form class="mws-form" id="form_cur" action="/notice/add" method="POST">
+					<fieldset class="mws-form-inline">
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 渠道 </label>
+							<label class="mws-form-label"  id="cur_channelname"> -- </label>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 渠道平台ID </label>
+							<label class="mws-form-label" id="cur_channelid"> -- </label>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 玩家ID </label>
+							<label class="mws-form-label" id="cur_usrid"> -- </label>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 玩家名 </label>
+							<label class="mws-form-label" id="cur_usrname"> -- </label>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 性别 </label>
+							<label class="mws-form-label" id="cur_sex"> -- </label>
+						</div>
+						
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 禁言时间 </label>
+							<div class="mws-form-item">
+								<input name="end_time" type="datetime" id="time_mute" value="2022-2-22 00:00:00" readonly="readonly"/><p> (非H5浏览器请以 YY-MM-DD HH:mm:ss 的格式输入) </p>
+								<input type="button" value="禁言" class="btn btn-danger" id="btn_mute" />
+								<input type="button" value="解禁" class="btn btn-danger" id="btn_mute_no" />
+							</div>
+						</div>
+						
+						
+						<div class="mws-form-item">
+							<input type="text" class="mws-datepicker large hasDatepicker" readonly="readonly" id="dp1627542136083">
+                        </div>
+						
+						<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 3047.75px; left: 31.2344px; z-index: 2; display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">July</span>&nbsp;<span class="ui-datepicker-year">2021</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th class="ui-datepicker-week-end"><span title="Sunday">Su</span></th><th><span title="Monday">Mo</span></th><th><span title="Tuesday">Tu</span></th><th><span title="Wednesday">We</span></th><th><span title="Thursday">Th</span></th><th><span title="Friday">Fr</span></th><th class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">29</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">30</span></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">2</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">3</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">4</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">9</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">10</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">11</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">14</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">16</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">17</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">18</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">23</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">24</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">25</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">27</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">28</a></td><td class=" ui-datepicker-days-cell-over  ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default ui-state-highlight ui-state-hover" href="#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">30</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">31</a></td></tr></tbody></table></div>
+						
+						
+						<div class="mws-datepicker hasDatepicker" id="dp1627542136084"><div class="ui-datepicker-inline ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="display: block;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Prev"><span class="ui-icon ui-icon-circle-triangle-w">Prev</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Next"><span class="ui-icon ui-icon-circle-triangle-e">Next</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">July</span>&nbsp;<span class="ui-datepicker-year">2021</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th class="ui-datepicker-week-end"><span title="Sunday">Su</span></th><th><span title="Monday">Mo</span></th><th><span title="Tuesday">Tu</span></th><th><span title="Wednesday">We</span></th><th><span title="Thursday">Th</span></th><th><span title="Friday">Fr</span></th><th class="ui-datepicker-week-end"><span title="Saturday">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">27</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">28</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">29</span></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled "><span class="ui-state-default">30</span></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">2</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">3</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">4</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">6</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">7</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">9</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">10</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">11</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">13</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">14</a></td><td class="  ui-datepicker-current-day" data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default ui-state-active" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">16</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">17</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">18</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">20</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">21</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">23</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">24</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">25</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">27</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">28</a></td><td class="  ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default ui-state-highlight" href="#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">30</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="6" data-year="2021"><a class="ui-state-default" href="#">31</a></td></tr></tbody></table></div></div>
+						
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 封停时间 </label>
+						   <div class="mws-form-item">
+								<input name="end_time" type="datetime" id="time_stop" value="2022-2-22 00:00:00" readonly="readonly"/><p> (非H5浏览器请以 YY-MM-DD HH:mm:ss 的格式输入) </p>
+								<input type="button" value="封停" class="btn btn-danger" id="btn_stop" />
+								<input type="button" value="解封" class="btn btn-danger" id="btn_stop_no" />
+							</div>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 在线情况 </label>
+							<label class="mws-form-label" id="cur_onlie"> 不在线 </label>
+							<input type="button" value="踢下线" class="btn btn-danger" id="btn_kick" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 等级 </label>
+							<input type="text" id="cur_level" value="1"/>
+							<input type="button" value="修改" class="btn btn-danger" id="btn_edit_lv" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 金币 </label>
+							<input  type="text" id="cur_gold" value="1"/>
+							<input type="button" value="修改" class="btn btn-danger" id="btn_edit_gold" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 付费钻石 </label>
+							<input type="text" id="cur_money" value="1"/>
+							<input type="button" value="修改" class="btn btn-danger" id="btn_edit_money" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 免费钻石 </label>
+							<input  type="text" id="cur_moneyfree" value="1"/>
+							<input type="button" value="修改" class="btn btn-danger" id="btn_edit_freemoney" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 体力 </label>
+							<input  type="text" id="cur_physcal" value="1"/>
+							<input type="button" value="修改" class="btn btn-danger" id="btn_edit_tili" />
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 注册时间 </label>
+							 <div class="mws-form-item">
+								<input type="datetime" id="time_reg" value="2022-2-22 00:00:00" readonly="readonly"/><p> (非H5浏览器请以 YY-MM-DD HH:mm:ss 的格式输入) </p>
+							</div>
+						</div>
+						<div class="mws-form-row bordered">
+							<label class="mws-form-label"> 最后登陆时间 </label>
+						   <div class="mws-form-item">
+								<input type="datetime" id="time_login" value="2022-2-22 00:00:00" readonly="readonly"/><p> (非H5浏览器请以 YY-MM-DD HH:mm:ss 的格式输入) </p>
+							</div>
+						</div>
+						<div class="mws-form-row bordered">
+							<input type="button" value="跳过新手" class="btn btn-danger" id="btn_jumpguide" />
+						</div>
+					</fieldset>
+					<div class="mws-button-row">
+						<input type="button" value="提交" class="btn btn-danger" id="btn_cur_submit" />
+					</div>
+				</form>
+			 </div> 
+	    </div> 
+		
+    </div>      
+	
+</div>
+
+
+
