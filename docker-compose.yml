@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: gm_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: gametest
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./tb_beego_create_sql.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  gm_server:
+    build: .
+    container_name: gm_server
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "2021:2021"
+      - "4025:4025"
+      - "2020:2020"
+      - "3020:3020/udp"
+    volumes:
+      - ./configs:/app/configs
+      - ./log:/app/log
+      - ./data:/app/data
+    # 容器启动时将 MySQL 地址从内网 IP 替换为 Docker 服务名
+    command: >
+      sh -c "
+        sed -i 's/192\.168\.20\.57/mysql/g' /app/configs/config.ini &&
+        exec ./gm_server
+      "
+    restart: unless-stopped
+
+volumes:
+  mysql_data:

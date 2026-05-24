@@ -1,0 +1,7 @@
+.git
+*.exe
+*.bat
+log/
+data/
+*.md
+winGobuild.bat
